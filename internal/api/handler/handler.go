@@ -124,3 +124,11 @@ func (h *Handler) Search(c echo.Context) error {
 		"results": verses,
 	})
 }
+
+func (h *Handler) ListBooks(c echo.Context) error {
+	books, err := h.verses.ListBooks()
+	if err != nil {
+		return echo.NewHTTPError(http.StatusInternalServerError, err.Error())
+	}
+	return c.JSON(http.StatusOK, books)
+}

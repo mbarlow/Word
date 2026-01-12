@@ -44,3 +44,9 @@ func (r *VerseRepo) ListWorks() ([]model.Work, error) {
 	err := r.db.Find(&works).Error
 	return works, err
 }
+
+func (r *VerseRepo) ListBooks() ([]model.Book, error) {
+	var books []model.Book
+	err := r.db.Order("\"order\" ASC").Find(&books).Error
+	return books, err
+}

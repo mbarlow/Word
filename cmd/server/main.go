@@ -51,6 +51,7 @@ func main() {
 	h := handler.New(db)
 	v1 := e.Group("/v1")
 	v1.GET("/works", h.ListWorks)
+	v1.GET("/books", h.ListBooks)
 	v1.GET("/text/:work/:book/:chapter", h.GetChapter)
 	v1.GET("/verse/:work/:book/:chapter/:verse", h.GetVerse)
 	v1.GET("/compare", h.Compare)
