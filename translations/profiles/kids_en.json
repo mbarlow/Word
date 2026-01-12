@@ -1,0 +1,28 @@
+{
+  "profile": "kids_en",
+  "target_lang": "en",
+  "audience": "children ages 6-12",
+  "reading_level": "elementary",
+  "tone": "warm, simple, engaging",
+  "style_rules": [
+    "Use short sentences (under 15 words preferred)",
+    "Use simple vocabulary (avoid complex words)",
+    "Use active voice",
+    "Explain unfamiliar concepts briefly",
+    "Maintain accuracy while simplifying language",
+    "Avoid scary imagery unless essential to meaning"
+  ],
+  "terminology_policy": {
+    "YHWH": "the LORD",
+    "Elohim": "God",
+    "ecclesia": "church",
+    "baptizo": "baptize",
+    "agape": "love",
+    "pneuma": "spirit",
+    "logos": "word"
+  },
+  "consistency": {
+    "prefer_consistent_renderings": true,
+    "track_key_terms": ["God", "Jesus", "love", "faith", "pray", "heaven", "forgive"]
+  }
+}
