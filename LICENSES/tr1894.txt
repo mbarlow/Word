@@ -1,0 +1,23 @@
+Scrivener 1894 Textus Receptus - Greek New Testament
+
+Source: Byzantine Text Project (byztxt/greektext-scrivener)
+URL: https://github.com/byztxt/greektext-scrivener
+
+LICENSE: PUBLIC DOMAIN
+
+The Greek New Testament text of Scrivener's 1894 edition of the
+Textus Receptus is released to the Public Domain.
+
+Explicit permission: "Copy freely."
+
+No restrictions apply to use, modification, or redistribution.
+
+Editor: Dr. Maurice A. Robinson (Wake Forest, North Carolina)
+Repository Maintainer: Dr. Ulrik Sandborg-Petersen (Scripture Systems ApS, Denmark)
+Website: https://www.byzantinetext.com
+
+Historical Note:
+F. H. A. Scrivener (1813-1891) produced this edition to reproduce
+the Greek text underlying the 1611 King James Version. He used the
+Beza 1598 edition as his starting point, examining eighteen editions
+of the Textus Receptus to determine the correct Greek rendering.

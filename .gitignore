@@ -1,0 +1,29 @@
+# Binaries
+word-service
+*.exe
+
+# Go
+vendor/
+
+# Data (downloaded sources)
+data/source/
+data/word.db
+
+# Translation output
+translations/output/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Tilt
+.tiltbuild/

@@ -1,0 +1,27 @@
+{
+  "profile": "techdoc_en",
+  "target_lang": "en",
+  "audience": "software/engineering readers",
+  "reading_level": "adult",
+  "tone": "clear, modern, precise",
+  "style_rules": [
+    "Prefer short clauses over nested phrasing",
+    "Avoid slang",
+    "Avoid archaic pronouns (thee, thou, ye)",
+    "Do not inject engineering jargon",
+    "Maintain reverence without ornamentation"
+  ],
+  "terminology_policy": {
+    "YHWH": "LORD",
+    "Elohim": "God",
+    "ecclesia": "assembly",
+    "baptizo": "baptize",
+    "agape": "love",
+    "pneuma": "spirit",
+    "logos": "word"
+  },
+  "consistency": {
+    "prefer_consistent_renderings": true,
+    "track_key_terms": ["covenant", "righteousness", "spirit", "faith", "grace", "law", "salvation"]
+  }
+}

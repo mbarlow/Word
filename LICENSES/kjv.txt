@@ -1,0 +1,19 @@
+King James Version (KJV) - 1769 Standardized Text
+
+Source: eBible.org (eng-kjv2006)
+URL: https://ebible.org/find/show.php?id=eng-kjv2006
+
+LICENSE: PUBLIC DOMAIN
+
+The King James Version (1769 standardized text) is in the Public Domain
+worldwide, with one exception: letters patent issued by King James I
+apply within the United Kingdom, requiring permission to print or import
+printed copies into the UK.
+
+This restriction:
+- Has no effect outside the United Kingdom
+- Does not apply to digital distribution
+- Does not affect derivative works created outside the UK
+
+For purposes of this project, the KJV text is treated as fully
+Public Domain with no restrictions on use, modification, or redistribution.
