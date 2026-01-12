@@ -3,9 +3,6 @@ FROM golang:1.21-alpine AS builder
 
 WORKDIR /build
 
-# Install build dependencies
-RUN apk add --no-cache gcc musl-dev sqlite-dev
-
 # Copy go mod files
 COPY go.mod go.sum* ./
 RUN go mod download || true
@@ -13,8 +10,8 @@ RUN go mod download || true
 # Copy source
 COPY . .
 
-# Build
-RUN CGO_ENABLED=1 GOOS=linux go build -o word-service ./cmd/server
+# Build (pure Go, no CGO needed)
+RUN CGO_ENABLED=0 GOOS=linux go build -o word-service ./cmd/server
 
 # Runtime stage
 FROM alpine:3.19
@@ -22,7 +19,7 @@ FROM alpine:3.19
 WORKDIR /app
 
 # Install runtime dependencies
-RUN apk add --no-cache ca-certificates sqlite curl
+RUN apk add --no-cache ca-certificates curl
 
 # Copy binary
 COPY --from=builder /build/word-service .

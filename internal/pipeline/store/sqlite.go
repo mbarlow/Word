@@ -3,9 +3,9 @@ package store
 import (
 	"fmt"
 
+	"github.com/glebarez/sqlite"
 	"github.com/mbarlow/word/internal/model"
 	"github.com/mbarlow/word/internal/pipeline"
-	"gorm.io/driver/sqlite"
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"
 )

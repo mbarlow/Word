@@ -1,8 +1,8 @@
 package repository
 
 import (
+	"github.com/glebarez/sqlite"
 	"github.com/mbarlow/word/internal/model"
-	"gorm.io/driver/sqlite"
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"
 )
