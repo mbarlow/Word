@@ -13,6 +13,7 @@
     "Separate polysemous word meanings with |"
   ],
   "output_format": {
+    "format": "structural",
     "include_hebrew": true,
     "include_structural": true,
     "include_readable": true,

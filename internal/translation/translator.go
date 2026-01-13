@@ -47,20 +47,26 @@ func (t *Translator) TranslateVerse(ctx context.Context, source SourceVerse) (*D
 		return nil, fmt.Errorf("LLM generation failed: %w", err)
 	}
 
-	// Parse response
+	// Extract JSON from response (handle markdown code blocks)
+	jsonStr := extractJSON(response)
+
+	// Build target VID: t_<profile>/<book>/<chapter>/<verse>
+	targetVID := buildTargetVID(t.profile.Profile, source.VID)
+
+	// Parse response based on profile type
+	if t.profile.IsStructural() {
+		return t.parseStructuralResponse(jsonStr, targetVID, source, prompt)
+	}
+
+	// Standard prose response
 	var result struct {
 		Text  string   `json:"text"`
 		Notes []string `json:"notes"`
 	}
 
-	// Extract JSON from response (handle markdown code blocks)
-	jsonStr := extractJSON(response)
 	if err := json.Unmarshal([]byte(jsonStr), &result); err != nil {
 		return nil, fmt.Errorf("failed to parse LLM response: %w (response: %s)", err, response)
 	}
-
-	// Build target VID: t_<profile>/<book>/<chapter>/<verse>
-	targetVID := buildTargetVID(t.profile.Profile, source.VID)
 
 	draft := &Draft{
 		ID:        targetVID,
@@ -69,6 +75,46 @@ func (t *Translator) TranslateVerse(ctx context.Context, source SourceVerse) (*D
 		Profile:   t.profile.Profile,
 		Text:      result.Text,
 		Notes:     result.Notes,
+		Provenance: Provenance{
+			Model:        t.client.ModelName(),
+			PromptHash:   ComputePromptHash(prompt),
+			Timestamp:    time.Now().UTC(),
+			Temperature:  t.temperature,
+			InputsDigest: ComputeInputsDigest(source.Text),
+		},
+	}
+
+	return draft, nil
+}
+
+// parseStructuralResponse parses the richer JSON response for structural profiles.
+func (t *Translator) parseStructuralResponse(jsonStr, targetVID string, source SourceVerse, prompt string) (*Draft, error) {
+	var result struct {
+		Text            string            `json:"text"`
+		Notes           []string          `json:"notes"`
+		RootAnalysis    string            `json:"root_analysis"`
+		Structural      string            `json:"structural"`
+		Cognates        []CognateEntry    `json:"cognates"`
+		Polysemy        map[string]string `json:"polysemy"`
+		LiteraryDevices []string          `json:"literary_devices"`
+	}
+
+	if err := json.Unmarshal([]byte(jsonStr), &result); err != nil {
+		return nil, fmt.Errorf("failed to parse structural response: %w (response: %s)", err, jsonStr)
+	}
+
+	draft := &Draft{
+		ID:              targetVID,
+		SourceIDs:       []string{source.VID},
+		Lang:            t.profile.TargetLang,
+		Profile:         t.profile.Profile,
+		Text:            result.Text,
+		Notes:           result.Notes,
+		RootAnalysis:    result.RootAnalysis,
+		Structural:      result.Structural,
+		Cognates:        result.Cognates,
+		Polysemy:        result.Polysemy,
+		LiteraryDevices: result.LiteraryDevices,
 		Provenance: Provenance{
 			Model:        t.client.ModelName(),
 			PromptHash:   ComputePromptHash(prompt),

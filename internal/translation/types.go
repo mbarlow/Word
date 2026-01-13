@@ -15,6 +15,23 @@ type Draft struct {
 	Text       string     `json:"text"`
 	Notes      []string   `json:"notes,omitempty"`
 	Provenance Provenance `json:"provenance"`
+
+	// Structural translation fields (optional, for structural_en profile)
+	RootAnalysis    string            `json:"root_analysis,omitempty"`
+	Structural      string            `json:"structural,omitempty"`
+	Cognates        []CognateEntry    `json:"cognates,omitempty"`
+	Polysemy        map[string]string `json:"polysemy,omitempty"`
+	LiteraryDevices []string          `json:"literary_devices,omitempty"`
+}
+
+// CognateEntry represents a detected cognate pair in structural translation.
+type CognateEntry struct {
+	Marker  int    `json:"marker"`
+	Root    string `json:"root"`
+	Verb    string `json:"verb,omitempty"`
+	Noun    string `json:"noun,omitempty"`
+	Gloss   string `json:"gloss"`
+	Pattern string `json:"pattern"`
 }
 
 // Provenance tracks the origin and reproducibility of a translation.

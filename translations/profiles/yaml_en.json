@@ -1,0 +1,40 @@
+{
+  "profile": "yaml_en",
+  "target_lang": "en",
+  "audience": "programmers, data modelers, configuration enthusiasts",
+  "reading_level": "technical",
+  "tone": "declarative, structured, readable",
+  "style_rules": [
+    "Express verses as YAML documents",
+    "Use speaker: for who is speaking",
+    "Use command: for divine commands with action and object",
+    "Use result: for outcomes",
+    "Use evaluation: for 'good' assessments (null if none)",
+    "Use cognates: to note same-root verb/noun pairs",
+    "Include Hebrew in comments or hebrew: field",
+    "Use day: field for creation day number"
+  ],
+  "output_format": {
+    "format": "yaml",
+    "include_hebrew": true,
+    "include_structural": false,
+    "include_readable": false,
+    "include_cognates": false,
+    "include_polysemy": false,
+    "include_literary_devices": false
+  },
+  "terminology_policy": {
+    "God": "ELOHIM",
+    "said": "yomer",
+    "let there be": "yehi",
+    "and it was so": "va-yehi KEN",
+    "good": "TOV",
+    "very good": "TOV MEOD",
+    "created": "bara",
+    "made": "asah"
+  },
+  "consistency": {
+    "prefer_consistent_renderings": true,
+    "track_key_terms": ["speaker", "command", "result", "evaluation", "day"]
+  }
+}

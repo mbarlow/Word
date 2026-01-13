@@ -1,0 +1,39 @@
+{
+  "profile": "lisp_en",
+  "target_lang": "en",
+  "audience": "programmers, functional programming enthusiasts, Hebrew structure explorers",
+  "reading_level": "technical",
+  "tone": "code-like, declarative, functional",
+  "style_rules": [
+    "Express verses as Lisp S-expressions",
+    "Use Hebrew verb roots as function names (transliterated)",
+    "Use CAPS for divine/proper names: ELOHIM, YHWH, HA-SHAMAYIM",
+    "Use keywords for attributes: :state, :result, :kind",
+    "Show cognate structures: (tadshe HA-ERETZ DESHE)",
+    "Use va-yehi KEN for 'and it was so' returning TRUE",
+    "Include Hebrew comments with ;; prefix"
+  ],
+  "output_format": {
+    "format": "lisp",
+    "include_hebrew": true,
+    "include_structural": false,
+    "include_readable": false,
+    "include_cognates": false,
+    "include_polysemy": false,
+    "include_literary_devices": false
+  },
+  "terminology_policy": {
+    "God said": "(yomer ELOHIM ...)",
+    "Let there be": "(yehi ...)",
+    "And it was so": "(va-yehi KEN)",
+    "God saw that it was good": "(va-yar ELOHIM ki TOV)",
+    "God created": "(bara ELOHIM ...)",
+    "God made": "(va-yaas ELOHIM ...)",
+    "God blessed": "(va-yevarekh ELOHIM ...)",
+    "God called": "(va-yikra ELOHIM ...)"
+  },
+  "consistency": {
+    "prefer_consistent_renderings": true,
+    "track_key_terms": ["yomer", "yehi", "bara", "asah", "yar", "tov", "ken"]
+  }
+}
