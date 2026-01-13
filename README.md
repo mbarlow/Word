@@ -30,14 +30,17 @@ tilt up
 
 ```
 Word/
-├── cmd/server/           # API server entry point
+├── cmd/
+│   ├── server/           # API server entry point
+│   └── pipeline/         # CLI for ingest, translate, render
 ├── internal/
 │   ├── api/              # HTTP handlers, middleware, routing
 │   ├── config/           # Environment-based configuration
 │   ├── model/            # GORM models (Verse, Work, Book)
 │   ├── repository/       # Database queries
 │   ├── service/          # Business logic
-│   └── pipeline/         # Ingest, normalize, render, validate stages
+│   ├── pipeline/         # Ingest, normalize, render, validate stages
+│   └── translation/      # LLM translation profiles, prompts, clients
 ├── data/
 │   ├── canon/            # Canonical metadata (books.json, versification)
 │   └── source/           # Downloaded raw files (gitignored)
@@ -45,7 +48,12 @@ Word/
 │   ├── kjv/
 │   ├── heb-wlc/
 │   └── grc-tr1894/
-├── translations/         # LLM translation profiles and output
+├── translations/
+│   ├── profiles/         # Translation profile configs (JSON)
+│   └── drafts/           # Generated translations (JSONL)
+├── experiments/          # DSL experiments (Hebrew as code)
+│   ├── genesis.dsl       # Genesis 1 as Lisp-like executable
+│   └── dsl/main.go       # Interpreter that "runs" creation
 ├── scripts/              # Bash scripts for pipeline operations
 ├── docs/
 │   ├── adr/              # Architecture Decision Records
@@ -125,6 +133,124 @@ Word supports LLM-powered translation drafting with:
 - **Two-pass workflow** — Draft translator + critic/QA pass
 - **Provenance tracking** — Model, prompt hash, timestamp, source verse IDs
 - **Hot verse flagging** — Extra review for doctrinally significant passages
+
+### Translation Profiles
+
+| Profile | Format | Description |
+|---------|--------|-------------|
+| `techdoc_en` | Prose | Clear, accurate English for technical readers |
+| `kids_en` | Prose | Simplified language for younger audiences |
+| `structural_en` | 6-layer scholarly | Root analysis, pseudo-code, cognates, polysemy, literary devices |
+| `lisp_en` | S-expressions | Hebrew as functional programming: `(yomer ELOHIM (yehi OR))` |
+| `yaml_en` | Declarative YAML | Structured data: `speaker: ELOHIM, command: {action: yehi}` |
+
+### Running Translations
+
+```bash
+# Set up Ollama (or use ANTHROPIC_API_KEY for Claude)
+export OLLAMA_HOST=http://localhost:11434
+export OLLAMA_MODEL=gemma3:4b
+
+# Translate a single verse
+go run ./cmd/pipeline translate structural_en heb-wlc/GEN/1/11
+
+# Translate a full chapter
+go run ./cmd/pipeline translate-chapter structural_en heb-wlc GEN 1
+
+# Compare translations across models
+./scripts/compare-translations.sh GEN 1 11
+```
+
+### Structural Translation Output
+
+The `structural_en` profile produces 6 layers of scholarly analysis:
+
+```json
+{
+  "text": "And God said, 'Let the earth **vegetate¹ vegetation¹**—plants **seeding² seed²**'",
+  "root_analysis": "[1] דשא (d-sh-a): תַּדְשֵׁא (hiphil) ↔ דֶּשֶׁא (noun) — cognate_accusative",
+  "structural": "god.say(earth.vegetate<דשא>(vegetation<דשא>)) => TRUE",
+  "cognates": [
+    {"marker": 1, "root": "דשא", "verb": "תַּדְשֵׁא", "noun": "דֶּשֶׁא", "gloss": "vegetate/vegetation", "pattern": "cognate_accusative"}
+  ],
+  "polysemy": {"אֱלֹהִים": "God|gods|divine-council", "אֶרֶץ": "earth|land|ground"},
+  "literary_devices": ["cognate_accusative", "merism", "inclusio"]
+}
+```
+
+**Literary devices detected:**
+- **Cognate Accusative** (Figura Etymologica) — Verb + noun from same root for emphasis
+- **Merism** — Two extremes representing totality ("heavens and earth" = everything)
+- **Chiasm** — ABBA inverted parallelism
+- **Inclusio** — Bookend repetition for closure
+
+## Experiments: Hebrew as Executable Code
+
+The `experiments/` folder explores treating Hebrew scripture as a programming language.
+
+### Genesis DSL — The Creation Executable
+
+```bash
+# Run Genesis 1 as an executable program
+go run ./experiments/dsl/main.go
+```
+
+This interprets `experiments/genesis.dsl` — a Lisp-like representation of Genesis 1 where:
+
+- `(yomer ELOHIM ...)` = God.say(command)
+- `(yehi OR)` = "Let there be light"
+- `(va-yehi KEN)` = returns TRUE ("and it was so")
+- `(bara ELOHIM ...)` = God.create(ex nihilo)
+
+**Sample output:**
+```
+╔══════════════════════════════════════════════════════════════╗
+║          GENESIS.DSL — The Creation Executable               ║
+║              בְּרֵאשִׁית בָּרָא אֱלֹהִים                              ║
+╚══════════════════════════════════════════════════════════════╝
+
+► EXEC: (yomer ELOHIM (yehi OR))
+  וַיֹּאמֶר אֱלֹהִים יְהִי אוֹר
+  ✓ (va-yehi OR) → Light instantiated
+
+──────────────────────────────────────────────────────────────
+[DAY 1] LIGHT separated from DARKNESS
+──────────────────────────────────────────────────────────────
+
+...
+
+UNIVERSE := {
+  exists:  true
+  light:   true
+  sky:     true
+  land:    true
+  ...
+  humans:  true  ← image_of(ELOHIM)
+  status:  COMPLETE
+  eval:    TOV MEOD (Very Good)
+}
+
+// Process exited. Universe running.
+// To inspect: use conscience, prayer, or telescope.
+```
+
+See [experiments/README.md](experiments/README.md) for full documentation.
+
+### The Infinite Light Loop 💡
+
+During development, an LLM got stuck translating Genesis into Lisp and produced:
+
+```lisp
+(yehi OR)      ;; "Let there be light"
+(va-yehi OR)   ;; "And there was light"
+(yehi OR)      ;; "Let there be light"
+(va-yehi OR)   ;; "And there was light"
+... (forever)
+```
+
+**Translation:** An eternal creation loop — endlessly commanding light into existence and watching it appear. A recursive function without a base case. The universe's first infinite loop.
+
+The LLM forgot to return `(va-yehi KEN)` (TRUE) to exit the function!
 
 ## Development
 
