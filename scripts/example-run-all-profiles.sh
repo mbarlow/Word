@@ -56,15 +56,16 @@ translate_verse() {
     local profile="$1"
     local vid="$2"
 
-    go run ./cmd/pipeline translate "$profile" "$vid" 2>/dev/null | \
-        jq -r '.text // "ERROR: Translation failed"' 2>/dev/null || \
-        echo "ERROR: Translation failed"
+    # Run translation and extract text using grep/sed
+    go run ./cmd/pipeline translate "$profile" "$vid" 2>&1 | \
+        grep -o '"text": "[^"]*"' | head -1 | \
+        sed 's/"text": "//; s/"$//' || echo "ERROR: Translation failed"
 }
 
 # Function to get Hebrew source
 get_hebrew() {
-    local vid="$1"
-    sqlite3 data/word.db "SELECT text FROM verses WHERE vid = '$vid'" 2>/dev/null || echo "(Hebrew not available)"
+    local id="$1"
+    sqlite3 data/word.db "SELECT text FROM verses WHERE id = '$id'" 2>/dev/null || echo "(Hebrew not available)"
 }
 
 # Function to get KJV reference
@@ -72,7 +73,7 @@ get_kjv() {
     local book="$1"
     local chapter="$2"
     local verse="$3"
-    sqlite3 data/word.db "SELECT text FROM verses WHERE vid = 'kjv/${book}/${chapter}/${verse}'" 2>/dev/null || echo "(KJV not available)"
+    sqlite3 data/word.db "SELECT text FROM verses WHERE id = 'kjv/${book}/${chapter}/${verse}'" 2>/dev/null || echo "(KJV not available)"
 }
 
 # Process each verse
