@@ -454,7 +454,7 @@ func runTranslate(profileName, vid string) {
 	translator := translation.NewTranslator(client, profile, 0.2)
 
 	// Translate
-	ctx, cancel := context.WithTimeout(context.Background(), 60*time.Second)
+	ctx, cancel := context.WithTimeout(context.Background(), 300*time.Second)
 	defer cancel()
 
 	source := translation.SourceVerse{

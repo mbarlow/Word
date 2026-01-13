@@ -57,9 +57,9 @@ translate_verse() {
     local profile="$1"
     local vid="$2"
 
-    # Run translation with timeout and extract text
+    # Run translation with timeout (5 min for larger models with complex prompts)
     local output
-    output=$(timeout 120 go run ./cmd/pipeline translate "$profile" "$vid" 2>&1)
+    output=$(timeout 300 go run ./cmd/pipeline translate "$profile" "$vid" 2>&1)
     local exit_code=$?
 
     if [[ $exit_code -eq 124 ]]; then
@@ -67,9 +67,19 @@ translate_verse() {
         return
     fi
 
-    # Extract text field from JSON output
+    # Extract text field from JSON output using Python (most reliable)
     local text
-    text=$(echo "$output" | grep -o '"text": "[^"]*"' | head -1 | sed 's/"text": "//; s/"$//')
+    text=$(echo "$output" | python3 -c "
+import sys, json, re
+data = sys.stdin.read()
+# Find JSON block between { and }
+match = re.search(r'^\{.*?^\}', data, re.MULTILINE | re.DOTALL)
+if match:
+    try:
+        obj = json.loads(match.group())
+        print(obj.get('text', ''))
+    except: pass
+" 2>/dev/null)
 
     if [[ -n "$text" ]]; then
         echo "$text"
