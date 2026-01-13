@@ -582,8 +582,9 @@ func runTranslateChapter(profileName, work, book string, chapter int) {
 	fmt.Println()
 	fmt.Printf("=== Translation Complete: %d verses ===\n", len(drafts))
 
-	// Write drafts to JSONL
-	outputDir := fmt.Sprintf("translations/drafts/t_%s/%s", profileName, book)
+	// Write drafts to JSONL (include model name for comparison)
+	modelSlug := sanitizeModelName(client.ModelName())
+	outputDir := fmt.Sprintf("translations/drafts/t_%s/%s/%s", profileName, modelSlug, book)
 	os.MkdirAll(outputDir, 0755)
 	outputFile := filepath.Join(outputDir, fmt.Sprintf("%d.jsonl", chapter))
 
@@ -682,6 +683,20 @@ func lookupVerse(db *store.SQLiteStore, vid string) (text string, kjvRef string,
 	}
 
 	return r.Text, kjvRef, nil
+}
+
+// sanitizeModelName converts model name to filesystem-safe slug.
+func sanitizeModelName(model string) string {
+	// Replace colons and slashes with dashes
+	result := ""
+	for _, c := range model {
+		if c == ':' || c == '/' || c == '\\' {
+			result += "-"
+		} else {
+			result += string(c)
+		}
+	}
+	return result
 }
 
 // splitVID splits a verse ID into parts.
