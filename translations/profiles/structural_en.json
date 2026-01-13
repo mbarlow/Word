@@ -1,0 +1,43 @@
+{
+  "profile": "structural_en",
+  "target_lang": "en",
+  "audience": "scholars, students, programmers interested in Hebrew literary structure",
+  "reading_level": "advanced",
+  "tone": "analytical, precise, educational",
+  "style_rules": [
+    "Preserve cognate accusative structures (verb + noun from same root)",
+    "Mark cognate pairs with superscript numbers",
+    "Show repetition patterns explicitly",
+    "Prefer awkward English over losing Hebrew structure",
+    "Include root markers in angle brackets <root>",
+    "Separate polysemous word meanings with |"
+  ],
+  "output_format": {
+    "include_hebrew": true,
+    "include_structural": true,
+    "include_readable": true,
+    "include_cognates": true,
+    "include_polysemy": true,
+    "include_literary_devices": true
+  },
+  "terminology_policy": {
+    "YHWH": "YHWH|LORD|the-Name",
+    "Elohim": "God|gods|divine-council",
+    "ruach": "spirit|wind|breath",
+    "nephesh": "soul|life|being|throat",
+    "bara": "create|shape|cut",
+    "asah": "make|do|produce"
+  },
+  "literary_devices": {
+    "detect_cognate_accusative": true,
+    "detect_repetition": true,
+    "detect_chiasm": true,
+    "detect_merism": true,
+    "detect_inclusio": true
+  },
+  "consistency": {
+    "prefer_consistent_renderings": false,
+    "show_all_options": true,
+    "track_key_terms": ["create", "make", "kind", "seed", "fruit", "earth", "heavens"]
+  }
+}
