@@ -7,7 +7,8 @@
 #   ./scripts/example-run-all-profiles.sh GEN 1 11     # Specific verse
 #   ./scripts/example-run-all-profiles.sh GEN 1 1-5    # Verse range
 
-set -e
+# Don't exit on error - we want to continue even if a translation fails
+set +e
 
 # Colors
 RESET="\033[0m"
@@ -56,10 +57,25 @@ translate_verse() {
     local profile="$1"
     local vid="$2"
 
-    # Run translation and extract text using grep/sed
-    go run ./cmd/pipeline translate "$profile" "$vid" 2>&1 | \
-        grep -o '"text": "[^"]*"' | head -1 | \
-        sed 's/"text": "//; s/"$//' || echo "ERROR: Translation failed"
+    # Run translation with timeout and extract text
+    local output
+    output=$(timeout 120 go run ./cmd/pipeline translate "$profile" "$vid" 2>&1)
+    local exit_code=$?
+
+    if [[ $exit_code -eq 124 ]]; then
+        echo "(timeout - translation took too long)"
+        return
+    fi
+
+    # Extract text field from JSON output
+    local text
+    text=$(echo "$output" | grep -o '"text": "[^"]*"' | head -1 | sed 's/"text": "//; s/"$//')
+
+    if [[ -n "$text" ]]; then
+        echo "$text"
+    else
+        echo "(translation failed)"
+    fi
 }
 
 # Function to get Hebrew source
@@ -131,22 +147,6 @@ for ((v = START_VERSE; v <= END_VERSE; v++)); do
         if [[ "$profile" == "lisp_en" || "$profile" == "yaml_en" ]]; then
             # Code-style output - preserve newlines
             echo "$TRANSLATION" | sed 's/\\n/\n/g'
-        elif [[ "$profile" == "structural_en" ]]; then
-            # For structural, also show extra fields if available
-            FULL_OUTPUT=$(go run ./cmd/pipeline translate "$profile" "$VID" 2>/dev/null)
-            echo "$TRANSLATION"
-
-            # Show structural pseudo-code if present
-            STRUCTURAL=$(echo "$FULL_OUTPUT" | jq -r '.structural // empty' 2>/dev/null)
-            if [[ -n "$STRUCTURAL" && "$STRUCTURAL" != "null" ]]; then
-                echo -e "${DIM}  Structural: ${STRUCTURAL}${RESET}"
-            fi
-
-            # Show literary devices if present
-            DEVICES=$(echo "$FULL_OUTPUT" | jq -r '.literary_devices // [] | join(", ")' 2>/dev/null)
-            if [[ -n "$DEVICES" ]]; then
-                echo -e "${DIM}  Devices: ${DEVICES}${RESET}"
-            fi
         else
             echo "$TRANSLATION"
         fi
