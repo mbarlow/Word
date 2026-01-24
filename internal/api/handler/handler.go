@@ -132,3 +132,21 @@ func (h *Handler) ListBooks(c echo.Context) error {
 	}
 	return c.JSON(http.StatusOK, books)
 }
+
+func (h *Handler) GetRandomVerse(c echo.Context) error {
+	work := c.QueryParam("work")
+	book := strings.ToUpper(c.QueryParam("book"))
+	testament := strings.ToUpper(c.QueryParam("testament"))
+
+	// Validate testament if provided
+	if testament != "" && testament != "OT" && testament != "NT" {
+		return echo.NewHTTPError(http.StatusBadRequest, "testament must be OT or NT")
+	}
+
+	v, err := h.verses.GetRandomVerse(work, book, testament)
+	if err != nil {
+		return echo.NewHTTPError(http.StatusNotFound, "no verses found matching criteria")
+	}
+
+	return c.JSON(http.StatusOK, v)
+}

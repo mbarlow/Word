@@ -50,3 +50,28 @@ func (r *VerseRepo) ListBooks() ([]model.Book, error) {
 	err := r.db.Order("\"order\" ASC").Find(&books).Error
 	return books, err
 }
+
+// GetRandomVerse returns a random verse with optional filtering.
+// work: filter by work code (e.g., "kjv")
+// book: filter by OSIS book code (e.g., "PSA")
+// testament: filter by testament ("OT" or "NT")
+func (r *VerseRepo) GetRandomVerse(work, book, testament string) (*model.Verse, error) {
+	var v model.Verse
+	q := r.db.Model(&model.Verse{})
+
+	if work != "" {
+		q = q.Where("verses.work = ?", work)
+	}
+	if book != "" {
+		q = q.Where("verses.osis = ?", book)
+	}
+	if testament != "" {
+		// Use subquery to filter by testament from books table
+		q = q.Where("verses.osis IN (SELECT osis FROM books WHERE testament = ?)", testament)
+	}
+
+	if err := q.Order("RANDOM()").Limit(1).First(&v).Error; err != nil {
+		return nil, err
+	}
+	return &v, nil
+}
