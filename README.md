@@ -161,6 +161,26 @@ go run ./cmd/pipeline translate-chapter structural_en heb-wlc GEN 1
 ./scripts/compare-translations.sh GEN 1 11
 ```
 
+### Greek NT Translation Examples (John 1)
+
+Generated from TR 1894 Greek text using `gemma3:12b-it-qat`:
+
+**John 1:1** — Ἐν ἀρχῇ ἦν ὁ Λόγος
+
+| Profile | Output |
+|---------|--------|
+| **techdoc_en** | In the beginning was the Word, and the Word was with God, and God was the Word. |
+| **kids_en** | In the beginning, the Word was with God. The Word was also God. He was with God at the beginning. |
+| **lisp_en** | `(and (arch (hn o logov)) (and (o logov) (prov ton yeon)) (and (yeov) (o logov)))` |
+| **yaml_en** | `verse: JHN.1.1` / `cognates: [logov: word, yeov: God]` |
+
+**John 1:14** — καὶ ὁ Λόγος σὰρξ ἐγένετο
+
+| Profile | Output |
+|---------|--------|
+| **techdoc_en** | The Word became flesh and dwelt among us, and we beheld his glory, glory as of the only Son from the Father, full of grace and truth. |
+| **kids_en** | The Word became human. He lived among us. We saw his glory. It was like the glory of God's only Son. He was full of grace and truth. |
+
 ### Structural Translation Output
 
 The `structural_en` profile produces 6 layers of scholarly analysis:
@@ -183,6 +203,34 @@ The `structural_en` profile produces 6 layers of scholarly analysis:
 - **Merism** — Two extremes representing totality ("heavens and earth" = everything)
 - **Chiasm** — ABBA inverted parallelism
 - **Inclusio** — Bookend repetition for closure
+
+## Cognate Detection
+
+Programmatic detection of Hebrew cognate patterns using OSHB morphology data:
+
+```bash
+# Analyze Genesis 1 for cognates
+go run ./cmd/pipeline cognates heb-wlc GEN 1
+```
+
+**Genesis 1 Results:**
+- 31 verses analyzed, 29 contain cognates
+- 112 total cognate pairs detected
+- 12 cognate accusative patterns (verb + noun from same root)
+
+**Sample Detection (Genesis 1:11):**
+
+| Hebrew | Lemma | Type | Pattern |
+|--------|-------|------|---------|
+| תַּדְשֵׁא (tadshé) | 1876 | Verb | cognate_accusative |
+| דֶּשֶׁא (déshe) | 1877 | Noun | — |
+| מַזְרִיעַ (mazría) | 2232 | Verb | cognate_accusative |
+| זֶרַע (zéra) | 2233 | Noun | — |
+
+The detector identifies:
+- **cognate_accusative** — Verb + noun from same root ("sprout vegetation", "seed seed")
+- **repetition** — Same word repeated for emphasis
+- **noun_pair** / **verb_pair** — Related words of same part of speech
 
 ## Experiments: Hebrew as Executable Code
 
