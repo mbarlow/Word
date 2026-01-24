@@ -9,6 +9,7 @@ import (
 	"strconv"
 	"time"
 
+	"github.com/mbarlow/word/internal/cognate"
 	"github.com/mbarlow/word/internal/model"
 	"github.com/mbarlow/word/internal/pipeline"
 	"github.com/mbarlow/word/internal/pipeline/ingest"
@@ -30,6 +31,7 @@ func main() {
 		fmt.Println("  profiles                 - List available translation profiles")
 		fmt.Println("  translate <profile> <vid> - Translate a verse (e.g., translate techdoc_en heb-wlc/GEN/1/1)")
 		fmt.Println("  translate-chapter <profile> <work> <book> <chapter> - Translate a full chapter")
+		fmt.Println("  cognates <work> <book> <chapter> - Detect cognates in a chapter (e.g., cognates heb-wlc GEN 1)")
 		os.Exit(1)
 	}
 
@@ -74,6 +76,15 @@ func main() {
 		}
 		chapter, _ := strconv.Atoi(os.Args[5])
 		runTranslateChapter(os.Args[2], os.Args[3], os.Args[4], chapter)
+
+	case "cognates":
+		if len(os.Args) < 5 {
+			fmt.Println("Usage: pipeline cognates <work> <book> <chapter>")
+			fmt.Println("Example: pipeline cognates heb-wlc GEN 1")
+			os.Exit(1)
+		}
+		chapter, _ := strconv.Atoi(os.Args[4])
+		runCognates(os.Args[2], os.Args[3], chapter)
 
 	default:
 		fmt.Printf("Unknown command: %s\n", cmd)
@@ -212,12 +223,30 @@ func runLoad() {
 	if err != nil {
 		fmt.Printf("FAILED: %v\n", err)
 	} else {
+		matCount := 0
 		for _, v := range trVerses {
 			if v.Chapter == 1 {
 				allVerses = append(allVerses, v)
+				matCount++
 			}
 		}
-		fmt.Printf("OK (%d verses)\n", countByWork(allVerses, "grc-tr1894"))
+		fmt.Printf("OK (%d verses)\n", matCount)
+	}
+
+	// TR1894 John 1
+	fmt.Print("Ingesting TR1894 John 1... ")
+	trJohnVerses, err := trParser.ParseBook("JHN")
+	if err != nil {
+		fmt.Printf("FAILED: %v\n", err)
+	} else {
+		johnCount := 0
+		for _, v := range trJohnVerses {
+			if v.Chapter == 1 {
+				allVerses = append(allVerses, v)
+				johnCount++
+			}
+		}
+		fmt.Printf("OK (%d verses)\n", johnCount)
 	}
 
 	// Load verses into database
@@ -737,4 +766,39 @@ func getChapterVerses(db *store.SQLiteStore, work, book string, chapter int) ([]
 		verses = append(verses, v)
 	}
 	return verses, nil
+}
+
+// runCognates analyzes a chapter for cognate patterns.
+func runCognates(work, book string, chapter int) {
+	if work != "heb-wlc" {
+		fmt.Printf("Cognate detection currently only supports heb-wlc (Hebrew)\n")
+		os.Exit(1)
+	}
+
+	detector := cognate.NewDetector("data/source/wlc_raw/morphhb/wlc")
+	analysis, err := detector.AnalyzeChapter(book, chapter)
+	if err != nil {
+		fmt.Printf("Failed to analyze chapter: %v\n", err)
+		os.Exit(1)
+	}
+
+	// Output as JSON
+	output, err := json.MarshalIndent(analysis, "", "  ")
+	if err != nil {
+		fmt.Printf("Failed to marshal JSON: %v\n", err)
+		os.Exit(1)
+	}
+	fmt.Println(string(output))
+
+	// Print summary to stderr
+	fmt.Fprintf(os.Stderr, "\n=== Cognate Summary for %s %s %d ===\n", work, book, chapter)
+	fmt.Fprintf(os.Stderr, "Total verses: %d\n", analysis.Summary.TotalVerses)
+	fmt.Fprintf(os.Stderr, "Verses with cognates: %d\n", analysis.Summary.VersesWithCognates)
+	fmt.Fprintf(os.Stderr, "Total cognate pairs: %d\n", analysis.Summary.TotalCognates)
+	if len(analysis.Summary.PatternCounts) > 0 {
+		fmt.Fprintf(os.Stderr, "Pattern breakdown:\n")
+		for pattern, count := range analysis.Summary.PatternCounts {
+			fmt.Fprintf(os.Stderr, "  %s: %d\n", pattern, count)
+		}
+	}
 }
