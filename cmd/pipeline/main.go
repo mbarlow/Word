@@ -40,10 +40,11 @@ func main() {
 	switch cmd {
 	case "ingest":
 		if len(os.Args) < 4 {
-			fmt.Println("Usage: pipeline ingest <work> <book>")
-			os.Exit(1)
+			// No args: ingest all works/books
+			runIngestAll()
+		} else {
+			runIngest(os.Args[2], os.Args[3])
 		}
-		runIngest(os.Args[2], os.Args[3])
 
 	case "render":
 		runRender()
@@ -92,6 +93,84 @@ func main() {
 	}
 }
 
+// ingestAll ingests all books from all works based on the canon.
+// KJV covers all 66 books, WLC covers OT (39), TR1894 covers NT (27).
+func ingestAll(canon *pipeline.Canon) []pipeline.Verse {
+	kjvParser := ingest.NewKJVParser("data/source/kjv_raw")
+	wlcParser := ingest.NewWLCParser("data/source/wlc_raw/morphhb/wlc")
+	trParser := ingest.NewTR1894Parser("data/source/tr1894_raw/greektext-scrivener/textonly")
+
+	var allVerses []pipeline.Verse
+	var kjvCount, wlcCount, trCount int
+
+	for _, book := range canon.Books {
+		// KJV: all books
+		fmt.Printf("  KJV %s... ", book.Name)
+		verses, err := kjvParser.ParseBook(book.OSIS)
+		if err != nil {
+			fmt.Printf("SKIP (%v)\n", err)
+		} else {
+			allVerses = append(allVerses, verses...)
+			kjvCount += len(verses)
+			fmt.Printf("%d verses\n", len(verses))
+		}
+
+		// WLC: OT only
+		if book.Testament == "OT" {
+			fmt.Printf("  WLC %s... ", book.Name)
+			verses, err := wlcParser.ParseBook(book.OSIS)
+			if err != nil {
+				fmt.Printf("SKIP (%v)\n", err)
+			} else {
+				allVerses = append(allVerses, verses...)
+				wlcCount += len(verses)
+				fmt.Printf("%d verses\n", len(verses))
+			}
+		}
+
+		// TR1894: NT only
+		if book.Testament == "NT" {
+			fmt.Printf("  TR1894 %s... ", book.Name)
+			verses, err := trParser.ParseBook(book.OSIS)
+			if err != nil {
+				fmt.Printf("SKIP (%v)\n", err)
+			} else {
+				allVerses = append(allVerses, verses...)
+				trCount += len(verses)
+				fmt.Printf("%d verses\n", len(verses))
+			}
+		}
+	}
+
+	fmt.Println()
+	fmt.Printf("Ingested: KJV=%d, WLC=%d, TR1894=%d, Total=%d verses\n",
+		kjvCount, wlcCount, trCount, len(allVerses))
+	fmt.Println()
+
+	return allVerses
+}
+
+func runIngestAll() {
+	fmt.Println("=== Ingest: All Works ===")
+	fmt.Println()
+
+	canon, err := pipeline.LoadCanon("data/canon/books.json")
+	if err != nil {
+		fmt.Printf("Failed to load canon: %v\n", err)
+		os.Exit(1)
+	}
+
+	allVerses := ingestAll(canon)
+
+	// Output all verses as JSONL
+	for _, v := range allVerses {
+		data, _ := json.Marshal(v)
+		fmt.Println(string(data))
+	}
+
+	fmt.Fprintf(os.Stderr, "Ingested %d total verses\n", len(allVerses))
+}
+
 func runIngest(work, book string) {
 	if _, err := pipeline.LoadCanon("data/canon/books.json"); err != nil {
 		fmt.Printf("Failed to load canon: %v\n", err)
@@ -133,11 +212,139 @@ func runIngest(work, book string) {
 }
 
 func runRender() {
-	fmt.Println("Render not yet implemented - use genesis1 for sample")
+	fmt.Println("=== Render: All Works ===")
+	fmt.Println()
+
+	canon, err := pipeline.LoadCanon("data/canon/books.json")
+	if err != nil {
+		fmt.Printf("Failed to load canon: %v\n", err)
+		os.Exit(1)
+	}
+
+	allVerses := ingestAll(canon)
+	if len(allVerses) == 0 {
+		fmt.Println("No verses ingested")
+		os.Exit(1)
+	}
+
+	// Render to Markdown
+	renderer := render.NewMarkdownRenderer("texts")
+	fmt.Print("Rendering to Markdown... ")
+	if err := renderer.RenderAll(allVerses); err != nil {
+		fmt.Printf("FAILED: %v\n", err)
+		os.Exit(1)
+	}
+
+	// Count output files
+	files, _ := filepath.Glob("texts/*/*/*")
+	fmt.Printf("OK (%d chapter files)\n", len(files))
+
+	// Load into SQLite
+	fmt.Print("Opening database... ")
+	db, err := store.NewSQLiteStore("data/word.db")
+	if err != nil {
+		fmt.Printf("FAILED: %v\n", err)
+		os.Exit(1)
+	}
+	fmt.Println("OK")
+
+	fmt.Print("Loading canonical books... ")
+	if err := db.LoadBooksFromCanon(canon); err != nil {
+		fmt.Printf("FAILED: %v\n", err)
+		os.Exit(1)
+	}
+	fmt.Println("OK")
+
+	fmt.Print("Loading works... ")
+	works := []model.Work{
+		{ID: "kjv", Name: "King James Version", Lang: "en", Description: "1769 standardized text", License: "Public Domain", SourceURL: "https://ebible.org/find/show.php?id=eng-kjv2006"},
+		{ID: "heb-wlc", Name: "Westminster Leningrad Codex", Lang: "he", Description: "Masoretic Hebrew text", License: "Public Domain", SourceURL: "https://github.com/openscriptures/morphhb"},
+		{ID: "grc-tr1894", Name: "Scrivener 1894 Textus Receptus", Lang: "grc", Description: "Greek NT underlying KJV", License: "Public Domain", SourceURL: "https://github.com/byztxt/greektext-scrivener"},
+	}
+	for _, w := range works {
+		db.LoadWork(w)
+	}
+	fmt.Println("OK")
+
+	fmt.Print("Loading verses into database... ")
+	if err := db.LoadVerses(allVerses); err != nil {
+		fmt.Printf("FAILED: %v\n", err)
+		os.Exit(1)
+	}
+	count, _ := db.GetVerseCount()
+	fmt.Printf("OK (%d total verses)\n", count)
+
+	fmt.Println()
+	fmt.Println("Render complete. Database ready at data/word.db")
 }
 
 func runValidate() {
-	fmt.Println("Validate not yet implemented - use genesis1 for sample")
+	fmt.Println("=== Validate: All Works ===")
+	fmt.Println()
+
+	canon, err := pipeline.LoadCanon("data/canon/books.json")
+	if err != nil {
+		fmt.Printf("Failed to load canon: %v\n", err)
+		os.Exit(1)
+	}
+
+	allVerses := ingestAll(canon)
+	if len(allVerses) == 0 {
+		fmt.Println("No verses ingested")
+		os.Exit(1)
+	}
+
+	// Group by work/book/chapter
+	type chapterKey struct {
+		work    string
+		book    string
+		chapter int
+	}
+	groups := make(map[chapterKey][]pipeline.Verse)
+	for _, v := range allVerses {
+		key := chapterKey{v.Work, v.BookSlug, v.Chapter}
+		groups[key] = append(groups[key], v)
+	}
+
+	validator := validate.NewValidator()
+
+	var totalChapters, passCount, failCount int
+	var failedReports []string
+
+	for _, chapterVerses := range groups {
+		totalChapters++
+		report := validator.ValidateChapter(chapterVerses)
+		if len(report.Missing) == 0 && len(report.Duplicates) == 0 && len(report.Errors) == 0 {
+			passCount++
+		} else {
+			failCount++
+			failedReports = append(failedReports, validate.FormatReport(report))
+		}
+	}
+
+	// Print failures
+	if len(failedReports) > 0 {
+		fmt.Println("FAILURES:")
+		for _, r := range failedReports {
+			fmt.Printf("  %s\n", r)
+		}
+		fmt.Println()
+	}
+
+	// Summary
+	fmt.Printf("Total chapters: %d\n", totalChapters)
+	fmt.Printf("  Passed: %d\n", passCount)
+	fmt.Printf("  Failed: %d\n", failCount)
+	fmt.Printf("Total verses: %d\n", len(allVerses))
+
+	if failCount > 0 {
+		fmt.Println()
+		fmt.Println("Validation FAILED")
+		os.Exit(1)
+	}
+
+	fmt.Println()
+	fmt.Println("Validation PASSED")
 }
 
 func runLoad() {
