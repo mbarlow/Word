@@ -107,8 +107,10 @@ GET /v1/text/{work}/{book}/{chapter}       # Get chapter text
 GET /v1/verse/{work}/{book}/{chapter}/{verse}  # Get single verse
 GET /v1/compare?works=kjv,heb-wlc&ref=GEN.1.1  # Cross-reference
 GET /v1/search?q=faith&work=kjv            # Full-text search
+GET /v1/random-verse?work=kjv&testament=OT  # Random verse
 GET /metrics                               # Prometheus metrics
 GET /health                                # Health check
+GET /swagger/index.html                    # Swagger UI
 ```
 
 ## Verse ID Schema
@@ -149,7 +151,7 @@ Word supports LLM-powered translation drafting with:
 ```bash
 # Set up Ollama (or use ANTHROPIC_API_KEY for Claude)
 export OLLAMA_HOST=http://localhost:11434
-export OLLAMA_MODEL=gemma3:4b
+export OLLAMA_MODEL=gemma4:latest
 
 # Translate a single verse
 go run ./cmd/pipeline translate structural_en heb-wlc/GEN/1/11
@@ -163,7 +165,7 @@ go run ./cmd/pipeline translate-chapter structural_en heb-wlc GEN 1
 
 ### Greek NT Translation Examples (John 1)
 
-Generated from TR 1894 Greek text using `gemma3:12b-it-qat`:
+Generated from TR 1894 Greek text using `gemma4:latest`:
 
 **John 1:1** — Ἐν ἀρχῇ ἦν ὁ Λόγος
 
@@ -303,9 +305,10 @@ The LLM forgot to return `(va-yehi KEN)` (TRUE) to exit the function!
 ## Development
 
 ### Prerequisites
-- Go 1.21+
+- Go 1.23+
 - Docker & Docker Compose
 - Tilt
+- [swag](https://github.com/swaggo/swag) (for `make swagger`)
 
 ### Local Development
 ```bash
@@ -313,9 +316,13 @@ tilt up        # Start all services with hot reload
 tilt down      # Stop services
 ```
 
-### Running Tests
+### Makefile
 ```bash
-go test ./...
+make help      # Show available targets
+make build     # Build server binary
+make swagger   # Regenerate Swagger docs to swagger/
+make test      # Run tests with race detector
+make clean     # Remove build artifacts
 ```
 
 ### Building

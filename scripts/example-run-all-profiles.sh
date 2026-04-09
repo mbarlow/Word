@@ -22,7 +22,7 @@ BLUE="\033[34m"
 
 # Configuration
 OLLAMA_HOST="${OLLAMA_HOST:-http://localhost:11434}"
-OLLAMA_MODEL="${OLLAMA_MODEL:-gemma3:4b}"
+OLLAMA_MODEL="${OLLAMA_MODEL:-gemma4:latest}"
 export OLLAMA_HOST OLLAMA_MODEL
 
 # Default to Genesis 1:1-5 if no arguments
