@@ -1,0 +1,125 @@
+package meaning
+
+// strongsGloss maps normalized Strong's numbers to English glosses.
+// This covers the most significant Hebrew roots. Missing entries return "".
+var strongsGloss = map[string]string{
+	// Common particles / function words
+	"3605": "all/every (kol)",
+	"3588": "that/because (ki)",
+	"834":  "which/who (asher)",
+	"853":  "- (et, object marker)",
+	"3808": "not (lo)",
+	"1571": "also/even (gam)",
+	"120":  "man/human (adam)",
+	"369":  "nothing/none (ayin)",
+	"1931": "he/she/it (hu)",
+	"5921": "upon/over (al)",
+	"2088": "this (zeh)",
+	"3651": "so/thus (ken)",
+	"413":  "to/toward (el)",
+	"1121": "son (ben)",
+	"5750": "yet/still (od)",
+	"3426": "there is (yesh)",
+	"6310": "mouth (peh)",
+	"259":  "one (echad)",
+	"8147": "two (shenayim)",
+
+	// Creation / existence
+	"1254": "create (bara)",
+	"430":  "God (Elohim)",
+	"3068": "LORD (YHWH)",
+	"776":  "earth/land (eretz)",
+	"8064": "heavens (shamayim)",
+	"3117": "day (yom)",
+	"216":  "light (or)",
+	"2822": "darkness (choshek)",
+	"4325": "water (mayim)",
+	"7307": "spirit/wind (ruach)",
+
+	// Ecclesiastes key terms
+	"1892": "vanity/breath (hevel)",
+	"8121": "sun (shemesh)",
+	"3504": "profit/gain (yitron)",
+	"2451": "wisdom (chokmah)",
+	"5999": "labor/toil (amal)",
+	"2896": "good (tov)",
+	"7451": "evil/bad (ra)",
+	"398":  "eat (akal)",
+	"8354": "drink (shathah)",
+	"8055": "rejoice (samach)",
+	"5769": "eternity (olam)",
+	"2506": "portion (cheleq)",
+	"6213": "do/make (asah)",
+	"5414": "give (natan)",
+	"3045": "know (yada)",
+	"7200": "see (raah)",
+	"559":  "say (amar)",
+	"3820": "heart (lev)",
+	"1696": "speak/word (davar)",
+	"1697": "word/matter (davar)",
+	"4428": "king (melek)",
+	"6953": "preacher (qoheleth)",
+	"2603": "favor/grace (chanan)",
+	"6256": "time (et)",
+
+	// Song of Solomon key terms
+	"1730": "beloved (dod)",
+	"157":  "love (ahav)",
+	"160":  "love (ahavah)",
+	"3303": "beautiful (yapheh)",
+	"7474": "companion/friend (rayah)",
+	"3618": "bride (kallah)",
+	"1588": "garden (gan)",
+	"3754": "vineyard (kerem)",
+	"7381": "fragrance (reach)",
+
+	// Prophetic terms
+	"5002": "declares/oracle (neum)",
+	"6635": "hosts/armies (tsvaot)",
+	"1285": "covenant (berit)",
+	"2319": "new (chadash)",
+	"8451": "law/instruction (torah)",
+	"4941": "justice (mishpat)",
+	"6666": "righteousness (tsedaqah)",
+	"7725": "return/repent (shuv)",
+	"5375": "lift/carry (nasa)",
+	"3467": "save/deliver (yasha)",
+	"1350": "redeem (gaal)",
+	"6918": "holy (qadosh)",
+	"3478": "Israel (yisrael)",
+	"3063": "Judah (yehudah)",
+
+	// Common verbs
+	"1961": "be/become (hayah)",
+	"935":  "come/go (bo)",
+	"3318": "go out (yatsa)",
+	"5927": "go up (alah)",
+	"3381": "go down (yarad)",
+	"7971": "send (shalach)",
+	"8085": "hear (shama)",
+	"1980": "walk/go (halak)",
+	"5975": "stand (amad)",
+	"3427": "sit/dwell (yashav)",
+	"4191": "die (mut)",
+	"2421": "live (chayah)",
+
+	// Common nouns
+	"376":  "man (ish)",
+	"802":  "woman (ishah)",
+	"1323": "daughter (bat)",
+	"1004": "house (bayit)",
+	"5892": "city (ir)",
+	"5971": "people (am)",
+	"3027": "hand (yad)",
+	"6440": "face (panim)",
+	"8034": "name (shem)",
+	"1755": "generation (dor)",
+	"2233": "seed (zera)",
+	"4421": "war (milchamah)",
+	"7965": "peace (shalom)",
+}
+
+// Gloss returns the English gloss for a Strong's number, or "" if unknown.
+func Gloss(lemma string) string {
+	return strongsGloss[lemma]
+}
