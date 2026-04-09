@@ -108,6 +108,8 @@ GET /v1/verse/{work}/{book}/{chapter}/{verse}  # Get single verse
 GET /v1/compare?works=kjv,heb-wlc&ref=GEN.1.1  # Cross-reference
 GET /v1/search?q=faith&work=kjv            # Full-text search
 GET /v1/random-verse?work=kjv&testament=OT  # Random verse
+GET /v1/meaning/{work}/{book}/{chapter}    # Chapter meaning graph
+GET /v1/meaning/{work}/{book}              # Book repetition summary
 GET /metrics                               # Prometheus metrics
 GET /health                                # Health check
 GET /swagger/index.html                    # Swagger UI
