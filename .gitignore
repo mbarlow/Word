@@ -5,9 +5,8 @@ word-service
 # Go
 vendor/
 
-# Data (downloaded sources)
+# Data (downloaded sources — re-downloadable via ./scripts/download-sources.sh)
 data/source/
-data/word.db
 
 # Translation output
 translations/output/
