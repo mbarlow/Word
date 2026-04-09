@@ -13,6 +13,7 @@ import (
 	"github.com/mbarlow/word/internal/model"
 	"github.com/mbarlow/word/internal/pipeline"
 	"github.com/mbarlow/word/internal/pipeline/ingest"
+	"github.com/mbarlow/word/internal/pipeline/meaning"
 	"github.com/mbarlow/word/internal/pipeline/render"
 	"github.com/mbarlow/word/internal/pipeline/store"
 	"github.com/mbarlow/word/internal/pipeline/validate"
@@ -32,6 +33,7 @@ func main() {
 		fmt.Println("  translate <profile> <vid> - Translate a verse (e.g., translate techdoc_en heb-wlc/GEN/1/1)")
 		fmt.Println("  translate-chapter <profile> <work> <book> <chapter> - Translate a full chapter")
 		fmt.Println("  cognates <work> <book> <chapter> - Detect cognates in a chapter (e.g., cognates heb-wlc GEN 1)")
+		fmt.Println("  meaning <book> [chapter]  - Build meaning graph (e.g., meaning ECC or meaning ECC 1)")
 		os.Exit(1)
 	}
 
@@ -86,6 +88,21 @@ func main() {
 		}
 		chapter, _ := strconv.Atoi(os.Args[4])
 		runCognates(os.Args[2], os.Args[3], chapter)
+
+	case "meaning":
+		if len(os.Args) < 3 {
+			fmt.Println("Usage: pipeline meaning <book> [chapter]")
+			fmt.Println("Example: pipeline meaning ECC")
+			fmt.Println("Example: pipeline meaning ECC 1")
+			os.Exit(1)
+		}
+		book := os.Args[2]
+		if len(os.Args) >= 4 {
+			ch, _ := strconv.Atoi(os.Args[3])
+			runMeaningChapter(book, ch)
+		} else {
+			runMeaningBook(book)
+		}
 
 	default:
 		fmt.Printf("Unknown command: %s\n", cmd)
@@ -1006,6 +1023,189 @@ func runCognates(work, book string, chapter int) {
 		fmt.Fprintf(os.Stderr, "Pattern breakdown:\n")
 		for pattern, count := range analysis.Summary.PatternCounts {
 			fmt.Fprintf(os.Stderr, "  %s: %d\n", pattern, count)
+		}
+	}
+}
+
+func runMeaningChapter(book string, chapter int) {
+	oshbDir := "data/source/wlc_raw/morphhb/wlc"
+	builder := meaning.NewBuilder(oshbDir)
+
+	// Get book chapter count for repetition context
+	canon, err := pipeline.LoadCanon("data/canon/books.json")
+	if err != nil {
+		fmt.Printf("Failed to load canon: %v\n", err)
+		os.Exit(1)
+	}
+	chapters := 1
+	for _, b := range canon.Books {
+		if b.OSIS == book {
+			chapters = b.Chapters
+			break
+		}
+	}
+
+	fmt.Fprintf(os.Stderr, "Computing book-level repetitions for %s (%d chapters)...\n", book, chapters)
+	rootCounts, rootVerses, err := builder.CountBookRepetitions(book, chapters)
+	if err != nil {
+		fmt.Printf("Failed to count repetitions: %v\n", err)
+		os.Exit(1)
+	}
+
+	fmt.Fprintf(os.Stderr, "Building meaning graph for %s chapter %d...\n", book, chapter)
+	graph, err := builder.BuildChapter(book, chapter, rootCounts)
+	if err != nil {
+		fmt.Printf("Failed to build meaning graph: %v\n", err)
+		os.Exit(1)
+	}
+
+	// Attach book-level repetitions
+	graph.Repetitions = meaning.BuildRepetitions(rootCounts, rootVerses)
+
+	output, err := json.MarshalIndent(graph, "", "  ")
+	if err != nil {
+		fmt.Printf("Failed to marshal: %v\n", err)
+		os.Exit(1)
+	}
+	fmt.Println(string(output))
+
+	// Summary to stderr
+	fmt.Fprintf(os.Stderr, "\n=== Meaning Graph: %s %d ===\n", book, chapter)
+	fmt.Fprintf(os.Stderr, "Verses: %d\n", len(graph.Verses))
+	tokenCount := 0
+	for _, v := range graph.Verses {
+		tokenCount += len(v.Tokens)
+	}
+	fmt.Fprintf(os.Stderr, "Tokens: %d\n", tokenCount)
+	fmt.Fprintf(os.Stderr, "Book repetitions (3+): %d roots\n", len(graph.Repetitions))
+	if len(graph.Repetitions) > 0 {
+		fmt.Fprintf(os.Stderr, "Top 10:\n")
+		limit := 10
+		if len(graph.Repetitions) < limit {
+			limit = len(graph.Repetitions)
+		}
+		for i := 0; i < limit; i++ {
+			r := graph.Repetitions[i]
+			gloss := r.Gloss
+			if gloss == "" {
+				gloss = "(unknown)"
+			}
+			fmt.Fprintf(os.Stderr, "  %4d× %s — %s\n", r.Count, r.Root, gloss)
+		}
+	}
+}
+
+func runMeaningBook(book string) {
+	oshbDir := "data/source/wlc_raw/morphhb/wlc"
+	builder := meaning.NewBuilder(oshbDir)
+
+	canon, err := pipeline.LoadCanon("data/canon/books.json")
+	if err != nil {
+		fmt.Printf("Failed to load canon: %v\n", err)
+		os.Exit(1)
+	}
+
+	var bookName string
+	chapters := 0
+	for _, b := range canon.Books {
+		if b.OSIS == book {
+			chapters = b.Chapters
+			bookName = b.Name
+			break
+		}
+	}
+	if chapters == 0 {
+		fmt.Printf("Unknown book: %s\n", book)
+		os.Exit(1)
+	}
+
+	fmt.Fprintf(os.Stderr, "=== Building meaning graph for %s (%d chapters) ===\n\n", bookName, chapters)
+
+	// Step 1: Count all repetitions across the book
+	fmt.Fprintf(os.Stderr, "Counting book-level repetitions...\n")
+	rootCounts, rootVerses, err := builder.CountBookRepetitions(book, chapters)
+	if err != nil {
+		fmt.Printf("Failed to count repetitions: %v\n", err)
+		os.Exit(1)
+	}
+	fmt.Fprintf(os.Stderr, "Found %d unique roots\n\n", len(rootCounts))
+
+	// Step 2: Build and save each chapter's meaning graph
+	outDir := filepath.Join("data", "meaning", "heb-wlc", book)
+	if err := os.MkdirAll(outDir, 0o755); err != nil {
+		fmt.Printf("Failed to create output dir: %v\n", err)
+		os.Exit(1)
+	}
+
+	totalTokens := 0
+	for ch := 1; ch <= chapters; ch++ {
+		graph, err := builder.BuildChapter(book, ch, rootCounts)
+		if err != nil {
+			fmt.Fprintf(os.Stderr, "  ch %d: SKIP (%v)\n", ch, err)
+			continue
+		}
+		graph.Book = bookName
+		graph.Repetitions = meaning.BuildRepetitions(rootCounts, rootVerses)
+
+		chapterFile := filepath.Join(outDir, fmt.Sprintf("ch-%d.json", ch))
+		data, err := json.MarshalIndent(graph, "", "  ")
+		if err != nil {
+			fmt.Fprintf(os.Stderr, "  ch %d: marshal error: %v\n", ch, err)
+			continue
+		}
+		if err := os.WriteFile(chapterFile, data, 0o644); err != nil {
+			fmt.Fprintf(os.Stderr, "  ch %d: write error: %v\n", ch, err)
+			continue
+		}
+
+		tokens := 0
+		for _, v := range graph.Verses {
+			tokens += len(v.Tokens)
+		}
+		totalTokens += tokens
+		fmt.Fprintf(os.Stderr, "  ch %2d: %3d verses, %4d tokens → %s\n", ch, len(graph.Verses), tokens, chapterFile)
+	}
+
+	// Step 3: Build and save book summary
+	summary, err := builder.BuildBookSummary(book, bookName, chapters)
+	if err != nil {
+		fmt.Printf("Failed to build summary: %v\n", err)
+		os.Exit(1)
+	}
+
+	summaryFile := filepath.Join(outDir, "summary.json")
+	summaryData, err := json.MarshalIndent(summary, "", "  ")
+	if err != nil {
+		fmt.Printf("Failed to marshal summary: %v\n", err)
+		os.Exit(1)
+	}
+	if err := os.WriteFile(summaryFile, summaryData, 0o644); err != nil {
+		fmt.Printf("Failed to write summary: %v\n", err)
+		os.Exit(1)
+	}
+
+	fmt.Fprintf(os.Stderr, "\n=== Summary ===\n")
+	fmt.Fprintf(os.Stderr, "Chapters: %d\n", chapters)
+	fmt.Fprintf(os.Stderr, "Total tokens: %d\n", totalTokens)
+	fmt.Fprintf(os.Stderr, "Unique roots: %d\n", summary.UniqueRoots)
+	fmt.Fprintf(os.Stderr, "Repetitions (3+): %d\n", len(summary.Repetitions))
+	fmt.Fprintf(os.Stderr, "Output: %s\n", outDir)
+	fmt.Fprintf(os.Stderr, "Summary: %s\n", summaryFile)
+
+	// Print top repetitions
+	if len(summary.Repetitions) > 0 {
+		fmt.Fprintf(os.Stderr, "\nTop 20 repeated roots:\n")
+		limit := 20
+		if len(summary.Repetitions) < limit {
+			limit = len(summary.Repetitions)
+		}
+		for i := 0; i < limit; i++ {
+			r := summary.Repetitions[i]
+			gloss := r.Gloss
+			if gloss == "" {
+				gloss = "(unknown)"
+			}
+			fmt.Fprintf(os.Stderr, "  %4d× %s — %s (%d verses)\n", r.Count, r.Root, gloss, len(r.Verses))
 		}
 	}
 }
