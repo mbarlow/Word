@@ -65,6 +65,8 @@ func main() {
 	v1.GET("/compare", h.Compare)
 	v1.GET("/search", h.Search)
 	v1.GET("/random-verse", h.GetRandomVerse)
+	v1.GET("/meaning/:work/:book/:chapter", h.GetMeaning)
+	v1.GET("/meaning/:work/:book", h.GetMeaningSummary)
 
 	// Start server
 	go func() {
