@@ -60,9 +60,16 @@ Loads verses, works, and canonical book metadata into `data/word.db` via GORM. I
 | `cognates <work> <book> <ch>` | Detect Hebrew cognate patterns from OSHB morphology data |
 | `profiles` | List available translation profiles |
 
-## Current State
+## Full Corpus
 
-The standalone `render` and `validate` commands are stubs. The working path is `genesis1` or `load`, which run ingest + render + validate + SQLite load together for sample chapters. The full-corpus pipeline is not yet wired up.
+Running `render` or `validate` with no args processes all 66 books across all three works:
+
+- **KJV**: 66 books (OT + NT) — 31,102 verses
+- **heb-wlc**: 39 books (OT only) — 23,213 verses
+- **grc-tr1894**: 27 books (NT only) — 7,957 verses
+- **Total**: 62,272 verses across 2,378 chapters
+
+The `genesis1` and `load` commands are smaller demos for quick iteration.
 
 ## Data Types
 
