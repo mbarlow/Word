@@ -2,13 +2,14 @@
 
 # Build the word-service
 docker_build(
-    'word-service',
+    'word-word-service',
     '.',
     dockerfile='deploy/Dockerfile',
     live_update=[
         sync('./cmd', '/app/cmd'),
         sync('./internal', '/app/internal'),
-        run('go build -o /app/word-service ./cmd/server', trigger=['./cmd', './internal']),
+        sync('./swagger', '/app/swagger'),
+        run('go build -o /app/word-service ./cmd/server', trigger=['./cmd', './internal', './swagger']),
     ],
 )
 
@@ -16,7 +17,11 @@ docker_build(
 docker_compose('./docker-compose.yml')
 
 # Resource configuration
-dc_resource('word-service', labels=['api'])
+dc_resource('word-service', labels=['api'], links=[
+    link('http://localhost:8080/swagger/index.html', 'Swagger UI'),
+    link('http://localhost:8080/health', 'Health'),
+])
+dc_resource('ollama', labels=['llm'])
 
 # Local resource for downloading sources (manual trigger)
 local_resource(

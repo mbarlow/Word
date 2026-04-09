@@ -1,5 +1,10 @@
 package main
 
+// @title        Word API
+// @version      1.0
+// @description  Bible text service — works, books, verses, search, and cross-translation comparison.
+// @BasePath     /
+
 import (
 	"context"
 	"net/http"
@@ -13,10 +18,12 @@ import (
 	"github.com/labstack/echo/v4/middleware"
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"
+	echoSwagger "github.com/swaggo/echo-swagger"
 
 	"github.com/mbarlow/word/internal/api/handler"
 	"github.com/mbarlow/word/internal/config"
 	"github.com/mbarlow/word/internal/repository"
+	_ "github.com/mbarlow/word/swagger"
 )
 
 func main() {
@@ -43,9 +50,10 @@ func main() {
 	e.Use(zerologMiddleware())
 	e.Use(echoprometheus.NewMiddleware("word"))
 
-	// Health and metrics
+	// Health, metrics, and docs
 	e.GET("/health", healthHandler)
 	e.GET("/metrics", echoprometheus.NewHandler())
+	e.GET("/swagger/*", echoSwagger.WrapHandler)
 
 	// API routes
 	h := handler.New(db)
@@ -117,6 +125,13 @@ func zerologMiddleware() echo.MiddlewareFunc {
 	}
 }
 
+// healthHandler godoc
+// @Summary      Health check
+// @Description  Returns liveness status.
+// @Tags         health
+// @Produce      json
+// @Success      200 {object} map[string]string
+// @Router       /health [get]
 func healthHandler(c echo.Context) error {
 	return c.JSON(http.StatusOK, map[string]string{"status": "ok"})
 }

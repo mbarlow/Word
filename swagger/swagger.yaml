@@ -1,0 +1,340 @@
+basePath: /
+definitions:
+  github_com_mbarlow_word_internal_model.Book:
+    properties:
+      chapters:
+        description: Number of chapters
+        type: integer
+      name:
+        type: string
+      order:
+        description: Canonical order (1-66)
+        type: integer
+      osis:
+        description: 3-letter OSIS code
+        type: string
+      slug:
+        type: string
+      testament:
+        description: OT or NT
+        type: string
+    type: object
+  github_com_mbarlow_word_internal_model.Verse:
+    properties:
+      book_slug:
+        type: string
+      chapter:
+        type: integer
+      createdAt:
+        type: string
+      id:
+        description: 'VID: work/osis/chapter/verse'
+        type: string
+      lang:
+        type: string
+      meta:
+        description: 'JSON: optional metadata'
+        type: string
+      osis:
+        type: string
+      source:
+        description: 'JSON: upstream, artifact, sha256'
+        type: string
+      text:
+        type: string
+      updatedAt:
+        type: string
+      verse:
+        type: integer
+      work:
+        type: string
+    type: object
+  github_com_mbarlow_word_internal_model.Work:
+    properties:
+      createdAt:
+        type: string
+      description:
+        type: string
+      id:
+        description: e.g., "kjv", "heb-wlc"
+        type: string
+      lang:
+        type: string
+      license:
+        type: string
+      name:
+        type: string
+      source_url:
+        type: string
+      updatedAt:
+        type: string
+    type: object
+  internal_api_handler.ChapterResponse:
+    properties:
+      book:
+        type: string
+      chapter:
+        type: integer
+      verses:
+        items:
+          $ref: '#/definitions/github_com_mbarlow_word_internal_model.Verse'
+        type: array
+      work:
+        type: string
+    type: object
+  internal_api_handler.ErrorResponse:
+    properties:
+      message:
+        type: string
+    type: object
+  internal_api_handler.SearchResponse:
+    properties:
+      count:
+        type: integer
+      query:
+        type: string
+      results:
+        items:
+          $ref: '#/definitions/github_com_mbarlow_word_internal_model.Verse'
+        type: array
+    type: object
+info:
+  contact: {}
+  description: Bible text service — works, books, verses, search, and cross-translation
+    comparison.
+  title: Word API
+  version: "1.0"
+paths:
+  /health:
+    get:
+      description: Returns liveness status.
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+      summary: Health check
+      tags:
+      - health
+  /v1/books:
+    get:
+      description: Returns all 66 canonical books in order.
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            items:
+              $ref: '#/definitions/github_com_mbarlow_word_internal_model.Book'
+            type: array
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/internal_api_handler.ErrorResponse'
+      summary: List canonical books
+      tags:
+      - books
+  /v1/compare:
+    get:
+      description: Returns a verse from multiple works/translations side by side.
+      parameters:
+      - description: Comma-separated work codes (e.g. kjv,heb-wlc)
+        in: query
+        name: works
+        required: true
+        type: string
+      - description: Verse reference as BOOK.CHAPTER.VERSE (e.g. GEN.1.1)
+        in: query
+        name: ref
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            additionalProperties:
+              $ref: '#/definitions/github_com_mbarlow_word_internal_model.Verse'
+            type: object
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/internal_api_handler.ErrorResponse'
+      summary: Compare verse across works
+      tags:
+      - text
+  /v1/random-verse:
+    get:
+      description: Returns a random verse with optional filtering by work, book, or
+        testament.
+      parameters:
+      - description: Filter by work code
+        in: query
+        name: work
+        type: string
+      - description: Filter by OSIS book code
+        in: query
+        name: book
+        type: string
+      - description: Filter by testament (OT or NT)
+        in: query
+        name: testament
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/github_com_mbarlow_word_internal_model.Verse'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/internal_api_handler.ErrorResponse'
+        "404":
+          description: Not Found
+          schema:
+            $ref: '#/definitions/internal_api_handler.ErrorResponse'
+      summary: Get a random verse
+      tags:
+      - text
+  /v1/search:
+    get:
+      description: Full-text search across verses, optionally filtered by work.
+      parameters:
+      - description: Search query
+        in: query
+        name: q
+        required: true
+        type: string
+      - description: Filter by work code
+        in: query
+        name: work
+        type: string
+      - description: Max results (1-100, default 50)
+        in: query
+        name: limit
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/internal_api_handler.SearchResponse'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/internal_api_handler.ErrorResponse'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/internal_api_handler.ErrorResponse'
+      summary: Search verses
+      tags:
+      - search
+  /v1/text/{work}/{book}/{chapter}:
+    get:
+      description: Returns all verses for a given work, book, and chapter.
+      parameters:
+      - description: Work code (e.g. kjv, heb-wlc)
+        in: path
+        name: work
+        required: true
+        type: string
+      - description: OSIS book code (e.g. GEN, PSA)
+        in: path
+        name: book
+        required: true
+        type: string
+      - description: Chapter number
+        in: path
+        name: chapter
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/internal_api_handler.ChapterResponse'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/internal_api_handler.ErrorResponse'
+        "404":
+          description: Not Found
+          schema:
+            $ref: '#/definitions/internal_api_handler.ErrorResponse'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/internal_api_handler.ErrorResponse'
+      summary: Get chapter text
+      tags:
+      - text
+  /v1/verse/{work}/{book}/{chapter}/{verse}:
+    get:
+      description: Returns a single verse by work, book, chapter, and verse number.
+      parameters:
+      - description: Work code
+        in: path
+        name: work
+        required: true
+        type: string
+      - description: OSIS book code
+        in: path
+        name: book
+        required: true
+        type: string
+      - description: Chapter number
+        in: path
+        name: chapter
+        required: true
+        type: string
+      - description: Verse number
+        in: path
+        name: verse
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/github_com_mbarlow_word_internal_model.Verse'
+        "404":
+          description: Not Found
+          schema:
+            $ref: '#/definitions/internal_api_handler.ErrorResponse'
+      summary: Get a single verse
+      tags:
+      - text
+  /v1/works:
+    get:
+      description: Returns all Bible works/translations in the database.
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            items:
+              $ref: '#/definitions/github_com_mbarlow_word_internal_model.Work'
+            type: array
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/internal_api_handler.ErrorResponse'
+      summary: List available works
+      tags:
+      - works
+swagger: "2.0"
