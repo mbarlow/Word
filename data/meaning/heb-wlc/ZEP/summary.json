@@ -1,0 +1,841 @@
+{
+  "schemaVersion": "1.0.0",
+  "work": "heb-wlc",
+  "osis": "ZEP",
+  "book": "Zephaniah",
+  "totalTokens": 765,
+  "uniqueRoots": 363,
+  "chapters": 3,
+  "repetitions": [
+    {
+      "root": "3068",
+      "lemma": "3068",
+      "gloss": "LORD (YHWH)",
+      "count": 33,
+      "verses": [
+        "heb-wlc/ZEP/1/1",
+        "heb-wlc/ZEP/1/2",
+        "heb-wlc/ZEP/1/3",
+        "heb-wlc/ZEP/1/5",
+        "heb-wlc/ZEP/1/6",
+        "heb-wlc/ZEP/1/7",
+        "heb-wlc/ZEP/1/8",
+        "heb-wlc/ZEP/1/10",
+        "heb-wlc/ZEP/1/12",
+        "heb-wlc/ZEP/1/14",
+        "heb-wlc/ZEP/1/17",
+        "heb-wlc/ZEP/1/18",
+        "heb-wlc/ZEP/2/2",
+        "heb-wlc/ZEP/2/3",
+        "heb-wlc/ZEP/2/5",
+        "heb-wlc/ZEP/2/7",
+        "heb-wlc/ZEP/2/9",
+        "heb-wlc/ZEP/2/10",
+        "heb-wlc/ZEP/2/11",
+        "heb-wlc/ZEP/3/2",
+        "heb-wlc/ZEP/3/5",
+        "heb-wlc/ZEP/3/8",
+        "heb-wlc/ZEP/3/9",
+        "heb-wlc/ZEP/3/12",
+        "heb-wlc/ZEP/3/15",
+        "heb-wlc/ZEP/3/17",
+        "heb-wlc/ZEP/3/20"
+      ]
+    },
+    {
+      "root": "5921",
+      "lemma": "5921",
+      "gloss": "upon/over (al)",
+      "count": 28,
+      "verses": [
+        "heb-wlc/ZEP/1/2",
+        "heb-wlc/ZEP/1/3",
+        "heb-wlc/ZEP/1/4",
+        "heb-wlc/ZEP/1/5",
+        "heb-wlc/ZEP/1/8",
+        "heb-wlc/ZEP/1/9",
+        "heb-wlc/ZEP/1/12",
+        "heb-wlc/ZEP/1/16",
+        "heb-wlc/ZEP/2/2",
+        "heb-wlc/ZEP/2/5",
+        "heb-wlc/ZEP/2/7",
+        "heb-wlc/ZEP/2/8",
+        "heb-wlc/ZEP/2/10",
+        "heb-wlc/ZEP/2/11",
+        "heb-wlc/ZEP/2/13",
+        "heb-wlc/ZEP/2/15",
+        "heb-wlc/ZEP/3/7",
+        "heb-wlc/ZEP/3/8",
+        "heb-wlc/ZEP/3/17",
+        "heb-wlc/ZEP/3/18"
+      ]
+    },
+    {
+      "root": "3808",
+      "lemma": "3808",
+      "gloss": "not (lo)",
+      "count": 25,
+      "verses": [
+        "heb-wlc/ZEP/1/6",
+        "heb-wlc/ZEP/1/12",
+        "heb-wlc/ZEP/1/13",
+        "heb-wlc/ZEP/1/18",
+        "heb-wlc/ZEP/2/1",
+        "heb-wlc/ZEP/2/2",
+        "heb-wlc/ZEP/3/2",
+        "heb-wlc/ZEP/3/3",
+        "heb-wlc/ZEP/3/5",
+        "heb-wlc/ZEP/3/7",
+        "heb-wlc/ZEP/3/11",
+        "heb-wlc/ZEP/3/13",
+        "heb-wlc/ZEP/3/15"
+      ]
+    },
+    {
+      "root": "3605",
+      "lemma": "3605",
+      "gloss": "all/every (kol)",
+      "count": 23,
+      "verses": [
+        "heb-wlc/ZEP/1/2",
+        "heb-wlc/ZEP/1/4",
+        "heb-wlc/ZEP/1/8",
+        "heb-wlc/ZEP/1/9",
+        "heb-wlc/ZEP/1/11",
+        "heb-wlc/ZEP/1/18",
+        "heb-wlc/ZEP/2/3",
+        "heb-wlc/ZEP/2/11",
+        "heb-wlc/ZEP/2/14",
+        "heb-wlc/ZEP/2/15",
+        "heb-wlc/ZEP/3/7",
+        "heb-wlc/ZEP/3/8",
+        "heb-wlc/ZEP/3/9",
+        "heb-wlc/ZEP/3/11",
+        "heb-wlc/ZEP/3/14",
+        "heb-wlc/ZEP/3/19",
+        "heb-wlc/ZEP/3/20"
+      ]
+    },
+    {
+      "root": "853",
+      "lemma": "853",
+      "gloss": "- (et, object marker)",
+      "count": 22,
+      "verses": [
+        "heb-wlc/ZEP/1/3",
+        "heb-wlc/ZEP/1/4",
+        "heb-wlc/ZEP/1/5",
+        "heb-wlc/ZEP/1/6",
+        "heb-wlc/ZEP/1/12",
+        "heb-wlc/ZEP/1/13",
+        "heb-wlc/ZEP/1/18",
+        "heb-wlc/ZEP/2/3",
+        "heb-wlc/ZEP/2/8",
+        "heb-wlc/ZEP/2/11",
+        "heb-wlc/ZEP/2/13",
+        "heb-wlc/ZEP/3/7",
+        "heb-wlc/ZEP/3/19",
+        "heb-wlc/ZEP/3/20"
+      ]
+    },
+    {
+      "root": "3117",
+      "lemma": "3117",
+      "gloss": "day (yom)",
+      "count": 21,
+      "verses": [
+        "heb-wlc/ZEP/1/1",
+        "heb-wlc/ZEP/1/7",
+        "heb-wlc/ZEP/1/8",
+        "heb-wlc/ZEP/1/9",
+        "heb-wlc/ZEP/1/10",
+        "heb-wlc/ZEP/1/14",
+        "heb-wlc/ZEP/1/15",
+        "heb-wlc/ZEP/1/16",
+        "heb-wlc/ZEP/1/18",
+        "heb-wlc/ZEP/2/2",
+        "heb-wlc/ZEP/2/3",
+        "heb-wlc/ZEP/3/8",
+        "heb-wlc/ZEP/3/11",
+        "heb-wlc/ZEP/3/16"
+      ]
+    },
+    {
+      "root": "3588",
+      "lemma": "3588",
+      "gloss": "that/because (ki)",
+      "count": 17,
+      "verses": [
+        "heb-wlc/ZEP/1/7",
+        "heb-wlc/ZEP/1/11",
+        "heb-wlc/ZEP/1/17",
+        "heb-wlc/ZEP/1/18",
+        "heb-wlc/ZEP/2/4",
+        "heb-wlc/ZEP/2/7",
+        "heb-wlc/ZEP/2/9",
+        "heb-wlc/ZEP/2/10",
+        "heb-wlc/ZEP/2/11",
+        "heb-wlc/ZEP/2/14",
+        "heb-wlc/ZEP/3/8",
+        "heb-wlc/ZEP/3/9",
+        "heb-wlc/ZEP/3/11",
+        "heb-wlc/ZEP/3/13",
+        "heb-wlc/ZEP/3/20"
+      ]
+    },
+    {
+      "root": "1961",
+      "lemma": "1961",
+      "gloss": "be/become (hayah)",
+      "count": 11,
+      "verses": [
+        "heb-wlc/ZEP/1/1",
+        "heb-wlc/ZEP/1/8",
+        "heb-wlc/ZEP/1/10",
+        "heb-wlc/ZEP/1/12",
+        "heb-wlc/ZEP/1/13",
+        "heb-wlc/ZEP/2/4",
+        "heb-wlc/ZEP/2/6",
+        "heb-wlc/ZEP/2/7",
+        "heb-wlc/ZEP/2/9",
+        "heb-wlc/ZEP/2/15",
+        "heb-wlc/ZEP/3/18"
+      ]
+    },
+    {
+      "root": "3427",
+      "lemma": "3427",
+      "gloss": "sit/dwell (yashav)",
+      "count": 8,
+      "verses": [
+        "heb-wlc/ZEP/1/4",
+        "heb-wlc/ZEP/1/11",
+        "heb-wlc/ZEP/1/13",
+        "heb-wlc/ZEP/1/18",
+        "heb-wlc/ZEP/2/5",
+        "heb-wlc/ZEP/2/15",
+        "heb-wlc/ZEP/3/6"
+      ]
+    },
+    {
+      "root": "1121",
+      "lemma": "1121",
+      "gloss": "son (ben)",
+      "count": 8,
+      "verses": [
+        "heb-wlc/ZEP/1/1",
+        "heb-wlc/ZEP/1/8",
+        "heb-wlc/ZEP/2/8",
+        "heb-wlc/ZEP/2/9"
+      ]
+    },
+    {
+      "root": "776",
+      "lemma": "776",
+      "gloss": "earth/land (eretz)",
+      "count": 8,
+      "verses": [
+        "heb-wlc/ZEP/1/18",
+        "heb-wlc/ZEP/2/3",
+        "heb-wlc/ZEP/2/5",
+        "heb-wlc/ZEP/2/11",
+        "heb-wlc/ZEP/3/8",
+        "heb-wlc/ZEP/3/19",
+        "heb-wlc/ZEP/3/20"
+      ]
+    },
+    {
+      "root": "1471",
+      "lemma": "1471",
+      "gloss": "",
+      "count": 8,
+      "verses": [
+        "heb-wlc/ZEP/2/1",
+        "heb-wlc/ZEP/2/5",
+        "heb-wlc/ZEP/2/9",
+        "heb-wlc/ZEP/2/11",
+        "heb-wlc/ZEP/2/14",
+        "heb-wlc/ZEP/3/6",
+        "heb-wlc/ZEP/3/8"
+      ]
+    },
+    {
+      "root": "1931",
+      "lemma": "1931",
+      "gloss": "he/she/it (hu)",
+      "count": 8,
+      "verses": [
+        "heb-wlc/ZEP/1/9",
+        "heb-wlc/ZEP/1/10",
+        "heb-wlc/ZEP/1/12",
+        "heb-wlc/ZEP/1/15",
+        "heb-wlc/ZEP/3/11",
+        "heb-wlc/ZEP/3/16",
+        "heb-wlc/ZEP/3/19",
+        "heb-wlc/ZEP/3/20"
+      ]
+    },
+    {
+      "root": "5971",
+      "lemma": "5971",
+      "gloss": "people (am)",
+      "count": 7,
+      "verses": [
+        "heb-wlc/ZEP/1/11",
+        "heb-wlc/ZEP/2/8",
+        "heb-wlc/ZEP/2/9",
+        "heb-wlc/ZEP/2/10",
+        "heb-wlc/ZEP/3/9",
+        "heb-wlc/ZEP/3/12",
+        "heb-wlc/ZEP/3/20"
+      ]
+    },
+    {
+      "root": "834",
+      "lemma": "834",
+      "gloss": "which/who (asher)",
+      "count": 6,
+      "verses": [
+        "heb-wlc/ZEP/1/1",
+        "heb-wlc/ZEP/1/6",
+        "heb-wlc/ZEP/2/3",
+        "heb-wlc/ZEP/2/8",
+        "heb-wlc/ZEP/3/7",
+        "heb-wlc/ZEP/3/11"
+      ]
+    },
+    {
+      "root": "7130",
+      "lemma": "7130",
+      "gloss": "",
+      "count": 6,
+      "verses": [
+        "heb-wlc/ZEP/3/3",
+        "heb-wlc/ZEP/3/5",
+        "heb-wlc/ZEP/3/11",
+        "heb-wlc/ZEP/3/12",
+        "heb-wlc/ZEP/3/15",
+        "heb-wlc/ZEP/3/17"
+      ]
+    },
+    {
+      "root": "6485",
+      "lemma": "6485",
+      "gloss": "",
+      "count": 5,
+      "verses": [
+        "heb-wlc/ZEP/1/8",
+        "heb-wlc/ZEP/1/9",
+        "heb-wlc/ZEP/1/12",
+        "heb-wlc/ZEP/2/7",
+        "heb-wlc/ZEP/3/7"
+      ]
+    },
+    {
+      "root": "430",
+      "lemma": "430",
+      "gloss": "God (Elohim)",
+      "count": 5,
+      "verses": [
+        "heb-wlc/ZEP/2/7",
+        "heb-wlc/ZEP/2/9",
+        "heb-wlc/ZEP/2/11",
+        "heb-wlc/ZEP/3/2",
+        "heb-wlc/ZEP/3/17"
+      ]
+    },
+    {
+      "root": "8034",
+      "lemma": "8034",
+      "gloss": "name (shem)",
+      "count": 5,
+      "verses": [
+        "heb-wlc/ZEP/1/4",
+        "heb-wlc/ZEP/3/9",
+        "heb-wlc/ZEP/3/12",
+        "heb-wlc/ZEP/3/19",
+        "heb-wlc/ZEP/3/20"
+      ]
+    },
+    {
+      "root": "5002",
+      "lemma": "5002",
+      "gloss": "declares/oracle (neum)",
+      "count": 5,
+      "verses": [
+        "heb-wlc/ZEP/1/2",
+        "heb-wlc/ZEP/1/3",
+        "heb-wlc/ZEP/1/10",
+        "heb-wlc/ZEP/2/9",
+        "heb-wlc/ZEP/3/8"
+      ]
+    },
+    {
+      "root": "622",
+      "lemma": "622",
+      "gloss": "",
+      "count": 5,
+      "verses": [
+        "heb-wlc/ZEP/1/2",
+        "heb-wlc/ZEP/1/3",
+        "heb-wlc/ZEP/3/8",
+        "heb-wlc/ZEP/3/18"
+      ]
+    },
+    {
+      "root": "1004",
+      "lemma": "1004",
+      "gloss": "house (bayit)",
+      "count": 5,
+      "verses": [
+        "heb-wlc/ZEP/1/9",
+        "heb-wlc/ZEP/1/13",
+        "heb-wlc/ZEP/2/7"
+      ]
+    },
+    {
+      "root": "559",
+      "lemma": "559",
+      "gloss": "say (amar)",
+      "count": 5,
+      "verses": [
+        "heb-wlc/ZEP/1/12",
+        "heb-wlc/ZEP/2/15",
+        "heb-wlc/ZEP/3/7",
+        "heb-wlc/ZEP/3/16",
+        "heb-wlc/ZEP/3/20"
+      ]
+    },
+    {
+      "root": "3772",
+      "lemma": "3772",
+      "gloss": "",
+      "count": 5,
+      "verses": [
+        "heb-wlc/ZEP/1/3",
+        "heb-wlc/ZEP/1/4",
+        "heb-wlc/ZEP/1/11",
+        "heb-wlc/ZEP/3/6",
+        "heb-wlc/ZEP/3/7"
+      ]
+    },
+    {
+      "root": "1571",
+      "lemma": "1571",
+      "gloss": "also/even (gam)",
+      "count": 5,
+      "verses": [
+        "heb-wlc/ZEP/1/18",
+        "heb-wlc/ZEP/2/12",
+        "heb-wlc/ZEP/2/14"
+      ]
+    },
+    {
+      "root": "1245",
+      "lemma": "1245",
+      "gloss": "",
+      "count": 4,
+      "verses": [
+        "heb-wlc/ZEP/1/6",
+        "heb-wlc/ZEP/2/3"
+      ]
+    },
+    {
+      "root": "4941",
+      "lemma": "4941",
+      "gloss": "justice (mishpat)",
+      "count": 4,
+      "verses": [
+        "heb-wlc/ZEP/2/3",
+        "heb-wlc/ZEP/3/5",
+        "heb-wlc/ZEP/3/8",
+        "heb-wlc/ZEP/3/15"
+      ]
+    },
+    {
+      "root": "3389",
+      "lemma": "3389",
+      "gloss": "",
+      "count": 4,
+      "verses": [
+        "heb-wlc/ZEP/1/4",
+        "heb-wlc/ZEP/1/12",
+        "heb-wlc/ZEP/3/14",
+        "heb-wlc/ZEP/3/16"
+      ]
+    },
+    {
+      "root": "5892",
+      "lemma": "5892",
+      "gloss": "city (ir)",
+      "count": 4,
+      "verses": [
+        "heb-wlc/ZEP/1/16",
+        "heb-wlc/ZEP/2/15",
+        "heb-wlc/ZEP/3/1",
+        "heb-wlc/ZEP/3/6"
+      ]
+    },
+    {
+      "root": "6963",
+      "lemma": "6963",
+      "gloss": "",
+      "count": 4,
+      "verses": [
+        "heb-wlc/ZEP/1/10",
+        "heb-wlc/ZEP/1/14",
+        "heb-wlc/ZEP/2/14",
+        "heb-wlc/ZEP/3/2"
+      ]
+    },
+    {
+      "root": "3027",
+      "lemma": "3027",
+      "gloss": "hand (yad)",
+      "count": 4,
+      "verses": [
+        "heb-wlc/ZEP/1/4",
+        "heb-wlc/ZEP/2/13",
+        "heb-wlc/ZEP/2/15",
+        "heb-wlc/ZEP/3/16"
+      ]
+    },
+    {
+      "root": "639",
+      "lemma": "639",
+      "gloss": "",
+      "count": 4,
+      "verses": [
+        "heb-wlc/ZEP/2/2",
+        "heb-wlc/ZEP/2/3",
+        "heb-wlc/ZEP/3/8"
+      ]
+    },
+    {
+      "root": "6213",
+      "lemma": "6213",
+      "gloss": "do/make (asah)",
+      "count": 4,
+      "verses": [
+        "heb-wlc/ZEP/1/18",
+        "heb-wlc/ZEP/3/5",
+        "heb-wlc/ZEP/3/13",
+        "heb-wlc/ZEP/3/19"
+      ]
+    },
+    {
+      "root": "3372",
+      "lemma": "3372",
+      "gloss": "",
+      "count": 4,
+      "verses": [
+        "heb-wlc/ZEP/2/11",
+        "heb-wlc/ZEP/3/7",
+        "heb-wlc/ZEP/3/15",
+        "heb-wlc/ZEP/3/16"
+      ]
+    },
+    {
+      "root": "3478",
+      "lemma": "3478",
+      "gloss": "Israel (yisrael)",
+      "count": 4,
+      "verses": [
+        "heb-wlc/ZEP/2/9",
+        "heb-wlc/ZEP/3/13",
+        "heb-wlc/ZEP/3/14",
+        "heb-wlc/ZEP/3/15"
+      ]
+    },
+    {
+      "root": "6256",
+      "lemma": "6256",
+      "gloss": "time (et)",
+      "count": 4,
+      "verses": [
+        "heb-wlc/ZEP/1/12",
+        "heb-wlc/ZEP/3/19",
+        "heb-wlc/ZEP/3/20"
+      ]
+    },
+    {
+      "root": "8077",
+      "lemma": "8077",
+      "gloss": "",
+      "count": 4,
+      "verses": [
+        "heb-wlc/ZEP/1/13",
+        "heb-wlc/ZEP/2/4",
+        "heb-wlc/ZEP/2/9",
+        "heb-wlc/ZEP/2/13"
+      ]
+    },
+    {
+      "root": "376",
+      "lemma": "376",
+      "gloss": "man (ish)",
+      "count": 4,
+      "verses": [
+        "heb-wlc/ZEP/1/12",
+        "heb-wlc/ZEP/2/11",
+        "heb-wlc/ZEP/3/4",
+        "heb-wlc/ZEP/3/6"
+      ]
+    },
+    {
+      "root": "413",
+      "lemma": "413",
+      "gloss": "to/toward (el)",
+      "count": 3,
+      "verses": [
+        "heb-wlc/ZEP/1/1",
+        "heb-wlc/ZEP/3/2",
+        "heb-wlc/ZEP/3/9"
+      ]
+    },
+    {
+      "root": "5674",
+      "lemma": "5674",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/ZEP/2/2",
+        "heb-wlc/ZEP/2/15",
+        "heb-wlc/ZEP/3/6"
+      ]
+    },
+    {
+      "root": "3063",
+      "lemma": "3063",
+      "gloss": "Judah (yehudah)",
+      "count": 3,
+      "verses": [
+        "heb-wlc/ZEP/1/1",
+        "heb-wlc/ZEP/1/4",
+        "heb-wlc/ZEP/2/7"
+      ]
+    },
+    {
+      "root": "6908",
+      "lemma": "6908",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/ZEP/3/8",
+        "heb-wlc/ZEP/3/19",
+        "heb-wlc/ZEP/3/20"
+      ]
+    },
+    {
+      "root": "6440",
+      "lemma": "6440",
+      "gloss": "face (panim)",
+      "count": 3,
+      "verses": [
+        "heb-wlc/ZEP/1/2",
+        "heb-wlc/ZEP/1/3",
+        "heb-wlc/ZEP/1/7"
+      ]
+    },
+    {
+      "root": "7622",
+      "lemma": "7622",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/ZEP/2/7",
+        "heb-wlc/ZEP/3/20"
+      ]
+    },
+    {
+      "root": "369",
+      "lemma": "369",
+      "gloss": "nothing/none (ayin)",
+      "count": 3,
+      "verses": [
+        "heb-wlc/ZEP/2/5",
+        "heb-wlc/ZEP/3/6",
+        "heb-wlc/ZEP/3/13"
+      ]
+    },
+    {
+      "root": "7462",
+      "lemma": "7462",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/ZEP/2/6",
+        "heb-wlc/ZEP/2/7",
+        "heb-wlc/ZEP/3/13"
+      ]
+    },
+    {
+      "root": "2416",
+      "lemma": "2416",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/ZEP/2/9",
+        "heb-wlc/ZEP/2/14",
+        "heb-wlc/ZEP/2/15"
+      ]
+    },
+    {
+      "root": "7257",
+      "lemma": "7257",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/ZEP/2/7",
+        "heb-wlc/ZEP/2/14",
+        "heb-wlc/ZEP/3/13"
+      ]
+    },
+    {
+      "root": "1323",
+      "lemma": "1323",
+      "gloss": "daughter (bat)",
+      "count": 3,
+      "verses": [
+        "heb-wlc/ZEP/3/10",
+        "heb-wlc/ZEP/3/14"
+      ]
+    },
+    {
+      "root": "3220",
+      "lemma": "3220",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/ZEP/1/3",
+        "heb-wlc/ZEP/2/5",
+        "heb-wlc/ZEP/2/6"
+      ]
+    },
+    {
+      "root": "4428",
+      "lemma": "4428",
+      "gloss": "king (melek)",
+      "count": 3,
+      "verses": [
+        "heb-wlc/ZEP/1/1",
+        "heb-wlc/ZEP/1/8",
+        "heb-wlc/ZEP/3/15"
+      ]
+    },
+    {
+      "root": "4480",
+      "lemma": "4480",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/ZEP/1/4",
+        "heb-wlc/ZEP/1/10",
+        "heb-wlc/ZEP/3/18"
+      ]
+    },
+    {
+      "root": "7138",
+      "lemma": "7138",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/ZEP/1/7",
+        "heb-wlc/ZEP/1/14"
+      ]
+    },
+    {
+      "root": "2962",
+      "lemma": "2962",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/ZEP/2/2"
+      ]
+    },
+    {
+      "root": "935",
+      "lemma": "935",
+      "gloss": "come/go (bo)",
+      "count": 3,
+      "verses": [
+        "heb-wlc/ZEP/2/2",
+        "heb-wlc/ZEP/3/20"
+      ]
+    },
+    {
+      "root": "2256",
+      "lemma": "2256",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/ZEP/2/5",
+        "heb-wlc/ZEP/2/6",
+        "heb-wlc/ZEP/2/7"
+      ]
+    },
+    {
+      "root": "6635",
+      "lemma": "6635",
+      "gloss": "hosts/armies (tsvaot)",
+      "count": 3,
+      "verses": [
+        "heb-wlc/ZEP/1/5",
+        "heb-wlc/ZEP/2/9",
+        "heb-wlc/ZEP/2/10"
+      ]
+    },
+    {
+      "root": "7812",
+      "lemma": "7812",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/ZEP/1/5",
+        "heb-wlc/ZEP/2/11"
+      ]
+    },
+    {
+      "root": "5750",
+      "lemma": "5750",
+      "gloss": "yet/still (od)",
+      "count": 3,
+      "verses": [
+        "heb-wlc/ZEP/2/15",
+        "heb-wlc/ZEP/3/11",
+        "heb-wlc/ZEP/3/15"
+      ]
+    },
+    {
+      "root": "1242",
+      "lemma": "1242",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/ZEP/3/3",
+        "heb-wlc/ZEP/3/5"
+      ]
+    },
+    {
+      "root": "120",
+      "lemma": "120",
+      "gloss": "man/human (adam)",
+      "count": 3,
+      "verses": [
+        "heb-wlc/ZEP/1/3",
+        "heb-wlc/ZEP/1/17"
+      ]
+    },
+    {
+      "root": "7611",
+      "lemma": "7611",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/ZEP/2/7",
+        "heb-wlc/ZEP/2/9",
+        "heb-wlc/ZEP/3/13"
+      ]
+    }
+  ]
+}

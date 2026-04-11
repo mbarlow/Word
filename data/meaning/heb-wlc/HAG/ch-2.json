@@ -1,0 +1,5133 @@
+{
+  "schemaVersion": "1.0.0",
+  "work": "heb-wlc",
+  "osis": "HAG",
+  "book": "Haggai",
+  "chapter": 2,
+  "verses": [
+    {
+      "verseId": "heb-wlc/HAG/2/1",
+      "chapter": 2,
+      "verse": 1,
+      "tokens": [
+        {
+          "position": 0,
+          "hebrew": "בַּ/שְּׁבִיעִ֕י",
+          "lemma": "7637",
+          "root": "7637",
+          "pos": "R",
+          "morph": "HRd/Aomsa",
+          "weight": 0.3,
+          "repCount": 1
+        },
+        {
+          "position": 1,
+          "hebrew": "בְּ/עֶשְׂרִ֥ים",
+          "lemma": "6242",
+          "root": "6242",
+          "pos": "R",
+          "morph": "HR/Acbpa",
+          "weight": 0.5245883937646083,
+          "repCount": 7
+        },
+        {
+          "position": 2,
+          "hebrew": "וְ/אֶחָ֖ד",
+          "lemma": "259",
+          "root": "259",
+          "pos": "C",
+          "morph": "HC/Acmsa",
+          "weight": 0.4267970000576925,
+          "repCount": 3
+        },
+        {
+          "position": 3,
+          "hebrew": "לַ/חֹ֑דֶשׁ",
+          "lemma": "2320",
+          "root": "2320",
+          "pos": "R",
+          "morph": "HRd/Ncmsa",
+          "weight": 0.48575424759098895,
+          "repCount": 5
+        },
+        {
+          "position": 4,
+          "hebrew": "הָיָה֙",
+          "lemma": "1961",
+          "root": "1961",
+          "pos": "V",
+          "morph": "HVqp3ms",
+          "tags": [
+            "action"
+          ],
+          "weight": 0.6535940001153849,
+          "repCount": 9
+        },
+        {
+          "position": 5,
+          "hebrew": "דְּבַר",
+          "lemma": "1697",
+          "root": "1697",
+          "pos": "N",
+          "morph": "HNcmsc",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.6245883937646083,
+          "repCount": 7
+        },
+        {
+          "position": 6,
+          "hebrew": "יְהוָ֔ה",
+          "lemma": "3068",
+          "root": "3068",
+          "pos": "N",
+          "morph": "HNp",
+          "tags": [
+            "divine",
+            "LORD",
+            "covenant-name",
+            "entity"
+          ],
+          "weight": 0.9999999999999999,
+          "repCount": 35
+        },
+        {
+          "position": 7,
+          "hebrew": "בְּ/יַד",
+          "lemma": "3027",
+          "root": "3027",
+          "pos": "R",
+          "morph": "HR/Ncbsc",
+          "weight": 0.48575424759098895,
+          "repCount": 5
+        },
+        {
+          "position": 8,
+          "hebrew": "חַגַּ֥י",
+          "lemma": "2292",
+          "root": "2292",
+          "pos": "N",
+          "morph": "HNp",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.6535940001153849,
+          "repCount": 9
+        },
+        {
+          "position": 9,
+          "hebrew": "הַ/נָּבִ֖יא",
+          "lemma": "5030",
+          "root": "5030",
+          "pos": "T",
+          "morph": "HTd/Ncmsa",
+          "weight": 0.48575424759098895,
+          "repCount": 5
+        },
+        {
+          "position": 10,
+          "hebrew": "לֵ/אמֹֽר",
+          "lemma": "559",
+          "root": "559",
+          "pos": "R",
+          "morph": "HR/Vqc",
+          "weight": 0.6760351774512874,
+          "repCount": 26
+        }
+      ]
+    },
+    {
+      "verseId": "heb-wlc/HAG/2/2",
+      "chapter": 2,
+      "verse": 2,
+      "tokens": [
+        {
+          "position": 0,
+          "hebrew": "אֱמָר",
+          "lemma": "559",
+          "root": "559",
+          "pos": "V",
+          "morph": "HVqv2ms",
+          "tags": [
+            "action"
+          ],
+          "weight": 0.7760351774512874,
+          "repCount": 26
+        },
+        {
+          "position": 1,
+          "hebrew": "נָ֗א",
+          "lemma": "4994",
+          "root": "4994",
+          "pos": "T",
+          "morph": "HTe",
+          "weight": 0.45999999999999996,
+          "repCount": 4
+        },
+        {
+          "position": 2,
+          "hebrew": "אֶל",
+          "lemma": "413",
+          "root": "413",
+          "pos": "R",
+          "morph": "HR",
+          "weight": 0.6398342010754868,
+          "repCount": 19
+        },
+        {
+          "position": 3,
+          "hebrew": "זְרֻבָּבֶ֤ל",
+          "lemma": "2216",
+          "root": "2216",
+          "pos": "N",
+          "morph": "HNp",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.6245883937646083,
+          "repCount": 7
+        },
+        {
+          "position": 4,
+          "hebrew": "בֶּן",
+          "lemma": "1121",
+          "root": "1121",
+          "pos": "N",
+          "morph": "HNcmsc",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.6657542475909889,
+          "repCount": 10
+        },
+        {
+          "position": 5,
+          "hebrew": "שַׁלְתִּיאֵל֙",
+          "lemma": "7597",
+          "root": "7597",
+          "pos": "N",
+          "morph": "HNp",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.5857542475909889,
+          "repCount": 5
+        },
+        {
+          "position": 6,
+          "hebrew": "פַּחַ֣ת",
+          "lemma": "6346",
+          "root": "6346",
+          "pos": "N",
+          "morph": "HNcmsc",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.5599999999999999,
+          "repCount": 4
+        },
+        {
+          "position": 7,
+          "hebrew": "יְהוּדָ֔ה",
+          "lemma": "3063",
+          "root": "3063",
+          "pos": "N",
+          "morph": "HNp",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.5599999999999999,
+          "repCount": 4
+        },
+        {
+          "position": 8,
+          "hebrew": "וְ/אֶל",
+          "lemma": "413",
+          "root": "413",
+          "pos": "C",
+          "morph": "HC/R",
+          "weight": 0.6398342010754868,
+          "repCount": 19
+        },
+        {
+          "position": 9,
+          "hebrew": "יְהוֹשֻׁ֥עַ",
+          "lemma": "3091",
+          "root": "3091",
+          "pos": "N",
+          "morph": "HNp",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.5857542475909889,
+          "repCount": 5
+        },
+        {
+          "position": 10,
+          "hebrew": "בֶּן",
+          "lemma": "1121",
+          "root": "1121",
+          "pos": "N",
+          "morph": "HNcmsc",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.6657542475909889,
+          "repCount": 10
+        },
+        {
+          "position": 11,
+          "hebrew": "יְהוֹצָדָ֖ק",
+          "lemma": "3087",
+          "root": "3087",
+          "pos": "N",
+          "morph": "HNp",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.5857542475909889,
+          "repCount": 5
+        },
+        {
+          "position": 12,
+          "hebrew": "הַ/כֹּהֵ֣ן",
+          "lemma": "3548",
+          "root": "3548",
+          "pos": "T",
+          "morph": "HTd/Ncmsa",
+          "weight": 0.54,
+          "repCount": 8
+        },
+        {
+          "position": 13,
+          "hebrew": "הַ/גָּד֑וֹל",
+          "lemma": "1419",
+          "root": "1419",
+          "pos": "T",
+          "morph": "HTd/Aamsa",
+          "weight": 0.5067970000576925,
+          "repCount": 6
+        },
+        {
+          "position": 14,
+          "hebrew": "וְ/אֶל",
+          "lemma": "413",
+          "root": "413",
+          "pos": "C",
+          "morph": "HC/R",
+          "weight": 0.6398342010754868,
+          "repCount": 19
+        },
+        {
+          "position": 15,
+          "hebrew": "שְׁאֵרִ֥ית",
+          "lemma": "7611",
+          "root": "7611",
+          "pos": "N",
+          "morph": "HNcfsc",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.5267970000576925,
+          "repCount": 3
+        },
+        {
+          "position": 16,
+          "hebrew": "הָ/עָ֖ם",
+          "lemma": "5971",
+          "root": "5971",
+          "pos": "T",
+          "morph": "HTd/Ncmsa",
+          "weight": 0.54,
+          "repCount": 8
+        },
+        {
+          "position": 17,
+          "hebrew": "לֵ/אמֹֽר",
+          "lemma": "559",
+          "root": "559",
+          "pos": "R",
+          "morph": "HR/Vqc",
+          "weight": 0.6760351774512874,
+          "repCount": 26
+        }
+      ]
+    },
+    {
+      "verseId": "heb-wlc/HAG/2/3",
+      "chapter": 2,
+      "verse": 3,
+      "tokens": [
+        {
+          "position": 0,
+          "hebrew": "מִ֤י",
+          "lemma": "4310",
+          "root": "4310",
+          "pos": "T",
+          "morph": "HTi",
+          "weight": 0.3,
+          "repCount": 1
+        },
+        {
+          "position": 1,
+          "hebrew": "בָ/כֶם֙",
+          "lemma": "",
+          "root": "",
+          "pos": "R",
+          "morph": "HR/Sp2mp",
+          "weight": 0.3,
+          "repCount": 0
+        },
+        {
+          "position": 2,
+          "hebrew": "הַ/נִּשְׁאָ֔ר",
+          "lemma": "7604",
+          "root": "7604",
+          "pos": "T",
+          "morph": "HTd/VNrmsa",
+          "weight": 0.3,
+          "repCount": 1
+        },
+        {
+          "position": 3,
+          "hebrew": "אֲשֶׁ֤ר",
+          "lemma": "834",
+          "root": "834",
+          "pos": "T",
+          "morph": "HTr",
+          "weight": 0.5067970000576925,
+          "repCount": 6
+        },
+        {
+          "position": 4,
+          "hebrew": "רָאָה֙",
+          "lemma": "7200",
+          "root": "7200",
+          "pos": "V",
+          "morph": "HVqp3ms",
+          "tags": [
+            "action"
+          ],
+          "weight": 0.48,
+          "repCount": 2
+        },
+        {
+          "position": 5,
+          "hebrew": "אֶת",
+          "lemma": "853",
+          "root": "853",
+          "pos": "T",
+          "morph": "HTo",
+          "weight": 0.633594000115385,
+          "repCount": 18
+        },
+        {
+          "position": 6,
+          "hebrew": "הַ/בַּ֣יִת",
+          "lemma": "1004",
+          "root": "1004",
+          "pos": "T",
+          "morph": "HTd/Ncmsa",
+          "weight": 0.5767545294909837,
+          "repCount": 11
+        },
+        {
+          "position": 7,
+          "hebrew": "הַ/זֶּ֔ה",
+          "lemma": "2088",
+          "root": "2088",
+          "pos": "T",
+          "morph": "HTd/Pdxms",
+          "weight": 0.5767545294909837,
+          "repCount": 11
+        },
+        {
+          "position": 8,
+          "hebrew": "בִּ/כְבוֹד֖/וֹ",
+          "lemma": "3519",
+          "root": "3519",
+          "pos": "R",
+          "morph": "HR/Ncbsc/Sp3ms",
+          "weight": 0.4267970000576925,
+          "repCount": 3
+        },
+        {
+          "position": 9,
+          "hebrew": "הָ/רִאשׁ֑וֹן",
+          "lemma": "7223",
+          "root": "7223",
+          "pos": "T",
+          "morph": "HTd/Aomsa",
+          "weight": 0.38,
+          "repCount": 2
+        },
+        {
+          "position": 10,
+          "hebrew": "וּ/מָ֨ה",
+          "lemma": "4100",
+          "root": "4100",
+          "pos": "C",
+          "morph": "HC/Ti",
+          "weight": 0.38,
+          "repCount": 2
+        },
+        {
+          "position": 11,
+          "hebrew": "אַתֶּ֜ם",
+          "lemma": "859",
+          "root": "859",
+          "pos": "P",
+          "morph": "HPp2mp",
+          "weight": 0.4267970000576925,
+          "repCount": 3
+        },
+        {
+          "position": 12,
+          "hebrew": "רֹאִ֤ים",
+          "lemma": "7200",
+          "root": "7200",
+          "pos": "V",
+          "morph": "HVqrmpa",
+          "tags": [
+            "action"
+          ],
+          "weight": 0.48,
+          "repCount": 2
+        },
+        {
+          "position": 13,
+          "hebrew": "אֹת/וֹ֙",
+          "lemma": "853",
+          "root": "853",
+          "pos": "T",
+          "morph": "HTo/Sp3ms",
+          "weight": 0.633594000115385,
+          "repCount": 18
+        },
+        {
+          "position": 14,
+          "hebrew": "עַ֔תָּה",
+          "lemma": "6258",
+          "root": "6258",
+          "pos": "D",
+          "morph": "HD",
+          "weight": 0.45999999999999996,
+          "repCount": 4
+        },
+        {
+          "position": 15,
+          "hebrew": "הֲ/ל֥וֹא",
+          "lemma": "i/3808",
+          "root": "i/3808",
+          "pos": "T",
+          "morph": "HTi/Tn",
+          "weight": 0.3,
+          "repCount": 1
+        },
+        {
+          "position": 16,
+          "hebrew": "כָמֹ֛/הוּ",
+          "lemma": "3644",
+          "root": "3644",
+          "pos": "R",
+          "morph": "HR/Sp3ms",
+          "weight": 0.3,
+          "repCount": 1
+        },
+        {
+          "position": 17,
+          "hebrew": "כְּ/אַ֖יִן",
+          "lemma": "k/369",
+          "root": "k/369",
+          "pos": "R",
+          "morph": "HR/Tn",
+          "weight": 0.3,
+          "repCount": 1
+        },
+        {
+          "position": 18,
+          "hebrew": "בְּ/עֵינֵי/כֶֽם",
+          "lemma": "5869",
+          "root": "5869",
+          "pos": "R",
+          "morph": "HR/Ncbdc/Sp2mp",
+          "weight": 0.3,
+          "repCount": 1
+        }
+      ]
+    },
+    {
+      "verseId": "heb-wlc/HAG/2/4",
+      "chapter": 2,
+      "verse": 4,
+      "tokens": [
+        {
+          "position": 0,
+          "hebrew": "וְ/עַתָּ֣ה",
+          "lemma": "6258",
+          "root": "6258",
+          "pos": "C",
+          "morph": "HC/D",
+          "weight": 0.45999999999999996,
+          "repCount": 4
+        },
+        {
+          "position": 1,
+          "hebrew": "חֲזַ֣ק",
+          "lemma": "2388",
+          "root": "2388",
+          "pos": "V",
+          "morph": "HVqv2ms",
+          "tags": [
+            "action"
+          ],
+          "weight": 0.5267970000576925,
+          "repCount": 3
+        },
+        {
+          "position": 2,
+          "hebrew": "זְרֻבָּבֶ֣ל",
+          "lemma": "2216",
+          "root": "2216",
+          "pos": "N",
+          "morph": "HNp",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.6245883937646083,
+          "repCount": 7
+        },
+        {
+          "position": 3,
+          "hebrew": "נְאֻם",
+          "lemma": "5002",
+          "root": "5002",
+          "pos": "N",
+          "morph": "HNcmsc",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.6867970000576925,
+          "repCount": 12
+        },
+        {
+          "position": 4,
+          "hebrew": "יְהוָ֡ה",
+          "lemma": "3068",
+          "root": "3068",
+          "pos": "N",
+          "morph": "HNp",
+          "tags": [
+            "divine",
+            "LORD",
+            "covenant-name",
+            "entity"
+          ],
+          "weight": 0.9999999999999999,
+          "repCount": 35
+        },
+        {
+          "position": 5,
+          "hebrew": "וַ/חֲזַ֣ק",
+          "lemma": "2388",
+          "root": "2388",
+          "pos": "C",
+          "morph": "HC/Vqv2ms",
+          "weight": 0.4267970000576925,
+          "repCount": 3
+        },
+        {
+          "position": 6,
+          "hebrew": "יְהוֹשֻׁ֣עַ",
+          "lemma": "3091",
+          "root": "3091",
+          "pos": "N",
+          "morph": "HNp",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.5857542475909889,
+          "repCount": 5
+        },
+        {
+          "position": 7,
+          "hebrew": "בֶּן",
+          "lemma": "1121",
+          "root": "1121",
+          "pos": "N",
+          "morph": "HNcmsc",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.6657542475909889,
+          "repCount": 10
+        },
+        {
+          "position": 8,
+          "hebrew": "יְהוֹצָדָק֩",
+          "lemma": "3087",
+          "root": "3087",
+          "pos": "N",
+          "morph": "HNp",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.5857542475909889,
+          "repCount": 5
+        },
+        {
+          "position": 9,
+          "hebrew": "הַ/כֹּהֵ֨ן",
+          "lemma": "3548",
+          "root": "3548",
+          "pos": "T",
+          "morph": "HTd/Ncmsa",
+          "weight": 0.54,
+          "repCount": 8
+        },
+        {
+          "position": 10,
+          "hebrew": "הַ/גָּד֜וֹל",
+          "lemma": "1419",
+          "root": "1419",
+          "pos": "T",
+          "morph": "HTd/Aamsa",
+          "weight": 0.5067970000576925,
+          "repCount": 6
+        },
+        {
+          "position": 11,
+          "hebrew": "וַ/חֲזַ֨ק",
+          "lemma": "2388",
+          "root": "2388",
+          "pos": "C",
+          "morph": "HC/Vqv2ms",
+          "weight": 0.4267970000576925,
+          "repCount": 3
+        },
+        {
+          "position": 12,
+          "hebrew": "כָּל",
+          "lemma": "3605",
+          "root": "3605",
+          "pos": "N",
+          "morph": "HNcmsc",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.6657542475909889,
+          "repCount": 10
+        },
+        {
+          "position": 13,
+          "hebrew": "עַ֥ם",
+          "lemma": "5971",
+          "root": "5971",
+          "pos": "N",
+          "morph": "HNcmsc",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.64,
+          "repCount": 8
+        },
+        {
+          "position": 14,
+          "hebrew": "הָ/אָ֛רֶץ",
+          "lemma": "776",
+          "root": "776",
+          "pos": "T",
+          "morph": "HTd/Ncbsa",
+          "weight": 0.48575424759098895,
+          "repCount": 5
+        },
+        {
+          "position": 15,
+          "hebrew": "נְאֻם",
+          "lemma": "5002",
+          "root": "5002",
+          "pos": "N",
+          "morph": "HNcmsc",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.6867970000576925,
+          "repCount": 12
+        },
+        {
+          "position": 16,
+          "hebrew": "יְהוָ֖ה",
+          "lemma": "3068",
+          "root": "3068",
+          "pos": "N",
+          "morph": "HNp",
+          "tags": [
+            "divine",
+            "LORD",
+            "covenant-name",
+            "entity"
+          ],
+          "weight": 0.9999999999999999,
+          "repCount": 35
+        },
+        {
+          "position": 17,
+          "hebrew": "וַֽ/עֲשׂ֑וּ",
+          "lemma": "6213",
+          "root": "6213",
+          "pos": "C",
+          "morph": "HC/Vqv2mp",
+          "weight": 0.38,
+          "repCount": 2
+        },
+        {
+          "position": 18,
+          "hebrew": "כִּֽי",
+          "lemma": "3588",
+          "root": "3588",
+          "pos": "C",
+          "morph": "HC",
+          "weight": 0.4267970000576925,
+          "repCount": 3
+        },
+        {
+          "position": 19,
+          "hebrew": "אֲנִ֣י",
+          "lemma": "589",
+          "root": "589",
+          "pos": "P",
+          "morph": "HPp1cs",
+          "weight": 0.45999999999999996,
+          "repCount": 4
+        },
+        {
+          "position": 20,
+          "hebrew": "אִתְּ/כֶ֔ם",
+          "lemma": "854",
+          "root": "854",
+          "pos": "R",
+          "morph": "HR/Sp2mp",
+          "weight": 0.4267970000576925,
+          "repCount": 3
+        },
+        {
+          "position": 21,
+          "hebrew": "נְאֻ֖ם",
+          "lemma": "5002",
+          "root": "5002",
+          "pos": "N",
+          "morph": "HNcmsc",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.6867970000576925,
+          "repCount": 12
+        },
+        {
+          "position": 22,
+          "hebrew": "יְהוָ֥ה",
+          "lemma": "3068",
+          "root": "3068",
+          "pos": "N",
+          "morph": "HNp",
+          "tags": [
+            "divine",
+            "LORD",
+            "covenant-name",
+            "entity"
+          ],
+          "weight": 0.9999999999999999,
+          "repCount": 35
+        },
+        {
+          "position": 23,
+          "hebrew": "צְבָאֽוֹת",
+          "lemma": "6635",
+          "root": "6635",
+          "pos": "N",
+          "morph": "HNcbpa",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.7045883937646084,
+          "repCount": 14
+        }
+      ]
+    },
+    {
+      "verseId": "heb-wlc/HAG/2/5",
+      "chapter": 2,
+      "verse": 5,
+      "tokens": [
+        {
+          "position": 0,
+          "hebrew": "אֶֽת",
+          "lemma": "853",
+          "root": "853",
+          "pos": "T",
+          "morph": "HTo",
+          "weight": 0.633594000115385,
+          "repCount": 18
+        },
+        {
+          "position": 1,
+          "hebrew": "הַ/דָּבָ֞ר",
+          "lemma": "1697",
+          "root": "1697",
+          "pos": "T",
+          "morph": "HTd/Ncmsa",
+          "weight": 0.5245883937646083,
+          "repCount": 7
+        },
+        {
+          "position": 2,
+          "hebrew": "אֲשֶׁר",
+          "lemma": "834",
+          "root": "834",
+          "pos": "T",
+          "morph": "HTr",
+          "weight": 0.5067970000576925,
+          "repCount": 6
+        },
+        {
+          "position": 3,
+          "hebrew": "כָּרַ֤תִּי",
+          "lemma": "3772",
+          "root": "3772",
+          "pos": "V",
+          "morph": "HVqp1cs",
+          "tags": [
+            "action"
+          ],
+          "weight": 0.4,
+          "repCount": 1
+        },
+        {
+          "position": 4,
+          "hebrew": "אִתְּ/כֶם֙",
+          "lemma": "854",
+          "root": "854",
+          "pos": "R",
+          "morph": "HR/Sp2mp",
+          "weight": 0.4267970000576925,
+          "repCount": 3
+        },
+        {
+          "position": 5,
+          "hebrew": "בְּ/צֵאתְ/כֶ֣ם",
+          "lemma": "3318",
+          "root": "3318",
+          "pos": "R",
+          "morph": "HR/Vqc/Sp2mp",
+          "weight": 0.38,
+          "repCount": 2
+        },
+        {
+          "position": 6,
+          "hebrew": "מִ/מִּצְרַ֔יִם",
+          "lemma": "4714",
+          "root": "4714",
+          "pos": "R",
+          "morph": "HR/Np",
+          "weight": 0.3,
+          "repCount": 1
+        },
+        {
+          "position": 7,
+          "hebrew": "וְ/רוּחִ֖/י",
+          "lemma": "7307",
+          "root": "7307",
+          "pos": "C",
+          "morph": "HC/Ncbsc/Sp1cs",
+          "tags": [
+            "spirit",
+            "wind",
+            "breath"
+          ],
+          "weight": 0.45999999999999996,
+          "repCount": 4
+        },
+        {
+          "position": 8,
+          "hebrew": "עֹמֶ֣דֶת",
+          "lemma": "5975",
+          "root": "5975",
+          "pos": "V",
+          "morph": "HVqrfsa",
+          "tags": [
+            "action"
+          ],
+          "weight": 0.4,
+          "repCount": 1
+        },
+        {
+          "position": 9,
+          "hebrew": "בְּ/תוֹכְ/כֶ֑ם",
+          "lemma": "8432",
+          "root": "8432",
+          "pos": "R",
+          "morph": "HR/Ncmsc/Sp2mp",
+          "weight": 0.3,
+          "repCount": 1
+        },
+        {
+          "position": 10,
+          "hebrew": "אַל",
+          "lemma": "408",
+          "root": "408",
+          "pos": "T",
+          "morph": "HTn",
+          "weight": 0.3,
+          "repCount": 1
+        },
+        {
+          "position": 11,
+          "hebrew": "תִּירָֽאוּ",
+          "lemma": "3372",
+          "root": "3372",
+          "pos": "V",
+          "morph": "HVqj2mp",
+          "tags": [
+            "action"
+          ],
+          "weight": 0.48,
+          "repCount": 2
+        }
+      ]
+    },
+    {
+      "verseId": "heb-wlc/HAG/2/6",
+      "chapter": 2,
+      "verse": 6,
+      "tokens": [
+        {
+          "position": 0,
+          "hebrew": "כִּ֣י",
+          "lemma": "3588",
+          "root": "3588",
+          "pos": "C",
+          "morph": "HC",
+          "weight": 0.4267970000576925,
+          "repCount": 3
+        },
+        {
+          "position": 1,
+          "hebrew": "כֹ֤ה",
+          "lemma": "3541",
+          "root": "3541",
+          "pos": "D",
+          "morph": "HD",
+          "weight": 0.48575424759098895,
+          "repCount": 5
+        },
+        {
+          "position": 2,
+          "hebrew": "אָמַר֙",
+          "lemma": "559",
+          "root": "559",
+          "pos": "V",
+          "morph": "HVqp3ms",
+          "tags": [
+            "action"
+          ],
+          "weight": 0.7760351774512874,
+          "repCount": 26
+        },
+        {
+          "position": 3,
+          "hebrew": "יְהוָ֣ה",
+          "lemma": "3068",
+          "root": "3068",
+          "pos": "N",
+          "morph": "HNp",
+          "tags": [
+            "divine",
+            "LORD",
+            "covenant-name",
+            "entity"
+          ],
+          "weight": 0.9999999999999999,
+          "repCount": 35
+        },
+        {
+          "position": 4,
+          "hebrew": "צְבָא֔וֹת",
+          "lemma": "6635",
+          "root": "6635",
+          "pos": "N",
+          "morph": "HNcbpa",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.7045883937646084,
+          "repCount": 14
+        },
+        {
+          "position": 5,
+          "hebrew": "ע֥וֹד",
+          "lemma": "5750",
+          "root": "5750",
+          "pos": "D",
+          "morph": "HD",
+          "weight": 0.3,
+          "repCount": 1
+        },
+        {
+          "position": 6,
+          "hebrew": "אַחַ֖ת",
+          "lemma": "259",
+          "root": "259",
+          "pos": "A",
+          "morph": "HAcfsa",
+          "tags": [
+            "quality"
+          ],
+          "weight": 0.4767970000576925,
+          "repCount": 3
+        },
+        {
+          "position": 7,
+          "hebrew": "מְעַ֣ט",
+          "lemma": "4592",
+          "root": "4592",
+          "pos": "N",
+          "morph": "HNcmsa",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.5267970000576925,
+          "repCount": 3
+        },
+        {
+          "position": 8,
+          "hebrew": "הִ֑יא",
+          "lemma": "1931",
+          "root": "1931",
+          "pos": "P",
+          "morph": "HPp3fs",
+          "weight": 0.45999999999999996,
+          "repCount": 4
+        },
+        {
+          "position": 9,
+          "hebrew": "וַ/אֲנִ֗י",
+          "lemma": "589",
+          "root": "589",
+          "pos": "C",
+          "morph": "HC/Pp1cs",
+          "weight": 0.45999999999999996,
+          "repCount": 4
+        },
+        {
+          "position": 10,
+          "hebrew": "מַרְעִישׁ֙",
+          "lemma": "7493",
+          "root": "7493",
+          "pos": "V",
+          "morph": "HVhrmsa",
+          "tags": [
+            "action"
+          ],
+          "weight": 0.5267970000576925,
+          "repCount": 3
+        },
+        {
+          "position": 11,
+          "hebrew": "אֶת",
+          "lemma": "853",
+          "root": "853",
+          "pos": "T",
+          "morph": "HTo",
+          "weight": 0.633594000115385,
+          "repCount": 18
+        },
+        {
+          "position": 12,
+          "hebrew": "הַ/שָּׁמַ֣יִם",
+          "lemma": "8064",
+          "root": "8064",
+          "pos": "T",
+          "morph": "HTd/Ncmpa",
+          "weight": 0.4267970000576925,
+          "repCount": 3
+        },
+        {
+          "position": 13,
+          "hebrew": "וְ/אֶת",
+          "lemma": "853",
+          "root": "853",
+          "pos": "C",
+          "morph": "HC/To",
+          "weight": 0.633594000115385,
+          "repCount": 18
+        },
+        {
+          "position": 14,
+          "hebrew": "הָ/אָ֔רֶץ",
+          "lemma": "776",
+          "root": "776",
+          "pos": "T",
+          "morph": "HTd/Ncbsa",
+          "weight": 0.48575424759098895,
+          "repCount": 5
+        },
+        {
+          "position": 15,
+          "hebrew": "וְ/אֶת",
+          "lemma": "853",
+          "root": "853",
+          "pos": "C",
+          "morph": "HC/To",
+          "weight": 0.633594000115385,
+          "repCount": 18
+        },
+        {
+          "position": 16,
+          "hebrew": "הַ/יָּ֖ם",
+          "lemma": "3220",
+          "root": "3220",
+          "pos": "T",
+          "morph": "HTd/Ncmsa",
+          "weight": 0.3,
+          "repCount": 1
+        },
+        {
+          "position": 17,
+          "hebrew": "וְ/אֶת",
+          "lemma": "853",
+          "root": "853",
+          "pos": "C",
+          "morph": "HC/To",
+          "weight": 0.633594000115385,
+          "repCount": 18
+        },
+        {
+          "position": 18,
+          "hebrew": "הֶ/חָרָבָֽה",
+          "lemma": "2724",
+          "root": "2724",
+          "pos": "R",
+          "morph": "HR/Ncfsa",
+          "weight": 0.3,
+          "repCount": 1
+        }
+      ]
+    },
+    {
+      "verseId": "heb-wlc/HAG/2/7",
+      "chapter": 2,
+      "verse": 7,
+      "tokens": [
+        {
+          "position": 0,
+          "hebrew": "וְ/הִרְעַשְׁתִּי֙",
+          "lemma": "7493",
+          "root": "7493",
+          "pos": "C",
+          "morph": "HC/Vhp1cs",
+          "weight": 0.4267970000576925,
+          "repCount": 3
+        },
+        {
+          "position": 1,
+          "hebrew": "אֶת",
+          "lemma": "853",
+          "root": "853",
+          "pos": "T",
+          "morph": "HTo",
+          "weight": 0.633594000115385,
+          "repCount": 18
+        },
+        {
+          "position": 2,
+          "hebrew": "כָּל",
+          "lemma": "3605",
+          "root": "3605",
+          "pos": "N",
+          "morph": "HNcmsc",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.6657542475909889,
+          "repCount": 10
+        },
+        {
+          "position": 3,
+          "hebrew": "הַ/גּוֹיִ֔ם",
+          "lemma": "1471",
+          "root": "1471",
+          "pos": "T",
+          "morph": "HTd/Ncmpa",
+          "weight": 0.45999999999999996,
+          "repCount": 4
+        },
+        {
+          "position": 4,
+          "hebrew": "וּ/בָ֖אוּ",
+          "lemma": "935",
+          "root": "935",
+          "pos": "C",
+          "morph": "HC/Vqp3cp",
+          "weight": 0.54,
+          "repCount": 8
+        },
+        {
+          "position": 5,
+          "hebrew": "חֶמְדַּ֣ת",
+          "lemma": "2532",
+          "root": "2532",
+          "pos": "N",
+          "morph": "HNcfsc",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.4,
+          "repCount": 1
+        },
+        {
+          "position": 6,
+          "hebrew": "כָּל",
+          "lemma": "3605",
+          "root": "3605",
+          "pos": "N",
+          "morph": "HNcmsc",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.6657542475909889,
+          "repCount": 10
+        },
+        {
+          "position": 7,
+          "hebrew": "הַ/גּוֹיִ֑ם",
+          "lemma": "1471",
+          "root": "1471",
+          "pos": "T",
+          "morph": "HTd/Ncmpa",
+          "weight": 0.45999999999999996,
+          "repCount": 4
+        },
+        {
+          "position": 8,
+          "hebrew": "וּ/מִלֵּאתִ֞י",
+          "lemma": "4390",
+          "root": "4390",
+          "pos": "C",
+          "morph": "HC/Vpp1cs",
+          "weight": 0.3,
+          "repCount": 1
+        },
+        {
+          "position": 9,
+          "hebrew": "אֶת",
+          "lemma": "853",
+          "root": "853",
+          "pos": "T",
+          "morph": "HTo",
+          "weight": 0.633594000115385,
+          "repCount": 18
+        },
+        {
+          "position": 10,
+          "hebrew": "הַ/בַּ֤יִת",
+          "lemma": "1004",
+          "root": "1004",
+          "pos": "T",
+          "morph": "HTd/Ncmsa",
+          "weight": 0.5767545294909837,
+          "repCount": 11
+        },
+        {
+          "position": 11,
+          "hebrew": "הַ/זֶּה֙",
+          "lemma": "2088",
+          "root": "2088",
+          "pos": "T",
+          "morph": "HTd/Pdxms",
+          "weight": 0.5767545294909837,
+          "repCount": 11
+        },
+        {
+          "position": 12,
+          "hebrew": "כָּב֔וֹד",
+          "lemma": "3519",
+          "root": "3519",
+          "pos": "N",
+          "morph": "HNcbsa",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.5267970000576925,
+          "repCount": 3
+        },
+        {
+          "position": 13,
+          "hebrew": "אָמַ֖ר",
+          "lemma": "559",
+          "root": "559",
+          "pos": "V",
+          "morph": "HVqp3ms",
+          "tags": [
+            "action"
+          ],
+          "weight": 0.7760351774512874,
+          "repCount": 26
+        },
+        {
+          "position": 14,
+          "hebrew": "יְהוָ֥ה",
+          "lemma": "3068",
+          "root": "3068",
+          "pos": "N",
+          "morph": "HNp",
+          "tags": [
+            "divine",
+            "LORD",
+            "covenant-name",
+            "entity"
+          ],
+          "weight": 0.9999999999999999,
+          "repCount": 35
+        },
+        {
+          "position": 15,
+          "hebrew": "צְבָאֽוֹת",
+          "lemma": "6635",
+          "root": "6635",
+          "pos": "N",
+          "morph": "HNcbpa",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.7045883937646084,
+          "repCount": 14
+        }
+      ]
+    },
+    {
+      "verseId": "heb-wlc/HAG/2/8",
+      "chapter": 2,
+      "verse": 8,
+      "tokens": [
+        {
+          "position": 0,
+          "hebrew": "לִ֥/י",
+          "lemma": "",
+          "root": "",
+          "pos": "R",
+          "morph": "HR/Sp1cs",
+          "weight": 0.3,
+          "repCount": 0
+        },
+        {
+          "position": 1,
+          "hebrew": "הַ/כֶּ֖סֶף",
+          "lemma": "3701",
+          "root": "3701",
+          "pos": "T",
+          "morph": "HTd/Ncmsa",
+          "weight": 0.3,
+          "repCount": 1
+        },
+        {
+          "position": 2,
+          "hebrew": "וְ/לִ֣/י",
+          "lemma": "",
+          "root": "",
+          "pos": "C",
+          "morph": "HC/R/Sp1cs",
+          "weight": 0.3,
+          "repCount": 0
+        },
+        {
+          "position": 3,
+          "hebrew": "הַ/זָּהָ֑ב",
+          "lemma": "2091",
+          "root": "2091",
+          "pos": "T",
+          "morph": "HTd/Ncmsa",
+          "weight": 0.3,
+          "repCount": 1
+        },
+        {
+          "position": 4,
+          "hebrew": "נְאֻ֖ם",
+          "lemma": "5002",
+          "root": "5002",
+          "pos": "N",
+          "morph": "HNcmsc",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.6867970000576925,
+          "repCount": 12
+        },
+        {
+          "position": 5,
+          "hebrew": "יְהוָ֥ה",
+          "lemma": "3068",
+          "root": "3068",
+          "pos": "N",
+          "morph": "HNp",
+          "tags": [
+            "divine",
+            "LORD",
+            "covenant-name",
+            "entity"
+          ],
+          "weight": 0.9999999999999999,
+          "repCount": 35
+        },
+        {
+          "position": 6,
+          "hebrew": "צְבָאֽוֹת",
+          "lemma": "6635",
+          "root": "6635",
+          "pos": "N",
+          "morph": "HNcbpa",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.7045883937646084,
+          "repCount": 14
+        }
+      ]
+    },
+    {
+      "verseId": "heb-wlc/HAG/2/9",
+      "chapter": 2,
+      "verse": 9,
+      "tokens": [
+        {
+          "position": 0,
+          "hebrew": "גָּד֣וֹל",
+          "lemma": "1419",
+          "root": "1419",
+          "pos": "A",
+          "morph": "HAamsa",
+          "tags": [
+            "quality"
+          ],
+          "weight": 0.5567970000576925,
+          "repCount": 6
+        },
+        {
+          "position": 1,
+          "hebrew": "יִֽהְיֶ֡ה",
+          "lemma": "1961",
+          "root": "1961",
+          "pos": "V",
+          "morph": "HVqi3ms",
+          "tags": [
+            "action"
+          ],
+          "weight": 0.6535940001153849,
+          "repCount": 9
+        },
+        {
+          "position": 2,
+          "hebrew": "כְּבוֹד֩",
+          "lemma": "3519",
+          "root": "3519",
+          "pos": "N",
+          "morph": "HNcbsc",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.5267970000576925,
+          "repCount": 3
+        },
+        {
+          "position": 3,
+          "hebrew": "הַ/בַּ֨יִת",
+          "lemma": "1004",
+          "root": "1004",
+          "pos": "T",
+          "morph": "HTd/Ncmsa",
+          "weight": 0.5767545294909837,
+          "repCount": 11
+        },
+        {
+          "position": 4,
+          "hebrew": "הַ/זֶּ֤ה",
+          "lemma": "2088",
+          "root": "2088",
+          "pos": "T",
+          "morph": "HTd/Pdxms",
+          "weight": 0.5767545294909837,
+          "repCount": 11
+        },
+        {
+          "position": 5,
+          "hebrew": "הָ/אַֽחֲרוֹן֙",
+          "lemma": "314",
+          "root": "314",
+          "pos": "T",
+          "morph": "HTd/Aamsa",
+          "weight": 0.3,
+          "repCount": 1
+        },
+        {
+          "position": 6,
+          "hebrew": "מִן",
+          "lemma": "4480",
+          "root": "4480",
+          "pos": "R",
+          "morph": "HR",
+          "weight": 0.48575424759098895,
+          "repCount": 5
+        },
+        {
+          "position": 7,
+          "hebrew": "הָ֣/רִאשׁ֔וֹן",
+          "lemma": "7223",
+          "root": "7223",
+          "pos": "T",
+          "morph": "HTd/Aomsa",
+          "weight": 0.38,
+          "repCount": 2
+        },
+        {
+          "position": 8,
+          "hebrew": "אָמַ֖ר",
+          "lemma": "559",
+          "root": "559",
+          "pos": "V",
+          "morph": "HVqp3ms",
+          "tags": [
+            "action"
+          ],
+          "weight": 0.7760351774512874,
+          "repCount": 26
+        },
+        {
+          "position": 9,
+          "hebrew": "יְהוָ֣ה",
+          "lemma": "3068",
+          "root": "3068",
+          "pos": "N",
+          "morph": "HNp",
+          "tags": [
+            "divine",
+            "LORD",
+            "covenant-name",
+            "entity"
+          ],
+          "weight": 0.9999999999999999,
+          "repCount": 35
+        },
+        {
+          "position": 10,
+          "hebrew": "צְבָא֑וֹת",
+          "lemma": "6635",
+          "root": "6635",
+          "pos": "N",
+          "morph": "HNcbpa",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.7045883937646084,
+          "repCount": 14
+        },
+        {
+          "position": 11,
+          "hebrew": "וּ/בַ/מָּק֤וֹם",
+          "lemma": "4725",
+          "root": "4725",
+          "pos": "C",
+          "morph": "HC/Rd/Ncmsa",
+          "weight": 0.3,
+          "repCount": 1
+        },
+        {
+          "position": 12,
+          "hebrew": "הַ/זֶּה֙",
+          "lemma": "2088",
+          "root": "2088",
+          "pos": "T",
+          "morph": "HTd/Pdxms",
+          "weight": 0.5767545294909837,
+          "repCount": 11
+        },
+        {
+          "position": 13,
+          "hebrew": "אֶתֵּ֣ן",
+          "lemma": "5414",
+          "root": "5414",
+          "pos": "V",
+          "morph": "HVqi1cs",
+          "tags": [
+            "action"
+          ],
+          "weight": 0.4,
+          "repCount": 1
+        },
+        {
+          "position": 14,
+          "hebrew": "שָׁל֔וֹם",
+          "lemma": "7965",
+          "root": "7965",
+          "pos": "N",
+          "morph": "HNcmsa",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.4,
+          "repCount": 1
+        },
+        {
+          "position": 15,
+          "hebrew": "נְאֻ֖ם",
+          "lemma": "5002",
+          "root": "5002",
+          "pos": "N",
+          "morph": "HNcmsc",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.6867970000576925,
+          "repCount": 12
+        },
+        {
+          "position": 16,
+          "hebrew": "יְהוָ֥ה",
+          "lemma": "3068",
+          "root": "3068",
+          "pos": "N",
+          "morph": "HNp",
+          "tags": [
+            "divine",
+            "LORD",
+            "covenant-name",
+            "entity"
+          ],
+          "weight": 0.9999999999999999,
+          "repCount": 35
+        },
+        {
+          "position": 17,
+          "hebrew": "צְבָאֽוֹת",
+          "lemma": "6635",
+          "root": "6635",
+          "pos": "N",
+          "morph": "HNcbpa",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.7045883937646084,
+          "repCount": 14
+        }
+      ]
+    },
+    {
+      "verseId": "heb-wlc/HAG/2/10",
+      "chapter": 2,
+      "verse": 10,
+      "tokens": [
+        {
+          "position": 0,
+          "hebrew": "בְּ/עֶשְׂרִ֤ים",
+          "lemma": "6242",
+          "root": "6242",
+          "pos": "R",
+          "morph": "HR/Acbpa",
+          "weight": 0.5245883937646083,
+          "repCount": 7
+        },
+        {
+          "position": 1,
+          "hebrew": "וְ/אַרְבָּעָה֙",
+          "lemma": "702",
+          "root": "702",
+          "pos": "C",
+          "morph": "HC/Acmsa",
+          "weight": 0.45999999999999996,
+          "repCount": 4
+        },
+        {
+          "position": 2,
+          "hebrew": "לַ/תְּשִׁיעִ֔י",
+          "lemma": "8671",
+          "root": "8671",
+          "pos": "R",
+          "morph": "HRd/Aomsa",
+          "weight": 0.38,
+          "repCount": 2
+        },
+        {
+          "position": 3,
+          "hebrew": "בִּ/שְׁנַ֥ת",
+          "lemma": "8141",
+          "root": "8141",
+          "pos": "R",
+          "morph": "HR/Ncfsc",
+          "weight": 0.4267970000576925,
+          "repCount": 3
+        },
+        {
+          "position": 4,
+          "hebrew": "שְׁתַּ֖יִם",
+          "lemma": "8147",
+          "root": "8147",
+          "pos": "A",
+          "morph": "HAcfda",
+          "tags": [
+            "quality"
+          ],
+          "weight": 0.4767970000576925,
+          "repCount": 3
+        },
+        {
+          "position": 5,
+          "hebrew": "לְ/דָרְיָ֑וֶשׁ",
+          "lemma": "1867",
+          "root": "1867",
+          "pos": "R",
+          "morph": "HR/Np",
+          "weight": 0.4267970000576925,
+          "repCount": 3
+        },
+        {
+          "position": 6,
+          "hebrew": "הָיָה֙",
+          "lemma": "1961",
+          "root": "1961",
+          "pos": "V",
+          "morph": "HVqp3ms",
+          "tags": [
+            "action"
+          ],
+          "weight": 0.6535940001153849,
+          "repCount": 9
+        },
+        {
+          "position": 7,
+          "hebrew": "דְּבַר",
+          "lemma": "1697",
+          "root": "1697",
+          "pos": "N",
+          "morph": "HNcmsc",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.6245883937646083,
+          "repCount": 7
+        },
+        {
+          "position": 8,
+          "hebrew": "יְהוָ֔ה",
+          "lemma": "3068",
+          "root": "3068",
+          "pos": "N",
+          "morph": "HNp",
+          "tags": [
+            "divine",
+            "LORD",
+            "covenant-name",
+            "entity"
+          ],
+          "weight": 0.9999999999999999,
+          "repCount": 35
+        },
+        {
+          "position": 9,
+          "hebrew": "אֶל",
+          "lemma": "413",
+          "root": "413",
+          "pos": "R",
+          "morph": "HR",
+          "weight": 0.6398342010754868,
+          "repCount": 19
+        },
+        {
+          "position": 10,
+          "hebrew": "חַגַּ֥י",
+          "lemma": "2292",
+          "root": "2292",
+          "pos": "N",
+          "morph": "HNp",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.6535940001153849,
+          "repCount": 9
+        },
+        {
+          "position": 11,
+          "hebrew": "הַ/נָּבִ֖יא",
+          "lemma": "5030",
+          "root": "5030",
+          "pos": "T",
+          "morph": "HTd/Ncmsa",
+          "weight": 0.48575424759098895,
+          "repCount": 5
+        },
+        {
+          "position": 12,
+          "hebrew": "לֵ/אמֹֽר",
+          "lemma": "559",
+          "root": "559",
+          "pos": "R",
+          "morph": "HR/Vqc",
+          "weight": 0.6760351774512874,
+          "repCount": 26
+        }
+      ]
+    },
+    {
+      "verseId": "heb-wlc/HAG/2/11",
+      "chapter": 2,
+      "verse": 11,
+      "tokens": [
+        {
+          "position": 0,
+          "hebrew": "כֹּ֥ה",
+          "lemma": "3541",
+          "root": "3541",
+          "pos": "D",
+          "morph": "HD",
+          "weight": 0.48575424759098895,
+          "repCount": 5
+        },
+        {
+          "position": 1,
+          "hebrew": "אָמַ֖ר",
+          "lemma": "559",
+          "root": "559",
+          "pos": "V",
+          "morph": "HVqp3ms",
+          "tags": [
+            "action"
+          ],
+          "weight": 0.7760351774512874,
+          "repCount": 26
+        },
+        {
+          "position": 2,
+          "hebrew": "יְהוָ֣ה",
+          "lemma": "3068",
+          "root": "3068",
+          "pos": "N",
+          "morph": "HNp",
+          "tags": [
+            "divine",
+            "LORD",
+            "covenant-name",
+            "entity"
+          ],
+          "weight": 0.9999999999999999,
+          "repCount": 35
+        },
+        {
+          "position": 3,
+          "hebrew": "צְבָא֑וֹת",
+          "lemma": "6635",
+          "root": "6635",
+          "pos": "N",
+          "morph": "HNcbpa",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.7045883937646084,
+          "repCount": 14
+        },
+        {
+          "position": 4,
+          "hebrew": "שְׁאַל",
+          "lemma": "7592",
+          "root": "7592",
+          "pos": "V",
+          "morph": "HVqv2ms",
+          "tags": [
+            "action"
+          ],
+          "weight": 0.4,
+          "repCount": 1
+        },
+        {
+          "position": 5,
+          "hebrew": "נָ֧א",
+          "lemma": "4994",
+          "root": "4994",
+          "pos": "T",
+          "morph": "HTe",
+          "weight": 0.45999999999999996,
+          "repCount": 4
+        },
+        {
+          "position": 6,
+          "hebrew": "אֶת",
+          "lemma": "853",
+          "root": "853",
+          "pos": "T",
+          "morph": "HTo",
+          "weight": 0.633594000115385,
+          "repCount": 18
+        },
+        {
+          "position": 7,
+          "hebrew": "הַ/כֹּהֲנִ֛ים",
+          "lemma": "3548",
+          "root": "3548",
+          "pos": "T",
+          "morph": "HTd/Ncmpa",
+          "weight": 0.54,
+          "repCount": 8
+        },
+        {
+          "position": 8,
+          "hebrew": "תּוֹרָ֖ה",
+          "lemma": "8451",
+          "root": "8451",
+          "pos": "N",
+          "morph": "HNcfsa",
+          "tags": [
+            "law",
+            "instruction",
+            "teaching",
+            "entity"
+          ],
+          "weight": 0.6,
+          "repCount": 1
+        },
+        {
+          "position": 9,
+          "hebrew": "לֵ/אמֹֽר",
+          "lemma": "559",
+          "root": "559",
+          "pos": "R",
+          "morph": "HR/Vqc",
+          "weight": 0.6760351774512874,
+          "repCount": 26
+        }
+      ]
+    },
+    {
+      "verseId": "heb-wlc/HAG/2/12",
+      "chapter": 2,
+      "verse": 12,
+      "tokens": [
+        {
+          "position": 0,
+          "hebrew": "הֵ֣ן",
+          "lemma": "2005",
+          "root": "2005",
+          "pos": "T",
+          "morph": "HTm",
+          "weight": 0.3,
+          "repCount": 1
+        },
+        {
+          "position": 1,
+          "hebrew": "יִשָּׂא",
+          "lemma": "5375",
+          "root": "5375",
+          "pos": "V",
+          "morph": "HVqi3ms",
+          "tags": [
+            "action"
+          ],
+          "weight": 0.48,
+          "repCount": 2
+        },
+        {
+          "position": 2,
+          "hebrew": "אִ֨ישׁ",
+          "lemma": "376",
+          "root": "376",
+          "pos": "N",
+          "morph": "HNcmsa",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.5267970000576925,
+          "repCount": 3
+        },
+        {
+          "position": 3,
+          "hebrew": "בְּשַׂר",
+          "lemma": "1320",
+          "root": "1320",
+          "pos": "N",
+          "morph": "HNcmsc",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.4,
+          "repCount": 1
+        },
+        {
+          "position": 4,
+          "hebrew": "קֹ֜דֶשׁ",
+          "lemma": "6944",
+          "root": "6944",
+          "pos": "N",
+          "morph": "HNcmsa",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.4,
+          "repCount": 1
+        },
+        {
+          "position": 5,
+          "hebrew": "בִּ/כְנַ֣ף",
+          "lemma": "3671",
+          "root": "3671",
+          "pos": "R",
+          "morph": "HR/Ncfsc",
+          "weight": 0.38,
+          "repCount": 2
+        },
+        {
+          "position": 6,
+          "hebrew": "בִּגְד֗/וֹ",
+          "lemma": "899",
+          "root": "899",
+          "pos": "N",
+          "morph": "HNcmsc/Sp3ms",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.4,
+          "repCount": 1
+        },
+        {
+          "position": 7,
+          "hebrew": "וְ/נָגַ֣ע",
+          "lemma": "5060",
+          "root": "5060",
+          "pos": "C",
+          "morph": "HC/Vqp3ms",
+          "weight": 0.38,
+          "repCount": 2
+        },
+        {
+          "position": 8,
+          "hebrew": "בִּ֠/כְנָפ/וֹ",
+          "lemma": "3671",
+          "root": "3671",
+          "pos": "R",
+          "morph": "HR/Ncfsc/Sp3ms",
+          "weight": 0.38,
+          "repCount": 2
+        },
+        {
+          "position": 9,
+          "hebrew": "אֶל",
+          "lemma": "413",
+          "root": "413",
+          "pos": "R",
+          "morph": "HR",
+          "weight": 0.6398342010754868,
+          "repCount": 19
+        },
+        {
+          "position": 10,
+          "hebrew": "הַ/לֶּ֨חֶם",
+          "lemma": "3899",
+          "root": "3899",
+          "pos": "T",
+          "morph": "HTd/Ncbsa",
+          "weight": 0.3,
+          "repCount": 1
+        },
+        {
+          "position": 11,
+          "hebrew": "וְ/אֶל",
+          "lemma": "413",
+          "root": "413",
+          "pos": "C",
+          "morph": "HC/R",
+          "weight": 0.6398342010754868,
+          "repCount": 19
+        },
+        {
+          "position": 12,
+          "hebrew": "הַ/נָּזִ֜יד",
+          "lemma": "5138",
+          "root": "5138",
+          "pos": "T",
+          "morph": "HTd/Ncmsa",
+          "weight": 0.3,
+          "repCount": 1
+        },
+        {
+          "position": 13,
+          "hebrew": "וְ/אֶל",
+          "lemma": "413",
+          "root": "413",
+          "pos": "C",
+          "morph": "HC/R",
+          "weight": 0.6398342010754868,
+          "repCount": 19
+        },
+        {
+          "position": 14,
+          "hebrew": "הַ/יַּ֧יִן",
+          "lemma": "3196",
+          "root": "3196",
+          "pos": "T",
+          "morph": "HTd/Ncmsa",
+          "weight": 0.3,
+          "repCount": 1
+        },
+        {
+          "position": 15,
+          "hebrew": "וְ/אֶל",
+          "lemma": "413",
+          "root": "413",
+          "pos": "C",
+          "morph": "HC/R",
+          "weight": 0.6398342010754868,
+          "repCount": 19
+        },
+        {
+          "position": 16,
+          "hebrew": "שֶׁ֛מֶן",
+          "lemma": "8081",
+          "root": "8081",
+          "pos": "N",
+          "morph": "HNcmsa",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.4,
+          "repCount": 1
+        },
+        {
+          "position": 17,
+          "hebrew": "וְ/אֶל",
+          "lemma": "413",
+          "root": "413",
+          "pos": "C",
+          "morph": "HC/R",
+          "weight": 0.6398342010754868,
+          "repCount": 19
+        },
+        {
+          "position": 18,
+          "hebrew": "כָּל",
+          "lemma": "3605",
+          "root": "3605",
+          "pos": "N",
+          "morph": "HNcmsc",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.6657542475909889,
+          "repCount": 10
+        },
+        {
+          "position": 19,
+          "hebrew": "מַאֲכָ֖ל",
+          "lemma": "3978",
+          "root": "3978",
+          "pos": "N",
+          "morph": "HNcmsa",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.4,
+          "repCount": 1
+        },
+        {
+          "position": 20,
+          "hebrew": "הֲ/יִקְדָּ֑שׁ",
+          "lemma": "i/6942",
+          "root": "i/6942",
+          "pos": "T",
+          "morph": "HTi/Vqi3ms",
+          "weight": 0.3,
+          "repCount": 1
+        },
+        {
+          "position": 21,
+          "hebrew": "וַ/יַּעֲנ֧וּ",
+          "lemma": "6030",
+          "root": "6030",
+          "pos": "C",
+          "morph": "HC/Vqw3mp",
+          "weight": 0.4267970000576925,
+          "repCount": 3
+        },
+        {
+          "position": 22,
+          "hebrew": "הַ/כֹּהֲנִ֛ים",
+          "lemma": "3548",
+          "root": "3548",
+          "pos": "T",
+          "morph": "HTd/Ncmpa",
+          "weight": 0.54,
+          "repCount": 8
+        },
+        {
+          "position": 23,
+          "hebrew": "וַ/יֹּאמְר֖וּ",
+          "lemma": "559",
+          "root": "559",
+          "pos": "C",
+          "morph": "HC/Vqw3mp",
+          "weight": 0.6760351774512874,
+          "repCount": 26
+        },
+        {
+          "position": 24,
+          "hebrew": "לֹֽא",
+          "lemma": "3808",
+          "root": "3808",
+          "pos": "T",
+          "morph": "HTn",
+          "weight": 0.4267970000576925,
+          "repCount": 3
+        }
+      ]
+    },
+    {
+      "verseId": "heb-wlc/HAG/2/13",
+      "chapter": 2,
+      "verse": 13,
+      "tokens": [
+        {
+          "position": 0,
+          "hebrew": "וַ/יֹּ֣אמֶר",
+          "lemma": "559",
+          "root": "559",
+          "pos": "C",
+          "morph": "HC/Vqw3ms",
+          "weight": 0.6760351774512874,
+          "repCount": 26
+        },
+        {
+          "position": 1,
+          "hebrew": "חַגַּ֔י",
+          "lemma": "2292",
+          "root": "2292",
+          "pos": "N",
+          "morph": "HNp",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.6535940001153849,
+          "repCount": 9
+        },
+        {
+          "position": 2,
+          "hebrew": "אִם",
+          "lemma": "518",
+          "root": "518",
+          "pos": "C",
+          "morph": "HC",
+          "weight": 0.3,
+          "repCount": 1
+        },
+        {
+          "position": 3,
+          "hebrew": "יִגַּ֧ע",
+          "lemma": "5060",
+          "root": "5060",
+          "pos": "V",
+          "morph": "HVqi3ms",
+          "tags": [
+            "action"
+          ],
+          "weight": 0.48,
+          "repCount": 2
+        },
+        {
+          "position": 4,
+          "hebrew": "טְמֵא",
+          "lemma": "2931",
+          "root": "2931",
+          "pos": "A",
+          "morph": "HAamsc",
+          "tags": [
+            "quality"
+          ],
+          "weight": 0.43,
+          "repCount": 2
+        },
+        {
+          "position": 5,
+          "hebrew": "נֶ֛פֶשׁ",
+          "lemma": "5315",
+          "root": "5315",
+          "pos": "N",
+          "morph": "HNcbsa",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.4,
+          "repCount": 1
+        },
+        {
+          "position": 6,
+          "hebrew": "בְּ/כָל",
+          "lemma": "3605",
+          "root": "3605",
+          "pos": "R",
+          "morph": "HR/Ncmsc",
+          "weight": 0.5657542475909889,
+          "repCount": 10
+        },
+        {
+          "position": 7,
+          "hebrew": "אֵ֖לֶּה",
+          "lemma": "428",
+          "root": "428",
+          "pos": "P",
+          "morph": "HPdxcp",
+          "weight": 0.3,
+          "repCount": 1
+        },
+        {
+          "position": 8,
+          "hebrew": "הֲ/יִטְמָ֑א",
+          "lemma": "i/2930",
+          "root": "i/2930",
+          "pos": "T",
+          "morph": "HTi/Vqi3ms",
+          "weight": 0.3,
+          "repCount": 1
+        },
+        {
+          "position": 9,
+          "hebrew": "וַ/יַּעֲנ֧וּ",
+          "lemma": "6030",
+          "root": "6030",
+          "pos": "C",
+          "morph": "HC/Vqw3mp",
+          "weight": 0.4267970000576925,
+          "repCount": 3
+        },
+        {
+          "position": 10,
+          "hebrew": "הַ/כֹּהֲנִ֛ים",
+          "lemma": "3548",
+          "root": "3548",
+          "pos": "T",
+          "morph": "HTd/Ncmpa",
+          "weight": 0.54,
+          "repCount": 8
+        },
+        {
+          "position": 11,
+          "hebrew": "וַ/יֹּאמְר֖וּ",
+          "lemma": "559",
+          "root": "559",
+          "pos": "C",
+          "morph": "HC/Vqw3mp",
+          "weight": 0.6760351774512874,
+          "repCount": 26
+        },
+        {
+          "position": 12,
+          "hebrew": "יִטְמָֽא",
+          "lemma": "2930",
+          "root": "2930",
+          "pos": "V",
+          "morph": "HVqi3ms",
+          "tags": [
+            "action"
+          ],
+          "weight": 0.4,
+          "repCount": 1
+        }
+      ]
+    },
+    {
+      "verseId": "heb-wlc/HAG/2/14",
+      "chapter": 2,
+      "verse": 14,
+      "tokens": [
+        {
+          "position": 0,
+          "hebrew": "וַ/יַּ֨עַן",
+          "lemma": "6030",
+          "root": "6030",
+          "pos": "C",
+          "morph": "HC/Vqw3ms",
+          "weight": 0.4267970000576925,
+          "repCount": 3
+        },
+        {
+          "position": 1,
+          "hebrew": "חַגַּ֜י",
+          "lemma": "2292",
+          "root": "2292",
+          "pos": "N",
+          "morph": "HNp",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.6535940001153849,
+          "repCount": 9
+        },
+        {
+          "position": 2,
+          "hebrew": "וַ/יֹּ֗אמֶר",
+          "lemma": "559",
+          "root": "559",
+          "pos": "C",
+          "morph": "HC/Vqw3ms",
+          "weight": 0.6760351774512874,
+          "repCount": 26
+        },
+        {
+          "position": 3,
+          "hebrew": "כֵּ֣ן",
+          "lemma": "3651",
+          "root": "3651",
+          "pos": "T",
+          "morph": "HTm",
+          "weight": 0.45999999999999996,
+          "repCount": 4
+        },
+        {
+          "position": 4,
+          "hebrew": "הָֽ/עָם",
+          "lemma": "5971",
+          "root": "5971",
+          "pos": "T",
+          "morph": "HTd/Ncmsa",
+          "weight": 0.54,
+          "repCount": 8
+        },
+        {
+          "position": 5,
+          "hebrew": "הַ֠/זֶּה",
+          "lemma": "2088",
+          "root": "2088",
+          "pos": "T",
+          "morph": "HTd/Pdxms",
+          "weight": 0.5767545294909837,
+          "repCount": 11
+        },
+        {
+          "position": 6,
+          "hebrew": "וְ/כֵן",
+          "lemma": "3651",
+          "root": "3651",
+          "pos": "C",
+          "morph": "HC/Tm",
+          "weight": 0.45999999999999996,
+          "repCount": 4
+        },
+        {
+          "position": 7,
+          "hebrew": "הַ/גּ֨וֹי",
+          "lemma": "1471",
+          "root": "1471",
+          "pos": "T",
+          "morph": "HTd/Ncmsa",
+          "weight": 0.45999999999999996,
+          "repCount": 4
+        },
+        {
+          "position": 8,
+          "hebrew": "הַ/זֶּ֤ה",
+          "lemma": "2088",
+          "root": "2088",
+          "pos": "T",
+          "morph": "HTd/Pdxms",
+          "weight": 0.5767545294909837,
+          "repCount": 11
+        },
+        {
+          "position": 9,
+          "hebrew": "לְ/פָנַ/י֙",
+          "lemma": "6440",
+          "root": "6440",
+          "pos": "R",
+          "morph": "HR/Ncbpc/Sp1cs",
+          "weight": 0.38,
+          "repCount": 2
+        },
+        {
+          "position": 10,
+          "hebrew": "נְאֻם",
+          "lemma": "5002",
+          "root": "5002",
+          "pos": "N",
+          "morph": "HNcmsc",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.6867970000576925,
+          "repCount": 12
+        },
+        {
+          "position": 11,
+          "hebrew": "יְהוָ֔ה",
+          "lemma": "3068",
+          "root": "3068",
+          "pos": "N",
+          "morph": "HNp",
+          "tags": [
+            "divine",
+            "LORD",
+            "covenant-name",
+            "entity"
+          ],
+          "weight": 0.9999999999999999,
+          "repCount": 35
+        },
+        {
+          "position": 12,
+          "hebrew": "וְ/כֵ֖ן",
+          "lemma": "3651",
+          "root": "3651",
+          "pos": "C",
+          "morph": "HC/Tm",
+          "weight": 0.45999999999999996,
+          "repCount": 4
+        },
+        {
+          "position": 13,
+          "hebrew": "כָּל",
+          "lemma": "3605",
+          "root": "3605",
+          "pos": "N",
+          "morph": "HNcmsc",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.6657542475909889,
+          "repCount": 10
+        },
+        {
+          "position": 14,
+          "hebrew": "מַעֲשֵׂ֣ה",
+          "lemma": "4639",
+          "root": "4639",
+          "pos": "N",
+          "morph": "HNcmsc",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.48,
+          "repCount": 2
+        },
+        {
+          "position": 15,
+          "hebrew": "יְדֵי/הֶ֑ם",
+          "lemma": "3027",
+          "root": "3027",
+          "pos": "N",
+          "morph": "HNcbdc/Sp3mp",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.5857542475909889,
+          "repCount": 5
+        },
+        {
+          "position": 16,
+          "hebrew": "וַ/אֲשֶׁ֥ר",
+          "lemma": "834",
+          "root": "834",
+          "pos": "C",
+          "morph": "HC/Tr",
+          "weight": 0.5067970000576925,
+          "repCount": 6
+        },
+        {
+          "position": 17,
+          "hebrew": "יַקְרִ֛יבוּ",
+          "lemma": "7126",
+          "root": "7126",
+          "pos": "V",
+          "morph": "HVhi3mp",
+          "tags": [
+            "action"
+          ],
+          "weight": 0.4,
+          "repCount": 1
+        },
+        {
+          "position": 18,
+          "hebrew": "שָׁ֖ם",
+          "lemma": "8033",
+          "root": "8033",
+          "pos": "D",
+          "morph": "HD",
+          "weight": 0.3,
+          "repCount": 1
+        },
+        {
+          "position": 19,
+          "hebrew": "טָמֵ֥א",
+          "lemma": "2931",
+          "root": "2931",
+          "pos": "A",
+          "morph": "HAamsa",
+          "tags": [
+            "quality"
+          ],
+          "weight": 0.43,
+          "repCount": 2
+        },
+        {
+          "position": 20,
+          "hebrew": "הֽוּא",
+          "lemma": "1931",
+          "root": "1931",
+          "pos": "P",
+          "morph": "HPp3ms",
+          "weight": 0.45999999999999996,
+          "repCount": 4
+        }
+      ]
+    },
+    {
+      "verseId": "heb-wlc/HAG/2/15",
+      "chapter": 2,
+      "verse": 15,
+      "tokens": [
+        {
+          "position": 0,
+          "hebrew": "וְ/עַתָּה֙",
+          "lemma": "6258",
+          "root": "6258",
+          "pos": "C",
+          "morph": "HC/D",
+          "weight": 0.45999999999999996,
+          "repCount": 4
+        },
+        {
+          "position": 1,
+          "hebrew": "שִֽׂימוּ",
+          "lemma": "7760",
+          "root": "7760",
+          "pos": "V",
+          "morph": "HVqv2mp",
+          "tags": [
+            "action"
+          ],
+          "weight": 0.6245883937646083,
+          "repCount": 7
+        },
+        {
+          "position": 2,
+          "hebrew": "נָ֣א",
+          "lemma": "4994",
+          "root": "4994",
+          "pos": "T",
+          "morph": "HTe",
+          "weight": 0.45999999999999996,
+          "repCount": 4
+        },
+        {
+          "position": 3,
+          "hebrew": "לְבַבְ/כֶ֔ם",
+          "lemma": "3824",
+          "root": "3824",
+          "pos": "N",
+          "morph": "HNcmsc/Sp2mp",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.5857542475909889,
+          "repCount": 5
+        },
+        {
+          "position": 4,
+          "hebrew": "מִן",
+          "lemma": "4480",
+          "root": "4480",
+          "pos": "R",
+          "morph": "HR",
+          "weight": 0.48575424759098895,
+          "repCount": 5
+        },
+        {
+          "position": 5,
+          "hebrew": "הַ/יּ֥וֹם",
+          "lemma": "3117",
+          "root": "3117",
+          "pos": "T",
+          "morph": "HTd/Ncmsa",
+          "weight": 0.54,
+          "repCount": 8
+        },
+        {
+          "position": 6,
+          "hebrew": "הַ/זֶּ֖ה",
+          "lemma": "2088",
+          "root": "2088",
+          "pos": "T",
+          "morph": "HTd/Pdxms",
+          "weight": 0.5767545294909837,
+          "repCount": 11
+        },
+        {
+          "position": 7,
+          "hebrew": "וָ/מָ֑עְלָ/ה",
+          "lemma": "4605",
+          "root": "4605",
+          "pos": "C",
+          "morph": "HC/D/Sd",
+          "weight": 0.38,
+          "repCount": 2
+        },
+        {
+          "position": 8,
+          "hebrew": "מִ/טֶּ֧רֶם",
+          "lemma": "2962",
+          "root": "2962",
+          "pos": "R",
+          "morph": "HR/D",
+          "weight": 0.3,
+          "repCount": 1
+        },
+        {
+          "position": 9,
+          "hebrew": "שֽׂוּם",
+          "lemma": "7760",
+          "root": "7760",
+          "pos": "V",
+          "morph": "HVqc",
+          "tags": [
+            "action"
+          ],
+          "weight": 0.6245883937646083,
+          "repCount": 7
+        },
+        {
+          "position": 10,
+          "hebrew": "אֶ֛בֶן",
+          "lemma": "68",
+          "root": "68",
+          "pos": "N",
+          "morph": "HNcfsa",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.48,
+          "repCount": 2
+        },
+        {
+          "position": 11,
+          "hebrew": "אֶל",
+          "lemma": "413",
+          "root": "413",
+          "pos": "R",
+          "morph": "HR",
+          "weight": 0.6398342010754868,
+          "repCount": 19
+        },
+        {
+          "position": 12,
+          "hebrew": "אֶ֖בֶן",
+          "lemma": "68",
+          "root": "68",
+          "pos": "N",
+          "morph": "HNcfsa",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.48,
+          "repCount": 2
+        },
+        {
+          "position": 13,
+          "hebrew": "בְּ/הֵיכַ֥ל",
+          "lemma": "1964",
+          "root": "1964",
+          "pos": "R",
+          "morph": "HR/Ncmsc",
+          "weight": 0.38,
+          "repCount": 2
+        },
+        {
+          "position": 14,
+          "hebrew": "יְהוָֽה",
+          "lemma": "3068",
+          "root": "3068",
+          "pos": "N",
+          "morph": "HNp",
+          "tags": [
+            "divine",
+            "LORD",
+            "covenant-name",
+            "entity"
+          ],
+          "weight": 0.9999999999999999,
+          "repCount": 35
+        }
+      ]
+    },
+    {
+      "verseId": "heb-wlc/HAG/2/16",
+      "chapter": 2,
+      "verse": 16,
+      "tokens": [
+        {
+          "position": 0,
+          "hebrew": "מִֽ/הְיוֹתָ֥/ם",
+          "lemma": "1961",
+          "root": "1961",
+          "pos": "R",
+          "morph": "HR/Vqc/Sp3mp",
+          "weight": 0.553594000115385,
+          "repCount": 9
+        },
+        {
+          "position": 1,
+          "hebrew": "בָּא֙",
+          "lemma": "935",
+          "root": "935",
+          "pos": "V",
+          "morph": "HVqp3ms",
+          "tags": [
+            "action"
+          ],
+          "weight": 0.64,
+          "repCount": 8
+        },
+        {
+          "position": 2,
+          "hebrew": "אֶל",
+          "lemma": "413",
+          "root": "413",
+          "pos": "R",
+          "morph": "HR",
+          "weight": 0.6398342010754868,
+          "repCount": 19
+        },
+        {
+          "position": 3,
+          "hebrew": "עֲרֵמַ֣ת",
+          "lemma": "6194",
+          "root": "6194",
+          "pos": "N",
+          "morph": "HNcfsc",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.4,
+          "repCount": 1
+        },
+        {
+          "position": 4,
+          "hebrew": "עֶשְׂרִ֔ים",
+          "lemma": "6242",
+          "root": "6242",
+          "pos": "A",
+          "morph": "HAcbpa",
+          "tags": [
+            "quality"
+          ],
+          "weight": 0.5745883937646084,
+          "repCount": 7
+        },
+        {
+          "position": 5,
+          "hebrew": "וְ/הָיְתָ֖ה",
+          "lemma": "1961",
+          "root": "1961",
+          "pos": "C",
+          "morph": "HC/Vqp3fs",
+          "weight": 0.553594000115385,
+          "repCount": 9
+        },
+        {
+          "position": 6,
+          "hebrew": "עֲשָׂרָ֑ה",
+          "lemma": "6235",
+          "root": "6235",
+          "pos": "A",
+          "morph": "HAcmsa",
+          "tags": [
+            "quality"
+          ],
+          "weight": 0.35,
+          "repCount": 1
+        },
+        {
+          "position": 7,
+          "hebrew": "בָּ֣א",
+          "lemma": "935",
+          "root": "935",
+          "pos": "V",
+          "morph": "HVqp3ms",
+          "tags": [
+            "action"
+          ],
+          "weight": 0.64,
+          "repCount": 8
+        },
+        {
+          "position": 8,
+          "hebrew": "אֶל",
+          "lemma": "413",
+          "root": "413",
+          "pos": "R",
+          "morph": "HR",
+          "weight": 0.6398342010754868,
+          "repCount": 19
+        },
+        {
+          "position": 9,
+          "hebrew": "הַ/יֶּ֗קֶב",
+          "lemma": "3342",
+          "root": "3342",
+          "pos": "T",
+          "morph": "HTd/Ncmsa",
+          "weight": 0.3,
+          "repCount": 1
+        },
+        {
+          "position": 10,
+          "hebrew": "לַ/חְשֹׂף֙",
+          "lemma": "2834",
+          "root": "2834",
+          "pos": "R",
+          "morph": "HR/Vqc",
+          "weight": 0.3,
+          "repCount": 1
+        },
+        {
+          "position": 11,
+          "hebrew": "חֲמִשִּׁ֣ים",
+          "lemma": "2572",
+          "root": "2572",
+          "pos": "A",
+          "morph": "HAcbpa",
+          "tags": [
+            "quality"
+          ],
+          "weight": 0.35,
+          "repCount": 1
+        },
+        {
+          "position": 12,
+          "hebrew": "פּוּרָ֔ה",
+          "lemma": "6333",
+          "root": "6333",
+          "pos": "N",
+          "morph": "HNcfsa",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.4,
+          "repCount": 1
+        },
+        {
+          "position": 13,
+          "hebrew": "וְ/הָיְתָ֖ה",
+          "lemma": "1961",
+          "root": "1961",
+          "pos": "C",
+          "morph": "HC/Vqp3fs",
+          "weight": 0.553594000115385,
+          "repCount": 9
+        },
+        {
+          "position": 14,
+          "hebrew": "עֶשְׂרִֽים",
+          "lemma": "6242",
+          "root": "6242",
+          "pos": "A",
+          "morph": "HAcbpa",
+          "tags": [
+            "quality"
+          ],
+          "weight": 0.5745883937646084,
+          "repCount": 7
+        }
+      ]
+    },
+    {
+      "verseId": "heb-wlc/HAG/2/17",
+      "chapter": 2,
+      "verse": 17,
+      "tokens": [
+        {
+          "position": 0,
+          "hebrew": "הִכֵּ֨יתִי",
+          "lemma": "5221",
+          "root": "5221",
+          "pos": "V",
+          "morph": "HVhp1cs",
+          "tags": [
+            "action"
+          ],
+          "weight": 0.4,
+          "repCount": 1
+        },
+        {
+          "position": 1,
+          "hebrew": "אֶתְ/כֶ֜ם",
+          "lemma": "853",
+          "root": "853",
+          "pos": "T",
+          "morph": "HTo/Sp2mp",
+          "weight": 0.633594000115385,
+          "repCount": 18
+        },
+        {
+          "position": 2,
+          "hebrew": "בַּ/שִּׁדָּפ֤וֹן",
+          "lemma": "7711",
+          "root": "7711",
+          "pos": "R",
+          "morph": "HRd/Ncmsa",
+          "weight": 0.3,
+          "repCount": 1
+        },
+        {
+          "position": 3,
+          "hebrew": "וּ/בַ/יֵּֽרָקוֹן֙",
+          "lemma": "3420",
+          "root": "3420",
+          "pos": "C",
+          "morph": "HC/Rd/Ncmsa",
+          "weight": 0.3,
+          "repCount": 1
+        },
+        {
+          "position": 4,
+          "hebrew": "וּ/בַ/בָּרָ֔ד",
+          "lemma": "1259",
+          "root": "1259",
+          "pos": "C",
+          "morph": "HC/Rd/Ncmsa",
+          "weight": 0.3,
+          "repCount": 1
+        },
+        {
+          "position": 5,
+          "hebrew": "אֵ֖ת",
+          "lemma": "853",
+          "root": "853",
+          "pos": "T",
+          "morph": "HTo",
+          "weight": 0.633594000115385,
+          "repCount": 18
+        },
+        {
+          "position": 6,
+          "hebrew": "כָּל",
+          "lemma": "3605",
+          "root": "3605",
+          "pos": "N",
+          "morph": "HNcmsc",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.6657542475909889,
+          "repCount": 10
+        },
+        {
+          "position": 7,
+          "hebrew": "מַעֲשֵׂ֣ה",
+          "lemma": "4639",
+          "root": "4639",
+          "pos": "N",
+          "morph": "HNcmsc",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.48,
+          "repCount": 2
+        },
+        {
+          "position": 8,
+          "hebrew": "יְדֵי/כֶ֑ם",
+          "lemma": "3027",
+          "root": "3027",
+          "pos": "N",
+          "morph": "HNcbdc/Sp2mp",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.5857542475909889,
+          "repCount": 5
+        },
+        {
+          "position": 9,
+          "hebrew": "וְ/אֵין",
+          "lemma": "369",
+          "root": "369",
+          "pos": "C",
+          "morph": "HC/Tn",
+          "weight": 0.45999999999999996,
+          "repCount": 4
+        },
+        {
+          "position": 10,
+          "hebrew": "אֶתְ/כֶ֥ם",
+          "lemma": "853",
+          "root": "853",
+          "pos": "T",
+          "morph": "HTo/Sp2mp",
+          "weight": 0.633594000115385,
+          "repCount": 18
+        },
+        {
+          "position": 11,
+          "hebrew": "אֵלַ֖/י",
+          "lemma": "413",
+          "root": "413",
+          "pos": "R",
+          "morph": "HR/Sp1cs",
+          "weight": 0.6398342010754868,
+          "repCount": 19
+        },
+        {
+          "position": 12,
+          "hebrew": "נְאֻם",
+          "lemma": "5002",
+          "root": "5002",
+          "pos": "N",
+          "morph": "HNcmsc",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.6867970000576925,
+          "repCount": 12
+        },
+        {
+          "position": 13,
+          "hebrew": "יְהוָֽה",
+          "lemma": "3068",
+          "root": "3068",
+          "pos": "N",
+          "morph": "HNp",
+          "tags": [
+            "divine",
+            "LORD",
+            "covenant-name",
+            "entity"
+          ],
+          "weight": 0.9999999999999999,
+          "repCount": 35
+        }
+      ]
+    },
+    {
+      "verseId": "heb-wlc/HAG/2/18",
+      "chapter": 2,
+      "verse": 18,
+      "tokens": [
+        {
+          "position": 0,
+          "hebrew": "שִׂימוּ",
+          "lemma": "7760",
+          "root": "7760",
+          "pos": "V",
+          "morph": "HVqv2mp",
+          "tags": [
+            "action"
+          ],
+          "weight": 0.6245883937646083,
+          "repCount": 7
+        },
+        {
+          "position": 1,
+          "hebrew": "נָ֣א",
+          "lemma": "4994",
+          "root": "4994",
+          "pos": "T",
+          "morph": "HTe",
+          "weight": 0.45999999999999996,
+          "repCount": 4
+        },
+        {
+          "position": 2,
+          "hebrew": "לְבַבְ/כֶ֔ם",
+          "lemma": "3824",
+          "root": "3824",
+          "pos": "N",
+          "morph": "HNcmsc/Sp2mp",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.5857542475909889,
+          "repCount": 5
+        },
+        {
+          "position": 3,
+          "hebrew": "מִן",
+          "lemma": "4480",
+          "root": "4480",
+          "pos": "R",
+          "morph": "HR",
+          "weight": 0.48575424759098895,
+          "repCount": 5
+        },
+        {
+          "position": 4,
+          "hebrew": "הַ/יּ֥וֹם",
+          "lemma": "3117",
+          "root": "3117",
+          "pos": "T",
+          "morph": "HTd/Ncmsa",
+          "weight": 0.54,
+          "repCount": 8
+        },
+        {
+          "position": 5,
+          "hebrew": "הַ/זֶּ֖ה",
+          "lemma": "2088",
+          "root": "2088",
+          "pos": "T",
+          "morph": "HTd/Pdxms",
+          "weight": 0.5767545294909837,
+          "repCount": 11
+        },
+        {
+          "position": 6,
+          "hebrew": "וָ/מָ֑עְלָ/ה",
+          "lemma": "4605",
+          "root": "4605",
+          "pos": "C",
+          "morph": "HC/D/Sd",
+          "weight": 0.38,
+          "repCount": 2
+        },
+        {
+          "position": 7,
+          "hebrew": "מִ/יּוֹם֩",
+          "lemma": "3117",
+          "root": "3117",
+          "pos": "R",
+          "morph": "HR/Ncmsc",
+          "weight": 0.54,
+          "repCount": 8
+        },
+        {
+          "position": 8,
+          "hebrew": "עֶשְׂרִ֨ים",
+          "lemma": "6242",
+          "root": "6242",
+          "pos": "A",
+          "morph": "HAcbpa",
+          "tags": [
+            "quality"
+          ],
+          "weight": 0.5745883937646084,
+          "repCount": 7
+        },
+        {
+          "position": 9,
+          "hebrew": "וְ/אַרְבָּעָ֜ה",
+          "lemma": "702",
+          "root": "702",
+          "pos": "C",
+          "morph": "HC/Acmsa",
+          "weight": 0.45999999999999996,
+          "repCount": 4
+        },
+        {
+          "position": 10,
+          "hebrew": "לַ/תְּשִׁיעִ֗י",
+          "lemma": "8671",
+          "root": "8671",
+          "pos": "R",
+          "morph": "HRd/Aomsa",
+          "weight": 0.38,
+          "repCount": 2
+        },
+        {
+          "position": 11,
+          "hebrew": "לְ/מִן",
+          "lemma": "4480",
+          "root": "4480",
+          "pos": "R",
+          "morph": "HR/R",
+          "weight": 0.48575424759098895,
+          "repCount": 5
+        },
+        {
+          "position": 12,
+          "hebrew": "הַ/יּ֛וֹם",
+          "lemma": "3117",
+          "root": "3117",
+          "pos": "T",
+          "morph": "HTd/Ncmsa",
+          "weight": 0.54,
+          "repCount": 8
+        },
+        {
+          "position": 13,
+          "hebrew": "אֲשֶׁר",
+          "lemma": "834",
+          "root": "834",
+          "pos": "T",
+          "morph": "HTr",
+          "weight": 0.5067970000576925,
+          "repCount": 6
+        },
+        {
+          "position": 14,
+          "hebrew": "יֻסַּ֥ד",
+          "lemma": "3245",
+          "root": "3245",
+          "pos": "V",
+          "morph": "HVPp3ms",
+          "tags": [
+            "action"
+          ],
+          "weight": 0.4,
+          "repCount": 1
+        },
+        {
+          "position": 15,
+          "hebrew": "הֵֽיכַל",
+          "lemma": "1964",
+          "root": "1964",
+          "pos": "N",
+          "morph": "HNcmsc",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.48,
+          "repCount": 2
+        },
+        {
+          "position": 16,
+          "hebrew": "יְהוָ֖ה",
+          "lemma": "3068",
+          "root": "3068",
+          "pos": "N",
+          "morph": "HNp",
+          "tags": [
+            "divine",
+            "LORD",
+            "covenant-name",
+            "entity"
+          ],
+          "weight": 0.9999999999999999,
+          "repCount": 35
+        },
+        {
+          "position": 17,
+          "hebrew": "שִׂ֥ימוּ",
+          "lemma": "7760",
+          "root": "7760",
+          "pos": "V",
+          "morph": "HVqv2mp",
+          "tags": [
+            "action"
+          ],
+          "weight": 0.6245883937646083,
+          "repCount": 7
+        },
+        {
+          "position": 18,
+          "hebrew": "לְבַבְ/כֶֽם",
+          "lemma": "3824",
+          "root": "3824",
+          "pos": "N",
+          "morph": "HNcmsc/Sp2mp",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.5857542475909889,
+          "repCount": 5
+        }
+      ]
+    },
+    {
+      "verseId": "heb-wlc/HAG/2/19",
+      "chapter": 2,
+      "verse": 19,
+      "tokens": [
+        {
+          "position": 0,
+          "hebrew": "הַ/ע֤וֹד",
+          "lemma": "i/5750",
+          "root": "i/5750",
+          "pos": "T",
+          "morph": "HTi/D",
+          "weight": 0.3,
+          "repCount": 1
+        },
+        {
+          "position": 1,
+          "hebrew": "הַ/זֶּ֨רַע֙",
+          "lemma": "2233",
+          "root": "2233",
+          "pos": "T",
+          "morph": "HTd/Ncmsa",
+          "weight": 0.3,
+          "repCount": 1
+        },
+        {
+          "position": 2,
+          "hebrew": "בַּ/מְּגוּרָ֔ה",
+          "lemma": "4035",
+          "root": "4035",
+          "pos": "R",
+          "morph": "HRd/Ncfsa",
+          "weight": 0.3,
+          "repCount": 1
+        },
+        {
+          "position": 3,
+          "hebrew": "וְ/עַד",
+          "lemma": "5704",
+          "root": "5704",
+          "pos": "C",
+          "morph": "HC/R",
+          "weight": 0.3,
+          "repCount": 1
+        },
+        {
+          "position": 4,
+          "hebrew": "הַ/גֶּ֨פֶן",
+          "lemma": "1612",
+          "root": "1612",
+          "pos": "T",
+          "morph": "HTd/Ncbsa",
+          "weight": 0.3,
+          "repCount": 1
+        },
+        {
+          "position": 5,
+          "hebrew": "וְ/הַ/תְּאֵנָ֧ה",
+          "lemma": "8384",
+          "root": "8384",
+          "pos": "C",
+          "morph": "HC/Td/Ncfsa",
+          "weight": 0.3,
+          "repCount": 1
+        },
+        {
+          "position": 6,
+          "hebrew": "וְ/הָ/רִמּ֛וֹן",
+          "lemma": "7416",
+          "root": "7416",
+          "pos": "C",
+          "morph": "HC/Td/Ncmsa",
+          "weight": 0.3,
+          "repCount": 1
+        },
+        {
+          "position": 7,
+          "hebrew": "וְ/עֵ֥ץ",
+          "lemma": "6086",
+          "root": "6086",
+          "pos": "C",
+          "morph": "HC/Ncmsc",
+          "weight": 0.38,
+          "repCount": 2
+        },
+        {
+          "position": 8,
+          "hebrew": "הַ/זַּ֖יִת",
+          "lemma": "2132",
+          "root": "2132",
+          "pos": "T",
+          "morph": "HTd/Ncmsa",
+          "weight": 0.3,
+          "repCount": 1
+        },
+        {
+          "position": 9,
+          "hebrew": "לֹ֣א",
+          "lemma": "3808",
+          "root": "3808",
+          "pos": "T",
+          "morph": "HTn",
+          "weight": 0.4267970000576925,
+          "repCount": 3
+        },
+        {
+          "position": 10,
+          "hebrew": "נָשָׂ֑א",
+          "lemma": "5375",
+          "root": "5375",
+          "pos": "V",
+          "morph": "HVqp3ms",
+          "tags": [
+            "action"
+          ],
+          "weight": 0.48,
+          "repCount": 2
+        },
+        {
+          "position": 11,
+          "hebrew": "מִן",
+          "lemma": "4480",
+          "root": "4480",
+          "pos": "R",
+          "morph": "HR",
+          "weight": 0.48575424759098895,
+          "repCount": 5
+        },
+        {
+          "position": 12,
+          "hebrew": "הַ/יּ֥וֹם",
+          "lemma": "3117",
+          "root": "3117",
+          "pos": "T",
+          "morph": "HTd/Ncmsa",
+          "weight": 0.54,
+          "repCount": 8
+        },
+        {
+          "position": 13,
+          "hebrew": "הַ/זֶּ֖ה",
+          "lemma": "2088",
+          "root": "2088",
+          "pos": "T",
+          "morph": "HTd/Pdxms",
+          "weight": 0.5767545294909837,
+          "repCount": 11
+        },
+        {
+          "position": 14,
+          "hebrew": "אֲבָרֵֽךְ",
+          "lemma": "1288",
+          "root": "1288",
+          "pos": "V",
+          "morph": "HVpi1cs",
+          "tags": [
+            "action"
+          ],
+          "weight": 0.4,
+          "repCount": 1
+        }
+      ]
+    },
+    {
+      "verseId": "heb-wlc/HAG/2/20",
+      "chapter": 2,
+      "verse": 20,
+      "tokens": [
+        {
+          "position": 0,
+          "hebrew": "וַ/יְהִ֨י",
+          "lemma": "1961",
+          "root": "1961",
+          "pos": "C",
+          "morph": "HC/Vqw3ms",
+          "weight": 0.553594000115385,
+          "repCount": 9
+        },
+        {
+          "position": 1,
+          "hebrew": "דְבַר",
+          "lemma": "1697",
+          "root": "1697",
+          "pos": "N",
+          "morph": "HNcmsc",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.6245883937646083,
+          "repCount": 7
+        },
+        {
+          "position": 2,
+          "hebrew": "יְהוָ֤ה",
+          "lemma": "3068",
+          "root": "3068",
+          "pos": "N",
+          "morph": "HNp",
+          "tags": [
+            "divine",
+            "LORD",
+            "covenant-name",
+            "entity"
+          ],
+          "weight": 0.9999999999999999,
+          "repCount": 35
+        },
+        {
+          "position": 3,
+          "hebrew": "שֵׁנִית֙",
+          "lemma": "8145",
+          "root": "8145",
+          "pos": "A",
+          "morph": "HAofsa",
+          "tags": [
+            "quality"
+          ],
+          "weight": 0.35,
+          "repCount": 1
+        },
+        {
+          "position": 4,
+          "hebrew": "אֶל",
+          "lemma": "413",
+          "root": "413",
+          "pos": "R",
+          "morph": "HR",
+          "weight": 0.6398342010754868,
+          "repCount": 19
+        },
+        {
+          "position": 5,
+          "hebrew": "חַגַּ֔י",
+          "lemma": "2292",
+          "root": "2292",
+          "pos": "N",
+          "morph": "HNp",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.6535940001153849,
+          "repCount": 9
+        },
+        {
+          "position": 6,
+          "hebrew": "בְּ/עֶשְׂרִ֧ים",
+          "lemma": "6242",
+          "root": "6242",
+          "pos": "R",
+          "morph": "HR/Acbpa",
+          "weight": 0.5245883937646083,
+          "repCount": 7
+        },
+        {
+          "position": 7,
+          "hebrew": "וְ/אַרְבָּעָ֛ה",
+          "lemma": "702",
+          "root": "702",
+          "pos": "C",
+          "morph": "HC/Acmsa",
+          "weight": 0.45999999999999996,
+          "repCount": 4
+        },
+        {
+          "position": 8,
+          "hebrew": "לַ/חֹ֖דֶשׁ",
+          "lemma": "2320",
+          "root": "2320",
+          "pos": "R",
+          "morph": "HRd/Ncmsa",
+          "weight": 0.48575424759098895,
+          "repCount": 5
+        },
+        {
+          "position": 9,
+          "hebrew": "לֵ/אמֹֽר",
+          "lemma": "559",
+          "root": "559",
+          "pos": "R",
+          "morph": "HR/Vqc",
+          "weight": 0.6760351774512874,
+          "repCount": 26
+        }
+      ]
+    },
+    {
+      "verseId": "heb-wlc/HAG/2/21",
+      "chapter": 2,
+      "verse": 21,
+      "tokens": [
+        {
+          "position": 0,
+          "hebrew": "אֱמֹ֕ר",
+          "lemma": "559",
+          "root": "559",
+          "pos": "V",
+          "morph": "HVqv2ms",
+          "tags": [
+            "action"
+          ],
+          "weight": 0.7760351774512874,
+          "repCount": 26
+        },
+        {
+          "position": 1,
+          "hebrew": "אֶל",
+          "lemma": "413",
+          "root": "413",
+          "pos": "R",
+          "morph": "HR",
+          "weight": 0.6398342010754868,
+          "repCount": 19
+        },
+        {
+          "position": 2,
+          "hebrew": "זְרֻבָּבֶ֥ל",
+          "lemma": "2216",
+          "root": "2216",
+          "pos": "N",
+          "morph": "HNp",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.6245883937646083,
+          "repCount": 7
+        },
+        {
+          "position": 3,
+          "hebrew": "פַּֽחַת",
+          "lemma": "6346",
+          "root": "6346",
+          "pos": "N",
+          "morph": "HNcmsc",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.5599999999999999,
+          "repCount": 4
+        },
+        {
+          "position": 4,
+          "hebrew": "יְהוּדָ֖ה",
+          "lemma": "3063",
+          "root": "3063",
+          "pos": "N",
+          "morph": "HNp",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.5599999999999999,
+          "repCount": 4
+        },
+        {
+          "position": 5,
+          "hebrew": "לֵ/אמֹ֑ר",
+          "lemma": "559",
+          "root": "559",
+          "pos": "R",
+          "morph": "HR/Vqc",
+          "weight": 0.6760351774512874,
+          "repCount": 26
+        },
+        {
+          "position": 6,
+          "hebrew": "אֲנִ֣י",
+          "lemma": "589",
+          "root": "589",
+          "pos": "P",
+          "morph": "HPp1cs",
+          "weight": 0.45999999999999996,
+          "repCount": 4
+        },
+        {
+          "position": 7,
+          "hebrew": "מַרְעִ֔ישׁ",
+          "lemma": "7493",
+          "root": "7493",
+          "pos": "V",
+          "morph": "HVhrmsa",
+          "tags": [
+            "action"
+          ],
+          "weight": 0.5267970000576925,
+          "repCount": 3
+        },
+        {
+          "position": 8,
+          "hebrew": "אֶת",
+          "lemma": "853",
+          "root": "853",
+          "pos": "T",
+          "morph": "HTo",
+          "weight": 0.633594000115385,
+          "repCount": 18
+        },
+        {
+          "position": 9,
+          "hebrew": "הַ/שָּׁמַ֖יִם",
+          "lemma": "8064",
+          "root": "8064",
+          "pos": "T",
+          "morph": "HTd/Ncmpa",
+          "weight": 0.4267970000576925,
+          "repCount": 3
+        },
+        {
+          "position": 10,
+          "hebrew": "וְ/אֶת",
+          "lemma": "853",
+          "root": "853",
+          "pos": "C",
+          "morph": "HC/To",
+          "weight": 0.633594000115385,
+          "repCount": 18
+        },
+        {
+          "position": 11,
+          "hebrew": "הָ/אָֽרֶץ",
+          "lemma": "776",
+          "root": "776",
+          "pos": "T",
+          "morph": "HTd/Ncbsa",
+          "weight": 0.48575424759098895,
+          "repCount": 5
+        }
+      ]
+    },
+    {
+      "verseId": "heb-wlc/HAG/2/22",
+      "chapter": 2,
+      "verse": 22,
+      "tokens": [
+        {
+          "position": 0,
+          "hebrew": "וְ/הָֽפַכְתִּי֙",
+          "lemma": "2015",
+          "root": "2015",
+          "pos": "C",
+          "morph": "HC/Vqq1cs",
+          "weight": 0.38,
+          "repCount": 2
+        },
+        {
+          "position": 1,
+          "hebrew": "כִּסֵּ֣א",
+          "lemma": "3678",
+          "root": "3678",
+          "pos": "N",
+          "morph": "HNcmsc",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.4,
+          "repCount": 1
+        },
+        {
+          "position": 2,
+          "hebrew": "מַמְלָכ֔וֹת",
+          "lemma": "4467",
+          "root": "4467",
+          "pos": "N",
+          "morph": "HNcfpa",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.48,
+          "repCount": 2
+        },
+        {
+          "position": 3,
+          "hebrew": "וְ/הִ֨שְׁמַדְתִּ֔י",
+          "lemma": "8045",
+          "root": "8045",
+          "pos": "C",
+          "morph": "HC/Vhq1cs",
+          "weight": 0.3,
+          "repCount": 1
+        },
+        {
+          "position": 4,
+          "hebrew": "חֹ֖זֶק",
+          "lemma": "2392",
+          "root": "2392",
+          "pos": "N",
+          "morph": "HNcmsc",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.4,
+          "repCount": 1
+        },
+        {
+          "position": 5,
+          "hebrew": "מַמְלְכ֣וֹת",
+          "lemma": "4467",
+          "root": "4467",
+          "pos": "N",
+          "morph": "HNcfpc",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.48,
+          "repCount": 2
+        },
+        {
+          "position": 6,
+          "hebrew": "הַ/גּוֹיִ֑ם",
+          "lemma": "1471",
+          "root": "1471",
+          "pos": "T",
+          "morph": "HTd/Ncmpa",
+          "weight": 0.45999999999999996,
+          "repCount": 4
+        },
+        {
+          "position": 7,
+          "hebrew": "וְ/הָפַכְתִּ֤י",
+          "lemma": "2015",
+          "root": "2015",
+          "pos": "C",
+          "morph": "HC/Vqq1cs",
+          "weight": 0.38,
+          "repCount": 2
+        },
+        {
+          "position": 8,
+          "hebrew": "מֶרְכָּבָה֙",
+          "lemma": "4818",
+          "root": "4818",
+          "pos": "N",
+          "morph": "HNcfsa",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.4,
+          "repCount": 1
+        },
+        {
+          "position": 9,
+          "hebrew": "וְ/רֹ֣כְבֶ֔י/הָ",
+          "lemma": "7392",
+          "root": "7392",
+          "pos": "C",
+          "morph": "HC/Vqrmpc/Sp3fs",
+          "weight": 0.38,
+          "repCount": 2
+        },
+        {
+          "position": 10,
+          "hebrew": "וְ/יָרְד֤וּ",
+          "lemma": "3381",
+          "root": "3381",
+          "pos": "C",
+          "morph": "HC/Vqq3cp",
+          "weight": 0.3,
+          "repCount": 1
+        },
+        {
+          "position": 11,
+          "hebrew": "סוּסִים֙",
+          "lemma": "5483",
+          "root": "5483",
+          "pos": "N",
+          "morph": "HNcmpa",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.4,
+          "repCount": 1
+        },
+        {
+          "position": 12,
+          "hebrew": "וְ/רֹ֣כְבֵי/הֶ֔ם",
+          "lemma": "7392",
+          "root": "7392",
+          "pos": "C",
+          "morph": "HC/Vqrmpc/Sp3mp",
+          "weight": 0.38,
+          "repCount": 2
+        },
+        {
+          "position": 13,
+          "hebrew": "אִ֖ישׁ",
+          "lemma": "376",
+          "root": "376",
+          "pos": "N",
+          "morph": "HNcmsa",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.5267970000576925,
+          "repCount": 3
+        },
+        {
+          "position": 14,
+          "hebrew": "בְּ/חֶ֥רֶב",
+          "lemma": "2719",
+          "root": "2719",
+          "pos": "R",
+          "morph": "HR/Ncfsc",
+          "weight": 0.3,
+          "repCount": 1
+        },
+        {
+          "position": 15,
+          "hebrew": "אָחִֽי/ו",
+          "lemma": "251",
+          "root": "251",
+          "pos": "N",
+          "morph": "HNcmsc/Sp3ms",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.4,
+          "repCount": 1
+        }
+      ]
+    },
+    {
+      "verseId": "heb-wlc/HAG/2/23",
+      "chapter": 2,
+      "verse": 23,
+      "tokens": [
+        {
+          "position": 0,
+          "hebrew": "בַּ/יּ֣וֹם",
+          "lemma": "3117",
+          "root": "3117",
+          "pos": "R",
+          "morph": "HRd/Ncmsa",
+          "weight": 0.54,
+          "repCount": 8
+        },
+        {
+          "position": 1,
+          "hebrew": "הַ/ה֣וּא",
+          "lemma": "1931",
+          "root": "1931",
+          "pos": "T",
+          "morph": "HTd/Pp3ms",
+          "weight": 0.45999999999999996,
+          "repCount": 4
+        },
+        {
+          "position": 2,
+          "hebrew": "נְאֻם",
+          "lemma": "5002",
+          "root": "5002",
+          "pos": "N",
+          "morph": "HNcmsc",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.6867970000576925,
+          "repCount": 12
+        },
+        {
+          "position": 3,
+          "hebrew": "יְהוָ֣ה",
+          "lemma": "3068",
+          "root": "3068",
+          "pos": "N",
+          "morph": "HNp",
+          "tags": [
+            "divine",
+            "LORD",
+            "covenant-name",
+            "entity"
+          ],
+          "weight": 0.9999999999999999,
+          "repCount": 35
+        },
+        {
+          "position": 4,
+          "hebrew": "צְבָא֡וֹת",
+          "lemma": "6635",
+          "root": "6635",
+          "pos": "N",
+          "morph": "HNcbpa",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.7045883937646084,
+          "repCount": 14
+        },
+        {
+          "position": 5,
+          "hebrew": "אֶ֠קָּחֲ/ךָ",
+          "lemma": "3947",
+          "root": "3947",
+          "pos": "V",
+          "morph": "HVqi1cs/Sp2ms",
+          "tags": [
+            "action"
+          ],
+          "weight": 0.4,
+          "repCount": 1
+        },
+        {
+          "position": 6,
+          "hebrew": "זְרֻבָּבֶ֨ל",
+          "lemma": "2216",
+          "root": "2216",
+          "pos": "N",
+          "morph": "HNp",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.6245883937646083,
+          "repCount": 7
+        },
+        {
+          "position": 7,
+          "hebrew": "בֶּן",
+          "lemma": "1121",
+          "root": "1121",
+          "pos": "N",
+          "morph": "HNcmsc",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.6657542475909889,
+          "repCount": 10
+        },
+        {
+          "position": 8,
+          "hebrew": "שְׁאַלְתִּיאֵ֤ל",
+          "lemma": "7597",
+          "root": "7597",
+          "pos": "N",
+          "morph": "HNp",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.5857542475909889,
+          "repCount": 5
+        },
+        {
+          "position": 9,
+          "hebrew": "עַבְדִּ/י֙",
+          "lemma": "5650",
+          "root": "5650",
+          "pos": "N",
+          "morph": "HNcmsc/Sp1cs",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.4,
+          "repCount": 1
+        },
+        {
+          "position": 10,
+          "hebrew": "נְאֻם",
+          "lemma": "5002",
+          "root": "5002",
+          "pos": "N",
+          "morph": "HNcmsc",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.6867970000576925,
+          "repCount": 12
+        },
+        {
+          "position": 11,
+          "hebrew": "יְהוָ֔ה",
+          "lemma": "3068",
+          "root": "3068",
+          "pos": "N",
+          "morph": "HNp",
+          "tags": [
+            "divine",
+            "LORD",
+            "covenant-name",
+            "entity"
+          ],
+          "weight": 0.9999999999999999,
+          "repCount": 35
+        },
+        {
+          "position": 12,
+          "hebrew": "וְ/שַׂמְתִּ֖י/ךָ",
+          "lemma": "7760",
+          "root": "7760",
+          "pos": "C",
+          "morph": "HC/Vqp1cs/Sp2ms",
+          "weight": 0.5245883937646083,
+          "repCount": 7
+        },
+        {
+          "position": 13,
+          "hebrew": "כַּֽ/חוֹתָ֑ם",
+          "lemma": "k/2368",
+          "root": "k/2368",
+          "pos": "R",
+          "morph": "HRd/Ncmsa",
+          "weight": 0.3,
+          "repCount": 1
+        },
+        {
+          "position": 14,
+          "hebrew": "כִּֽי",
+          "lemma": "3588",
+          "root": "3588",
+          "pos": "C",
+          "morph": "HC",
+          "weight": 0.4267970000576925,
+          "repCount": 3
+        },
+        {
+          "position": 15,
+          "hebrew": "בְ/ךָ֣",
+          "lemma": "",
+          "root": "",
+          "pos": "R",
+          "morph": "HR/Sp2ms",
+          "weight": 0.3,
+          "repCount": 0
+        },
+        {
+          "position": 16,
+          "hebrew": "בָחַ֔רְתִּי",
+          "lemma": "977",
+          "root": "977",
+          "pos": "V",
+          "morph": "HVqp1cs",
+          "tags": [
+            "action"
+          ],
+          "weight": 0.4,
+          "repCount": 1
+        },
+        {
+          "position": 17,
+          "hebrew": "נְאֻ֖ם",
+          "lemma": "5002",
+          "root": "5002",
+          "pos": "N",
+          "morph": "HNcmsc",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.6867970000576925,
+          "repCount": 12
+        },
+        {
+          "position": 18,
+          "hebrew": "יְהוָ֥ה",
+          "lemma": "3068",
+          "root": "3068",
+          "pos": "N",
+          "morph": "HNp",
+          "tags": [
+            "divine",
+            "LORD",
+            "covenant-name",
+            "entity"
+          ],
+          "weight": 0.9999999999999999,
+          "repCount": 35
+        },
+        {
+          "position": 19,
+          "hebrew": "צְבָאֽוֹת",
+          "lemma": "6635",
+          "root": "6635",
+          "pos": "N",
+          "morph": "HNcbpa",
+          "tags": [
+            "entity"
+          ],
+          "weight": 0.7045883937646084,
+          "repCount": 14
+        }
+      ]
+    }
+  ],
+  "repetitions": [
+    {
+      "root": "3068",
+      "lemma": "3068",
+      "gloss": "LORD (YHWH)",
+      "count": 35,
+      "verses": [
+        "heb-wlc/HAG/1/1",
+        "heb-wlc/HAG/1/2",
+        "heb-wlc/HAG/1/3",
+        "heb-wlc/HAG/1/5",
+        "heb-wlc/HAG/1/7",
+        "heb-wlc/HAG/1/8",
+        "heb-wlc/HAG/1/9",
+        "heb-wlc/HAG/1/12",
+        "heb-wlc/HAG/1/13",
+        "heb-wlc/HAG/1/14",
+        "heb-wlc/HAG/2/1",
+        "heb-wlc/HAG/2/4",
+        "heb-wlc/HAG/2/6",
+        "heb-wlc/HAG/2/7",
+        "heb-wlc/HAG/2/8",
+        "heb-wlc/HAG/2/9",
+        "heb-wlc/HAG/2/10",
+        "heb-wlc/HAG/2/11",
+        "heb-wlc/HAG/2/14",
+        "heb-wlc/HAG/2/15",
+        "heb-wlc/HAG/2/17",
+        "heb-wlc/HAG/2/18",
+        "heb-wlc/HAG/2/20",
+        "heb-wlc/HAG/2/23"
+      ]
+    },
+    {
+      "root": "559",
+      "lemma": "559",
+      "gloss": "say (amar)",
+      "count": 26,
+      "verses": [
+        "heb-wlc/HAG/1/1",
+        "heb-wlc/HAG/1/2",
+        "heb-wlc/HAG/1/3",
+        "heb-wlc/HAG/1/5",
+        "heb-wlc/HAG/1/7",
+        "heb-wlc/HAG/1/8",
+        "heb-wlc/HAG/1/13",
+        "heb-wlc/HAG/2/1",
+        "heb-wlc/HAG/2/2",
+        "heb-wlc/HAG/2/6",
+        "heb-wlc/HAG/2/7",
+        "heb-wlc/HAG/2/9",
+        "heb-wlc/HAG/2/10",
+        "heb-wlc/HAG/2/11",
+        "heb-wlc/HAG/2/12",
+        "heb-wlc/HAG/2/13",
+        "heb-wlc/HAG/2/14",
+        "heb-wlc/HAG/2/20",
+        "heb-wlc/HAG/2/21"
+      ]
+    },
+    {
+      "root": "413",
+      "lemma": "413",
+      "gloss": "to/toward (el)",
+      "count": 19,
+      "verses": [
+        "heb-wlc/HAG/1/1",
+        "heb-wlc/HAG/1/6",
+        "heb-wlc/HAG/1/9",
+        "heb-wlc/HAG/2/2",
+        "heb-wlc/HAG/2/10",
+        "heb-wlc/HAG/2/12",
+        "heb-wlc/HAG/2/15",
+        "heb-wlc/HAG/2/16",
+        "heb-wlc/HAG/2/17",
+        "heb-wlc/HAG/2/20",
+        "heb-wlc/HAG/2/21"
+      ]
+    },
+    {
+      "root": "853",
+      "lemma": "853",
+      "gloss": "- (et, object marker)",
+      "count": 18,
+      "verses": [
+        "heb-wlc/HAG/1/14",
+        "heb-wlc/HAG/2/3",
+        "heb-wlc/HAG/2/5",
+        "heb-wlc/HAG/2/6",
+        "heb-wlc/HAG/2/7",
+        "heb-wlc/HAG/2/11",
+        "heb-wlc/HAG/2/17",
+        "heb-wlc/HAG/2/21"
+      ]
+    },
+    {
+      "root": "6635",
+      "lemma": "6635",
+      "gloss": "hosts/armies (tsvaot)",
+      "count": 14,
+      "verses": [
+        "heb-wlc/HAG/1/2",
+        "heb-wlc/HAG/1/5",
+        "heb-wlc/HAG/1/7",
+        "heb-wlc/HAG/1/9",
+        "heb-wlc/HAG/1/14",
+        "heb-wlc/HAG/2/4",
+        "heb-wlc/HAG/2/6",
+        "heb-wlc/HAG/2/7",
+        "heb-wlc/HAG/2/8",
+        "heb-wlc/HAG/2/9",
+        "heb-wlc/HAG/2/11",
+        "heb-wlc/HAG/2/23"
+      ]
+    },
+    {
+      "root": "5921",
+      "lemma": "5921",
+      "gloss": "upon/over (al)",
+      "count": 14,
+      "verses": [
+        "heb-wlc/HAG/1/5",
+        "heb-wlc/HAG/1/7",
+        "heb-wlc/HAG/1/10",
+        "heb-wlc/HAG/1/11",
+        "heb-wlc/HAG/1/12"
+      ]
+    },
+    {
+      "root": "5002",
+      "lemma": "5002",
+      "gloss": "declares/oracle (neum)",
+      "count": 12,
+      "verses": [
+        "heb-wlc/HAG/1/9",
+        "heb-wlc/HAG/1/13",
+        "heb-wlc/HAG/2/4",
+        "heb-wlc/HAG/2/8",
+        "heb-wlc/HAG/2/9",
+        "heb-wlc/HAG/2/14",
+        "heb-wlc/HAG/2/17",
+        "heb-wlc/HAG/2/23"
+      ]
+    },
+    {
+      "root": "1004",
+      "lemma": "1004",
+      "gloss": "house (bayit)",
+      "count": 11,
+      "verses": [
+        "heb-wlc/HAG/1/2",
+        "heb-wlc/HAG/1/4",
+        "heb-wlc/HAG/1/8",
+        "heb-wlc/HAG/1/9",
+        "heb-wlc/HAG/1/14",
+        "heb-wlc/HAG/2/3",
+        "heb-wlc/HAG/2/7",
+        "heb-wlc/HAG/2/9"
+      ]
+    },
+    {
+      "root": "2088",
+      "lemma": "2088",
+      "gloss": "this (zeh)",
+      "count": 11,
+      "verses": [
+        "heb-wlc/HAG/1/2",
+        "heb-wlc/HAG/1/4",
+        "heb-wlc/HAG/2/3",
+        "heb-wlc/HAG/2/7",
+        "heb-wlc/HAG/2/9",
+        "heb-wlc/HAG/2/14",
+        "heb-wlc/HAG/2/15",
+        "heb-wlc/HAG/2/18",
+        "heb-wlc/HAG/2/19"
+      ]
+    },
+    {
+      "root": "3605",
+      "lemma": "3605",
+      "gloss": "all/every (kol)",
+      "count": 10,
+      "verses": [
+        "heb-wlc/HAG/1/11",
+        "heb-wlc/HAG/1/12",
+        "heb-wlc/HAG/1/14",
+        "heb-wlc/HAG/2/4",
+        "heb-wlc/HAG/2/7",
+        "heb-wlc/HAG/2/12",
+        "heb-wlc/HAG/2/13",
+        "heb-wlc/HAG/2/14",
+        "heb-wlc/HAG/2/17"
+      ]
+    },
+    {
+      "root": "1121",
+      "lemma": "1121",
+      "gloss": "son (ben)",
+      "count": 10,
+      "verses": [
+        "heb-wlc/HAG/1/1",
+        "heb-wlc/HAG/1/12",
+        "heb-wlc/HAG/1/14",
+        "heb-wlc/HAG/2/2",
+        "heb-wlc/HAG/2/4",
+        "heb-wlc/HAG/2/23"
+      ]
+    },
+    {
+      "root": "1961",
+      "lemma": "1961",
+      "gloss": "be/become (hayah)",
+      "count": 9,
+      "verses": [
+        "heb-wlc/HAG/1/1",
+        "heb-wlc/HAG/1/3",
+        "heb-wlc/HAG/2/1",
+        "heb-wlc/HAG/2/9",
+        "heb-wlc/HAG/2/10",
+        "heb-wlc/HAG/2/16",
+        "heb-wlc/HAG/2/20"
+      ]
+    },
+    {
+      "root": "2292",
+      "lemma": "2292",
+      "gloss": "",
+      "count": 9,
+      "verses": [
+        "heb-wlc/HAG/1/1",
+        "heb-wlc/HAG/1/3",
+        "heb-wlc/HAG/1/12",
+        "heb-wlc/HAG/1/13",
+        "heb-wlc/HAG/2/1",
+        "heb-wlc/HAG/2/10",
+        "heb-wlc/HAG/2/13",
+        "heb-wlc/HAG/2/14",
+        "heb-wlc/HAG/2/20"
+      ]
+    },
+    {
+      "root": "3548",
+      "lemma": "3548",
+      "gloss": "",
+      "count": 8,
+      "verses": [
+        "heb-wlc/HAG/1/1",
+        "heb-wlc/HAG/1/12",
+        "heb-wlc/HAG/1/14",
+        "heb-wlc/HAG/2/2",
+        "heb-wlc/HAG/2/4",
+        "heb-wlc/HAG/2/11",
+        "heb-wlc/HAG/2/12",
+        "heb-wlc/HAG/2/13"
+      ]
+    },
+    {
+      "root": "935",
+      "lemma": "935",
+      "gloss": "come/go (bo)",
+      "count": 8,
+      "verses": [
+        "heb-wlc/HAG/1/2",
+        "heb-wlc/HAG/1/6",
+        "heb-wlc/HAG/1/8",
+        "heb-wlc/HAG/1/9",
+        "heb-wlc/HAG/1/14",
+        "heb-wlc/HAG/2/7",
+        "heb-wlc/HAG/2/16"
+      ]
+    },
+    {
+      "root": "3117",
+      "lemma": "3117",
+      "gloss": "day (yom)",
+      "count": 8,
+      "verses": [
+        "heb-wlc/HAG/1/1",
+        "heb-wlc/HAG/1/15",
+        "heb-wlc/HAG/2/15",
+        "heb-wlc/HAG/2/18",
+        "heb-wlc/HAG/2/19",
+        "heb-wlc/HAG/2/23"
+      ]
+    },
+    {
+      "root": "5971",
+      "lemma": "5971",
+      "gloss": "people (am)",
+      "count": 8,
+      "verses": [
+        "heb-wlc/HAG/1/2",
+        "heb-wlc/HAG/1/12",
+        "heb-wlc/HAG/1/13",
+        "heb-wlc/HAG/1/14",
+        "heb-wlc/HAG/2/2",
+        "heb-wlc/HAG/2/4",
+        "heb-wlc/HAG/2/14"
+      ]
+    },
+    {
+      "root": "2216",
+      "lemma": "2216",
+      "gloss": "",
+      "count": 7,
+      "verses": [
+        "heb-wlc/HAG/1/1",
+        "heb-wlc/HAG/1/12",
+        "heb-wlc/HAG/1/14",
+        "heb-wlc/HAG/2/2",
+        "heb-wlc/HAG/2/4",
+        "heb-wlc/HAG/2/21",
+        "heb-wlc/HAG/2/23"
+      ]
+    },
+    {
+      "root": "1697",
+      "lemma": "1697",
+      "gloss": "word/matter (davar)",
+      "count": 7,
+      "verses": [
+        "heb-wlc/HAG/1/1",
+        "heb-wlc/HAG/1/3",
+        "heb-wlc/HAG/1/12",
+        "heb-wlc/HAG/2/1",
+        "heb-wlc/HAG/2/5",
+        "heb-wlc/HAG/2/10",
+        "heb-wlc/HAG/2/20"
+      ]
+    },
+    {
+      "root": "6242",
+      "lemma": "6242",
+      "gloss": "",
+      "count": 7,
+      "verses": [
+        "heb-wlc/HAG/1/15",
+        "heb-wlc/HAG/2/1",
+        "heb-wlc/HAG/2/10",
+        "heb-wlc/HAG/2/16",
+        "heb-wlc/HAG/2/18",
+        "heb-wlc/HAG/2/20"
+      ]
+    },
+    {
+      "root": "7760",
+      "lemma": "7760",
+      "gloss": "",
+      "count": 7,
+      "verses": [
+        "heb-wlc/HAG/1/5",
+        "heb-wlc/HAG/1/7",
+        "heb-wlc/HAG/2/15",
+        "heb-wlc/HAG/2/18",
+        "heb-wlc/HAG/2/23"
+      ]
+    },
+    {
+      "root": "834",
+      "lemma": "834",
+      "gloss": "which/who (asher)",
+      "count": 6,
+      "verses": [
+        "heb-wlc/HAG/1/9",
+        "heb-wlc/HAG/1/11",
+        "heb-wlc/HAG/2/3",
+        "heb-wlc/HAG/2/5",
+        "heb-wlc/HAG/2/14",
+        "heb-wlc/HAG/2/18"
+      ]
+    },
+    {
+      "root": "1419",
+      "lemma": "1419",
+      "gloss": "",
+      "count": 6,
+      "verses": [
+        "heb-wlc/HAG/1/1",
+        "heb-wlc/HAG/1/12",
+        "heb-wlc/HAG/1/14",
+        "heb-wlc/HAG/2/2",
+        "heb-wlc/HAG/2/4",
+        "heb-wlc/HAG/2/9"
+      ]
+    },
+    {
+      "root": "3087",
+      "lemma": "3087",
+      "gloss": "",
+      "count": 5,
+      "verses": [
+        "heb-wlc/HAG/1/1",
+        "heb-wlc/HAG/1/12",
+        "heb-wlc/HAG/1/14",
+        "heb-wlc/HAG/2/2",
+        "heb-wlc/HAG/2/4"
+      ]
+    },
+    {
+      "root": "3027",
+      "lemma": "3027",
+      "gloss": "hand (yad)",
+      "count": 5,
+      "verses": [
+        "heb-wlc/HAG/1/1",
+        "heb-wlc/HAG/1/3",
+        "heb-wlc/HAG/2/1",
+        "heb-wlc/HAG/2/14",
+        "heb-wlc/HAG/2/17"
+      ]
+    },
+    {
+      "root": "3541",
+      "lemma": "3541",
+      "gloss": "",
+      "count": 5,
+      "verses": [
+        "heb-wlc/HAG/1/2",
+        "heb-wlc/HAG/1/5",
+        "heb-wlc/HAG/1/7",
+        "heb-wlc/HAG/2/6",
+        "heb-wlc/HAG/2/11"
+      ]
+    },
+    {
+      "root": "7597",
+      "lemma": "7597",
+      "gloss": "",
+      "count": 5,
+      "verses": [
+        "heb-wlc/HAG/1/1",
+        "heb-wlc/HAG/1/12",
+        "heb-wlc/HAG/1/14",
+        "heb-wlc/HAG/2/2",
+        "heb-wlc/HAG/2/23"
+      ]
+    },
+    {
+      "root": "776",
+      "lemma": "776",
+      "gloss": "earth/land (eretz)",
+      "count": 5,
+      "verses": [
+        "heb-wlc/HAG/1/10",
+        "heb-wlc/HAG/1/11",
+        "heb-wlc/HAG/2/4",
+        "heb-wlc/HAG/2/6",
+        "heb-wlc/HAG/2/21"
+      ]
+    },
+    {
+      "root": "3091",
+      "lemma": "3091",
+      "gloss": "",
+      "count": 5,
+      "verses": [
+        "heb-wlc/HAG/1/1",
+        "heb-wlc/HAG/1/12",
+        "heb-wlc/HAG/1/14",
+        "heb-wlc/HAG/2/2",
+        "heb-wlc/HAG/2/4"
+      ]
+    },
+    {
+      "root": "2320",
+      "lemma": "2320",
+      "gloss": "",
+      "count": 5,
+      "verses": [
+        "heb-wlc/HAG/1/1",
+        "heb-wlc/HAG/1/15",
+        "heb-wlc/HAG/2/1",
+        "heb-wlc/HAG/2/20"
+      ]
+    },
+    {
+      "root": "3824",
+      "lemma": "3824",
+      "gloss": "",
+      "count": 5,
+      "verses": [
+        "heb-wlc/HAG/1/5",
+        "heb-wlc/HAG/1/7",
+        "heb-wlc/HAG/2/15",
+        "heb-wlc/HAG/2/18"
+      ]
+    },
+    {
+      "root": "4480",
+      "lemma": "4480",
+      "gloss": "",
+      "count": 5,
+      "verses": [
+        "heb-wlc/HAG/2/9",
+        "heb-wlc/HAG/2/15",
+        "heb-wlc/HAG/2/18",
+        "heb-wlc/HAG/2/19"
+      ]
+    },
+    {
+      "root": "5030",
+      "lemma": "5030",
+      "gloss": "",
+      "count": 5,
+      "verses": [
+        "heb-wlc/HAG/1/1",
+        "heb-wlc/HAG/1/3",
+        "heb-wlc/HAG/1/12",
+        "heb-wlc/HAG/2/1",
+        "heb-wlc/HAG/2/10"
+      ]
+    },
+    {
+      "root": "6346",
+      "lemma": "6346",
+      "gloss": "",
+      "count": 4,
+      "verses": [
+        "heb-wlc/HAG/1/1",
+        "heb-wlc/HAG/1/14",
+        "heb-wlc/HAG/2/2",
+        "heb-wlc/HAG/2/21"
+      ]
+    },
+    {
+      "root": "3651",
+      "lemma": "3651",
+      "gloss": "so/thus (ken)",
+      "count": 4,
+      "verses": [
+        "heb-wlc/HAG/1/10",
+        "heb-wlc/HAG/2/14"
+      ]
+    },
+    {
+      "root": "1931",
+      "lemma": "1931",
+      "gloss": "he/she/it (hu)",
+      "count": 4,
+      "verses": [
+        "heb-wlc/HAG/1/9",
+        "heb-wlc/HAG/2/6",
+        "heb-wlc/HAG/2/14",
+        "heb-wlc/HAG/2/23"
+      ]
+    },
+    {
+      "root": "4994",
+      "lemma": "4994",
+      "gloss": "",
+      "count": 4,
+      "verses": [
+        "heb-wlc/HAG/2/2",
+        "heb-wlc/HAG/2/11",
+        "heb-wlc/HAG/2/15",
+        "heb-wlc/HAG/2/18"
+      ]
+    },
+    {
+      "root": "6258",
+      "lemma": "6258",
+      "gloss": "",
+      "count": 4,
+      "verses": [
+        "heb-wlc/HAG/1/5",
+        "heb-wlc/HAG/2/3",
+        "heb-wlc/HAG/2/4",
+        "heb-wlc/HAG/2/15"
+      ]
+    },
+    {
+      "root": "7307",
+      "lemma": "7307",
+      "gloss": "spirit/wind (ruach)",
+      "count": 4,
+      "verses": [
+        "heb-wlc/HAG/1/14",
+        "heb-wlc/HAG/2/5"
+      ]
+    },
+    {
+      "root": "369",
+      "lemma": "369",
+      "gloss": "nothing/none (ayin)",
+      "count": 4,
+      "verses": [
+        "heb-wlc/HAG/1/6",
+        "heb-wlc/HAG/2/17"
+      ]
+    },
+    {
+      "root": "589",
+      "lemma": "589",
+      "gloss": "",
+      "count": 4,
+      "verses": [
+        "heb-wlc/HAG/1/13",
+        "heb-wlc/HAG/2/4",
+        "heb-wlc/HAG/2/6",
+        "heb-wlc/HAG/2/21"
+      ]
+    },
+    {
+      "root": "1471",
+      "lemma": "1471",
+      "gloss": "",
+      "count": 4,
+      "verses": [
+        "heb-wlc/HAG/2/7",
+        "heb-wlc/HAG/2/14",
+        "heb-wlc/HAG/2/22"
+      ]
+    },
+    {
+      "root": "3063",
+      "lemma": "3063",
+      "gloss": "Judah (yehudah)",
+      "count": 4,
+      "verses": [
+        "heb-wlc/HAG/1/1",
+        "heb-wlc/HAG/1/14",
+        "heb-wlc/HAG/2/2",
+        "heb-wlc/HAG/2/21"
+      ]
+    },
+    {
+      "root": "702",
+      "lemma": "702",
+      "gloss": "",
+      "count": 4,
+      "verses": [
+        "heb-wlc/HAG/1/15",
+        "heb-wlc/HAG/2/10",
+        "heb-wlc/HAG/2/18",
+        "heb-wlc/HAG/2/20"
+      ]
+    },
+    {
+      "root": "854",
+      "lemma": "854",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/HAG/1/13",
+        "heb-wlc/HAG/2/4",
+        "heb-wlc/HAG/2/5"
+      ]
+    },
+    {
+      "root": "8141",
+      "lemma": "8141",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/HAG/1/1",
+        "heb-wlc/HAG/1/15",
+        "heb-wlc/HAG/2/10"
+      ]
+    },
+    {
+      "root": "3588",
+      "lemma": "3588",
+      "gloss": "that/because (ki)",
+      "count": 3,
+      "verses": [
+        "heb-wlc/HAG/2/4",
+        "heb-wlc/HAG/2/6",
+        "heb-wlc/HAG/2/23"
+      ]
+    },
+    {
+      "root": "8147",
+      "lemma": "8147",
+      "gloss": "two (shenayim)",
+      "count": 3,
+      "verses": [
+        "heb-wlc/HAG/1/1",
+        "heb-wlc/HAG/1/15",
+        "heb-wlc/HAG/2/10"
+      ]
+    },
+    {
+      "root": "430",
+      "lemma": "430",
+      "gloss": "God (Elohim)",
+      "count": 3,
+      "verses": [
+        "heb-wlc/HAG/1/12",
+        "heb-wlc/HAG/1/14"
+      ]
+    },
+    {
+      "root": "6030",
+      "lemma": "6030",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/HAG/2/12",
+        "heb-wlc/HAG/2/13",
+        "heb-wlc/HAG/2/14"
+      ]
+    },
+    {
+      "root": "3808",
+      "lemma": "3808",
+      "gloss": "not (lo)",
+      "count": 3,
+      "verses": [
+        "heb-wlc/HAG/1/2",
+        "heb-wlc/HAG/2/12",
+        "heb-wlc/HAG/2/19"
+      ]
+    },
+    {
+      "root": "2388",
+      "lemma": "2388",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/HAG/2/4"
+      ]
+    },
+    {
+      "root": "259",
+      "lemma": "259",
+      "gloss": "one (echad)",
+      "count": 3,
+      "verses": [
+        "heb-wlc/HAG/1/1",
+        "heb-wlc/HAG/2/1",
+        "heb-wlc/HAG/2/6"
+      ]
+    },
+    {
+      "root": "3519",
+      "lemma": "3519",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/HAG/2/3",
+        "heb-wlc/HAG/2/7",
+        "heb-wlc/HAG/2/9"
+      ]
+    },
+    {
+      "root": "1867",
+      "lemma": "1867",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/HAG/1/1",
+        "heb-wlc/HAG/1/15",
+        "heb-wlc/HAG/2/10"
+      ]
+    },
+    {
+      "root": "4592",
+      "lemma": "4592",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/HAG/1/6",
+        "heb-wlc/HAG/1/9",
+        "heb-wlc/HAG/2/6"
+      ]
+    },
+    {
+      "root": "8064",
+      "lemma": "8064",
+      "gloss": "heavens (shamayim)",
+      "count": 3,
+      "verses": [
+        "heb-wlc/HAG/1/10",
+        "heb-wlc/HAG/2/6",
+        "heb-wlc/HAG/2/21"
+      ]
+    },
+    {
+      "root": "376",
+      "lemma": "376",
+      "gloss": "man (ish)",
+      "count": 3,
+      "verses": [
+        "heb-wlc/HAG/1/9",
+        "heb-wlc/HAG/2/12",
+        "heb-wlc/HAG/2/22"
+      ]
+    },
+    {
+      "root": "7493",
+      "lemma": "7493",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/HAG/2/6",
+        "heb-wlc/HAG/2/7",
+        "heb-wlc/HAG/2/21"
+      ]
+    },
+    {
+      "root": "859",
+      "lemma": "859",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/HAG/1/4",
+        "heb-wlc/HAG/1/9",
+        "heb-wlc/HAG/2/3"
+      ]
+    },
+    {
+      "root": "7611",
+      "lemma": "7611",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/HAG/1/12",
+        "heb-wlc/HAG/1/14",
+        "heb-wlc/HAG/2/2"
+      ]
+    }
+  ]
+}

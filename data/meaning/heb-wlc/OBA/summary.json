@@ -1,0 +1,284 @@
+{
+  "schemaVersion": "1.0.0",
+  "work": "heb-wlc",
+  "osis": "OBA",
+  "book": "Obadiah",
+  "totalTokens": 285,
+  "uniqueRoots": 164,
+  "chapters": 1,
+  "repetitions": [
+    {
+      "root": "3117",
+      "lemma": "3117",
+      "gloss": "day (yom)",
+      "count": 12,
+      "verses": [
+        "heb-wlc/OBA/1/8",
+        "heb-wlc/OBA/1/11",
+        "heb-wlc/OBA/1/12",
+        "heb-wlc/OBA/1/13",
+        "heb-wlc/OBA/1/14",
+        "heb-wlc/OBA/1/15"
+      ]
+    },
+    {
+      "root": "853",
+      "lemma": "853",
+      "gloss": "- (et, object marker)",
+      "count": 9,
+      "verses": [
+        "heb-wlc/OBA/1/14",
+        "heb-wlc/OBA/1/17",
+        "heb-wlc/OBA/1/19",
+        "heb-wlc/OBA/1/20",
+        "heb-wlc/OBA/1/21"
+      ]
+    },
+    {
+      "root": "408",
+      "lemma": "408",
+      "gloss": "",
+      "count": 8,
+      "verses": [
+        "heb-wlc/OBA/1/12",
+        "heb-wlc/OBA/1/13",
+        "heb-wlc/OBA/1/14"
+      ]
+    },
+    {
+      "root": "1961",
+      "lemma": "1961",
+      "gloss": "be/become (hayah)",
+      "count": 7,
+      "verses": [
+        "heb-wlc/OBA/1/16",
+        "heb-wlc/OBA/1/17",
+        "heb-wlc/OBA/1/18",
+        "heb-wlc/OBA/1/21"
+      ]
+    },
+    {
+      "root": "2022",
+      "lemma": "2022",
+      "gloss": "",
+      "count": 7,
+      "verses": [
+        "heb-wlc/OBA/1/8",
+        "heb-wlc/OBA/1/9",
+        "heb-wlc/OBA/1/16",
+        "heb-wlc/OBA/1/17",
+        "heb-wlc/OBA/1/19",
+        "heb-wlc/OBA/1/21"
+      ]
+    },
+    {
+      "root": "6215",
+      "lemma": "6215",
+      "gloss": "",
+      "count": 7,
+      "verses": [
+        "heb-wlc/OBA/1/6",
+        "heb-wlc/OBA/1/8",
+        "heb-wlc/OBA/1/9",
+        "heb-wlc/OBA/1/18",
+        "heb-wlc/OBA/1/19",
+        "heb-wlc/OBA/1/21"
+      ]
+    },
+    {
+      "root": "3068",
+      "lemma": "3068",
+      "gloss": "LORD (YHWH)",
+      "count": 6,
+      "verses": [
+        "heb-wlc/OBA/1/1",
+        "heb-wlc/OBA/1/4",
+        "heb-wlc/OBA/1/8",
+        "heb-wlc/OBA/1/15",
+        "heb-wlc/OBA/1/18",
+        "heb-wlc/OBA/1/21"
+      ]
+    },
+    {
+      "root": "5921",
+      "lemma": "5921",
+      "gloss": "upon/over (al)",
+      "count": 5,
+      "verses": [
+        "heb-wlc/OBA/1/1",
+        "heb-wlc/OBA/1/11",
+        "heb-wlc/OBA/1/14",
+        "heb-wlc/OBA/1/15",
+        "heb-wlc/OBA/1/16"
+      ]
+    },
+    {
+      "root": "1004",
+      "lemma": "1004",
+      "gloss": "house (bayit)",
+      "count": 5,
+      "verses": [
+        "heb-wlc/OBA/1/17",
+        "heb-wlc/OBA/1/18"
+      ]
+    },
+    {
+      "root": "518",
+      "lemma": "518",
+      "gloss": "",
+      "count": 5,
+      "verses": [
+        "heb-wlc/OBA/1/4",
+        "heb-wlc/OBA/1/5"
+      ]
+    },
+    {
+      "root": "1471",
+      "lemma": "1471",
+      "gloss": "",
+      "count": 4,
+      "verses": [
+        "heb-wlc/OBA/1/1",
+        "heb-wlc/OBA/1/2",
+        "heb-wlc/OBA/1/15",
+        "heb-wlc/OBA/1/16"
+      ]
+    },
+    {
+      "root": "935",
+      "lemma": "935",
+      "gloss": "come/go (bo)",
+      "count": 4,
+      "verses": [
+        "heb-wlc/OBA/1/5",
+        "heb-wlc/OBA/1/11",
+        "heb-wlc/OBA/1/13"
+      ]
+    },
+    {
+      "root": "3423",
+      "lemma": "3423",
+      "gloss": "",
+      "count": 4,
+      "verses": [
+        "heb-wlc/OBA/1/17",
+        "heb-wlc/OBA/1/19",
+        "heb-wlc/OBA/1/20"
+      ]
+    },
+    {
+      "root": "3588",
+      "lemma": "3588",
+      "gloss": "that/because (ki)",
+      "count": 3,
+      "verses": [
+        "heb-wlc/OBA/1/15",
+        "heb-wlc/OBA/1/16",
+        "heb-wlc/OBA/1/18"
+      ]
+    },
+    {
+      "root": "3290",
+      "lemma": "3290",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/OBA/1/10",
+        "heb-wlc/OBA/1/17",
+        "heb-wlc/OBA/1/18"
+      ]
+    },
+    {
+      "root": "8354",
+      "lemma": "8354",
+      "gloss": "drink (shathah)",
+      "count": 3,
+      "verses": [
+        "heb-wlc/OBA/1/16"
+      ]
+    },
+    {
+      "root": "343",
+      "lemma": "343",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/OBA/1/13"
+      ]
+    },
+    {
+      "root": "376",
+      "lemma": "376",
+      "gloss": "man (ish)",
+      "count": 3,
+      "verses": [
+        "heb-wlc/OBA/1/7",
+        "heb-wlc/OBA/1/9"
+      ]
+    },
+    {
+      "root": "8179",
+      "lemma": "8179",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/OBA/1/11",
+        "heb-wlc/OBA/1/13"
+      ]
+    },
+    {
+      "root": "3772",
+      "lemma": "3772",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/OBA/1/9",
+        "heb-wlc/OBA/1/10",
+        "heb-wlc/OBA/1/14"
+      ]
+    },
+    {
+      "root": "3605",
+      "lemma": "3605",
+      "gloss": "all/every (kol)",
+      "count": 3,
+      "verses": [
+        "heb-wlc/OBA/1/7",
+        "heb-wlc/OBA/1/15",
+        "heb-wlc/OBA/1/16"
+      ]
+    },
+    {
+      "root": "i/3808",
+      "lemma": "i/3808",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/OBA/1/5",
+        "heb-wlc/OBA/1/8"
+      ]
+    },
+    {
+      "root": "7971",
+      "lemma": "7971",
+      "gloss": "send (shalach)",
+      "count": 3,
+      "verses": [
+        "heb-wlc/OBA/1/1",
+        "heb-wlc/OBA/1/7",
+        "heb-wlc/OBA/1/13"
+      ]
+    },
+    {
+      "root": "859",
+      "lemma": "859",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/OBA/1/2",
+        "heb-wlc/OBA/1/11",
+        "heb-wlc/OBA/1/13"
+      ]
+    }
+  ]
+}

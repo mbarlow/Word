@@ -1,0 +1,899 @@
+{
+  "schemaVersion": "1.0.0",
+  "work": "heb-wlc",
+  "osis": "JON",
+  "book": "Jonah",
+  "totalTokens": 668,
+  "uniqueRoots": 250,
+  "chapters": 4,
+  "repetitions": [
+    {
+      "root": "413",
+      "lemma": "413",
+      "gloss": "to/toward (el)",
+      "count": 34,
+      "verses": [
+        "heb-wlc/JON/1/1",
+        "heb-wlc/JON/1/2",
+        "heb-wlc/JON/1/4",
+        "heb-wlc/JON/1/5",
+        "heb-wlc/JON/1/6",
+        "heb-wlc/JON/1/7",
+        "heb-wlc/JON/1/8",
+        "heb-wlc/JON/1/9",
+        "heb-wlc/JON/1/10",
+        "heb-wlc/JON/1/11",
+        "heb-wlc/JON/1/12",
+        "heb-wlc/JON/1/13",
+        "heb-wlc/JON/1/14",
+        "heb-wlc/JON/1/15",
+        "heb-wlc/JON/2/2",
+        "heb-wlc/JON/2/3",
+        "heb-wlc/JON/2/5",
+        "heb-wlc/JON/2/8",
+        "heb-wlc/JON/2/11",
+        "heb-wlc/JON/3/1",
+        "heb-wlc/JON/3/2",
+        "heb-wlc/JON/3/3",
+        "heb-wlc/JON/3/6",
+        "heb-wlc/JON/3/8",
+        "heb-wlc/JON/4/1",
+        "heb-wlc/JON/4/2",
+        "heb-wlc/JON/4/9"
+      ]
+    },
+    {
+      "root": "3068",
+      "lemma": "3068",
+      "gloss": "LORD (YHWH)",
+      "count": 26,
+      "verses": [
+        "heb-wlc/JON/1/1",
+        "heb-wlc/JON/1/3",
+        "heb-wlc/JON/1/4",
+        "heb-wlc/JON/1/9",
+        "heb-wlc/JON/1/10",
+        "heb-wlc/JON/1/14",
+        "heb-wlc/JON/1/16",
+        "heb-wlc/JON/2/1",
+        "heb-wlc/JON/2/2",
+        "heb-wlc/JON/2/3",
+        "heb-wlc/JON/2/7",
+        "heb-wlc/JON/2/8",
+        "heb-wlc/JON/2/10",
+        "heb-wlc/JON/2/11",
+        "heb-wlc/JON/3/1",
+        "heb-wlc/JON/3/3",
+        "heb-wlc/JON/4/2",
+        "heb-wlc/JON/4/3",
+        "heb-wlc/JON/4/4",
+        "heb-wlc/JON/4/6",
+        "heb-wlc/JON/4/10"
+      ]
+    },
+    {
+      "root": "5921",
+      "lemma": "5921",
+      "gloss": "upon/over (al)",
+      "count": 23,
+      "verses": [
+        "heb-wlc/JON/1/2",
+        "heb-wlc/JON/1/5",
+        "heb-wlc/JON/1/7",
+        "heb-wlc/JON/1/11",
+        "heb-wlc/JON/1/12",
+        "heb-wlc/JON/1/13",
+        "heb-wlc/JON/1/14",
+        "heb-wlc/JON/2/4",
+        "heb-wlc/JON/2/8",
+        "heb-wlc/JON/3/6",
+        "heb-wlc/JON/3/10",
+        "heb-wlc/JON/4/2",
+        "heb-wlc/JON/4/6",
+        "heb-wlc/JON/4/8",
+        "heb-wlc/JON/4/9",
+        "heb-wlc/JON/4/10",
+        "heb-wlc/JON/4/11"
+      ]
+    },
+    {
+      "root": "559",
+      "lemma": "559",
+      "gloss": "say (amar)",
+      "count": 22,
+      "verses": [
+        "heb-wlc/JON/1/1",
+        "heb-wlc/JON/1/6",
+        "heb-wlc/JON/1/7",
+        "heb-wlc/JON/1/8",
+        "heb-wlc/JON/1/9",
+        "heb-wlc/JON/1/10",
+        "heb-wlc/JON/1/11",
+        "heb-wlc/JON/1/12",
+        "heb-wlc/JON/1/14",
+        "heb-wlc/JON/2/3",
+        "heb-wlc/JON/2/5",
+        "heb-wlc/JON/2/11",
+        "heb-wlc/JON/3/1",
+        "heb-wlc/JON/3/4",
+        "heb-wlc/JON/3/7",
+        "heb-wlc/JON/4/2",
+        "heb-wlc/JON/4/4",
+        "heb-wlc/JON/4/8",
+        "heb-wlc/JON/4/9",
+        "heb-wlc/JON/4/10"
+      ]
+    },
+    {
+      "root": "3124",
+      "lemma": "3124",
+      "gloss": "",
+      "count": 18,
+      "verses": [
+        "heb-wlc/JON/1/1",
+        "heb-wlc/JON/1/3",
+        "heb-wlc/JON/1/5",
+        "heb-wlc/JON/1/7",
+        "heb-wlc/JON/1/15",
+        "heb-wlc/JON/2/1",
+        "heb-wlc/JON/2/2",
+        "heb-wlc/JON/2/11",
+        "heb-wlc/JON/3/1",
+        "heb-wlc/JON/3/3",
+        "heb-wlc/JON/3/4",
+        "heb-wlc/JON/4/1",
+        "heb-wlc/JON/4/5",
+        "heb-wlc/JON/4/6",
+        "heb-wlc/JON/4/8",
+        "heb-wlc/JON/4/9"
+      ]
+    },
+    {
+      "root": "430",
+      "lemma": "430",
+      "gloss": "God (Elohim)",
+      "count": 16,
+      "verses": [
+        "heb-wlc/JON/1/5",
+        "heb-wlc/JON/1/6",
+        "heb-wlc/JON/1/9",
+        "heb-wlc/JON/2/2",
+        "heb-wlc/JON/2/7",
+        "heb-wlc/JON/3/3",
+        "heb-wlc/JON/3/5",
+        "heb-wlc/JON/3/8",
+        "heb-wlc/JON/3/9",
+        "heb-wlc/JON/3/10",
+        "heb-wlc/JON/4/6",
+        "heb-wlc/JON/4/7",
+        "heb-wlc/JON/4/8",
+        "heb-wlc/JON/4/9"
+      ]
+    },
+    {
+      "root": "853",
+      "lemma": "853",
+      "gloss": "- (et, object marker)",
+      "count": 14,
+      "verses": [
+        "heb-wlc/JON/1/5",
+        "heb-wlc/JON/1/9",
+        "heb-wlc/JON/1/15",
+        "heb-wlc/JON/1/16",
+        "heb-wlc/JON/2/1",
+        "heb-wlc/JON/2/8",
+        "heb-wlc/JON/2/11",
+        "heb-wlc/JON/3/2",
+        "heb-wlc/JON/3/10",
+        "heb-wlc/JON/4/3",
+        "heb-wlc/JON/4/7",
+        "heb-wlc/JON/4/8"
+      ]
+    },
+    {
+      "root": "1419",
+      "lemma": "1419",
+      "gloss": "",
+      "count": 14,
+      "verses": [
+        "heb-wlc/JON/1/2",
+        "heb-wlc/JON/1/4",
+        "heb-wlc/JON/1/10",
+        "heb-wlc/JON/1/12",
+        "heb-wlc/JON/1/16",
+        "heb-wlc/JON/2/1",
+        "heb-wlc/JON/3/2",
+        "heb-wlc/JON/3/3",
+        "heb-wlc/JON/3/5",
+        "heb-wlc/JON/3/7",
+        "heb-wlc/JON/4/1",
+        "heb-wlc/JON/4/6",
+        "heb-wlc/JON/4/11"
+      ]
+    },
+    {
+      "root": "3588",
+      "lemma": "3588",
+      "gloss": "that/because (ki)",
+      "count": 13,
+      "verses": [
+        "heb-wlc/JON/1/2",
+        "heb-wlc/JON/1/10",
+        "heb-wlc/JON/1/11",
+        "heb-wlc/JON/1/12",
+        "heb-wlc/JON/1/13",
+        "heb-wlc/JON/1/14",
+        "heb-wlc/JON/3/10",
+        "heb-wlc/JON/4/2",
+        "heb-wlc/JON/4/3"
+      ]
+    },
+    {
+      "root": "3220",
+      "lemma": "3220",
+      "gloss": "",
+      "count": 12,
+      "verses": [
+        "heb-wlc/JON/1/4",
+        "heb-wlc/JON/1/5",
+        "heb-wlc/JON/1/9",
+        "heb-wlc/JON/1/11",
+        "heb-wlc/JON/1/12",
+        "heb-wlc/JON/1/13",
+        "heb-wlc/JON/1/15",
+        "heb-wlc/JON/2/4"
+      ]
+    },
+    {
+      "root": "834",
+      "lemma": "834",
+      "gloss": "which/who (asher)",
+      "count": 11,
+      "verses": [
+        "heb-wlc/JON/1/5",
+        "heb-wlc/JON/1/8",
+        "heb-wlc/JON/1/9",
+        "heb-wlc/JON/2/10",
+        "heb-wlc/JON/3/2",
+        "heb-wlc/JON/3/8",
+        "heb-wlc/JON/3/10",
+        "heb-wlc/JON/4/5",
+        "heb-wlc/JON/4/10",
+        "heb-wlc/JON/4/11"
+      ]
+    },
+    {
+      "root": "1961",
+      "lemma": "1961",
+      "gloss": "be/become (hayah)",
+      "count": 10,
+      "verses": [
+        "heb-wlc/JON/1/1",
+        "heb-wlc/JON/1/4",
+        "heb-wlc/JON/2/1",
+        "heb-wlc/JON/3/1",
+        "heb-wlc/JON/3/3",
+        "heb-wlc/JON/4/2",
+        "heb-wlc/JON/4/5",
+        "heb-wlc/JON/4/6",
+        "heb-wlc/JON/4/8",
+        "heb-wlc/JON/4/10"
+      ]
+    },
+    {
+      "root": "5210",
+      "lemma": "5210",
+      "gloss": "",
+      "count": 9,
+      "verses": [
+        "heb-wlc/JON/1/2",
+        "heb-wlc/JON/3/2",
+        "heb-wlc/JON/3/3",
+        "heb-wlc/JON/3/4",
+        "heb-wlc/JON/3/5",
+        "heb-wlc/JON/3/6",
+        "heb-wlc/JON/3/7",
+        "heb-wlc/JON/4/11"
+      ]
+    },
+    {
+      "root": "7451",
+      "lemma": "7451",
+      "gloss": "evil/bad (ra)",
+      "count": 9,
+      "verses": [
+        "heb-wlc/JON/1/2",
+        "heb-wlc/JON/1/7",
+        "heb-wlc/JON/1/8",
+        "heb-wlc/JON/3/8",
+        "heb-wlc/JON/3/10",
+        "heb-wlc/JON/4/1",
+        "heb-wlc/JON/4/2",
+        "heb-wlc/JON/4/6"
+      ]
+    },
+    {
+      "root": "376",
+      "lemma": "376",
+      "gloss": "man (ish)",
+      "count": 9,
+      "verses": [
+        "heb-wlc/JON/1/5",
+        "heb-wlc/JON/1/7",
+        "heb-wlc/JON/1/10",
+        "heb-wlc/JON/1/13",
+        "heb-wlc/JON/1/14",
+        "heb-wlc/JON/1/16",
+        "heb-wlc/JON/3/5",
+        "heb-wlc/JON/3/8"
+      ]
+    },
+    {
+      "root": "7121",
+      "lemma": "7121",
+      "gloss": "",
+      "count": 8,
+      "verses": [
+        "heb-wlc/JON/1/2",
+        "heb-wlc/JON/1/6",
+        "heb-wlc/JON/1/14",
+        "heb-wlc/JON/2/3",
+        "heb-wlc/JON/3/2",
+        "heb-wlc/JON/3/4",
+        "heb-wlc/JON/3/5",
+        "heb-wlc/JON/3/8"
+      ]
+    },
+    {
+      "root": "5892",
+      "lemma": "5892",
+      "gloss": "city (ir)",
+      "count": 8,
+      "verses": [
+        "heb-wlc/JON/1/2",
+        "heb-wlc/JON/3/2",
+        "heb-wlc/JON/3/3",
+        "heb-wlc/JON/3/4",
+        "heb-wlc/JON/4/5",
+        "heb-wlc/JON/4/11"
+      ]
+    },
+    {
+      "root": "3808",
+      "lemma": "3808",
+      "gloss": "not (lo)",
+      "count": 8,
+      "verses": [
+        "heb-wlc/JON/1/6",
+        "heb-wlc/JON/1/13",
+        "heb-wlc/JON/3/9",
+        "heb-wlc/JON/3/10",
+        "heb-wlc/JON/4/10",
+        "heb-wlc/JON/4/11"
+      ]
+    },
+    {
+      "root": "6213",
+      "lemma": "6213",
+      "gloss": "do/make (asah)",
+      "count": 7,
+      "verses": [
+        "heb-wlc/JON/1/9",
+        "heb-wlc/JON/1/10",
+        "heb-wlc/JON/1/11",
+        "heb-wlc/JON/1/14",
+        "heb-wlc/JON/3/10",
+        "heb-wlc/JON/4/5"
+      ]
+    },
+    {
+      "root": "6965",
+      "lemma": "6965",
+      "gloss": "",
+      "count": 6,
+      "verses": [
+        "heb-wlc/JON/1/2",
+        "heb-wlc/JON/1/3",
+        "heb-wlc/JON/1/6",
+        "heb-wlc/JON/3/2",
+        "heb-wlc/JON/3/3",
+        "heb-wlc/JON/3/6"
+      ]
+    },
+    {
+      "root": "4100",
+      "lemma": "4100",
+      "gloss": "",
+      "count": 6,
+      "verses": [
+        "heb-wlc/JON/1/6",
+        "heb-wlc/JON/1/8",
+        "heb-wlc/JON/1/10",
+        "heb-wlc/JON/1/11",
+        "heb-wlc/JON/4/5"
+      ]
+    },
+    {
+      "root": "3045",
+      "lemma": "3045",
+      "gloss": "know (yada)",
+      "count": 6,
+      "verses": [
+        "heb-wlc/JON/1/7",
+        "heb-wlc/JON/1/10",
+        "heb-wlc/JON/1/12",
+        "heb-wlc/JON/3/9",
+        "heb-wlc/JON/4/2",
+        "heb-wlc/JON/4/11"
+      ]
+    },
+    {
+      "root": "5315",
+      "lemma": "5315",
+      "gloss": "",
+      "count": 5,
+      "verses": [
+        "heb-wlc/JON/1/14",
+        "heb-wlc/JON/2/6",
+        "heb-wlc/JON/2/8",
+        "heb-wlc/JON/4/3",
+        "heb-wlc/JON/4/8"
+      ]
+    },
+    {
+      "root": "7725",
+      "lemma": "7725",
+      "gloss": "return/repent (shuv)",
+      "count": 5,
+      "verses": [
+        "heb-wlc/JON/1/13",
+        "heb-wlc/JON/3/8",
+        "heb-wlc/JON/3/9",
+        "heb-wlc/JON/3/10"
+      ]
+    },
+    {
+      "root": "935",
+      "lemma": "935",
+      "gloss": "come/go (bo)",
+      "count": 5,
+      "verses": [
+        "heb-wlc/JON/1/3",
+        "heb-wlc/JON/1/8",
+        "heb-wlc/JON/2/8",
+        "heb-wlc/JON/3/4"
+      ]
+    },
+    {
+      "root": "589",
+      "lemma": "589",
+      "gloss": "",
+      "count": 5,
+      "verses": [
+        "heb-wlc/JON/1/9",
+        "heb-wlc/JON/1/12",
+        "heb-wlc/JON/2/5",
+        "heb-wlc/JON/2/10",
+        "heb-wlc/JON/4/11"
+      ]
+    },
+    {
+      "root": "7021",
+      "lemma": "7021",
+      "gloss": "",
+      "count": 5,
+      "verses": [
+        "heb-wlc/JON/4/6",
+        "heb-wlc/JON/4/7",
+        "heb-wlc/JON/4/9",
+        "heb-wlc/JON/4/10"
+      ]
+    },
+    {
+      "root": "5704",
+      "lemma": "5704",
+      "gloss": "",
+      "count": 5,
+      "verses": [
+        "heb-wlc/JON/2/6",
+        "heb-wlc/JON/3/5",
+        "heb-wlc/JON/4/2",
+        "heb-wlc/JON/4/5",
+        "heb-wlc/JON/4/9"
+      ]
+    },
+    {
+      "root": "408",
+      "lemma": "408",
+      "gloss": "",
+      "count": 5,
+      "verses": [
+        "heb-wlc/JON/1/14",
+        "heb-wlc/JON/3/7"
+      ]
+    },
+    {
+      "root": "4487",
+      "lemma": "4487",
+      "gloss": "",
+      "count": 4,
+      "verses": [
+        "heb-wlc/JON/2/1",
+        "heb-wlc/JON/4/6",
+        "heb-wlc/JON/4/7",
+        "heb-wlc/JON/4/8"
+      ]
+    },
+    {
+      "root": "859",
+      "lemma": "859",
+      "gloss": "",
+      "count": 4,
+      "verses": [
+        "heb-wlc/JON/1/8",
+        "heb-wlc/JON/1/14",
+        "heb-wlc/JON/4/2",
+        "heb-wlc/JON/4/10"
+      ]
+    },
+    {
+      "root": "2734",
+      "lemma": "2734",
+      "gloss": "",
+      "count": 4,
+      "verses": [
+        "heb-wlc/JON/4/1",
+        "heb-wlc/JON/4/4",
+        "heb-wlc/JON/4/9"
+      ]
+    },
+    {
+      "root": "2904",
+      "lemma": "2904",
+      "gloss": "",
+      "count": 4,
+      "verses": [
+        "heb-wlc/JON/1/4",
+        "heb-wlc/JON/1/5",
+        "heb-wlc/JON/1/12",
+        "heb-wlc/JON/1/15"
+      ]
+    },
+    {
+      "root": "6",
+      "lemma": "6",
+      "gloss": "",
+      "count": 4,
+      "verses": [
+        "heb-wlc/JON/1/6",
+        "heb-wlc/JON/1/14",
+        "heb-wlc/JON/3/9",
+        "heb-wlc/JON/4/10"
+      ]
+    },
+    {
+      "root": "8659",
+      "lemma": "8659",
+      "gloss": "",
+      "count": 4,
+      "verses": [
+        "heb-wlc/JON/1/3",
+        "heb-wlc/JON/4/2"
+      ]
+    },
+    {
+      "root": "1697",
+      "lemma": "1697",
+      "gloss": "word/matter (davar)",
+      "count": 4,
+      "verses": [
+        "heb-wlc/JON/1/1",
+        "heb-wlc/JON/3/1",
+        "heb-wlc/JON/3/6",
+        "heb-wlc/JON/4/2"
+      ]
+    },
+    {
+      "root": "2088",
+      "lemma": "2088",
+      "gloss": "this (zeh)",
+      "count": 4,
+      "verses": [
+        "heb-wlc/JON/1/8",
+        "heb-wlc/JON/1/12",
+        "heb-wlc/JON/1/14",
+        "heb-wlc/JON/4/2"
+      ]
+    },
+    {
+      "root": "3117",
+      "lemma": "3117",
+      "gloss": "day (yom)",
+      "count": 4,
+      "verses": [
+        "heb-wlc/JON/2/1",
+        "heb-wlc/JON/3/3",
+        "heb-wlc/JON/3/4"
+      ]
+    },
+    {
+      "root": "3381",
+      "lemma": "3381",
+      "gloss": "go down (yarad)",
+      "count": 4,
+      "verses": [
+        "heb-wlc/JON/1/3",
+        "heb-wlc/JON/1/5",
+        "heb-wlc/JON/2/7"
+      ]
+    },
+    {
+      "root": "3212",
+      "lemma": "3212",
+      "gloss": "",
+      "count": 4,
+      "verses": [
+        "heb-wlc/JON/1/2",
+        "heb-wlc/JON/1/7",
+        "heb-wlc/JON/3/2",
+        "heb-wlc/JON/3/3"
+      ]
+    },
+    {
+      "root": "6440",
+      "lemma": "6440",
+      "gloss": "face (panim)",
+      "count": 4,
+      "verses": [
+        "heb-wlc/JON/1/2",
+        "heb-wlc/JON/1/3",
+        "heb-wlc/JON/1/10"
+      ]
+    },
+    {
+      "root": "5927",
+      "lemma": "5927",
+      "gloss": "go up (alah)",
+      "count": 4,
+      "verses": [
+        "heb-wlc/JON/1/2",
+        "heb-wlc/JON/2/7",
+        "heb-wlc/JON/4/6",
+        "heb-wlc/JON/4/7"
+      ]
+    },
+    {
+      "root": "1272",
+      "lemma": "1272",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/JON/1/3",
+        "heb-wlc/JON/1/10",
+        "heb-wlc/JON/4/2"
+      ]
+    },
+    {
+      "root": "591",
+      "lemma": "591",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/JON/1/3",
+        "heb-wlc/JON/1/4",
+        "heb-wlc/JON/1/5"
+      ]
+    },
+    {
+      "root": "3373",
+      "lemma": "3373",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/JON/1/9",
+        "heb-wlc/JON/1/10",
+        "heb-wlc/JON/1/16"
+      ]
+    },
+    {
+      "root": "3190",
+      "lemma": "3190",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/JON/4/4",
+        "heb-wlc/JON/4/9"
+      ]
+    },
+    {
+      "root": "3915",
+      "lemma": "3915",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/JON/2/1",
+        "heb-wlc/JON/4/10"
+      ]
+    },
+    {
+      "root": "4480",
+      "lemma": "4480",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/JON/3/8",
+        "heb-wlc/JON/4/3",
+        "heb-wlc/JON/4/5"
+      ]
+    },
+    {
+      "root": "1486",
+      "lemma": "1486",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/JON/1/7"
+      ]
+    },
+    {
+      "root": "5162",
+      "lemma": "5162",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/JON/3/9",
+        "heb-wlc/JON/3/10",
+        "heb-wlc/JON/4/2"
+      ]
+    },
+    {
+      "root": "120",
+      "lemma": "120",
+      "gloss": "man/human (adam)",
+      "count": 3,
+      "verses": [
+        "heb-wlc/JON/3/7",
+        "heb-wlc/JON/3/8",
+        "heb-wlc/JON/4/11"
+      ]
+    },
+    {
+      "root": "929",
+      "lemma": "929",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/JON/3/7",
+        "heb-wlc/JON/3/8",
+        "heb-wlc/JON/4/11"
+      ]
+    },
+    {
+      "root": "3372",
+      "lemma": "3372",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/JON/1/5",
+        "heb-wlc/JON/1/10",
+        "heb-wlc/JON/1/16"
+      ]
+    },
+    {
+      "root": "3427",
+      "lemma": "3427",
+      "gloss": "sit/dwell (yashav)",
+      "count": 3,
+      "verses": [
+        "heb-wlc/JON/3/6",
+        "heb-wlc/JON/4/5"
+      ]
+    },
+    {
+      "root": "7227",
+      "lemma": "7227",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/JON/1/6",
+        "heb-wlc/JON/4/2",
+        "heb-wlc/JON/4/11"
+      ]
+    },
+    {
+      "root": "1709",
+      "lemma": "1709",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/JON/2/1",
+        "heb-wlc/JON/2/11"
+      ]
+    },
+    {
+      "root": "7969",
+      "lemma": "7969",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/JON/2/1",
+        "heb-wlc/JON/3/3"
+      ]
+    },
+    {
+      "root": "8242",
+      "lemma": "8242",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/JON/3/5",
+        "heb-wlc/JON/3/6",
+        "heb-wlc/JON/3/8"
+      ]
+    },
+    {
+      "root": "7218",
+      "lemma": "7218",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/JON/2/6",
+        "heb-wlc/JON/4/6",
+        "heb-wlc/JON/4/8"
+      ]
+    },
+    {
+      "root": "5307",
+      "lemma": "5307",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/JON/1/7"
+      ]
+    },
+    {
+      "root": "3004",
+      "lemma": "3004",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/JON/1/9",
+        "heb-wlc/JON/1/13",
+        "heb-wlc/JON/2/11"
+      ]
+    },
+    {
+      "root": "4994",
+      "lemma": "4994",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/JON/1/8",
+        "heb-wlc/JON/1/14",
+        "heb-wlc/JON/4/3"
+      ]
+    },
+    {
+      "root": "2063",
+      "lemma": "2063",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/JON/1/7",
+        "heb-wlc/JON/1/8",
+        "heb-wlc/JON/1/10"
+      ]
+    },
+    {
+      "root": "2416",
+      "lemma": "2416",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/JON/2/7",
+        "heb-wlc/JON/4/3",
+        "heb-wlc/JON/4/8"
+      ]
+    }
+  ]
+}

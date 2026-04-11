@@ -1,0 +1,1131 @@
+{
+  "schemaVersion": "1.0.0",
+  "work": "heb-wlc",
+  "osis": "MAL",
+  "book": "Malachi",
+  "chapter": 4,
+  "verses": [],
+  "repetitions": [
+    {
+      "root": "3068",
+      "lemma": "3068",
+      "gloss": "LORD (YHWH)",
+      "count": 46,
+      "verses": [
+        "heb-wlc/MAL/1/1",
+        "heb-wlc/MAL/1/2",
+        "heb-wlc/MAL/1/4",
+        "heb-wlc/MAL/1/5",
+        "heb-wlc/MAL/1/6",
+        "heb-wlc/MAL/1/7",
+        "heb-wlc/MAL/1/8",
+        "heb-wlc/MAL/1/9",
+        "heb-wlc/MAL/1/10",
+        "heb-wlc/MAL/1/11",
+        "heb-wlc/MAL/1/13",
+        "heb-wlc/MAL/1/14",
+        "heb-wlc/MAL/2/2",
+        "heb-wlc/MAL/2/4",
+        "heb-wlc/MAL/2/7",
+        "heb-wlc/MAL/2/8",
+        "heb-wlc/MAL/2/11",
+        "heb-wlc/MAL/2/12",
+        "heb-wlc/MAL/2/13",
+        "heb-wlc/MAL/2/14",
+        "heb-wlc/MAL/2/16",
+        "heb-wlc/MAL/2/17",
+        "heb-wlc/MAL/3/1",
+        "heb-wlc/MAL/3/3",
+        "heb-wlc/MAL/3/4",
+        "heb-wlc/MAL/3/5",
+        "heb-wlc/MAL/3/6",
+        "heb-wlc/MAL/3/7",
+        "heb-wlc/MAL/3/10",
+        "heb-wlc/MAL/3/11",
+        "heb-wlc/MAL/3/12",
+        "heb-wlc/MAL/3/13",
+        "heb-wlc/MAL/3/14",
+        "heb-wlc/MAL/3/16",
+        "heb-wlc/MAL/3/17",
+        "heb-wlc/MAL/3/19",
+        "heb-wlc/MAL/3/21",
+        "heb-wlc/MAL/3/23"
+      ]
+    },
+    {
+      "root": "559",
+      "lemma": "559",
+      "gloss": "say (amar)",
+      "count": 40,
+      "verses": [
+        "heb-wlc/MAL/1/2",
+        "heb-wlc/MAL/1/4",
+        "heb-wlc/MAL/1/5",
+        "heb-wlc/MAL/1/6",
+        "heb-wlc/MAL/1/7",
+        "heb-wlc/MAL/1/8",
+        "heb-wlc/MAL/1/9",
+        "heb-wlc/MAL/1/10",
+        "heb-wlc/MAL/1/11",
+        "heb-wlc/MAL/1/12",
+        "heb-wlc/MAL/1/13",
+        "heb-wlc/MAL/1/14",
+        "heb-wlc/MAL/2/2",
+        "heb-wlc/MAL/2/4",
+        "heb-wlc/MAL/2/8",
+        "heb-wlc/MAL/2/14",
+        "heb-wlc/MAL/2/16",
+        "heb-wlc/MAL/2/17",
+        "heb-wlc/MAL/3/1",
+        "heb-wlc/MAL/3/5",
+        "heb-wlc/MAL/3/7",
+        "heb-wlc/MAL/3/8",
+        "heb-wlc/MAL/3/10",
+        "heb-wlc/MAL/3/11",
+        "heb-wlc/MAL/3/12",
+        "heb-wlc/MAL/3/13",
+        "heb-wlc/MAL/3/14",
+        "heb-wlc/MAL/3/17",
+        "heb-wlc/MAL/3/19",
+        "heb-wlc/MAL/3/21"
+      ]
+    },
+    {
+      "root": "853",
+      "lemma": "853",
+      "gloss": "- (et, object marker)",
+      "count": 34,
+      "verses": [
+        "heb-wlc/MAL/1/2",
+        "heb-wlc/MAL/1/3",
+        "heb-wlc/MAL/1/6",
+        "heb-wlc/MAL/1/12",
+        "heb-wlc/MAL/1/13",
+        "heb-wlc/MAL/2/2",
+        "heb-wlc/MAL/2/3",
+        "heb-wlc/MAL/2/4",
+        "heb-wlc/MAL/2/9",
+        "heb-wlc/MAL/2/13",
+        "heb-wlc/MAL/3/2",
+        "heb-wlc/MAL/3/3",
+        "heb-wlc/MAL/3/8",
+        "heb-wlc/MAL/3/9",
+        "heb-wlc/MAL/3/10",
+        "heb-wlc/MAL/3/11",
+        "heb-wlc/MAL/3/12",
+        "heb-wlc/MAL/3/17",
+        "heb-wlc/MAL/3/19",
+        "heb-wlc/MAL/3/22",
+        "heb-wlc/MAL/3/23",
+        "heb-wlc/MAL/3/24"
+      ]
+    },
+    {
+      "root": "6635",
+      "lemma": "6635",
+      "gloss": "hosts/armies (tsvaot)",
+      "count": 24,
+      "verses": [
+        "heb-wlc/MAL/1/4",
+        "heb-wlc/MAL/1/6",
+        "heb-wlc/MAL/1/8",
+        "heb-wlc/MAL/1/9",
+        "heb-wlc/MAL/1/10",
+        "heb-wlc/MAL/1/11",
+        "heb-wlc/MAL/1/13",
+        "heb-wlc/MAL/1/14",
+        "heb-wlc/MAL/2/2",
+        "heb-wlc/MAL/2/4",
+        "heb-wlc/MAL/2/7",
+        "heb-wlc/MAL/2/8",
+        "heb-wlc/MAL/2/12",
+        "heb-wlc/MAL/2/16",
+        "heb-wlc/MAL/3/1",
+        "heb-wlc/MAL/3/5",
+        "heb-wlc/MAL/3/7",
+        "heb-wlc/MAL/3/10",
+        "heb-wlc/MAL/3/11",
+        "heb-wlc/MAL/3/12",
+        "heb-wlc/MAL/3/14",
+        "heb-wlc/MAL/3/17",
+        "heb-wlc/MAL/3/19",
+        "heb-wlc/MAL/3/21"
+      ]
+    },
+    {
+      "root": "3588",
+      "lemma": "3588",
+      "gloss": "that/because (ki)",
+      "count": 21,
+      "verses": [
+        "heb-wlc/MAL/1/4",
+        "heb-wlc/MAL/1/8",
+        "heb-wlc/MAL/1/11",
+        "heb-wlc/MAL/1/14",
+        "heb-wlc/MAL/2/2",
+        "heb-wlc/MAL/2/4",
+        "heb-wlc/MAL/2/7",
+        "heb-wlc/MAL/2/11",
+        "heb-wlc/MAL/2/14",
+        "heb-wlc/MAL/2/16",
+        "heb-wlc/MAL/3/2",
+        "heb-wlc/MAL/3/6",
+        "heb-wlc/MAL/3/8",
+        "heb-wlc/MAL/3/12",
+        "heb-wlc/MAL/3/14",
+        "heb-wlc/MAL/3/19",
+        "heb-wlc/MAL/3/21"
+      ]
+    },
+    {
+      "root": "3808",
+      "lemma": "3808",
+      "gloss": "not (lo)",
+      "count": 16,
+      "verses": [
+        "heb-wlc/MAL/1/10",
+        "heb-wlc/MAL/2/2",
+        "heb-wlc/MAL/2/6",
+        "heb-wlc/MAL/2/15",
+        "heb-wlc/MAL/2/16",
+        "heb-wlc/MAL/3/5",
+        "heb-wlc/MAL/3/6",
+        "heb-wlc/MAL/3/7",
+        "heb-wlc/MAL/3/10",
+        "heb-wlc/MAL/3/11",
+        "heb-wlc/MAL/3/18",
+        "heb-wlc/MAL/3/19"
+      ]
+    },
+    {
+      "root": "5921",
+      "lemma": "5921",
+      "gloss": "upon/over (al)",
+      "count": 15,
+      "verses": [
+        "heb-wlc/MAL/1/5",
+        "heb-wlc/MAL/1/7",
+        "heb-wlc/MAL/2/2",
+        "heb-wlc/MAL/2/3",
+        "heb-wlc/MAL/2/14",
+        "heb-wlc/MAL/2/16",
+        "heb-wlc/MAL/3/13",
+        "heb-wlc/MAL/3/17",
+        "heb-wlc/MAL/3/22",
+        "heb-wlc/MAL/3/24"
+      ]
+    },
+    {
+      "root": "834",
+      "lemma": "834",
+      "gloss": "which/who (asher)",
+      "count": 12,
+      "verses": [
+        "heb-wlc/MAL/1/4",
+        "heb-wlc/MAL/2/9",
+        "heb-wlc/MAL/2/11",
+        "heb-wlc/MAL/2/12",
+        "heb-wlc/MAL/2/14",
+        "heb-wlc/MAL/3/1",
+        "heb-wlc/MAL/3/17",
+        "heb-wlc/MAL/3/18",
+        "heb-wlc/MAL/3/19",
+        "heb-wlc/MAL/3/21",
+        "heb-wlc/MAL/3/22"
+      ]
+    },
+    {
+      "root": "1961",
+      "lemma": "1961",
+      "gloss": "be/become (hayah)",
+      "count": 11,
+      "verses": [
+        "heb-wlc/MAL/1/9",
+        "heb-wlc/MAL/2/4",
+        "heb-wlc/MAL/2/5",
+        "heb-wlc/MAL/2/6",
+        "heb-wlc/MAL/3/3",
+        "heb-wlc/MAL/3/5",
+        "heb-wlc/MAL/3/10",
+        "heb-wlc/MAL/3/12",
+        "heb-wlc/MAL/3/17",
+        "heb-wlc/MAL/3/19",
+        "heb-wlc/MAL/3/21"
+      ]
+    },
+    {
+      "root": "859",
+      "lemma": "859",
+      "gloss": "",
+      "count": 11,
+      "verses": [
+        "heb-wlc/MAL/1/5",
+        "heb-wlc/MAL/1/12",
+        "heb-wlc/MAL/2/8",
+        "heb-wlc/MAL/2/14",
+        "heb-wlc/MAL/3/1",
+        "heb-wlc/MAL/3/6",
+        "heb-wlc/MAL/3/8",
+        "heb-wlc/MAL/3/9",
+        "heb-wlc/MAL/3/12"
+      ]
+    },
+    {
+      "root": "4100",
+      "lemma": "4100",
+      "gloss": "",
+      "count": 10,
+      "verses": [
+        "heb-wlc/MAL/1/2",
+        "heb-wlc/MAL/1/6",
+        "heb-wlc/MAL/1/7",
+        "heb-wlc/MAL/2/14",
+        "heb-wlc/MAL/2/15",
+        "heb-wlc/MAL/2/17",
+        "heb-wlc/MAL/3/7",
+        "heb-wlc/MAL/3/8",
+        "heb-wlc/MAL/3/13",
+        "heb-wlc/MAL/3/14"
+      ]
+    },
+    {
+      "root": "935",
+      "lemma": "935",
+      "gloss": "come/go (bo)",
+      "count": 10,
+      "verses": [
+        "heb-wlc/MAL/1/13",
+        "heb-wlc/MAL/3/1",
+        "heb-wlc/MAL/3/2",
+        "heb-wlc/MAL/3/10",
+        "heb-wlc/MAL/3/19",
+        "heb-wlc/MAL/3/23",
+        "heb-wlc/MAL/3/24"
+      ]
+    },
+    {
+      "root": "8034",
+      "lemma": "8034",
+      "gloss": "name (shem)",
+      "count": 10,
+      "verses": [
+        "heb-wlc/MAL/1/6",
+        "heb-wlc/MAL/1/11",
+        "heb-wlc/MAL/1/14",
+        "heb-wlc/MAL/2/2",
+        "heb-wlc/MAL/2/5",
+        "heb-wlc/MAL/3/16",
+        "heb-wlc/MAL/3/20"
+      ]
+    },
+    {
+      "root": "6440",
+      "lemma": "6440",
+      "gloss": "face (panim)",
+      "count": 10,
+      "verses": [
+        "heb-wlc/MAL/1/8",
+        "heb-wlc/MAL/1/9",
+        "heb-wlc/MAL/2/3",
+        "heb-wlc/MAL/2/5",
+        "heb-wlc/MAL/2/9",
+        "heb-wlc/MAL/3/1",
+        "heb-wlc/MAL/3/14",
+        "heb-wlc/MAL/3/16",
+        "heb-wlc/MAL/3/23"
+      ]
+    },
+    {
+      "root": "413",
+      "lemma": "413",
+      "gloss": "to/toward (el)",
+      "count": 10,
+      "verses": [
+        "heb-wlc/MAL/1/1",
+        "heb-wlc/MAL/2/1",
+        "heb-wlc/MAL/2/3",
+        "heb-wlc/MAL/2/4",
+        "heb-wlc/MAL/2/13",
+        "heb-wlc/MAL/3/1",
+        "heb-wlc/MAL/3/5",
+        "heb-wlc/MAL/3/7",
+        "heb-wlc/MAL/3/10"
+      ]
+    },
+    {
+      "root": "3605",
+      "lemma": "3605",
+      "gloss": "all/every (kol)",
+      "count": 10,
+      "verses": [
+        "heb-wlc/MAL/1/11",
+        "heb-wlc/MAL/2/9",
+        "heb-wlc/MAL/2/10",
+        "heb-wlc/MAL/2/17",
+        "heb-wlc/MAL/3/9",
+        "heb-wlc/MAL/3/10",
+        "heb-wlc/MAL/3/12",
+        "heb-wlc/MAL/3/19",
+        "heb-wlc/MAL/3/22"
+      ]
+    },
+    {
+      "root": "6213",
+      "lemma": "6213",
+      "gloss": "do/make (asah)",
+      "count": 9,
+      "verses": [
+        "heb-wlc/MAL/2/11",
+        "heb-wlc/MAL/2/12",
+        "heb-wlc/MAL/2/13",
+        "heb-wlc/MAL/2/15",
+        "heb-wlc/MAL/2/17",
+        "heb-wlc/MAL/3/15",
+        "heb-wlc/MAL/3/17",
+        "heb-wlc/MAL/3/19",
+        "heb-wlc/MAL/3/21"
+      ]
+    },
+    {
+      "root": "589",
+      "lemma": "589",
+      "gloss": "",
+      "count": 8,
+      "verses": [
+        "heb-wlc/MAL/1/4",
+        "heb-wlc/MAL/1/6",
+        "heb-wlc/MAL/1/14",
+        "heb-wlc/MAL/2/9",
+        "heb-wlc/MAL/3/6",
+        "heb-wlc/MAL/3/17",
+        "heb-wlc/MAL/3/21"
+      ]
+    },
+    {
+      "root": "1",
+      "lemma": "1",
+      "gloss": "",
+      "count": 7,
+      "verses": [
+        "heb-wlc/MAL/1/6",
+        "heb-wlc/MAL/2/10",
+        "heb-wlc/MAL/3/7",
+        "heb-wlc/MAL/3/24"
+      ]
+    },
+    {
+      "root": "7725",
+      "lemma": "7725",
+      "gloss": "return/repent (shuv)",
+      "count": 7,
+      "verses": [
+        "heb-wlc/MAL/1/4",
+        "heb-wlc/MAL/2/6",
+        "heb-wlc/MAL/3/7",
+        "heb-wlc/MAL/3/18",
+        "heb-wlc/MAL/3/24"
+      ]
+    },
+    {
+      "root": "1931",
+      "lemma": "1931",
+      "gloss": "he/she/it (hu)",
+      "count": 7,
+      "verses": [
+        "heb-wlc/MAL/1/7",
+        "heb-wlc/MAL/1/12",
+        "heb-wlc/MAL/2/5",
+        "heb-wlc/MAL/2/7",
+        "heb-wlc/MAL/2/14",
+        "heb-wlc/MAL/2/17",
+        "heb-wlc/MAL/3/2"
+      ]
+    },
+    {
+      "root": "4503",
+      "lemma": "4503",
+      "gloss": "",
+      "count": 7,
+      "verses": [
+        "heb-wlc/MAL/1/10",
+        "heb-wlc/MAL/1/11",
+        "heb-wlc/MAL/1/13",
+        "heb-wlc/MAL/2/12",
+        "heb-wlc/MAL/2/13",
+        "heb-wlc/MAL/3/3",
+        "heb-wlc/MAL/3/4"
+      ]
+    },
+    {
+      "root": "430",
+      "lemma": "430",
+      "gloss": "God (Elohim)",
+      "count": 7,
+      "verses": [
+        "heb-wlc/MAL/2/15",
+        "heb-wlc/MAL/2/16",
+        "heb-wlc/MAL/2/17",
+        "heb-wlc/MAL/3/8",
+        "heb-wlc/MAL/3/14",
+        "heb-wlc/MAL/3/15",
+        "heb-wlc/MAL/3/18"
+      ]
+    },
+    {
+      "root": "3117",
+      "lemma": "3117",
+      "gloss": "day (yom)",
+      "count": 7,
+      "verses": [
+        "heb-wlc/MAL/3/2",
+        "heb-wlc/MAL/3/7",
+        "heb-wlc/MAL/3/17",
+        "heb-wlc/MAL/3/19",
+        "heb-wlc/MAL/3/21",
+        "heb-wlc/MAL/3/23"
+      ]
+    },
+    {
+      "root": "5066",
+      "lemma": "5066",
+      "gloss": "",
+      "count": 6,
+      "verses": [
+        "heb-wlc/MAL/1/7",
+        "heb-wlc/MAL/1/8",
+        "heb-wlc/MAL/1/11",
+        "heb-wlc/MAL/2/12",
+        "heb-wlc/MAL/3/3"
+      ]
+    },
+    {
+      "root": "8104",
+      "lemma": "8104",
+      "gloss": "",
+      "count": 6,
+      "verses": [
+        "heb-wlc/MAL/2/7",
+        "heb-wlc/MAL/2/9",
+        "heb-wlc/MAL/2/15",
+        "heb-wlc/MAL/2/16",
+        "heb-wlc/MAL/3/7",
+        "heb-wlc/MAL/3/14"
+      ]
+    },
+    {
+      "root": "1121",
+      "lemma": "1121",
+      "gloss": "son (ben)",
+      "count": 6,
+      "verses": [
+        "heb-wlc/MAL/1/6",
+        "heb-wlc/MAL/3/3",
+        "heb-wlc/MAL/3/6",
+        "heb-wlc/MAL/3/17",
+        "heb-wlc/MAL/3/24"
+      ]
+    },
+    {
+      "root": "3372",
+      "lemma": "3372",
+      "gloss": "",
+      "count": 6,
+      "verses": [
+        "heb-wlc/MAL/1/14",
+        "heb-wlc/MAL/2/5",
+        "heb-wlc/MAL/3/5",
+        "heb-wlc/MAL/3/16",
+        "heb-wlc/MAL/3/23"
+      ]
+    },
+    {
+      "root": "1285",
+      "lemma": "1285",
+      "gloss": "covenant (berit)",
+      "count": 6,
+      "verses": [
+        "heb-wlc/MAL/2/4",
+        "heb-wlc/MAL/2/5",
+        "heb-wlc/MAL/2/8",
+        "heb-wlc/MAL/2/10",
+        "heb-wlc/MAL/2/14",
+        "heb-wlc/MAL/3/1"
+      ]
+    },
+    {
+      "root": "369",
+      "lemma": "369",
+      "gloss": "nothing/none (ayin)",
+      "count": 6,
+      "verses": [
+        "heb-wlc/MAL/1/8",
+        "heb-wlc/MAL/1/10",
+        "heb-wlc/MAL/2/2",
+        "heb-wlc/MAL/2/9",
+        "heb-wlc/MAL/2/13"
+      ]
+    },
+    {
+      "root": "8451",
+      "lemma": "8451",
+      "gloss": "law/instruction (torah)",
+      "count": 5,
+      "verses": [
+        "heb-wlc/MAL/2/6",
+        "heb-wlc/MAL/2/7",
+        "heb-wlc/MAL/2/8",
+        "heb-wlc/MAL/2/9",
+        "heb-wlc/MAL/3/22"
+      ]
+    },
+    {
+      "root": "1471",
+      "lemma": "1471",
+      "gloss": "",
+      "count": 5,
+      "verses": [
+        "heb-wlc/MAL/1/11",
+        "heb-wlc/MAL/1/14",
+        "heb-wlc/MAL/3/9",
+        "heb-wlc/MAL/3/12"
+      ]
+    },
+    {
+      "root": "2063",
+      "lemma": "2063",
+      "gloss": "",
+      "count": 5,
+      "verses": [
+        "heb-wlc/MAL/1/9",
+        "heb-wlc/MAL/2/1",
+        "heb-wlc/MAL/2/4",
+        "heb-wlc/MAL/2/13",
+        "heb-wlc/MAL/3/10"
+      ]
+    },
+    {
+      "root": "898",
+      "lemma": "898",
+      "gloss": "",
+      "count": 5,
+      "verses": [
+        "heb-wlc/MAL/2/10",
+        "heb-wlc/MAL/2/11",
+        "heb-wlc/MAL/2/14",
+        "heb-wlc/MAL/2/15",
+        "heb-wlc/MAL/2/16"
+      ]
+    },
+    {
+      "root": "3478",
+      "lemma": "3478",
+      "gloss": "Israel (yisrael)",
+      "count": 5,
+      "verses": [
+        "heb-wlc/MAL/1/1",
+        "heb-wlc/MAL/1/5",
+        "heb-wlc/MAL/2/11",
+        "heb-wlc/MAL/2/16",
+        "heb-wlc/MAL/3/22"
+      ]
+    },
+    {
+      "root": "7971",
+      "lemma": "7971",
+      "gloss": "send (shalach)",
+      "count": 5,
+      "verses": [
+        "heb-wlc/MAL/2/2",
+        "heb-wlc/MAL/2/4",
+        "heb-wlc/MAL/2/16",
+        "heb-wlc/MAL/3/1",
+        "heb-wlc/MAL/3/23"
+      ]
+    },
+    {
+      "root": "3027",
+      "lemma": "3027",
+      "gloss": "hand (yad)",
+      "count": 5,
+      "verses": [
+        "heb-wlc/MAL/1/1",
+        "heb-wlc/MAL/1/9",
+        "heb-wlc/MAL/1/10",
+        "heb-wlc/MAL/1/13",
+        "heb-wlc/MAL/2/13"
+      ]
+    },
+    {
+      "root": "959",
+      "lemma": "959",
+      "gloss": "",
+      "count": 5,
+      "verses": [
+        "heb-wlc/MAL/1/6",
+        "heb-wlc/MAL/1/7",
+        "heb-wlc/MAL/1/12",
+        "heb-wlc/MAL/2/9"
+      ]
+    },
+    {
+      "root": "518",
+      "lemma": "518",
+      "gloss": "",
+      "count": 5,
+      "verses": [
+        "heb-wlc/MAL/1/6",
+        "heb-wlc/MAL/2/2",
+        "heb-wlc/MAL/3/10"
+      ]
+    },
+    {
+      "root": "1571",
+      "lemma": "1571",
+      "gloss": "also/even (gam)",
+      "count": 5,
+      "verses": [
+        "heb-wlc/MAL/1/10",
+        "heb-wlc/MAL/2/2",
+        "heb-wlc/MAL/2/9",
+        "heb-wlc/MAL/3/15"
+      ]
+    },
+    {
+      "root": "996",
+      "lemma": "996",
+      "gloss": "",
+      "count": 4,
+      "verses": [
+        "heb-wlc/MAL/2/14",
+        "heb-wlc/MAL/3/18"
+      ]
+    },
+    {
+      "root": "1419",
+      "lemma": "1419",
+      "gloss": "",
+      "count": 4,
+      "verses": [
+        "heb-wlc/MAL/1/11",
+        "heb-wlc/MAL/1/14",
+        "heb-wlc/MAL/3/23"
+      ]
+    },
+    {
+      "root": "259",
+      "lemma": "259",
+      "gloss": "one (echad)",
+      "count": 4,
+      "verses": [
+        "heb-wlc/MAL/2/10",
+        "heb-wlc/MAL/2/15"
+      ]
+    },
+    {
+      "root": "376",
+      "lemma": "376",
+      "gloss": "man (ish)",
+      "count": 4,
+      "verses": [
+        "heb-wlc/MAL/2/10",
+        "heb-wlc/MAL/2/12",
+        "heb-wlc/MAL/3/16",
+        "heb-wlc/MAL/3/17"
+      ]
+    },
+    {
+      "root": "854",
+      "lemma": "854",
+      "gloss": "",
+      "count": 4,
+      "verses": [
+        "heb-wlc/MAL/2/4",
+        "heb-wlc/MAL/2/5",
+        "heb-wlc/MAL/2/6",
+        "heb-wlc/MAL/3/16"
+      ]
+    },
+    {
+      "root": "3820",
+      "lemma": "3820",
+      "gloss": "heart (lev)",
+      "count": 4,
+      "verses": [
+        "heb-wlc/MAL/2/2",
+        "heb-wlc/MAL/3/24"
+      ]
+    },
+    {
+      "root": "779",
+      "lemma": "779",
+      "gloss": "",
+      "count": 4,
+      "verses": [
+        "heb-wlc/MAL/1/14",
+        "heb-wlc/MAL/2/2",
+        "heb-wlc/MAL/3/9"
+      ]
+    },
+    {
+      "root": "3290",
+      "lemma": "3290",
+      "gloss": "",
+      "count": 4,
+      "verses": [
+        "heb-wlc/MAL/1/2",
+        "heb-wlc/MAL/2/12",
+        "heb-wlc/MAL/3/6"
+      ]
+    },
+    {
+      "root": "5647",
+      "lemma": "5647",
+      "gloss": "",
+      "count": 4,
+      "verses": [
+        "heb-wlc/MAL/3/14",
+        "heb-wlc/MAL/3/17",
+        "heb-wlc/MAL/3/18"
+      ]
+    },
+    {
+      "root": "2009",
+      "lemma": "2009",
+      "gloss": "",
+      "count": 4,
+      "verses": [
+        "heb-wlc/MAL/1/13",
+        "heb-wlc/MAL/3/1",
+        "heb-wlc/MAL/3/19",
+        "heb-wlc/MAL/3/23"
+      ]
+    },
+    {
+      "root": "157",
+      "lemma": "157",
+      "gloss": "love (ahav)",
+      "count": 4,
+      "verses": [
+        "heb-wlc/MAL/1/2",
+        "heb-wlc/MAL/2/11"
+      ]
+    },
+    {
+      "root": "1870",
+      "lemma": "1870",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/MAL/2/8",
+        "heb-wlc/MAL/2/9",
+        "heb-wlc/MAL/3/1"
+      ]
+    },
+    {
+      "root": "4941",
+      "lemma": "4941",
+      "gloss": "justice (mishpat)",
+      "count": 3,
+      "verses": [
+        "heb-wlc/MAL/2/17",
+        "heb-wlc/MAL/3/5",
+        "heb-wlc/MAL/3/22"
+      ]
+    },
+    {
+      "root": "i/3808",
+      "lemma": "i/3808",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/MAL/1/2",
+        "heb-wlc/MAL/2/10"
+      ]
+    },
+    {
+      "root": "6258",
+      "lemma": "6258",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/MAL/1/9",
+        "heb-wlc/MAL/2/1",
+        "heb-wlc/MAL/3/15"
+      ]
+    },
+    {
+      "root": "410",
+      "lemma": "410",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/MAL/1/9",
+        "heb-wlc/MAL/2/10",
+        "heb-wlc/MAL/2/11"
+      ]
+    },
+    {
+      "root": "5414",
+      "lemma": "5414",
+      "gloss": "give (natan)",
+      "count": 3,
+      "verses": [
+        "heb-wlc/MAL/2/2",
+        "heb-wlc/MAL/2/5",
+        "heb-wlc/MAL/2/9"
+      ]
+    },
+    {
+      "root": "4397",
+      "lemma": "4397",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/MAL/2/7",
+        "heb-wlc/MAL/3/1"
+      ]
+    },
+    {
+      "root": "1129",
+      "lemma": "1129",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/MAL/1/4",
+        "heb-wlc/MAL/3/15"
+      ]
+    },
+    {
+      "root": "7307",
+      "lemma": "7307",
+      "gloss": "spirit/wind (ruach)",
+      "count": 3,
+      "verses": [
+        "heb-wlc/MAL/2/15",
+        "heb-wlc/MAL/2/16"
+      ]
+    },
+    {
+      "root": "346",
+      "lemma": "346",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/MAL/1/6",
+        "heb-wlc/MAL/2/17"
+      ]
+    },
+    {
+      "root": "7843",
+      "lemma": "7843",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/MAL/1/14",
+        "heb-wlc/MAL/2/8",
+        "heb-wlc/MAL/3/11"
+      ]
+    },
+    {
+      "root": "5704",
+      "lemma": "5704",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/MAL/1/4",
+        "heb-wlc/MAL/1/11",
+        "heb-wlc/MAL/3/10"
+      ]
+    },
+    {
+      "root": "4196",
+      "lemma": "4196",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/MAL/1/7",
+        "heb-wlc/MAL/1/10",
+        "heb-wlc/MAL/2/13"
+      ]
+    },
+    {
+      "root": "802",
+      "lemma": "802",
+      "gloss": "woman (ishah)",
+      "count": 3,
+      "verses": [
+        "heb-wlc/MAL/2/14",
+        "heb-wlc/MAL/2/15"
+      ]
+    },
+    {
+      "root": "113",
+      "lemma": "113",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/MAL/1/6",
+        "heb-wlc/MAL/3/1"
+      ]
+    },
+    {
+      "root": "3063",
+      "lemma": "3063",
+      "gloss": "Judah (yehudah)",
+      "count": 3,
+      "verses": [
+        "heb-wlc/MAL/2/11",
+        "heb-wlc/MAL/3/4"
+      ]
+    },
+    {
+      "root": "3548",
+      "lemma": "3548",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/MAL/1/6",
+        "heb-wlc/MAL/2/1",
+        "heb-wlc/MAL/2/7"
+      ]
+    },
+    {
+      "root": "1697",
+      "lemma": "1697",
+      "gloss": "word/matter (davar)",
+      "count": 3,
+      "verses": [
+        "heb-wlc/MAL/1/1",
+        "heb-wlc/MAL/2/17",
+        "heb-wlc/MAL/3/13"
+      ]
+    },
+    {
+      "root": "1351",
+      "lemma": "1351",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/MAL/1/7",
+        "heb-wlc/MAL/1/12"
+      ]
+    },
+    {
+      "root": "4310",
+      "lemma": "4310",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/MAL/1/10",
+        "heb-wlc/MAL/3/2"
+      ]
+    },
+    {
+      "root": "2470",
+      "lemma": "2470",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/MAL/1/8",
+        "heb-wlc/MAL/1/9",
+        "heb-wlc/MAL/1/13"
+      ]
+    },
+    {
+      "root": "2490",
+      "lemma": "2490",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/MAL/1/12",
+        "heb-wlc/MAL/2/10",
+        "heb-wlc/MAL/2/11"
+      ]
+    },
+    {
+      "root": "7451",
+      "lemma": "7451",
+      "gloss": "evil/bad (ra)",
+      "count": 3,
+      "verses": [
+        "heb-wlc/MAL/1/8",
+        "heb-wlc/MAL/2/17"
+      ]
+    },
+    {
+      "root": "6906",
+      "lemma": "6906",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/MAL/3/8",
+        "heb-wlc/MAL/3/9"
+      ]
+    },
+    {
+      "root": "7564",
+      "lemma": "7564",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/MAL/1/4",
+        "heb-wlc/MAL/3/15",
+        "heb-wlc/MAL/3/19"
+      ]
+    },
+    {
+      "root": "7760",
+      "lemma": "7760",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/MAL/1/3",
+        "heb-wlc/MAL/2/2"
+      ]
+    },
+    {
+      "root": "4994",
+      "lemma": "4994",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/MAL/1/8",
+        "heb-wlc/MAL/1/9",
+        "heb-wlc/MAL/3/10"
+      ]
+    },
+    {
+      "root": "3878",
+      "lemma": "3878",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/MAL/2/4",
+        "heb-wlc/MAL/2/8",
+        "heb-wlc/MAL/3/3"
+      ]
+    },
+    {
+      "root": "7200",
+      "lemma": "7200",
+      "gloss": "see (raah)",
+      "count": 3,
+      "verses": [
+        "heb-wlc/MAL/1/5",
+        "heb-wlc/MAL/3/2",
+        "heb-wlc/MAL/3/18"
+      ]
+    },
+    {
+      "root": "1245",
+      "lemma": "1245",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/MAL/2/7",
+        "heb-wlc/MAL/2/15",
+        "heb-wlc/MAL/3/1"
+      ]
+    }
+  ]
+}

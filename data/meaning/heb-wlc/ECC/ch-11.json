@@ -2335,32 +2335,6 @@
       ]
     },
     {
-      "root": "6256",
-      "lemma": "6256",
-      "gloss": "time (et)",
-      "count": 40,
-      "verses": [
-        "heb-wlc/ECC/3/1",
-        "heb-wlc/ECC/3/2",
-        "heb-wlc/ECC/3/3",
-        "heb-wlc/ECC/3/4",
-        "heb-wlc/ECC/3/5",
-        "heb-wlc/ECC/3/6",
-        "heb-wlc/ECC/3/7",
-        "heb-wlc/ECC/3/8",
-        "heb-wlc/ECC/3/11",
-        "heb-wlc/ECC/3/17",
-        "heb-wlc/ECC/7/17",
-        "heb-wlc/ECC/8/5",
-        "heb-wlc/ECC/8/6",
-        "heb-wlc/ECC/8/9",
-        "heb-wlc/ECC/9/8",
-        "heb-wlc/ECC/9/11",
-        "heb-wlc/ECC/9/12",
-        "heb-wlc/ECC/10/17"
-      ]
-    },
-    {
       "root": "430",
       "lemma": "430",
       "gloss": "God (Elohim)",
@@ -2402,6 +2376,32 @@
         "heb-wlc/ECC/12/7",
         "heb-wlc/ECC/12/13",
         "heb-wlc/ECC/12/14"
+      ]
+    },
+    {
+      "root": "6256",
+      "lemma": "6256",
+      "gloss": "time (et)",
+      "count": 40,
+      "verses": [
+        "heb-wlc/ECC/3/1",
+        "heb-wlc/ECC/3/2",
+        "heb-wlc/ECC/3/3",
+        "heb-wlc/ECC/3/4",
+        "heb-wlc/ECC/3/5",
+        "heb-wlc/ECC/3/6",
+        "heb-wlc/ECC/3/7",
+        "heb-wlc/ECC/3/8",
+        "heb-wlc/ECC/3/11",
+        "heb-wlc/ECC/3/17",
+        "heb-wlc/ECC/7/17",
+        "heb-wlc/ECC/8/5",
+        "heb-wlc/ECC/8/6",
+        "heb-wlc/ECC/8/9",
+        "heb-wlc/ECC/9/8",
+        "heb-wlc/ECC/9/11",
+        "heb-wlc/ECC/9/12",
+        "heb-wlc/ECC/10/17"
       ]
     },
     {
@@ -2447,45 +2447,43 @@
       ]
     },
     {
-      "root": "1931",
-      "lemma": "1931",
-      "gloss": "he/she/it (hu)",
+      "root": "5921",
+      "lemma": "5921",
+      "gloss": "upon/over (al)",
       "count": 38,
       "verses": [
-        "heb-wlc/ECC/1/5",
-        "heb-wlc/ECC/1/9",
-        "heb-wlc/ECC/1/10",
+        "heb-wlc/ECC/1/6",
+        "heb-wlc/ECC/1/12",
         "heb-wlc/ECC/1/13",
-        "heb-wlc/ECC/1/17",
-        "heb-wlc/ECC/2/1",
-        "heb-wlc/ECC/2/23",
-        "heb-wlc/ECC/2/24",
-        "heb-wlc/ECC/3/9",
-        "heb-wlc/ECC/3/13",
+        "heb-wlc/ECC/1/16",
+        "heb-wlc/ECC/2/17",
+        "heb-wlc/ECC/2/20",
         "heb-wlc/ECC/3/14",
-        "heb-wlc/ECC/3/15",
-        "heb-wlc/ECC/3/21",
-        "heb-wlc/ECC/3/22",
-        "heb-wlc/ECC/4/4",
-        "heb-wlc/ECC/4/8",
+        "heb-wlc/ECC/3/17",
+        "heb-wlc/ECC/3/18",
+        "heb-wlc/ECC/5/1",
         "heb-wlc/ECC/5/5",
-        "heb-wlc/ECC/5/8",
-        "heb-wlc/ECC/5/13",
-        "heb-wlc/ECC/5/17",
-        "heb-wlc/ECC/5/18",
+        "heb-wlc/ECC/5/7",
         "heb-wlc/ECC/6/1",
-        "heb-wlc/ECC/6/2",
-        "heb-wlc/ECC/6/10",
-        "heb-wlc/ECC/7/2",
-        "heb-wlc/ECC/7/23",
-        "heb-wlc/ECC/7/26",
-        "heb-wlc/ECC/8/15",
-        "heb-wlc/ECC/9/4",
-        "heb-wlc/ECC/9/9",
-        "heb-wlc/ECC/9/13",
-        "heb-wlc/ECC/9/15",
-        "heb-wlc/ECC/10/3",
-        "heb-wlc/ECC/10/10"
+        "heb-wlc/ECC/7/10",
+        "heb-wlc/ECC/7/14",
+        "heb-wlc/ECC/8/2",
+        "heb-wlc/ECC/8/6",
+        "heb-wlc/ECC/8/11",
+        "heb-wlc/ECC/8/14",
+        "heb-wlc/ECC/8/16",
+        "heb-wlc/ECC/9/8",
+        "heb-wlc/ECC/9/12",
+        "heb-wlc/ECC/9/14",
+        "heb-wlc/ECC/10/4",
+        "heb-wlc/ECC/10/7",
+        "heb-wlc/ECC/11/1",
+        "heb-wlc/ECC/11/2",
+        "heb-wlc/ECC/11/3",
+        "heb-wlc/ECC/11/9",
+        "heb-wlc/ECC/12/6",
+        "heb-wlc/ECC/12/7",
+        "heb-wlc/ECC/12/14"
       ]
     },
     {
@@ -2527,43 +2525,45 @@
       ]
     },
     {
-      "root": "5921",
-      "lemma": "5921",
-      "gloss": "upon/over (al)",
+      "root": "1931",
+      "lemma": "1931",
+      "gloss": "he/she/it (hu)",
       "count": 38,
       "verses": [
-        "heb-wlc/ECC/1/6",
-        "heb-wlc/ECC/1/12",
+        "heb-wlc/ECC/1/5",
+        "heb-wlc/ECC/1/9",
+        "heb-wlc/ECC/1/10",
         "heb-wlc/ECC/1/13",
-        "heb-wlc/ECC/1/16",
-        "heb-wlc/ECC/2/17",
-        "heb-wlc/ECC/2/20",
+        "heb-wlc/ECC/1/17",
+        "heb-wlc/ECC/2/1",
+        "heb-wlc/ECC/2/23",
+        "heb-wlc/ECC/2/24",
+        "heb-wlc/ECC/3/9",
+        "heb-wlc/ECC/3/13",
         "heb-wlc/ECC/3/14",
-        "heb-wlc/ECC/3/17",
-        "heb-wlc/ECC/3/18",
-        "heb-wlc/ECC/5/1",
+        "heb-wlc/ECC/3/15",
+        "heb-wlc/ECC/3/21",
+        "heb-wlc/ECC/3/22",
+        "heb-wlc/ECC/4/4",
+        "heb-wlc/ECC/4/8",
         "heb-wlc/ECC/5/5",
-        "heb-wlc/ECC/5/7",
+        "heb-wlc/ECC/5/8",
+        "heb-wlc/ECC/5/13",
+        "heb-wlc/ECC/5/17",
+        "heb-wlc/ECC/5/18",
         "heb-wlc/ECC/6/1",
-        "heb-wlc/ECC/7/10",
-        "heb-wlc/ECC/7/14",
-        "heb-wlc/ECC/8/2",
-        "heb-wlc/ECC/8/6",
-        "heb-wlc/ECC/8/11",
-        "heb-wlc/ECC/8/14",
-        "heb-wlc/ECC/8/16",
-        "heb-wlc/ECC/9/8",
-        "heb-wlc/ECC/9/12",
-        "heb-wlc/ECC/9/14",
-        "heb-wlc/ECC/10/4",
-        "heb-wlc/ECC/10/7",
-        "heb-wlc/ECC/11/1",
-        "heb-wlc/ECC/11/2",
-        "heb-wlc/ECC/11/3",
-        "heb-wlc/ECC/11/9",
-        "heb-wlc/ECC/12/6",
-        "heb-wlc/ECC/12/7",
-        "heb-wlc/ECC/12/14"
+        "heb-wlc/ECC/6/2",
+        "heb-wlc/ECC/6/10",
+        "heb-wlc/ECC/7/2",
+        "heb-wlc/ECC/7/23",
+        "heb-wlc/ECC/7/26",
+        "heb-wlc/ECC/8/15",
+        "heb-wlc/ECC/9/4",
+        "heb-wlc/ECC/9/9",
+        "heb-wlc/ECC/9/13",
+        "heb-wlc/ECC/9/15",
+        "heb-wlc/ECC/10/3",
+        "heb-wlc/ECC/10/10"
       ]
     },
     {
@@ -2722,41 +2722,6 @@
       ]
     },
     {
-      "root": "1961",
-      "lemma": "1961",
-      "gloss": "be/become (hayah)",
-      "count": 31,
-      "verses": [
-        "heb-wlc/ECC/1/10",
-        "heb-wlc/ECC/1/11",
-        "heb-wlc/ECC/1/12",
-        "heb-wlc/ECC/1/16",
-        "heb-wlc/ECC/2/7",
-        "heb-wlc/ECC/2/10",
-        "heb-wlc/ECC/2/19",
-        "heb-wlc/ECC/3/14",
-        "heb-wlc/ECC/3/15",
-        "heb-wlc/ECC/3/20",
-        "heb-wlc/ECC/4/3",
-        "heb-wlc/ECC/4/16",
-        "heb-wlc/ECC/5/1",
-        "heb-wlc/ECC/6/3",
-        "heb-wlc/ECC/6/12",
-        "heb-wlc/ECC/7/10",
-        "heb-wlc/ECC/7/14",
-        "heb-wlc/ECC/7/16",
-        "heb-wlc/ECC/7/17",
-        "heb-wlc/ECC/7/19",
-        "heb-wlc/ECC/8/7",
-        "heb-wlc/ECC/8/12",
-        "heb-wlc/ECC/8/13",
-        "heb-wlc/ECC/9/8",
-        "heb-wlc/ECC/10/14",
-        "heb-wlc/ECC/11/2",
-        "heb-wlc/ECC/11/8"
-      ]
-    },
-    {
       "root": "7451",
       "lemma": "7451",
       "gloss": "evil/bad (ra)",
@@ -2789,6 +2754,41 @@
         "heb-wlc/ECC/11/10",
         "heb-wlc/ECC/12/1",
         "heb-wlc/ECC/12/14"
+      ]
+    },
+    {
+      "root": "1961",
+      "lemma": "1961",
+      "gloss": "be/become (hayah)",
+      "count": 31,
+      "verses": [
+        "heb-wlc/ECC/1/10",
+        "heb-wlc/ECC/1/11",
+        "heb-wlc/ECC/1/12",
+        "heb-wlc/ECC/1/16",
+        "heb-wlc/ECC/2/7",
+        "heb-wlc/ECC/2/10",
+        "heb-wlc/ECC/2/19",
+        "heb-wlc/ECC/3/14",
+        "heb-wlc/ECC/3/15",
+        "heb-wlc/ECC/3/20",
+        "heb-wlc/ECC/4/3",
+        "heb-wlc/ECC/4/16",
+        "heb-wlc/ECC/5/1",
+        "heb-wlc/ECC/6/3",
+        "heb-wlc/ECC/6/12",
+        "heb-wlc/ECC/7/10",
+        "heb-wlc/ECC/7/14",
+        "heb-wlc/ECC/7/16",
+        "heb-wlc/ECC/7/17",
+        "heb-wlc/ECC/7/19",
+        "heb-wlc/ECC/8/7",
+        "heb-wlc/ECC/8/12",
+        "heb-wlc/ECC/8/13",
+        "heb-wlc/ECC/9/8",
+        "heb-wlc/ECC/10/14",
+        "heb-wlc/ECC/11/2",
+        "heb-wlc/ECC/11/8"
       ]
     },
     {
@@ -2950,6 +2950,34 @@
       ]
     },
     {
+      "root": "7307",
+      "lemma": "7307",
+      "gloss": "spirit/wind (ruach)",
+      "count": 24,
+      "verses": [
+        "heb-wlc/ECC/1/6",
+        "heb-wlc/ECC/1/14",
+        "heb-wlc/ECC/1/17",
+        "heb-wlc/ECC/2/11",
+        "heb-wlc/ECC/2/17",
+        "heb-wlc/ECC/2/26",
+        "heb-wlc/ECC/3/19",
+        "heb-wlc/ECC/3/21",
+        "heb-wlc/ECC/4/4",
+        "heb-wlc/ECC/4/6",
+        "heb-wlc/ECC/4/16",
+        "heb-wlc/ECC/5/15",
+        "heb-wlc/ECC/6/9",
+        "heb-wlc/ECC/7/8",
+        "heb-wlc/ECC/7/9",
+        "heb-wlc/ECC/8/8",
+        "heb-wlc/ECC/10/4",
+        "heb-wlc/ECC/11/4",
+        "heb-wlc/ECC/11/5",
+        "heb-wlc/ECC/12/7"
+      ]
+    },
+    {
       "root": "1697",
       "lemma": "1697",
       "gloss": "word/matter (davar)",
@@ -2977,34 +3005,6 @@
         "heb-wlc/ECC/12/10",
         "heb-wlc/ECC/12/11",
         "heb-wlc/ECC/12/13"
-      ]
-    },
-    {
-      "root": "7307",
-      "lemma": "7307",
-      "gloss": "spirit/wind (ruach)",
-      "count": 24,
-      "verses": [
-        "heb-wlc/ECC/1/6",
-        "heb-wlc/ECC/1/14",
-        "heb-wlc/ECC/1/17",
-        "heb-wlc/ECC/2/11",
-        "heb-wlc/ECC/2/17",
-        "heb-wlc/ECC/2/26",
-        "heb-wlc/ECC/3/19",
-        "heb-wlc/ECC/3/21",
-        "heb-wlc/ECC/4/4",
-        "heb-wlc/ECC/4/6",
-        "heb-wlc/ECC/4/16",
-        "heb-wlc/ECC/5/15",
-        "heb-wlc/ECC/6/9",
-        "heb-wlc/ECC/7/8",
-        "heb-wlc/ECC/7/9",
-        "heb-wlc/ECC/8/8",
-        "heb-wlc/ECC/10/4",
-        "heb-wlc/ECC/11/4",
-        "heb-wlc/ECC/11/5",
-        "heb-wlc/ECC/12/7"
       ]
     },
     {
@@ -3057,51 +3057,30 @@
       ]
     },
     {
-      "root": "408",
-      "lemma": "408",
-      "gloss": "",
+      "root": "6440",
+      "lemma": "6440",
+      "gloss": "face (panim)",
       "count": 21,
       "verses": [
+        "heb-wlc/ECC/1/10",
+        "heb-wlc/ECC/1/16",
+        "heb-wlc/ECC/2/7",
+        "heb-wlc/ECC/2/9",
+        "heb-wlc/ECC/2/26",
+        "heb-wlc/ECC/3/14",
+        "heb-wlc/ECC/4/16",
         "heb-wlc/ECC/5/1",
-        "heb-wlc/ECC/5/3",
         "heb-wlc/ECC/5/5",
-        "heb-wlc/ECC/5/7",
-        "heb-wlc/ECC/7/9",
-        "heb-wlc/ECC/7/10",
-        "heb-wlc/ECC/7/16",
-        "heb-wlc/ECC/7/17",
-        "heb-wlc/ECC/7/18",
-        "heb-wlc/ECC/7/21",
+        "heb-wlc/ECC/7/3",
+        "heb-wlc/ECC/7/26",
+        "heb-wlc/ECC/8/1",
         "heb-wlc/ECC/8/3",
-        "heb-wlc/ECC/9/8",
-        "heb-wlc/ECC/10/4",
-        "heb-wlc/ECC/10/20",
-        "heb-wlc/ECC/11/6"
-      ]
-    },
-    {
-      "root": "518",
-      "lemma": "518",
-      "gloss": "",
-      "count": 21,
-      "verses": [
-        "heb-wlc/ECC/3/12",
-        "heb-wlc/ECC/4/10",
-        "heb-wlc/ECC/4/11",
-        "heb-wlc/ECC/4/12",
-        "heb-wlc/ECC/5/7",
-        "heb-wlc/ECC/5/10",
-        "heb-wlc/ECC/5/11",
-        "heb-wlc/ECC/6/3",
-        "heb-wlc/ECC/8/15",
-        "heb-wlc/ECC/8/17",
-        "heb-wlc/ECC/10/4",
+        "heb-wlc/ECC/8/12",
+        "heb-wlc/ECC/8/13",
+        "heb-wlc/ECC/9/1",
+        "heb-wlc/ECC/10/5",
         "heb-wlc/ECC/10/10",
-        "heb-wlc/ECC/10/11",
-        "heb-wlc/ECC/11/3",
-        "heb-wlc/ECC/11/6",
-        "heb-wlc/ECC/11/8",
-        "heb-wlc/ECC/12/14"
+        "heb-wlc/ECC/11/1"
       ]
     },
     {
@@ -3133,30 +3112,77 @@
       ]
     },
     {
-      "root": "6440",
-      "lemma": "6440",
-      "gloss": "face (panim)",
+      "root": "518",
+      "lemma": "518",
+      "gloss": "",
       "count": 21,
       "verses": [
-        "heb-wlc/ECC/1/10",
-        "heb-wlc/ECC/1/16",
-        "heb-wlc/ECC/2/7",
-        "heb-wlc/ECC/2/9",
-        "heb-wlc/ECC/2/26",
-        "heb-wlc/ECC/3/14",
-        "heb-wlc/ECC/4/16",
-        "heb-wlc/ECC/5/1",
-        "heb-wlc/ECC/5/5",
-        "heb-wlc/ECC/7/3",
-        "heb-wlc/ECC/7/26",
-        "heb-wlc/ECC/8/1",
-        "heb-wlc/ECC/8/3",
-        "heb-wlc/ECC/8/12",
-        "heb-wlc/ECC/8/13",
-        "heb-wlc/ECC/9/1",
-        "heb-wlc/ECC/10/5",
+        "heb-wlc/ECC/3/12",
+        "heb-wlc/ECC/4/10",
+        "heb-wlc/ECC/4/11",
+        "heb-wlc/ECC/4/12",
+        "heb-wlc/ECC/5/7",
+        "heb-wlc/ECC/5/10",
+        "heb-wlc/ECC/5/11",
+        "heb-wlc/ECC/6/3",
+        "heb-wlc/ECC/8/15",
+        "heb-wlc/ECC/8/17",
+        "heb-wlc/ECC/10/4",
         "heb-wlc/ECC/10/10",
-        "heb-wlc/ECC/11/1"
+        "heb-wlc/ECC/10/11",
+        "heb-wlc/ECC/11/3",
+        "heb-wlc/ECC/11/6",
+        "heb-wlc/ECC/11/8",
+        "heb-wlc/ECC/12/14"
+      ]
+    },
+    {
+      "root": "408",
+      "lemma": "408",
+      "gloss": "",
+      "count": 21,
+      "verses": [
+        "heb-wlc/ECC/5/1",
+        "heb-wlc/ECC/5/3",
+        "heb-wlc/ECC/5/5",
+        "heb-wlc/ECC/5/7",
+        "heb-wlc/ECC/7/9",
+        "heb-wlc/ECC/7/10",
+        "heb-wlc/ECC/7/16",
+        "heb-wlc/ECC/7/17",
+        "heb-wlc/ECC/7/18",
+        "heb-wlc/ECC/7/21",
+        "heb-wlc/ECC/8/3",
+        "heb-wlc/ECC/9/8",
+        "heb-wlc/ECC/10/4",
+        "heb-wlc/ECC/10/20",
+        "heb-wlc/ECC/11/6"
+      ]
+    },
+    {
+      "root": "2450",
+      "lemma": "2450",
+      "gloss": "",
+      "count": 19,
+      "verses": [
+        "heb-wlc/ECC/2/14",
+        "heb-wlc/ECC/2/16",
+        "heb-wlc/ECC/4/13",
+        "heb-wlc/ECC/6/8",
+        "heb-wlc/ECC/7/4",
+        "heb-wlc/ECC/7/5",
+        "heb-wlc/ECC/7/7",
+        "heb-wlc/ECC/7/19",
+        "heb-wlc/ECC/8/5",
+        "heb-wlc/ECC/8/17",
+        "heb-wlc/ECC/9/1",
+        "heb-wlc/ECC/9/11",
+        "heb-wlc/ECC/9/15",
+        "heb-wlc/ECC/9/17",
+        "heb-wlc/ECC/10/2",
+        "heb-wlc/ECC/10/12",
+        "heb-wlc/ECC/12/9",
+        "heb-wlc/ECC/12/11"
       ]
     },
     {
@@ -3183,29 +3209,6 @@
         "heb-wlc/ECC/9/10",
         "heb-wlc/ECC/11/5",
         "heb-wlc/ECC/12/14"
-      ]
-    },
-    {
-      "root": "7235",
-      "lemma": "7235",
-      "gloss": "",
-      "count": 19,
-      "verses": [
-        "heb-wlc/ECC/1/16",
-        "heb-wlc/ECC/2/7",
-        "heb-wlc/ECC/5/6",
-        "heb-wlc/ECC/5/10",
-        "heb-wlc/ECC/5/11",
-        "heb-wlc/ECC/5/16",
-        "heb-wlc/ECC/5/19",
-        "heb-wlc/ECC/6/11",
-        "heb-wlc/ECC/7/16",
-        "heb-wlc/ECC/7/17",
-        "heb-wlc/ECC/9/18",
-        "heb-wlc/ECC/10/14",
-        "heb-wlc/ECC/11/8",
-        "heb-wlc/ECC/12/9",
-        "heb-wlc/ECC/12/12"
       ]
     },
     {
@@ -3236,52 +3239,26 @@
       ]
     },
     {
-      "root": "2450",
-      "lemma": "2450",
+      "root": "7235",
+      "lemma": "7235",
       "gloss": "",
       "count": 19,
       "verses": [
-        "heb-wlc/ECC/2/14",
-        "heb-wlc/ECC/2/16",
-        "heb-wlc/ECC/4/13",
-        "heb-wlc/ECC/6/8",
-        "heb-wlc/ECC/7/4",
-        "heb-wlc/ECC/7/5",
-        "heb-wlc/ECC/7/7",
-        "heb-wlc/ECC/7/19",
-        "heb-wlc/ECC/8/5",
-        "heb-wlc/ECC/8/17",
-        "heb-wlc/ECC/9/1",
-        "heb-wlc/ECC/9/11",
-        "heb-wlc/ECC/9/15",
-        "heb-wlc/ECC/9/17",
-        "heb-wlc/ECC/10/2",
-        "heb-wlc/ECC/10/12",
-        "heb-wlc/ECC/12/9",
-        "heb-wlc/ECC/12/11"
-      ]
-    },
-    {
-      "root": "259",
-      "lemma": "259",
-      "gloss": "one (echad)",
-      "count": 18,
-      "verses": [
-        "heb-wlc/ECC/2/14",
-        "heb-wlc/ECC/3/19",
-        "heb-wlc/ECC/3/20",
-        "heb-wlc/ECC/4/8",
-        "heb-wlc/ECC/4/9",
-        "heb-wlc/ECC/4/10",
-        "heb-wlc/ECC/4/11",
-        "heb-wlc/ECC/4/12",
-        "heb-wlc/ECC/6/6",
-        "heb-wlc/ECC/7/27",
-        "heb-wlc/ECC/7/28",
-        "heb-wlc/ECC/9/2",
-        "heb-wlc/ECC/9/3",
+        "heb-wlc/ECC/1/16",
+        "heb-wlc/ECC/2/7",
+        "heb-wlc/ECC/5/6",
+        "heb-wlc/ECC/5/10",
+        "heb-wlc/ECC/5/11",
+        "heb-wlc/ECC/5/16",
+        "heb-wlc/ECC/5/19",
+        "heb-wlc/ECC/6/11",
+        "heb-wlc/ECC/7/16",
+        "heb-wlc/ECC/7/17",
         "heb-wlc/ECC/9/18",
-        "heb-wlc/ECC/12/11"
+        "heb-wlc/ECC/10/14",
+        "heb-wlc/ECC/11/8",
+        "heb-wlc/ECC/12/9",
+        "heb-wlc/ECC/12/12"
       ]
     },
     {
@@ -3307,6 +3284,29 @@
         "heb-wlc/ECC/10/2",
         "heb-wlc/ECC/10/12",
         "heb-wlc/ECC/10/15"
+      ]
+    },
+    {
+      "root": "259",
+      "lemma": "259",
+      "gloss": "one (echad)",
+      "count": 18,
+      "verses": [
+        "heb-wlc/ECC/2/14",
+        "heb-wlc/ECC/3/19",
+        "heb-wlc/ECC/3/20",
+        "heb-wlc/ECC/4/8",
+        "heb-wlc/ECC/4/9",
+        "heb-wlc/ECC/4/10",
+        "heb-wlc/ECC/4/11",
+        "heb-wlc/ECC/4/12",
+        "heb-wlc/ECC/6/6",
+        "heb-wlc/ECC/7/27",
+        "heb-wlc/ECC/7/28",
+        "heb-wlc/ECC/9/2",
+        "heb-wlc/ECC/9/3",
+        "heb-wlc/ECC/9/18",
+        "heb-wlc/ECC/12/11"
       ]
     },
     {
@@ -3544,23 +3544,6 @@
       ]
     },
     {
-      "root": "1004",
-      "lemma": "1004",
-      "gloss": "house (bayit)",
-      "count": 11,
-      "verses": [
-        "heb-wlc/ECC/2/4",
-        "heb-wlc/ECC/2/7",
-        "heb-wlc/ECC/4/14",
-        "heb-wlc/ECC/4/17",
-        "heb-wlc/ECC/7/2",
-        "heb-wlc/ECC/7/4",
-        "heb-wlc/ECC/10/18",
-        "heb-wlc/ECC/12/3",
-        "heb-wlc/ECC/12/5"
-      ]
-    },
-    {
       "root": "935",
       "lemma": "935",
       "gloss": "come/go (bo)",
@@ -3580,36 +3563,20 @@
       ]
     },
     {
-      "root": "376",
-      "lemma": "376",
-      "gloss": "man (ish)",
-      "count": 10,
+      "root": "1004",
+      "lemma": "1004",
+      "gloss": "house (bayit)",
+      "count": 11,
       "verses": [
-        "heb-wlc/ECC/1/8",
-        "heb-wlc/ECC/4/4",
-        "heb-wlc/ECC/6/2",
-        "heb-wlc/ECC/6/3",
-        "heb-wlc/ECC/7/5",
-        "heb-wlc/ECC/9/14",
-        "heb-wlc/ECC/9/15",
-        "heb-wlc/ECC/12/3"
-      ]
-    },
-    {
-      "root": "5869",
-      "lemma": "5869",
-      "gloss": "",
-      "count": 10,
-      "verses": [
-        "heb-wlc/ECC/1/8",
-        "heb-wlc/ECC/2/10",
-        "heb-wlc/ECC/2/14",
-        "heb-wlc/ECC/4/8",
-        "heb-wlc/ECC/5/10",
-        "heb-wlc/ECC/6/9",
-        "heb-wlc/ECC/8/16",
-        "heb-wlc/ECC/11/7",
-        "heb-wlc/ECC/11/9"
+        "heb-wlc/ECC/2/4",
+        "heb-wlc/ECC/2/7",
+        "heb-wlc/ECC/4/14",
+        "heb-wlc/ECC/4/17",
+        "heb-wlc/ECC/7/2",
+        "heb-wlc/ECC/7/4",
+        "heb-wlc/ECC/10/18",
+        "heb-wlc/ECC/12/3",
+        "heb-wlc/ECC/12/5"
       ]
     },
     {
@@ -3631,6 +3598,23 @@
       ]
     },
     {
+      "root": "5869",
+      "lemma": "5869",
+      "gloss": "",
+      "count": 10,
+      "verses": [
+        "heb-wlc/ECC/1/8",
+        "heb-wlc/ECC/2/10",
+        "heb-wlc/ECC/2/14",
+        "heb-wlc/ECC/4/8",
+        "heb-wlc/ECC/5/10",
+        "heb-wlc/ECC/6/9",
+        "heb-wlc/ECC/8/16",
+        "heb-wlc/ECC/11/7",
+        "heb-wlc/ECC/11/9"
+      ]
+    },
+    {
       "root": "7725",
       "lemma": "7725",
       "gloss": "return/repent (shuv)",
@@ -3648,6 +3632,22 @@
       ]
     },
     {
+      "root": "376",
+      "lemma": "376",
+      "gloss": "man (ish)",
+      "count": 10,
+      "verses": [
+        "heb-wlc/ECC/1/8",
+        "heb-wlc/ECC/4/4",
+        "heb-wlc/ECC/6/2",
+        "heb-wlc/ECC/6/3",
+        "heb-wlc/ECC/7/5",
+        "heb-wlc/ECC/9/14",
+        "heb-wlc/ECC/9/15",
+        "heb-wlc/ECC/12/3"
+      ]
+    },
+    {
       "root": "8104",
       "lemma": "8104",
       "gloss": "",
@@ -3662,6 +3662,23 @@
         "heb-wlc/ECC/11/4",
         "heb-wlc/ECC/12/3",
         "heb-wlc/ECC/12/13"
+      ]
+    },
+    {
+      "root": "3504",
+      "lemma": "3504",
+      "gloss": "profit/gain (yitron)",
+      "count": 9,
+      "verses": [
+        "heb-wlc/ECC/1/3",
+        "heb-wlc/ECC/2/11",
+        "heb-wlc/ECC/2/13",
+        "heb-wlc/ECC/3/9",
+        "heb-wlc/ECC/5/8",
+        "heb-wlc/ECC/5/15",
+        "heb-wlc/ECC/7/12",
+        "heb-wlc/ECC/10/10",
+        "heb-wlc/ECC/10/11"
       ]
     },
     {
@@ -3697,36 +3714,65 @@
       ]
     },
     {
-      "root": "3504",
-      "lemma": "3504",
-      "gloss": "profit/gain (yitron)",
-      "count": 9,
+      "root": "4191",
+      "lemma": "4191",
+      "gloss": "die (mut)",
+      "count": 8,
       "verses": [
-        "heb-wlc/ECC/1/3",
-        "heb-wlc/ECC/2/11",
-        "heb-wlc/ECC/2/13",
-        "heb-wlc/ECC/3/9",
-        "heb-wlc/ECC/5/8",
-        "heb-wlc/ECC/5/15",
-        "heb-wlc/ECC/7/12",
-        "heb-wlc/ECC/10/10",
-        "heb-wlc/ECC/10/11"
+        "heb-wlc/ECC/2/16",
+        "heb-wlc/ECC/3/2",
+        "heb-wlc/ECC/4/2",
+        "heb-wlc/ECC/7/17",
+        "heb-wlc/ECC/9/3",
+        "heb-wlc/ECC/9/4",
+        "heb-wlc/ECC/9/5"
       ]
     },
     {
-      "root": "8055",
-      "lemma": "8055",
-      "gloss": "rejoice (samach)",
+      "root": "8057",
+      "lemma": "8057",
+      "gloss": "",
       "count": 8,
       "verses": [
-        "heb-wlc/ECC/3/12",
-        "heb-wlc/ECC/3/22",
-        "heb-wlc/ECC/4/16",
-        "heb-wlc/ECC/5/18",
+        "heb-wlc/ECC/2/1",
+        "heb-wlc/ECC/2/2",
+        "heb-wlc/ECC/2/10",
+        "heb-wlc/ECC/2/26",
+        "heb-wlc/ECC/5/19",
+        "heb-wlc/ECC/7/4",
         "heb-wlc/ECC/8/15",
-        "heb-wlc/ECC/10/19",
-        "heb-wlc/ECC/11/8",
-        "heb-wlc/ECC/11/9"
+        "heb-wlc/ECC/9/7"
+      ]
+    },
+    {
+      "root": "2506",
+      "lemma": "2506",
+      "gloss": "portion (cheleq)",
+      "count": 8,
+      "verses": [
+        "heb-wlc/ECC/2/10",
+        "heb-wlc/ECC/2/21",
+        "heb-wlc/ECC/3/22",
+        "heb-wlc/ECC/5/17",
+        "heb-wlc/ECC/5/18",
+        "heb-wlc/ECC/9/6",
+        "heb-wlc/ECC/9/9",
+        "heb-wlc/ECC/11/2"
+      ]
+    },
+    {
+      "root": "5973",
+      "lemma": "5973",
+      "gloss": "",
+      "count": 8,
+      "verses": [
+        "heb-wlc/ECC/1/11",
+        "heb-wlc/ECC/1/16",
+        "heb-wlc/ECC/2/16",
+        "heb-wlc/ECC/4/15",
+        "heb-wlc/ECC/6/10",
+        "heb-wlc/ECC/7/11",
+        "heb-wlc/ECC/9/9"
       ]
     },
     {
@@ -3761,49 +3807,19 @@
       ]
     },
     {
-      "root": "8057",
-      "lemma": "8057",
+      "root": "310",
+      "lemma": "310",
       "gloss": "",
       "count": 8,
       "verses": [
-        "heb-wlc/ECC/2/1",
-        "heb-wlc/ECC/2/2",
-        "heb-wlc/ECC/2/10",
-        "heb-wlc/ECC/2/26",
-        "heb-wlc/ECC/5/19",
-        "heb-wlc/ECC/7/4",
-        "heb-wlc/ECC/8/15",
-        "heb-wlc/ECC/9/7"
-      ]
-    },
-    {
-      "root": "5973",
-      "lemma": "5973",
-      "gloss": "",
-      "count": 8,
-      "verses": [
-        "heb-wlc/ECC/1/11",
-        "heb-wlc/ECC/1/16",
-        "heb-wlc/ECC/2/16",
-        "heb-wlc/ECC/4/15",
-        "heb-wlc/ECC/6/10",
-        "heb-wlc/ECC/7/11",
-        "heb-wlc/ECC/9/9"
-      ]
-    },
-    {
-      "root": "4191",
-      "lemma": "4191",
-      "gloss": "die (mut)",
-      "count": 8,
-      "verses": [
-        "heb-wlc/ECC/2/16",
-        "heb-wlc/ECC/3/2",
-        "heb-wlc/ECC/4/2",
-        "heb-wlc/ECC/7/17",
+        "heb-wlc/ECC/2/12",
+        "heb-wlc/ECC/2/18",
+        "heb-wlc/ECC/3/22",
+        "heb-wlc/ECC/6/12",
+        "heb-wlc/ECC/7/14",
         "heb-wlc/ECC/9/3",
-        "heb-wlc/ECC/9/4",
-        "heb-wlc/ECC/9/5"
+        "heb-wlc/ECC/10/14",
+        "heb-wlc/ECC/12/2"
       ]
     },
     {
@@ -3822,22 +3838,6 @@
       ]
     },
     {
-      "root": "2506",
-      "lemma": "2506",
-      "gloss": "portion (cheleq)",
-      "count": 8,
-      "verses": [
-        "heb-wlc/ECC/2/10",
-        "heb-wlc/ECC/2/21",
-        "heb-wlc/ECC/3/22",
-        "heb-wlc/ECC/5/17",
-        "heb-wlc/ECC/5/18",
-        "heb-wlc/ECC/9/6",
-        "heb-wlc/ECC/9/9",
-        "heb-wlc/ECC/11/2"
-      ]
-    },
-    {
       "root": "8085",
       "lemma": "8085",
       "gloss": "hear (shama)",
@@ -3853,48 +3853,33 @@
       ]
     },
     {
-      "root": "310",
-      "lemma": "310",
-      "gloss": "",
+      "root": "8055",
+      "lemma": "8055",
+      "gloss": "rejoice (samach)",
       "count": 8,
       "verses": [
-        "heb-wlc/ECC/2/12",
-        "heb-wlc/ECC/2/18",
+        "heb-wlc/ECC/3/12",
         "heb-wlc/ECC/3/22",
-        "heb-wlc/ECC/6/12",
-        "heb-wlc/ECC/7/14",
-        "heb-wlc/ECC/9/3",
-        "heb-wlc/ECC/10/14",
-        "heb-wlc/ECC/12/2"
+        "heb-wlc/ECC/4/16",
+        "heb-wlc/ECC/5/18",
+        "heb-wlc/ECC/8/15",
+        "heb-wlc/ECC/10/19",
+        "heb-wlc/ECC/11/8",
+        "heb-wlc/ECC/11/9"
       ]
     },
     {
-      "root": "3651",
-      "lemma": "3651",
-      "gloss": "so/thus (ken)",
-      "count": 7,
-      "verses": [
-        "heb-wlc/ECC/3/19",
-        "heb-wlc/ECC/5/1",
-        "heb-wlc/ECC/5/15",
-        "heb-wlc/ECC/7/6",
-        "heb-wlc/ECC/8/10",
-        "heb-wlc/ECC/8/11"
-      ]
-    },
-    {
-      "root": "1167",
-      "lemma": "1167",
+      "root": "7563",
+      "lemma": "7563",
       "gloss": "",
       "count": 7,
       "verses": [
-        "heb-wlc/ECC/5/10",
-        "heb-wlc/ECC/5/12",
-        "heb-wlc/ECC/7/12",
-        "heb-wlc/ECC/8/8",
-        "heb-wlc/ECC/10/11",
-        "heb-wlc/ECC/10/20",
-        "heb-wlc/ECC/12/11"
+        "heb-wlc/ECC/3/17",
+        "heb-wlc/ECC/7/15",
+        "heb-wlc/ECC/8/10",
+        "heb-wlc/ECC/8/13",
+        "heb-wlc/ECC/8/14",
+        "heb-wlc/ECC/9/2"
       ]
     },
     {
@@ -3913,32 +3898,16 @@
       ]
     },
     {
-      "root": "2656",
-      "lemma": "2656",
+      "root": "3201",
+      "lemma": "3201",
       "gloss": "",
       "count": 7,
       "verses": [
-        "heb-wlc/ECC/3/1",
-        "heb-wlc/ECC/3/17",
-        "heb-wlc/ECC/5/3",
-        "heb-wlc/ECC/5/7",
-        "heb-wlc/ECC/8/6",
-        "heb-wlc/ECC/12/1",
-        "heb-wlc/ECC/12/10"
-      ]
-    },
-    {
-      "root": "3528",
-      "lemma": "3528",
-      "gloss": "",
-      "count": 7,
-      "verses": [
-        "heb-wlc/ECC/1/10",
-        "heb-wlc/ECC/2/12",
-        "heb-wlc/ECC/3/15",
+        "heb-wlc/ECC/1/8",
+        "heb-wlc/ECC/1/15",
         "heb-wlc/ECC/6/10",
-        "heb-wlc/ECC/9/6",
-        "heb-wlc/ECC/9/7"
+        "heb-wlc/ECC/7/13",
+        "heb-wlc/ECC/8/17"
       ]
     },
     {
@@ -3957,74 +3926,18 @@
       ]
     },
     {
-      "root": "3201",
-      "lemma": "3201",
+      "root": "1167",
+      "lemma": "1167",
       "gloss": "",
       "count": 7,
       "verses": [
-        "heb-wlc/ECC/1/8",
-        "heb-wlc/ECC/1/15",
-        "heb-wlc/ECC/6/10",
-        "heb-wlc/ECC/7/13",
-        "heb-wlc/ECC/8/17"
-      ]
-    },
-    {
-      "root": "7563",
-      "lemma": "7563",
-      "gloss": "",
-      "count": 7,
-      "verses": [
-        "heb-wlc/ECC/3/17",
-        "heb-wlc/ECC/7/15",
-        "heb-wlc/ECC/8/10",
-        "heb-wlc/ECC/8/13",
-        "heb-wlc/ECC/8/14",
-        "heb-wlc/ECC/9/2"
-      ]
-    },
-    {
-      "root": "1847",
-      "lemma": "1847",
-      "gloss": "",
-      "count": 7,
-      "verses": [
-        "heb-wlc/ECC/1/16",
-        "heb-wlc/ECC/1/18",
-        "heb-wlc/ECC/2/21",
-        "heb-wlc/ECC/2/26",
+        "heb-wlc/ECC/5/10",
+        "heb-wlc/ECC/5/12",
         "heb-wlc/ECC/7/12",
-        "heb-wlc/ECC/9/10",
-        "heb-wlc/ECC/12/9"
-      ]
-    },
-    {
-      "root": "6953",
-      "lemma": "6953",
-      "gloss": "preacher (qoheleth)",
-      "count": 7,
-      "verses": [
-        "heb-wlc/ECC/1/1",
-        "heb-wlc/ECC/1/2",
-        "heb-wlc/ECC/1/12",
-        "heb-wlc/ECC/7/27",
-        "heb-wlc/ECC/12/8",
-        "heb-wlc/ECC/12/9",
-        "heb-wlc/ECC/12/10"
-      ]
-    },
-    {
-      "root": "8033",
-      "lemma": "8033",
-      "gloss": "",
-      "count": 7,
-      "verses": [
-        "heb-wlc/ECC/1/5",
-        "heb-wlc/ECC/1/7",
-        "heb-wlc/ECC/3/16",
-        "heb-wlc/ECC/3/17",
-        "heb-wlc/ECC/9/10",
-        "heb-wlc/ECC/11/3"
+        "heb-wlc/ECC/8/8",
+        "heb-wlc/ECC/10/11",
+        "heb-wlc/ECC/10/20",
+        "heb-wlc/ECC/12/11"
       ]
     },
     {
@@ -4043,18 +3956,75 @@
       ]
     },
     {
-      "root": "1245",
-      "lemma": "1245",
+      "root": "3528",
+      "lemma": "3528",
       "gloss": "",
       "count": 7,
       "verses": [
-        "heb-wlc/ECC/3/6",
+        "heb-wlc/ECC/1/10",
+        "heb-wlc/ECC/2/12",
         "heb-wlc/ECC/3/15",
-        "heb-wlc/ECC/7/25",
-        "heb-wlc/ECC/7/28",
-        "heb-wlc/ECC/7/29",
-        "heb-wlc/ECC/8/17",
+        "heb-wlc/ECC/6/10",
+        "heb-wlc/ECC/9/6",
+        "heb-wlc/ECC/9/7"
+      ]
+    },
+    {
+      "root": "2656",
+      "lemma": "2656",
+      "gloss": "",
+      "count": 7,
+      "verses": [
+        "heb-wlc/ECC/3/1",
+        "heb-wlc/ECC/3/17",
+        "heb-wlc/ECC/5/3",
+        "heb-wlc/ECC/5/7",
+        "heb-wlc/ECC/8/6",
+        "heb-wlc/ECC/12/1",
         "heb-wlc/ECC/12/10"
+      ]
+    },
+    {
+      "root": "8033",
+      "lemma": "8033",
+      "gloss": "",
+      "count": 7,
+      "verses": [
+        "heb-wlc/ECC/1/5",
+        "heb-wlc/ECC/1/7",
+        "heb-wlc/ECC/3/16",
+        "heb-wlc/ECC/3/17",
+        "heb-wlc/ECC/9/10",
+        "heb-wlc/ECC/11/3"
+      ]
+    },
+    {
+      "root": "6953",
+      "lemma": "6953",
+      "gloss": "preacher (qoheleth)",
+      "count": 7,
+      "verses": [
+        "heb-wlc/ECC/1/1",
+        "heb-wlc/ECC/1/2",
+        "heb-wlc/ECC/1/12",
+        "heb-wlc/ECC/7/27",
+        "heb-wlc/ECC/12/8",
+        "heb-wlc/ECC/12/9",
+        "heb-wlc/ECC/12/10"
+      ]
+    },
+    {
+      "root": "6310",
+      "lemma": "6310",
+      "gloss": "mouth (peh)",
+      "count": 7,
+      "verses": [
+        "heb-wlc/ECC/5/1",
+        "heb-wlc/ECC/5/5",
+        "heb-wlc/ECC/6/7",
+        "heb-wlc/ECC/8/2",
+        "heb-wlc/ECC/10/12",
+        "heb-wlc/ECC/10/13"
       ]
     },
     {
@@ -4068,6 +4038,35 @@
         "heb-wlc/ECC/7/25",
         "heb-wlc/ECC/9/14",
         "heb-wlc/ECC/12/5"
+      ]
+    },
+    {
+      "root": "1847",
+      "lemma": "1847",
+      "gloss": "",
+      "count": 7,
+      "verses": [
+        "heb-wlc/ECC/1/16",
+        "heb-wlc/ECC/1/18",
+        "heb-wlc/ECC/2/21",
+        "heb-wlc/ECC/2/26",
+        "heb-wlc/ECC/7/12",
+        "heb-wlc/ECC/9/10",
+        "heb-wlc/ECC/12/9"
+      ]
+    },
+    {
+      "root": "3651",
+      "lemma": "3651",
+      "gloss": "so/thus (ken)",
+      "count": 7,
+      "verses": [
+        "heb-wlc/ECC/3/19",
+        "heb-wlc/ECC/5/1",
+        "heb-wlc/ECC/5/15",
+        "heb-wlc/ECC/7/6",
+        "heb-wlc/ECC/8/10",
+        "heb-wlc/ECC/8/11"
       ]
     },
     {
@@ -4086,17 +4085,18 @@
       ]
     },
     {
-      "root": "6310",
-      "lemma": "6310",
-      "gloss": "mouth (peh)",
+      "root": "1245",
+      "lemma": "1245",
+      "gloss": "",
       "count": 7,
       "verses": [
-        "heb-wlc/ECC/5/1",
-        "heb-wlc/ECC/5/5",
-        "heb-wlc/ECC/6/7",
-        "heb-wlc/ECC/8/2",
-        "heb-wlc/ECC/10/12",
-        "heb-wlc/ECC/10/13"
+        "heb-wlc/ECC/3/6",
+        "heb-wlc/ECC/3/15",
+        "heb-wlc/ECC/7/25",
+        "heb-wlc/ECC/7/28",
+        "heb-wlc/ECC/7/29",
+        "heb-wlc/ECC/8/17",
+        "heb-wlc/ECC/12/10"
       ]
     },
     {
@@ -4115,30 +4115,17 @@
       ]
     },
     {
-      "root": "3372",
-      "lemma": "3372",
+      "root": "2398",
+      "lemma": "2398",
       "gloss": "",
       "count": 6,
       "verses": [
-        "heb-wlc/ECC/5/6",
+        "heb-wlc/ECC/2/26",
+        "heb-wlc/ECC/5/5",
+        "heb-wlc/ECC/7/20",
+        "heb-wlc/ECC/7/26",
         "heb-wlc/ECC/8/12",
-        "heb-wlc/ECC/9/2",
-        "heb-wlc/ECC/12/5",
-        "heb-wlc/ECC/12/13"
-      ]
-    },
-    {
-      "root": "2090",
-      "lemma": "2090",
-      "gloss": "",
-      "count": 6,
-      "verses": [
-        "heb-wlc/ECC/2/2",
-        "heb-wlc/ECC/2/24",
-        "heb-wlc/ECC/5/15",
-        "heb-wlc/ECC/5/18",
-        "heb-wlc/ECC/7/23",
-        "heb-wlc/ECC/9/13"
+        "heb-wlc/ECC/9/18"
       ]
     },
     {
@@ -4156,17 +4143,57 @@
       ]
     },
     {
-      "root": "6239",
-      "lemma": "6239",
+      "root": "3701",
+      "lemma": "3701",
       "gloss": "",
       "count": 6,
       "verses": [
-        "heb-wlc/ECC/4/8",
-        "heb-wlc/ECC/5/12",
-        "heb-wlc/ECC/5/13",
+        "heb-wlc/ECC/2/8",
+        "heb-wlc/ECC/5/9",
+        "heb-wlc/ECC/7/12",
+        "heb-wlc/ECC/10/19",
+        "heb-wlc/ECC/12/6"
+      ]
+    },
+    {
+      "root": "2090",
+      "lemma": "2090",
+      "gloss": "",
+      "count": 6,
+      "verses": [
+        "heb-wlc/ECC/2/2",
+        "heb-wlc/ECC/2/24",
+        "heb-wlc/ECC/5/15",
         "heb-wlc/ECC/5/18",
-        "heb-wlc/ECC/6/2",
-        "heb-wlc/ECC/9/11"
+        "heb-wlc/ECC/7/23",
+        "heb-wlc/ECC/9/13"
+      ]
+    },
+    {
+      "root": "s/5998",
+      "lemma": "s/5998",
+      "gloss": "",
+      "count": 6,
+      "verses": [
+        "heb-wlc/ECC/1/3",
+        "heb-wlc/ECC/2/11",
+        "heb-wlc/ECC/2/19",
+        "heb-wlc/ECC/2/20",
+        "heb-wlc/ECC/5/15",
+        "heb-wlc/ECC/5/17"
+      ]
+    },
+    {
+      "root": "2822",
+      "lemma": "2822",
+      "gloss": "darkness (choshek)",
+      "count": 6,
+      "verses": [
+        "heb-wlc/ECC/2/13",
+        "heb-wlc/ECC/2/14",
+        "heb-wlc/ECC/5/16",
+        "heb-wlc/ECC/6/4",
+        "heb-wlc/ECC/11/8"
       ]
     },
     {
@@ -4184,30 +4211,17 @@
       ]
     },
     {
-      "root": "2398",
-      "lemma": "2398",
+      "root": "6239",
+      "lemma": "6239",
       "gloss": "",
       "count": 6,
       "verses": [
-        "heb-wlc/ECC/2/26",
-        "heb-wlc/ECC/5/5",
-        "heb-wlc/ECC/7/20",
-        "heb-wlc/ECC/7/26",
-        "heb-wlc/ECC/8/12",
-        "heb-wlc/ECC/9/18"
-      ]
-    },
-    {
-      "root": "2822",
-      "lemma": "2822",
-      "gloss": "darkness (choshek)",
-      "count": 6,
-      "verses": [
-        "heb-wlc/ECC/2/13",
-        "heb-wlc/ECC/2/14",
-        "heb-wlc/ECC/5/16",
-        "heb-wlc/ECC/6/4",
-        "heb-wlc/ECC/11/8"
+        "heb-wlc/ECC/4/8",
+        "heb-wlc/ECC/5/12",
+        "heb-wlc/ECC/5/13",
+        "heb-wlc/ECC/5/18",
+        "heb-wlc/ECC/6/2",
+        "heb-wlc/ECC/9/11"
       ]
     },
     {
@@ -4221,33 +4235,6 @@
         "heb-wlc/ECC/2/1",
         "heb-wlc/ECC/2/11",
         "heb-wlc/ECC/4/1",
-        "heb-wlc/ECC/5/17"
-      ]
-    },
-    {
-      "root": "3701",
-      "lemma": "3701",
-      "gloss": "",
-      "count": 6,
-      "verses": [
-        "heb-wlc/ECC/2/8",
-        "heb-wlc/ECC/5/9",
-        "heb-wlc/ECC/7/12",
-        "heb-wlc/ECC/10/19",
-        "heb-wlc/ECC/12/6"
-      ]
-    },
-    {
-      "root": "s/5998",
-      "lemma": "s/5998",
-      "gloss": "",
-      "count": 6,
-      "verses": [
-        "heb-wlc/ECC/1/3",
-        "heb-wlc/ECC/2/11",
-        "heb-wlc/ECC/2/19",
-        "heb-wlc/ECC/2/20",
-        "heb-wlc/ECC/5/15",
         "heb-wlc/ECC/5/17"
       ]
     },
@@ -4266,66 +4253,16 @@
       ]
     },
     {
-      "root": "3205",
-      "lemma": "3205",
+      "root": "3372",
+      "lemma": "3372",
       "gloss": "",
-      "count": 5,
+      "count": 6,
       "verses": [
-        "heb-wlc/ECC/3/2",
-        "heb-wlc/ECC/4/14",
-        "heb-wlc/ECC/5/13",
-        "heb-wlc/ECC/6/3",
-        "heb-wlc/ECC/7/1"
-      ]
-    },
-    {
-      "root": "859",
-      "lemma": "859",
-      "gloss": "",
-      "count": 5,
-      "verses": [
-        "heb-wlc/ECC/5/1",
-        "heb-wlc/ECC/7/22",
-        "heb-wlc/ECC/9/9",
-        "heb-wlc/ECC/9/10"
-      ]
-    },
-    {
-      "root": "1320",
-      "lemma": "1320",
-      "gloss": "",
-      "count": 5,
-      "verses": [
-        "heb-wlc/ECC/2/3",
-        "heb-wlc/ECC/4/5",
-        "heb-wlc/ECC/5/5",
-        "heb-wlc/ECC/11/10",
-        "heb-wlc/ECC/12/12"
-      ]
-    },
-    {
-      "root": "8064",
-      "lemma": "8064",
-      "gloss": "heavens (shamayim)",
-      "count": 5,
-      "verses": [
-        "heb-wlc/ECC/1/13",
-        "heb-wlc/ECC/2/3",
-        "heb-wlc/ECC/3/1",
-        "heb-wlc/ECC/5/1",
-        "heb-wlc/ECC/10/20"
-      ]
-    },
-    {
-      "root": "6963",
-      "lemma": "6963",
-      "gloss": "",
-      "count": 5,
-      "verses": [
-        "heb-wlc/ECC/5/2",
-        "heb-wlc/ECC/5/5",
-        "heb-wlc/ECC/10/20",
-        "heb-wlc/ECC/12/4"
+        "heb-wlc/ECC/5/6",
+        "heb-wlc/ECC/8/12",
+        "heb-wlc/ECC/9/2",
+        "heb-wlc/ECC/12/5",
+        "heb-wlc/ECC/12/13"
       ]
     },
     {
@@ -4342,165 +4279,15 @@
       ]
     },
     {
-      "root": "5193",
-      "lemma": "5193",
+      "root": "3240",
+      "lemma": "3240",
       "gloss": "",
       "count": 5,
       "verses": [
-        "heb-wlc/ECC/2/4",
-        "heb-wlc/ECC/2/5",
-        "heb-wlc/ECC/3/2",
-        "heb-wlc/ECC/12/11"
-      ]
-    },
-    {
-      "root": "3254",
-      "lemma": "3254",
-      "gloss": "",
-      "count": 5,
-      "verses": [
-        "heb-wlc/ECC/1/16",
-        "heb-wlc/ECC/1/18",
-        "heb-wlc/ECC/2/9",
-        "heb-wlc/ECC/3/14"
-      ]
-    },
-    {
-      "root": "3708",
-      "lemma": "3708",
-      "gloss": "",
-      "count": 5,
-      "verses": [
-        "heb-wlc/ECC/1/18",
-        "heb-wlc/ECC/2/23",
-        "heb-wlc/ECC/7/3",
-        "heb-wlc/ECC/7/9",
-        "heb-wlc/ECC/11/10"
-      ]
-    },
-    {
-      "root": "8141",
-      "lemma": "8141",
-      "gloss": "",
-      "count": 5,
-      "verses": [
-        "heb-wlc/ECC/6/3",
-        "heb-wlc/ECC/6/6",
-        "heb-wlc/ECC/11/8",
-        "heb-wlc/ECC/12/1"
-      ]
-    },
-    {
-      "root": "7043",
-      "lemma": "7043",
-      "gloss": "",
-      "count": 5,
-      "verses": [
-        "heb-wlc/ECC/7/21",
-        "heb-wlc/ECC/7/22",
-        "heb-wlc/ECC/10/10",
-        "heb-wlc/ECC/10/20"
-      ]
-    },
-    {
-      "root": "s/6213",
-      "lemma": "s/6213",
-      "gloss": "",
-      "count": 5,
-      "verses": [
-        "heb-wlc/ECC/1/9",
-        "heb-wlc/ECC/1/14",
-        "heb-wlc/ECC/2/11",
-        "heb-wlc/ECC/2/17"
-      ]
-    },
-    {
-      "root": "1696",
-      "lemma": "1696",
-      "gloss": "speak/word (davar)",
-      "count": 5,
-      "verses": [
-        "heb-wlc/ECC/1/8",
-        "heb-wlc/ECC/1/16",
-        "heb-wlc/ECC/2/15",
-        "heb-wlc/ECC/3/7",
-        "heb-wlc/ECC/7/21"
-      ]
-    },
-    {
-      "root": "5892",
-      "lemma": "5892",
-      "gloss": "city (ir)",
-      "count": 5,
-      "verses": [
-        "heb-wlc/ECC/7/19",
-        "heb-wlc/ECC/8/10",
-        "heb-wlc/ECC/9/14",
-        "heb-wlc/ECC/9/15",
-        "heb-wlc/ECC/10/15"
-      ]
-    },
-    {
-      "root": "6086",
-      "lemma": "6086",
-      "gloss": "",
-      "count": 5,
-      "verses": [
-        "heb-wlc/ECC/2/5",
-        "heb-wlc/ECC/2/6",
-        "heb-wlc/ECC/10/9",
-        "heb-wlc/ECC/11/3"
-      ]
-    },
-    {
-      "root": "1992",
-      "lemma": "1992",
-      "gloss": "",
-      "count": 5,
-      "verses": [
-        "heb-wlc/ECC/1/7",
-        "heb-wlc/ECC/3/18",
-        "heb-wlc/ECC/4/2",
-        "heb-wlc/ECC/7/29",
-        "heb-wlc/ECC/12/12"
-      ]
-    },
-    {
-      "root": "5975",
-      "lemma": "5975",
-      "gloss": "stand (amad)",
-      "count": 5,
-      "verses": [
-        "heb-wlc/ECC/1/4",
-        "heb-wlc/ECC/2/9",
-        "heb-wlc/ECC/4/12",
-        "heb-wlc/ECC/4/15",
-        "heb-wlc/ECC/8/3"
-      ]
-    },
-    {
-      "root": "4194",
-      "lemma": "4194",
-      "gloss": "",
-      "count": 5,
-      "verses": [
-        "heb-wlc/ECC/3/19",
-        "heb-wlc/ECC/7/1",
-        "heb-wlc/ECC/7/26",
-        "heb-wlc/ECC/8/8",
-        "heb-wlc/ECC/10/1"
-      ]
-    },
-    {
-      "root": "7230",
-      "lemma": "7230",
-      "gloss": "",
-      "count": 5,
-      "verses": [
-        "heb-wlc/ECC/1/18",
-        "heb-wlc/ECC/5/2",
-        "heb-wlc/ECC/5/6",
-        "heb-wlc/ECC/11/1"
+        "heb-wlc/ECC/5/11",
+        "heb-wlc/ECC/7/18",
+        "heb-wlc/ECC/10/4",
+        "heb-wlc/ECC/11/6"
       ]
     },
     {
@@ -4517,65 +4304,16 @@
       ]
     },
     {
-      "root": "8147",
-      "lemma": "8147",
-      "gloss": "two (shenayim)",
-      "count": 5,
-      "verses": [
-        "heb-wlc/ECC/4/3",
-        "heb-wlc/ECC/4/9",
-        "heb-wlc/ECC/4/11",
-        "heb-wlc/ECC/4/12",
-        "heb-wlc/ECC/11/6"
-      ]
-    },
-    {
-      "root": "6001",
-      "lemma": "6001",
+      "root": "1992",
+      "lemma": "1992",
       "gloss": "",
       "count": 5,
       "verses": [
-        "heb-wlc/ECC/2/18",
-        "heb-wlc/ECC/2/22",
-        "heb-wlc/ECC/3/9",
-        "heb-wlc/ECC/4/8",
-        "heb-wlc/ECC/9/9"
-      ]
-    },
-    {
-      "root": "3240",
-      "lemma": "3240",
-      "gloss": "",
-      "count": 5,
-      "verses": [
-        "heb-wlc/ECC/5/11",
-        "heb-wlc/ECC/7/18",
-        "heb-wlc/ECC/10/4",
-        "heb-wlc/ECC/11/6"
-      ]
-    },
-    {
-      "root": "8354",
-      "lemma": "8354",
-      "gloss": "drink (shathah)",
-      "count": 5,
-      "verses": [
-        "heb-wlc/ECC/2/24",
-        "heb-wlc/ECC/3/13",
-        "heb-wlc/ECC/5/17",
-        "heb-wlc/ECC/8/15",
-        "heb-wlc/ECC/9/7"
-      ]
-    },
-    {
-      "root": "4745",
-      "lemma": "4745",
-      "gloss": "",
-      "count": 5,
-      "verses": [
-        "heb-wlc/ECC/3/19",
-        "heb-wlc/ECC/9/2",
-        "heb-wlc/ECC/9/3"
+        "heb-wlc/ECC/1/7",
+        "heb-wlc/ECC/3/18",
+        "heb-wlc/ECC/4/2",
+        "heb-wlc/ECC/7/29",
+        "heb-wlc/ECC/12/12"
       ]
     },
     {
@@ -4592,85 +4330,286 @@
       ]
     },
     {
-      "root": "157",
-      "lemma": "157",
-      "gloss": "love (ahav)",
-      "count": 4,
+      "root": "s/6213",
+      "lemma": "s/6213",
+      "gloss": "",
+      "count": 5,
       "verses": [
-        "heb-wlc/ECC/3/8",
-        "heb-wlc/ECC/5/9",
+        "heb-wlc/ECC/1/9",
+        "heb-wlc/ECC/1/14",
+        "heb-wlc/ECC/2/11",
+        "heb-wlc/ECC/2/17"
+      ]
+    },
+    {
+      "root": "8354",
+      "lemma": "8354",
+      "gloss": "drink (shathah)",
+      "count": 5,
+      "verses": [
+        "heb-wlc/ECC/2/24",
+        "heb-wlc/ECC/3/13",
+        "heb-wlc/ECC/5/17",
+        "heb-wlc/ECC/8/15",
+        "heb-wlc/ECC/9/7"
+      ]
+    },
+    {
+      "root": "3205",
+      "lemma": "3205",
+      "gloss": "",
+      "count": 5,
+      "verses": [
+        "heb-wlc/ECC/3/2",
+        "heb-wlc/ECC/4/14",
+        "heb-wlc/ECC/5/13",
+        "heb-wlc/ECC/6/3",
+        "heb-wlc/ECC/7/1"
+      ]
+    },
+    {
+      "root": "6963",
+      "lemma": "6963",
+      "gloss": "",
+      "count": 5,
+      "verses": [
+        "heb-wlc/ECC/5/2",
+        "heb-wlc/ECC/5/5",
+        "heb-wlc/ECC/10/20",
+        "heb-wlc/ECC/12/4"
+      ]
+    },
+    {
+      "root": "6001",
+      "lemma": "6001",
+      "gloss": "",
+      "count": 5,
+      "verses": [
+        "heb-wlc/ECC/2/18",
+        "heb-wlc/ECC/2/22",
+        "heb-wlc/ECC/3/9",
+        "heb-wlc/ECC/4/8",
         "heb-wlc/ECC/9/9"
       ]
     },
     {
-      "root": "3318",
-      "lemma": "3318",
-      "gloss": "go out (yatsa)",
-      "count": 4,
-      "verses": [
-        "heb-wlc/ECC/4/14",
-        "heb-wlc/ECC/5/1",
-        "heb-wlc/ECC/5/14",
-        "heb-wlc/ECC/7/18"
-      ]
-    },
-    {
-      "root": "1419",
-      "lemma": "1419",
+      "root": "8141",
+      "lemma": "8141",
       "gloss": "",
-      "count": 4,
+      "count": 5,
       "verses": [
-        "heb-wlc/ECC/9/13",
-        "heb-wlc/ECC/9/14",
-        "heb-wlc/ECC/10/4"
-      ]
-    },
-    {
-      "root": "5530",
-      "lemma": "5530",
-      "gloss": "",
-      "count": 4,
-      "verses": [
-        "heb-wlc/ECC/2/19",
-        "heb-wlc/ECC/7/17",
-        "heb-wlc/ECC/10/3",
-        "heb-wlc/ECC/10/14"
-      ]
-    },
-    {
-      "root": "5046",
-      "lemma": "5046",
-      "gloss": "",
-      "count": 4,
-      "verses": [
-        "heb-wlc/ECC/6/12",
-        "heb-wlc/ECC/8/7",
-        "heb-wlc/ECC/10/14",
-        "heb-wlc/ECC/10/20"
-      ]
-    },
-    {
-      "root": "2142",
-      "lemma": "2142",
-      "gloss": "",
-      "count": 4,
-      "verses": [
-        "heb-wlc/ECC/5/19",
-        "heb-wlc/ECC/9/15",
+        "heb-wlc/ECC/6/3",
+        "heb-wlc/ECC/6/6",
         "heb-wlc/ECC/11/8",
         "heb-wlc/ECC/12/1"
       ]
     },
     {
-      "root": "1947",
-      "lemma": "1947",
+      "root": "6086",
+      "lemma": "6086",
+      "gloss": "",
+      "count": 5,
+      "verses": [
+        "heb-wlc/ECC/2/5",
+        "heb-wlc/ECC/2/6",
+        "heb-wlc/ECC/10/9",
+        "heb-wlc/ECC/11/3"
+      ]
+    },
+    {
+      "root": "5193",
+      "lemma": "5193",
+      "gloss": "",
+      "count": 5,
+      "verses": [
+        "heb-wlc/ECC/2/4",
+        "heb-wlc/ECC/2/5",
+        "heb-wlc/ECC/3/2",
+        "heb-wlc/ECC/12/11"
+      ]
+    },
+    {
+      "root": "5892",
+      "lemma": "5892",
+      "gloss": "city (ir)",
+      "count": 5,
+      "verses": [
+        "heb-wlc/ECC/7/19",
+        "heb-wlc/ECC/8/10",
+        "heb-wlc/ECC/9/14",
+        "heb-wlc/ECC/9/15",
+        "heb-wlc/ECC/10/15"
+      ]
+    },
+    {
+      "root": "3254",
+      "lemma": "3254",
+      "gloss": "",
+      "count": 5,
+      "verses": [
+        "heb-wlc/ECC/1/16",
+        "heb-wlc/ECC/1/18",
+        "heb-wlc/ECC/2/9",
+        "heb-wlc/ECC/3/14"
+      ]
+    },
+    {
+      "root": "4745",
+      "lemma": "4745",
+      "gloss": "",
+      "count": 5,
+      "verses": [
+        "heb-wlc/ECC/3/19",
+        "heb-wlc/ECC/9/2",
+        "heb-wlc/ECC/9/3"
+      ]
+    },
+    {
+      "root": "5975",
+      "lemma": "5975",
+      "gloss": "stand (amad)",
+      "count": 5,
+      "verses": [
+        "heb-wlc/ECC/1/4",
+        "heb-wlc/ECC/2/9",
+        "heb-wlc/ECC/4/12",
+        "heb-wlc/ECC/4/15",
+        "heb-wlc/ECC/8/3"
+      ]
+    },
+    {
+      "root": "8064",
+      "lemma": "8064",
+      "gloss": "heavens (shamayim)",
+      "count": 5,
+      "verses": [
+        "heb-wlc/ECC/1/13",
+        "heb-wlc/ECC/2/3",
+        "heb-wlc/ECC/3/1",
+        "heb-wlc/ECC/5/1",
+        "heb-wlc/ECC/10/20"
+      ]
+    },
+    {
+      "root": "7230",
+      "lemma": "7230",
+      "gloss": "",
+      "count": 5,
+      "verses": [
+        "heb-wlc/ECC/1/18",
+        "heb-wlc/ECC/5/2",
+        "heb-wlc/ECC/5/6",
+        "heb-wlc/ECC/11/1"
+      ]
+    },
+    {
+      "root": "7043",
+      "lemma": "7043",
+      "gloss": "",
+      "count": 5,
+      "verses": [
+        "heb-wlc/ECC/7/21",
+        "heb-wlc/ECC/7/22",
+        "heb-wlc/ECC/10/10",
+        "heb-wlc/ECC/10/20"
+      ]
+    },
+    {
+      "root": "4194",
+      "lemma": "4194",
+      "gloss": "",
+      "count": 5,
+      "verses": [
+        "heb-wlc/ECC/3/19",
+        "heb-wlc/ECC/7/1",
+        "heb-wlc/ECC/7/26",
+        "heb-wlc/ECC/8/8",
+        "heb-wlc/ECC/10/1"
+      ]
+    },
+    {
+      "root": "8147",
+      "lemma": "8147",
+      "gloss": "two (shenayim)",
+      "count": 5,
+      "verses": [
+        "heb-wlc/ECC/4/3",
+        "heb-wlc/ECC/4/9",
+        "heb-wlc/ECC/4/11",
+        "heb-wlc/ECC/4/12",
+        "heb-wlc/ECC/11/6"
+      ]
+    },
+    {
+      "root": "1320",
+      "lemma": "1320",
+      "gloss": "",
+      "count": 5,
+      "verses": [
+        "heb-wlc/ECC/2/3",
+        "heb-wlc/ECC/4/5",
+        "heb-wlc/ECC/5/5",
+        "heb-wlc/ECC/11/10",
+        "heb-wlc/ECC/12/12"
+      ]
+    },
+    {
+      "root": "3708",
+      "lemma": "3708",
+      "gloss": "",
+      "count": 5,
+      "verses": [
+        "heb-wlc/ECC/1/18",
+        "heb-wlc/ECC/2/23",
+        "heb-wlc/ECC/7/3",
+        "heb-wlc/ECC/7/9",
+        "heb-wlc/ECC/11/10"
+      ]
+    },
+    {
+      "root": "1696",
+      "lemma": "1696",
+      "gloss": "speak/word (davar)",
+      "count": 5,
+      "verses": [
+        "heb-wlc/ECC/1/8",
+        "heb-wlc/ECC/1/16",
+        "heb-wlc/ECC/2/15",
+        "heb-wlc/ECC/3/7",
+        "heb-wlc/ECC/7/21"
+      ]
+    },
+    {
+      "root": "859",
+      "lemma": "859",
+      "gloss": "",
+      "count": 5,
+      "verses": [
+        "heb-wlc/ECC/5/1",
+        "heb-wlc/ECC/7/22",
+        "heb-wlc/ECC/9/9",
+        "heb-wlc/ECC/9/10"
+      ]
+    },
+    {
+      "root": "1364",
+      "lemma": "1364",
       "gloss": "",
       "count": 4,
       "verses": [
-        "heb-wlc/ECC/1/17",
-        "heb-wlc/ECC/2/12",
-        "heb-wlc/ECC/7/25",
-        "heb-wlc/ECC/9/3"
+        "heb-wlc/ECC/5/7",
+        "heb-wlc/ECC/12/5"
+      ]
+    },
+    {
+      "root": "4542",
+      "lemma": "4542",
+      "gloss": "",
+      "count": 4,
+      "verses": [
+        "heb-wlc/ECC/4/13",
+        "heb-wlc/ECC/9/15",
+        "heb-wlc/ECC/9/16"
       ]
     },
     {
@@ -4686,94 +4625,15 @@
       ]
     },
     {
-      "root": "4542",
-      "lemma": "4542",
+      "root": "2142",
+      "lemma": "2142",
       "gloss": "",
       "count": 4,
       "verses": [
-        "heb-wlc/ECC/4/13",
+        "heb-wlc/ECC/5/19",
         "heb-wlc/ECC/9/15",
-        "heb-wlc/ECC/9/16"
-      ]
-    },
-    {
-      "root": "4592",
-      "lemma": "4592",
-      "gloss": "",
-      "count": 4,
-      "verses": [
-        "heb-wlc/ECC/5/1",
-        "heb-wlc/ECC/5/11",
-        "heb-wlc/ECC/9/14",
-        "heb-wlc/ECC/10/1"
-      ]
-    },
-    {
-      "root": "3972",
-      "lemma": "3972",
-      "gloss": "",
-      "count": 4,
-      "verses": [
-        "heb-wlc/ECC/5/13",
-        "heb-wlc/ECC/5/14",
-        "heb-wlc/ECC/7/14",
-        "heb-wlc/ECC/9/5"
-      ]
-    },
-    {
-      "root": "929",
-      "lemma": "929",
-      "gloss": "",
-      "count": 4,
-      "verses": [
-        "heb-wlc/ECC/3/18",
-        "heb-wlc/ECC/3/19",
-        "heb-wlc/ECC/3/21"
-      ]
-    },
-    {
-      "root": "1364",
-      "lemma": "1364",
-      "gloss": "",
-      "count": 4,
-      "verses": [
-        "heb-wlc/ECC/5/7",
-        "heb-wlc/ECC/12/5"
-      ]
-    },
-    {
-      "root": "2421",
-      "lemma": "2421",
-      "gloss": "live (chayah)",
-      "count": 4,
-      "verses": [
-        "heb-wlc/ECC/6/3",
-        "heb-wlc/ECC/6/6",
-        "heb-wlc/ECC/7/12",
-        "heb-wlc/ECC/11/8"
-      ]
-    },
-    {
-      "root": "7980",
-      "lemma": "7980",
-      "gloss": "",
-      "count": 4,
-      "verses": [
-        "heb-wlc/ECC/2/19",
-        "heb-wlc/ECC/5/18",
-        "heb-wlc/ECC/6/2",
-        "heb-wlc/ECC/8/9"
-      ]
-    },
-    {
-      "root": "7562",
-      "lemma": "7562",
-      "gloss": "",
-      "count": 4,
-      "verses": [
-        "heb-wlc/ECC/3/16",
-        "heb-wlc/ECC/7/25",
-        "heb-wlc/ECC/8/8"
+        "heb-wlc/ECC/11/8",
+        "heb-wlc/ECC/12/1"
       ]
     },
     {
@@ -4789,6 +4649,76 @@
       ]
     },
     {
+      "root": "1947",
+      "lemma": "1947",
+      "gloss": "",
+      "count": 4,
+      "verses": [
+        "heb-wlc/ECC/1/17",
+        "heb-wlc/ECC/2/12",
+        "heb-wlc/ECC/7/25",
+        "heb-wlc/ECC/9/3"
+      ]
+    },
+    {
+      "root": "5530",
+      "lemma": "5530",
+      "gloss": "",
+      "count": 4,
+      "verses": [
+        "heb-wlc/ECC/2/19",
+        "heb-wlc/ECC/7/17",
+        "heb-wlc/ECC/10/3",
+        "heb-wlc/ECC/10/14"
+      ]
+    },
+    {
+      "root": "3972",
+      "lemma": "3972",
+      "gloss": "",
+      "count": 4,
+      "verses": [
+        "heb-wlc/ECC/5/13",
+        "heb-wlc/ECC/5/14",
+        "heb-wlc/ECC/7/14",
+        "heb-wlc/ECC/9/5"
+      ]
+    },
+    {
+      "root": "1419",
+      "lemma": "1419",
+      "gloss": "",
+      "count": 4,
+      "verses": [
+        "heb-wlc/ECC/9/13",
+        "heb-wlc/ECC/9/14",
+        "heb-wlc/ECC/10/4"
+      ]
+    },
+    {
+      "root": "7562",
+      "lemma": "7562",
+      "gloss": "",
+      "count": 4,
+      "verses": [
+        "heb-wlc/ECC/3/16",
+        "heb-wlc/ECC/7/25",
+        "heb-wlc/ECC/8/8"
+      ]
+    },
+    {
+      "root": "7980",
+      "lemma": "7980",
+      "gloss": "",
+      "count": 4,
+      "verses": [
+        "heb-wlc/ECC/2/19",
+        "heb-wlc/ECC/5/18",
+        "heb-wlc/ECC/6/2",
+        "heb-wlc/ECC/8/9"
+      ]
+    },
+    {
       "root": "3899",
       "lemma": "3899",
       "gloss": "",
@@ -4798,6 +4728,64 @@
         "heb-wlc/ECC/9/11",
         "heb-wlc/ECC/10/19",
         "heb-wlc/ECC/11/1"
+      ]
+    },
+    {
+      "root": "929",
+      "lemma": "929",
+      "gloss": "",
+      "count": 4,
+      "verses": [
+        "heb-wlc/ECC/3/18",
+        "heb-wlc/ECC/3/19",
+        "heb-wlc/ECC/3/21"
+      ]
+    },
+    {
+      "root": "157",
+      "lemma": "157",
+      "gloss": "love (ahav)",
+      "count": 4,
+      "verses": [
+        "heb-wlc/ECC/3/8",
+        "heb-wlc/ECC/5/9",
+        "heb-wlc/ECC/9/9"
+      ]
+    },
+    {
+      "root": "2421",
+      "lemma": "2421",
+      "gloss": "live (chayah)",
+      "count": 4,
+      "verses": [
+        "heb-wlc/ECC/6/3",
+        "heb-wlc/ECC/6/6",
+        "heb-wlc/ECC/7/12",
+        "heb-wlc/ECC/11/8"
+      ]
+    },
+    {
+      "root": "4592",
+      "lemma": "4592",
+      "gloss": "",
+      "count": 4,
+      "verses": [
+        "heb-wlc/ECC/5/1",
+        "heb-wlc/ECC/5/11",
+        "heb-wlc/ECC/9/14",
+        "heb-wlc/ECC/10/1"
+      ]
+    },
+    {
+      "root": "5046",
+      "lemma": "5046",
+      "gloss": "",
+      "count": 4,
+      "verses": [
+        "heb-wlc/ECC/6/12",
+        "heb-wlc/ECC/8/7",
+        "heb-wlc/ECC/10/14",
+        "heb-wlc/ECC/10/20"
       ]
     },
     {
@@ -4813,131 +4801,15 @@
       ]
     },
     {
-      "root": "s/1571",
-      "lemma": "s/1571",
-      "gloss": "",
-      "count": 3,
+      "root": "3318",
+      "lemma": "3318",
+      "gloss": "go out (yatsa)",
+      "count": 4,
       "verses": [
-        "heb-wlc/ECC/1/17",
-        "heb-wlc/ECC/2/15",
-        "heb-wlc/ECC/8/14"
-      ]
-    },
-    {
-      "root": "6664",
-      "lemma": "6664",
-      "gloss": "",
-      "count": 3,
-      "verses": [
-        "heb-wlc/ECC/3/16",
-        "heb-wlc/ECC/5/7",
-        "heb-wlc/ECC/7/15"
-      ]
-    },
-    {
-      "root": "2146",
-      "lemma": "2146",
-      "gloss": "",
-      "count": 3,
-      "verses": [
-        "heb-wlc/ECC/1/11",
-        "heb-wlc/ECC/2/16"
-      ]
-    },
-    {
-      "root": "68",
-      "lemma": "68",
-      "gloss": "",
-      "count": 3,
-      "verses": [
-        "heb-wlc/ECC/3/5",
-        "heb-wlc/ECC/10/9"
-      ]
-    },
-    {
-      "root": "7911",
-      "lemma": "7911",
-      "gloss": "",
-      "count": 3,
-      "verses": [
-        "heb-wlc/ECC/2/16",
-        "heb-wlc/ECC/8/10",
-        "heb-wlc/ECC/9/5"
-      ]
-    },
-    {
-      "root": "2808",
-      "lemma": "2808",
-      "gloss": "",
-      "count": 3,
-      "verses": [
-        "heb-wlc/ECC/7/25",
-        "heb-wlc/ECC/7/27",
-        "heb-wlc/ECC/9/10"
-      ]
-    },
-    {
-      "root": "7136",
-      "lemma": "7136",
-      "gloss": "",
-      "count": 3,
-      "verses": [
-        "heb-wlc/ECC/2/14",
-        "heb-wlc/ECC/2/15",
-        "heb-wlc/ECC/9/11"
-      ]
-    },
-    {
-      "root": "7999",
-      "lemma": "7999",
-      "gloss": "",
-      "count": 3,
-      "verses": [
-        "heb-wlc/ECC/5/3",
-        "heb-wlc/ECC/5/4"
-      ]
-    },
-    {
-      "root": "7475",
-      "lemma": "7475",
-      "gloss": "",
-      "count": 3,
-      "verses": [
-        "heb-wlc/ECC/1/17",
-        "heb-wlc/ECC/2/22",
-        "heb-wlc/ECC/4/16"
-      ]
-    },
-    {
-      "root": "5307",
-      "lemma": "5307",
-      "gloss": "",
-      "count": 3,
-      "verses": [
-        "heb-wlc/ECC/4/10",
-        "heb-wlc/ECC/10/8",
-        "heb-wlc/ECC/11/3"
-      ]
-    },
-    {
-      "root": "4421",
-      "lemma": "4421",
-      "gloss": "war (milchamah)",
-      "count": 3,
-      "verses": [
-        "heb-wlc/ECC/3/8",
-        "heb-wlc/ECC/8/8",
-        "heb-wlc/ECC/9/11"
-      ]
-    },
-    {
-      "root": "6965",
-      "lemma": "6965",
-      "gloss": "",
-      "count": 3,
-      "verses": [
-        "heb-wlc/ECC/4/10",
-        "heb-wlc/ECC/12/4"
+        "heb-wlc/ECC/4/14",
+        "heb-wlc/ECC/5/1",
+        "heb-wlc/ECC/5/14",
+        "heb-wlc/ECC/7/18"
       ]
     },
     {
@@ -4952,158 +4824,6 @@
       ]
     },
     {
-      "root": "5183",
-      "lemma": "5183",
-      "gloss": "",
-      "count": 3,
-      "verses": [
-        "heb-wlc/ECC/4/6",
-        "heb-wlc/ECC/6/5",
-        "heb-wlc/ECC/9/17"
-      ]
-    },
-    {
-      "root": "5650",
-      "lemma": "5650",
-      "gloss": "",
-      "count": 3,
-      "verses": [
-        "heb-wlc/ECC/2/7",
-        "heb-wlc/ECC/7/21",
-        "heb-wlc/ECC/10/7"
-      ]
-    },
-    {
-      "root": "3196",
-      "lemma": "3196",
-      "gloss": "",
-      "count": 3,
-      "verses": [
-        "heb-wlc/ECC/2/3",
-        "heb-wlc/ECC/9/7",
-        "heb-wlc/ECC/10/19"
-      ]
-    },
-    {
-      "root": "8269",
-      "lemma": "8269",
-      "gloss": "",
-      "count": 3,
-      "verses": [
-        "heb-wlc/ECC/10/7",
-        "heb-wlc/ECC/10/16",
-        "heb-wlc/ECC/10/17"
-      ]
-    },
-    {
-      "root": "802",
-      "lemma": "802",
-      "gloss": "woman (ishah)",
-      "count": 3,
-      "verses": [
-        "heb-wlc/ECC/7/26",
-        "heb-wlc/ECC/7/28",
-        "heb-wlc/ECC/9/9"
-      ]
-    },
-    {
-      "root": "2263",
-      "lemma": "2263",
-      "gloss": "",
-      "count": 3,
-      "verses": [
-        "heb-wlc/ECC/3/5",
-        "heb-wlc/ECC/4/5"
-      ]
-    },
-    {
-      "root": "270",
-      "lemma": "270",
-      "gloss": "",
-      "count": 3,
-      "verses": [
-        "heb-wlc/ECC/2/3",
-        "heb-wlc/ECC/7/18",
-        "heb-wlc/ECC/9/12"
-      ]
-    },
-    {
-      "root": "1700",
-      "lemma": "1700",
-      "gloss": "",
-      "count": 3,
-      "verses": [
-        "heb-wlc/ECC/3/18",
-        "heb-wlc/ECC/7/14",
-        "heb-wlc/ECC/8/2"
-      ]
-    },
-    {
-      "root": "6083",
-      "lemma": "6083",
-      "gloss": "",
-      "count": 3,
-      "verses": [
-        "heb-wlc/ECC/3/20",
-        "heb-wlc/ECC/12/7"
-      ]
-    },
-    {
-      "root": "5791",
-      "lemma": "5791",
-      "gloss": "",
-      "count": 3,
-      "verses": [
-        "heb-wlc/ECC/1/15",
-        "heb-wlc/ECC/7/13",
-        "heb-wlc/ECC/12/3"
-      ]
-    },
-    {
-      "root": "1431",
-      "lemma": "1431",
-      "gloss": "",
-      "count": 3,
-      "verses": [
-        "heb-wlc/ECC/1/16",
-        "heb-wlc/ECC/2/4",
-        "heb-wlc/ECC/2/9"
-      ]
-    },
-    {
-      "root": "1129",
-      "lemma": "1129",
-      "gloss": "",
-      "count": 3,
-      "verses": [
-        "heb-wlc/ECC/2/4",
-        "heb-wlc/ECC/3/3",
-        "heb-wlc/ECC/9/14"
-      ]
-    },
-    {
-      "root": "8145",
-      "lemma": "8145",
-      "gloss": "",
-      "count": 3,
-      "verses": [
-        "heb-wlc/ECC/4/8",
-        "heb-wlc/ECC/4/10",
-        "heb-wlc/ECC/4/15"
-      ]
-    },
-    {
-      "root": "s/935",
-      "lemma": "s/935",
-      "gloss": "",
-      "count": 3,
-      "verses": [
-        "heb-wlc/ECC/2/12",
-        "heb-wlc/ECC/5/15",
-        "heb-wlc/ECC/11/8"
-      ]
-    },
-    {
       "root": "7989",
       "lemma": "7989",
       "gloss": "",
@@ -5112,190 +4832,6 @@
         "heb-wlc/ECC/7/19",
         "heb-wlc/ECC/8/8",
         "heb-wlc/ECC/10/5"
-      ]
-    },
-    {
-      "root": "216",
-      "lemma": "216",
-      "gloss": "light (or)",
-      "count": 3,
-      "verses": [
-        "heb-wlc/ECC/2/13",
-        "heb-wlc/ECC/11/7",
-        "heb-wlc/ECC/12/2"
-      ]
-    },
-    {
-      "root": "6031",
-      "lemma": "6031",
-      "gloss": "",
-      "count": 3,
-      "verses": [
-        "heb-wlc/ECC/1/13",
-        "heb-wlc/ECC/3/10",
-        "heb-wlc/ECC/5/19"
-      ]
-    },
-    {
-      "root": "8626",
-      "lemma": "8626",
-      "gloss": "",
-      "count": 3,
-      "verses": [
-        "heb-wlc/ECC/1/15",
-        "heb-wlc/ECC/7/13",
-        "heb-wlc/ECC/12/9"
-      ]
-    },
-    {
-      "root": "3787",
-      "lemma": "3787",
-      "gloss": "",
-      "count": 3,
-      "verses": [
-        "heb-wlc/ECC/10/10",
-        "heb-wlc/ECC/11/6"
-      ]
-    },
-    {
-      "root": "748",
-      "lemma": "748",
-      "gloss": "",
-      "count": 3,
-      "verses": [
-        "heb-wlc/ECC/7/15",
-        "heb-wlc/ECC/8/12",
-        "heb-wlc/ECC/8/13"
-      ]
-    },
-    {
-      "root": "4557",
-      "lemma": "4557",
-      "gloss": "",
-      "count": 3,
-      "verses": [
-        "heb-wlc/ECC/2/3",
-        "heb-wlc/ECC/5/17",
-        "heb-wlc/ECC/6/12"
-      ]
-    },
-    {
-      "root": "2449",
-      "lemma": "2449",
-      "gloss": "",
-      "count": 3,
-      "verses": [
-        "heb-wlc/ECC/2/15",
-        "heb-wlc/ECC/7/16",
-        "heb-wlc/ECC/7/23"
-      ]
-    },
-    {
-      "root": "3788",
-      "lemma": "3788",
-      "gloss": "",
-      "count": 3,
-      "verses": [
-        "heb-wlc/ECC/2/21",
-        "heb-wlc/ECC/4/4",
-        "heb-wlc/ECC/5/10"
-      ]
-    },
-    {
-      "root": "8130",
-      "lemma": "8130",
-      "gloss": "",
-      "count": 3,
-      "verses": [
-        "heb-wlc/ECC/2/17",
-        "heb-wlc/ECC/2/18",
-        "heb-wlc/ECC/3/8"
-      ]
-    },
-    {
-      "root": "428",
-      "lemma": "428",
-      "gloss": "",
-      "count": 3,
-      "verses": [
-        "heb-wlc/ECC/7/10",
-        "heb-wlc/ECC/7/28",
-        "heb-wlc/ECC/11/9"
-      ]
-    },
-    {
-      "root": "3664",
-      "lemma": "3664",
-      "gloss": "",
-      "count": 3,
-      "verses": [
-        "heb-wlc/ECC/2/8",
-        "heb-wlc/ECC/2/26",
-        "heb-wlc/ECC/3/5"
-      ]
-    },
-    {
-      "root": "5087",
-      "lemma": "5087",
-      "gloss": "",
-      "count": 3,
-      "verses": [
-        "heb-wlc/ECC/5/3",
-        "heb-wlc/ECC/5/4"
-      ]
-    },
-    {
-      "root": "7093",
-      "lemma": "7093",
-      "gloss": "",
-      "count": 3,
-      "verses": [
-        "heb-wlc/ECC/4/8",
-        "heb-wlc/ECC/4/16",
-        "heb-wlc/ECC/12/12"
-      ]
-    },
-    {
-      "root": "8034",
-      "lemma": "8034",
-      "gloss": "name (shem)",
-      "count": 3,
-      "verses": [
-        "heb-wlc/ECC/6/4",
-        "heb-wlc/ECC/6/10",
-        "heb-wlc/ECC/7/1"
-      ]
-    },
-    {
-      "root": "5645",
-      "lemma": "5645",
-      "gloss": "",
-      "count": 3,
-      "verses": [
-        "heb-wlc/ECC/11/3",
-        "heb-wlc/ECC/11/4",
-        "heb-wlc/ECC/12/2"
-      ]
-    },
-    {
-      "root": "314",
-      "lemma": "314",
-      "gloss": "",
-      "count": 3,
-      "verses": [
-        "heb-wlc/ECC/1/11",
-        "heb-wlc/ECC/4/16"
-      ]
-    },
-    {
-      "root": "8446",
-      "lemma": "8446",
-      "gloss": "",
-      "count": 3,
-      "verses": [
-        "heb-wlc/ECC/1/13",
-        "heb-wlc/ECC/2/3",
-        "heb-wlc/ECC/7/25"
       ]
     },
     {
@@ -5310,6 +4846,17 @@
       ]
     },
     {
+      "root": "5645",
+      "lemma": "5645",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/ECC/11/3",
+        "heb-wlc/ECC/11/4",
+        "heb-wlc/ECC/12/2"
+      ]
+    },
+    {
       "root": "6223",
       "lemma": "6223",
       "gloss": "",
@@ -5318,6 +4865,171 @@
         "heb-wlc/ECC/5/11",
         "heb-wlc/ECC/10/6",
         "heb-wlc/ECC/10/20"
+      ]
+    },
+    {
+      "root": "270",
+      "lemma": "270",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/ECC/2/3",
+        "heb-wlc/ECC/7/18",
+        "heb-wlc/ECC/9/12"
+      ]
+    },
+    {
+      "root": "4421",
+      "lemma": "4421",
+      "gloss": "war (milchamah)",
+      "count": 3,
+      "verses": [
+        "heb-wlc/ECC/3/8",
+        "heb-wlc/ECC/8/8",
+        "heb-wlc/ECC/9/11"
+      ]
+    },
+    {
+      "root": "428",
+      "lemma": "428",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/ECC/7/10",
+        "heb-wlc/ECC/7/28",
+        "heb-wlc/ECC/11/9"
+      ]
+    },
+    {
+      "root": "7093",
+      "lemma": "7093",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/ECC/4/8",
+        "heb-wlc/ECC/4/16",
+        "heb-wlc/ECC/12/12"
+      ]
+    },
+    {
+      "root": "802",
+      "lemma": "802",
+      "gloss": "woman (ishah)",
+      "count": 3,
+      "verses": [
+        "heb-wlc/ECC/7/26",
+        "heb-wlc/ECC/7/28",
+        "heb-wlc/ECC/9/9"
+      ]
+    },
+    {
+      "root": "3196",
+      "lemma": "3196",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/ECC/2/3",
+        "heb-wlc/ECC/9/7",
+        "heb-wlc/ECC/10/19"
+      ]
+    },
+    {
+      "root": "8130",
+      "lemma": "8130",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/ECC/2/17",
+        "heb-wlc/ECC/2/18",
+        "heb-wlc/ECC/3/8"
+      ]
+    },
+    {
+      "root": "5307",
+      "lemma": "5307",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/ECC/4/10",
+        "heb-wlc/ECC/10/8",
+        "heb-wlc/ECC/11/3"
+      ]
+    },
+    {
+      "root": "5183",
+      "lemma": "5183",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/ECC/4/6",
+        "heb-wlc/ECC/6/5",
+        "heb-wlc/ECC/9/17"
+      ]
+    },
+    {
+      "root": "3664",
+      "lemma": "3664",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/ECC/2/8",
+        "heb-wlc/ECC/2/26",
+        "heb-wlc/ECC/3/5"
+      ]
+    },
+    {
+      "root": "7911",
+      "lemma": "7911",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/ECC/2/16",
+        "heb-wlc/ECC/8/10",
+        "heb-wlc/ECC/9/5"
+      ]
+    },
+    {
+      "root": "8145",
+      "lemma": "8145",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/ECC/4/8",
+        "heb-wlc/ECC/4/10",
+        "heb-wlc/ECC/4/15"
+      ]
+    },
+    {
+      "root": "7475",
+      "lemma": "7475",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/ECC/1/17",
+        "heb-wlc/ECC/2/22",
+        "heb-wlc/ECC/4/16"
+      ]
+    },
+    {
+      "root": "8269",
+      "lemma": "8269",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/ECC/10/7",
+        "heb-wlc/ECC/10/16",
+        "heb-wlc/ECC/10/17"
+      ]
+    },
+    {
+      "root": "3788",
+      "lemma": "3788",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/ECC/2/21",
+        "heb-wlc/ECC/4/4",
+        "heb-wlc/ECC/5/10"
       ]
     },
     {
@@ -5332,14 +5044,45 @@
       ]
     },
     {
-      "root": "4422",
-      "lemma": "4422",
+      "root": "2146",
+      "lemma": "2146",
       "gloss": "",
       "count": 3,
       "verses": [
-        "heb-wlc/ECC/7/26",
-        "heb-wlc/ECC/8/8",
-        "heb-wlc/ECC/9/15"
+        "heb-wlc/ECC/1/11",
+        "heb-wlc/ECC/2/16"
+      ]
+    },
+    {
+      "root": "2808",
+      "lemma": "2808",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/ECC/7/25",
+        "heb-wlc/ECC/7/27",
+        "heb-wlc/ECC/9/10"
+      ]
+    },
+    {
+      "root": "314",
+      "lemma": "314",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/ECC/1/11",
+        "heb-wlc/ECC/4/16"
+      ]
+    },
+    {
+      "root": "4557",
+      "lemma": "4557",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/ECC/2/3",
+        "heb-wlc/ECC/5/17",
+        "heb-wlc/ECC/6/12"
       ]
     },
     {
@@ -5351,6 +5094,263 @@
         "heb-wlc/ECC/7/1",
         "heb-wlc/ECC/9/8",
         "heb-wlc/ECC/10/1"
+      ]
+    },
+    {
+      "root": "6031",
+      "lemma": "6031",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/ECC/1/13",
+        "heb-wlc/ECC/3/10",
+        "heb-wlc/ECC/5/19"
+      ]
+    },
+    {
+      "root": "s/935",
+      "lemma": "s/935",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/ECC/2/12",
+        "heb-wlc/ECC/5/15",
+        "heb-wlc/ECC/11/8"
+      ]
+    },
+    {
+      "root": "7136",
+      "lemma": "7136",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/ECC/2/14",
+        "heb-wlc/ECC/2/15",
+        "heb-wlc/ECC/9/11"
+      ]
+    },
+    {
+      "root": "1431",
+      "lemma": "1431",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/ECC/1/16",
+        "heb-wlc/ECC/2/4",
+        "heb-wlc/ECC/2/9"
+      ]
+    },
+    {
+      "root": "748",
+      "lemma": "748",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/ECC/7/15",
+        "heb-wlc/ECC/8/12",
+        "heb-wlc/ECC/8/13"
+      ]
+    },
+    {
+      "root": "8446",
+      "lemma": "8446",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/ECC/1/13",
+        "heb-wlc/ECC/2/3",
+        "heb-wlc/ECC/7/25"
+      ]
+    },
+    {
+      "root": "5087",
+      "lemma": "5087",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/ECC/5/3",
+        "heb-wlc/ECC/5/4"
+      ]
+    },
+    {
+      "root": "7999",
+      "lemma": "7999",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/ECC/5/3",
+        "heb-wlc/ECC/5/4"
+      ]
+    },
+    {
+      "root": "8034",
+      "lemma": "8034",
+      "gloss": "name (shem)",
+      "count": 3,
+      "verses": [
+        "heb-wlc/ECC/6/4",
+        "heb-wlc/ECC/6/10",
+        "heb-wlc/ECC/7/1"
+      ]
+    },
+    {
+      "root": "3787",
+      "lemma": "3787",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/ECC/10/10",
+        "heb-wlc/ECC/11/6"
+      ]
+    },
+    {
+      "root": "68",
+      "lemma": "68",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/ECC/3/5",
+        "heb-wlc/ECC/10/9"
+      ]
+    },
+    {
+      "root": "6965",
+      "lemma": "6965",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/ECC/4/10",
+        "heb-wlc/ECC/12/4"
+      ]
+    },
+    {
+      "root": "2449",
+      "lemma": "2449",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/ECC/2/15",
+        "heb-wlc/ECC/7/16",
+        "heb-wlc/ECC/7/23"
+      ]
+    },
+    {
+      "root": "s/1571",
+      "lemma": "s/1571",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/ECC/1/17",
+        "heb-wlc/ECC/2/15",
+        "heb-wlc/ECC/8/14"
+      ]
+    },
+    {
+      "root": "5650",
+      "lemma": "5650",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/ECC/2/7",
+        "heb-wlc/ECC/7/21",
+        "heb-wlc/ECC/10/7"
+      ]
+    },
+    {
+      "root": "2263",
+      "lemma": "2263",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/ECC/3/5",
+        "heb-wlc/ECC/4/5"
+      ]
+    },
+    {
+      "root": "6664",
+      "lemma": "6664",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/ECC/3/16",
+        "heb-wlc/ECC/5/7",
+        "heb-wlc/ECC/7/15"
+      ]
+    },
+    {
+      "root": "6083",
+      "lemma": "6083",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/ECC/3/20",
+        "heb-wlc/ECC/12/7"
+      ]
+    },
+    {
+      "root": "4422",
+      "lemma": "4422",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/ECC/7/26",
+        "heb-wlc/ECC/8/8",
+        "heb-wlc/ECC/9/15"
+      ]
+    },
+    {
+      "root": "216",
+      "lemma": "216",
+      "gloss": "light (or)",
+      "count": 3,
+      "verses": [
+        "heb-wlc/ECC/2/13",
+        "heb-wlc/ECC/11/7",
+        "heb-wlc/ECC/12/2"
+      ]
+    },
+    {
+      "root": "8626",
+      "lemma": "8626",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/ECC/1/15",
+        "heb-wlc/ECC/7/13",
+        "heb-wlc/ECC/12/9"
+      ]
+    },
+    {
+      "root": "1129",
+      "lemma": "1129",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/ECC/2/4",
+        "heb-wlc/ECC/3/3",
+        "heb-wlc/ECC/9/14"
+      ]
+    },
+    {
+      "root": "5791",
+      "lemma": "5791",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/ECC/1/15",
+        "heb-wlc/ECC/7/13",
+        "heb-wlc/ECC/12/3"
+      ]
+    },
+    {
+      "root": "1700",
+      "lemma": "1700",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/ECC/3/18",
+        "heb-wlc/ECC/7/14",
+        "heb-wlc/ECC/8/2"
       ]
     },
     {

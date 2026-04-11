@@ -1,0 +1,486 @@
+{
+  "schemaVersion": "1.0.0",
+  "work": "heb-wlc",
+  "osis": "NAM",
+  "book": "Nahum",
+  "totalTokens": 555,
+  "uniqueRoots": 357,
+  "chapters": 3,
+  "repetitions": [
+    {
+      "root": "3068",
+      "lemma": "3068",
+      "gloss": "LORD (YHWH)",
+      "count": 13,
+      "verses": [
+        "heb-wlc/NAM/1/2",
+        "heb-wlc/NAM/1/3",
+        "heb-wlc/NAM/1/7",
+        "heb-wlc/NAM/1/9",
+        "heb-wlc/NAM/1/11",
+        "heb-wlc/NAM/1/12",
+        "heb-wlc/NAM/1/14",
+        "heb-wlc/NAM/2/3",
+        "heb-wlc/NAM/2/14",
+        "heb-wlc/NAM/3/5"
+      ]
+    },
+    {
+      "root": "5921",
+      "lemma": "5921",
+      "gloss": "upon/over (al)",
+      "count": 13,
+      "verses": [
+        "heb-wlc/NAM/1/11",
+        "heb-wlc/NAM/1/13",
+        "heb-wlc/NAM/1/14",
+        "heb-wlc/NAM/2/1",
+        "heb-wlc/NAM/2/2",
+        "heb-wlc/NAM/2/8",
+        "heb-wlc/NAM/3/5",
+        "heb-wlc/NAM/3/6",
+        "heb-wlc/NAM/3/10",
+        "heb-wlc/NAM/3/12",
+        "heb-wlc/NAM/3/18",
+        "heb-wlc/NAM/3/19"
+      ]
+    },
+    {
+      "root": "3605",
+      "lemma": "3605",
+      "gloss": "all/every (kol)",
+      "count": 12,
+      "verses": [
+        "heb-wlc/NAM/1/4",
+        "heb-wlc/NAM/1/5",
+        "heb-wlc/NAM/2/1",
+        "heb-wlc/NAM/2/10",
+        "heb-wlc/NAM/2/11",
+        "heb-wlc/NAM/3/1",
+        "heb-wlc/NAM/3/7",
+        "heb-wlc/NAM/3/10",
+        "heb-wlc/NAM/3/12",
+        "heb-wlc/NAM/3/19"
+      ]
+    },
+    {
+      "root": "3808",
+      "lemma": "3808",
+      "gloss": "not (lo)",
+      "count": 9,
+      "verses": [
+        "heb-wlc/NAM/1/3",
+        "heb-wlc/NAM/1/9",
+        "heb-wlc/NAM/1/12",
+        "heb-wlc/NAM/1/14",
+        "heb-wlc/NAM/2/1",
+        "heb-wlc/NAM/2/14",
+        "heb-wlc/NAM/3/1",
+        "heb-wlc/NAM/3/17",
+        "heb-wlc/NAM/3/19"
+      ]
+    },
+    {
+      "root": "369",
+      "lemma": "369",
+      "gloss": "nothing/none (ayin)",
+      "count": 7,
+      "verses": [
+        "heb-wlc/NAM/2/9",
+        "heb-wlc/NAM/2/10",
+        "heb-wlc/NAM/2/12",
+        "heb-wlc/NAM/3/3",
+        "heb-wlc/NAM/3/9",
+        "heb-wlc/NAM/3/18",
+        "heb-wlc/NAM/3/19"
+      ]
+    },
+    {
+      "root": "398",
+      "lemma": "398",
+      "gloss": "eat (akal)",
+      "count": 6,
+      "verses": [
+        "heb-wlc/NAM/1/10",
+        "heb-wlc/NAM/2/14",
+        "heb-wlc/NAM/3/12",
+        "heb-wlc/NAM/3/13",
+        "heb-wlc/NAM/3/15"
+      ]
+    },
+    {
+      "root": "3588",
+      "lemma": "3588",
+      "gloss": "that/because (ki)",
+      "count": 6,
+      "verses": [
+        "heb-wlc/NAM/1/10",
+        "heb-wlc/NAM/1/14",
+        "heb-wlc/NAM/2/1",
+        "heb-wlc/NAM/2/3",
+        "heb-wlc/NAM/3/19"
+      ]
+    },
+    {
+      "root": "1931",
+      "lemma": "1931",
+      "gloss": "he/she/it (hu)",
+      "count": 5,
+      "verses": [
+        "heb-wlc/NAM/1/2",
+        "heb-wlc/NAM/1/9",
+        "heb-wlc/NAM/2/9",
+        "heb-wlc/NAM/2/12",
+        "heb-wlc/NAM/3/10"
+      ]
+    },
+    {
+      "root": "6440",
+      "lemma": "6440",
+      "gloss": "face (panim)",
+      "count": 5,
+      "verses": [
+        "heb-wlc/NAM/1/5",
+        "heb-wlc/NAM/1/6",
+        "heb-wlc/NAM/2/2",
+        "heb-wlc/NAM/2/11",
+        "heb-wlc/NAM/3/5"
+      ]
+    },
+    {
+      "root": "5674",
+      "lemma": "5674",
+      "gloss": "",
+      "count": 5,
+      "verses": [
+        "heb-wlc/NAM/1/8",
+        "heb-wlc/NAM/1/12",
+        "heb-wlc/NAM/2/1",
+        "heb-wlc/NAM/3/19"
+      ]
+    },
+    {
+      "root": "3772",
+      "lemma": "3772",
+      "gloss": "",
+      "count": 4,
+      "verses": [
+        "heb-wlc/NAM/1/14",
+        "heb-wlc/NAM/2/1",
+        "heb-wlc/NAM/2/14",
+        "heb-wlc/NAM/3/15"
+      ]
+    },
+    {
+      "root": "4480",
+      "lemma": "4480",
+      "gloss": "",
+      "count": 4,
+      "verses": [
+        "heb-wlc/NAM/1/5",
+        "heb-wlc/NAM/1/6",
+        "heb-wlc/NAM/1/11",
+        "heb-wlc/NAM/3/7"
+      ]
+    },
+    {
+      "root": "341",
+      "lemma": "341",
+      "gloss": "",
+      "count": 4,
+      "verses": [
+        "heb-wlc/NAM/1/2",
+        "heb-wlc/NAM/1/8",
+        "heb-wlc/NAM/3/11",
+        "heb-wlc/NAM/3/13"
+      ]
+    },
+    {
+      "root": "738",
+      "lemma": "738",
+      "gloss": "",
+      "count": 4,
+      "verses": [
+        "heb-wlc/NAM/2/12",
+        "heb-wlc/NAM/2/13"
+      ]
+    },
+    {
+      "root": "3117",
+      "lemma": "3117",
+      "gloss": "day (yom)",
+      "count": 4,
+      "verses": [
+        "heb-wlc/NAM/1/7",
+        "heb-wlc/NAM/2/4",
+        "heb-wlc/NAM/2/9",
+        "heb-wlc/NAM/3/17"
+      ]
+    },
+    {
+      "root": "5750",
+      "lemma": "5750",
+      "gloss": "yet/still (od)",
+      "count": 4,
+      "verses": [
+        "heb-wlc/NAM/1/12",
+        "heb-wlc/NAM/1/14",
+        "heb-wlc/NAM/2/1",
+        "heb-wlc/NAM/2/14"
+      ]
+    },
+    {
+      "root": "1571",
+      "lemma": "1571",
+      "gloss": "also/even (gam)",
+      "count": 4,
+      "verses": [
+        "heb-wlc/NAM/3/10",
+        "heb-wlc/NAM/3/11"
+      ]
+    },
+    {
+      "root": "4310",
+      "lemma": "4310",
+      "gloss": "",
+      "count": 4,
+      "verses": [
+        "heb-wlc/NAM/1/6",
+        "heb-wlc/NAM/3/7",
+        "heb-wlc/NAM/3/19"
+      ]
+    },
+    {
+      "root": "2022",
+      "lemma": "2022",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/NAM/1/5",
+        "heb-wlc/NAM/2/1",
+        "heb-wlc/NAM/3/18"
+      ]
+    },
+    {
+      "root": "4325",
+      "lemma": "4325",
+      "gloss": "water (mayim)",
+      "count": 3,
+      "verses": [
+        "heb-wlc/NAM/2/9",
+        "heb-wlc/NAM/3/8",
+        "heb-wlc/NAM/3/14"
+      ]
+    },
+    {
+      "root": "6605",
+      "lemma": "6605",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/NAM/2/7",
+        "heb-wlc/NAM/3/13"
+      ]
+    },
+    {
+      "root": "5210",
+      "lemma": "5210",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/NAM/1/1",
+        "heb-wlc/NAM/2/9",
+        "heb-wlc/NAM/3/7"
+      ]
+    },
+    {
+      "root": "2964",
+      "lemma": "2964",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/NAM/2/13",
+        "heb-wlc/NAM/2/14",
+        "heb-wlc/NAM/3/1"
+      ]
+    },
+    {
+      "root": "6963",
+      "lemma": "6963",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/NAM/2/14",
+        "heb-wlc/NAM/3/2"
+      ]
+    },
+    {
+      "root": "7393",
+      "lemma": "7393",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/NAM/2/4",
+        "heb-wlc/NAM/2/5",
+        "heb-wlc/NAM/2/14"
+      ]
+    },
+    {
+      "root": "7097",
+      "lemma": "7097",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/NAM/2/10",
+        "heb-wlc/NAM/3/3",
+        "heb-wlc/NAM/3/9"
+      ]
+    },
+    {
+      "root": "5975",
+      "lemma": "5975",
+      "gloss": "stand (amad)",
+      "count": 3,
+      "verses": [
+        "heb-wlc/NAM/1/6",
+        "heb-wlc/NAM/2/9"
+      ]
+    },
+    {
+      "root": "784",
+      "lemma": "784",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/NAM/2/4",
+        "heb-wlc/NAM/3/13",
+        "heb-wlc/NAM/3/15"
+      ]
+    },
+    {
+      "root": "3782",
+      "lemma": "3782",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/NAM/2/6",
+        "heb-wlc/NAM/3/3"
+      ]
+    },
+    {
+      "root": "5358",
+      "lemma": "5358",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/NAM/1/2"
+      ]
+    },
+    {
+      "root": "1419",
+      "lemma": "1419",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/NAM/1/3",
+        "heb-wlc/NAM/3/10"
+      ]
+    },
+    {
+      "root": "3220",
+      "lemma": "3220",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/NAM/1/4",
+        "heb-wlc/NAM/3/8"
+      ]
+    },
+    {
+      "root": "8085",
+      "lemma": "8085",
+      "gloss": "hear (shama)",
+      "count": 3,
+      "verses": [
+        "heb-wlc/NAM/2/1",
+        "heb-wlc/NAM/2/14",
+        "heb-wlc/NAM/3/19"
+      ]
+    },
+    {
+      "root": "2388",
+      "lemma": "2388",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/NAM/2/2",
+        "heb-wlc/NAM/3/14"
+      ]
+    },
+    {
+      "root": "1961",
+      "lemma": "1961",
+      "gloss": "be/become (hayah)",
+      "count": 3,
+      "verses": [
+        "heb-wlc/NAM/3/7",
+        "heb-wlc/NAM/3/9",
+        "heb-wlc/NAM/3/11"
+      ]
+    },
+    {
+      "root": "776",
+      "lemma": "776",
+      "gloss": "earth/land (eretz)",
+      "count": 3,
+      "verses": [
+        "heb-wlc/NAM/1/5",
+        "heb-wlc/NAM/2/14",
+        "heb-wlc/NAM/3/13"
+      ]
+    },
+    {
+      "root": "5927",
+      "lemma": "5927",
+      "gloss": "go up (alah)",
+      "count": 3,
+      "verses": [
+        "heb-wlc/NAM/2/2",
+        "heb-wlc/NAM/2/8",
+        "heb-wlc/NAM/3/3"
+      ]
+    },
+    {
+      "root": "2719",
+      "lemma": "2719",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/NAM/2/14",
+        "heb-wlc/NAM/3/3",
+        "heb-wlc/NAM/3/15"
+      ]
+    },
+    {
+      "root": "3513",
+      "lemma": "3513",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/NAM/3/10",
+        "heb-wlc/NAM/3/15"
+      ]
+    },
+    {
+      "root": "413",
+      "lemma": "413",
+      "gloss": "to/toward (el)",
+      "count": 3,
+      "verses": [
+        "heb-wlc/NAM/1/9",
+        "heb-wlc/NAM/2/14",
+        "heb-wlc/NAM/3/5"
+      ]
+    }
+  ]
+}

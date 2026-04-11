@@ -1,0 +1,831 @@
+{
+  "schemaVersion": "1.0.0",
+  "work": "heb-wlc",
+  "osis": "HAG",
+  "book": "Haggai",
+  "totalTokens": 593,
+  "uniqueRoots": 207,
+  "chapters": 2,
+  "repetitions": [
+    {
+      "root": "3068",
+      "lemma": "3068",
+      "gloss": "LORD (YHWH)",
+      "count": 35,
+      "verses": [
+        "heb-wlc/HAG/1/1",
+        "heb-wlc/HAG/1/2",
+        "heb-wlc/HAG/1/3",
+        "heb-wlc/HAG/1/5",
+        "heb-wlc/HAG/1/7",
+        "heb-wlc/HAG/1/8",
+        "heb-wlc/HAG/1/9",
+        "heb-wlc/HAG/1/12",
+        "heb-wlc/HAG/1/13",
+        "heb-wlc/HAG/1/14",
+        "heb-wlc/HAG/2/1",
+        "heb-wlc/HAG/2/4",
+        "heb-wlc/HAG/2/6",
+        "heb-wlc/HAG/2/7",
+        "heb-wlc/HAG/2/8",
+        "heb-wlc/HAG/2/9",
+        "heb-wlc/HAG/2/10",
+        "heb-wlc/HAG/2/11",
+        "heb-wlc/HAG/2/14",
+        "heb-wlc/HAG/2/15",
+        "heb-wlc/HAG/2/17",
+        "heb-wlc/HAG/2/18",
+        "heb-wlc/HAG/2/20",
+        "heb-wlc/HAG/2/23"
+      ]
+    },
+    {
+      "root": "559",
+      "lemma": "559",
+      "gloss": "say (amar)",
+      "count": 26,
+      "verses": [
+        "heb-wlc/HAG/1/1",
+        "heb-wlc/HAG/1/2",
+        "heb-wlc/HAG/1/3",
+        "heb-wlc/HAG/1/5",
+        "heb-wlc/HAG/1/7",
+        "heb-wlc/HAG/1/8",
+        "heb-wlc/HAG/1/13",
+        "heb-wlc/HAG/2/1",
+        "heb-wlc/HAG/2/2",
+        "heb-wlc/HAG/2/6",
+        "heb-wlc/HAG/2/7",
+        "heb-wlc/HAG/2/9",
+        "heb-wlc/HAG/2/10",
+        "heb-wlc/HAG/2/11",
+        "heb-wlc/HAG/2/12",
+        "heb-wlc/HAG/2/13",
+        "heb-wlc/HAG/2/14",
+        "heb-wlc/HAG/2/20",
+        "heb-wlc/HAG/2/21"
+      ]
+    },
+    {
+      "root": "413",
+      "lemma": "413",
+      "gloss": "to/toward (el)",
+      "count": 19,
+      "verses": [
+        "heb-wlc/HAG/1/1",
+        "heb-wlc/HAG/1/6",
+        "heb-wlc/HAG/1/9",
+        "heb-wlc/HAG/2/2",
+        "heb-wlc/HAG/2/10",
+        "heb-wlc/HAG/2/12",
+        "heb-wlc/HAG/2/15",
+        "heb-wlc/HAG/2/16",
+        "heb-wlc/HAG/2/17",
+        "heb-wlc/HAG/2/20",
+        "heb-wlc/HAG/2/21"
+      ]
+    },
+    {
+      "root": "853",
+      "lemma": "853",
+      "gloss": "- (et, object marker)",
+      "count": 18,
+      "verses": [
+        "heb-wlc/HAG/1/14",
+        "heb-wlc/HAG/2/3",
+        "heb-wlc/HAG/2/5",
+        "heb-wlc/HAG/2/6",
+        "heb-wlc/HAG/2/7",
+        "heb-wlc/HAG/2/11",
+        "heb-wlc/HAG/2/17",
+        "heb-wlc/HAG/2/21"
+      ]
+    },
+    {
+      "root": "5921",
+      "lemma": "5921",
+      "gloss": "upon/over (al)",
+      "count": 14,
+      "verses": [
+        "heb-wlc/HAG/1/5",
+        "heb-wlc/HAG/1/7",
+        "heb-wlc/HAG/1/10",
+        "heb-wlc/HAG/1/11",
+        "heb-wlc/HAG/1/12"
+      ]
+    },
+    {
+      "root": "6635",
+      "lemma": "6635",
+      "gloss": "hosts/armies (tsvaot)",
+      "count": 14,
+      "verses": [
+        "heb-wlc/HAG/1/2",
+        "heb-wlc/HAG/1/5",
+        "heb-wlc/HAG/1/7",
+        "heb-wlc/HAG/1/9",
+        "heb-wlc/HAG/1/14",
+        "heb-wlc/HAG/2/4",
+        "heb-wlc/HAG/2/6",
+        "heb-wlc/HAG/2/7",
+        "heb-wlc/HAG/2/8",
+        "heb-wlc/HAG/2/9",
+        "heb-wlc/HAG/2/11",
+        "heb-wlc/HAG/2/23"
+      ]
+    },
+    {
+      "root": "5002",
+      "lemma": "5002",
+      "gloss": "declares/oracle (neum)",
+      "count": 12,
+      "verses": [
+        "heb-wlc/HAG/1/9",
+        "heb-wlc/HAG/1/13",
+        "heb-wlc/HAG/2/4",
+        "heb-wlc/HAG/2/8",
+        "heb-wlc/HAG/2/9",
+        "heb-wlc/HAG/2/14",
+        "heb-wlc/HAG/2/17",
+        "heb-wlc/HAG/2/23"
+      ]
+    },
+    {
+      "root": "1004",
+      "lemma": "1004",
+      "gloss": "house (bayit)",
+      "count": 11,
+      "verses": [
+        "heb-wlc/HAG/1/2",
+        "heb-wlc/HAG/1/4",
+        "heb-wlc/HAG/1/8",
+        "heb-wlc/HAG/1/9",
+        "heb-wlc/HAG/1/14",
+        "heb-wlc/HAG/2/3",
+        "heb-wlc/HAG/2/7",
+        "heb-wlc/HAG/2/9"
+      ]
+    },
+    {
+      "root": "2088",
+      "lemma": "2088",
+      "gloss": "this (zeh)",
+      "count": 11,
+      "verses": [
+        "heb-wlc/HAG/1/2",
+        "heb-wlc/HAG/1/4",
+        "heb-wlc/HAG/2/3",
+        "heb-wlc/HAG/2/7",
+        "heb-wlc/HAG/2/9",
+        "heb-wlc/HAG/2/14",
+        "heb-wlc/HAG/2/15",
+        "heb-wlc/HAG/2/18",
+        "heb-wlc/HAG/2/19"
+      ]
+    },
+    {
+      "root": "1121",
+      "lemma": "1121",
+      "gloss": "son (ben)",
+      "count": 10,
+      "verses": [
+        "heb-wlc/HAG/1/1",
+        "heb-wlc/HAG/1/12",
+        "heb-wlc/HAG/1/14",
+        "heb-wlc/HAG/2/2",
+        "heb-wlc/HAG/2/4",
+        "heb-wlc/HAG/2/23"
+      ]
+    },
+    {
+      "root": "3605",
+      "lemma": "3605",
+      "gloss": "all/every (kol)",
+      "count": 10,
+      "verses": [
+        "heb-wlc/HAG/1/11",
+        "heb-wlc/HAG/1/12",
+        "heb-wlc/HAG/1/14",
+        "heb-wlc/HAG/2/4",
+        "heb-wlc/HAG/2/7",
+        "heb-wlc/HAG/2/12",
+        "heb-wlc/HAG/2/13",
+        "heb-wlc/HAG/2/14",
+        "heb-wlc/HAG/2/17"
+      ]
+    },
+    {
+      "root": "2292",
+      "lemma": "2292",
+      "gloss": "",
+      "count": 9,
+      "verses": [
+        "heb-wlc/HAG/1/1",
+        "heb-wlc/HAG/1/3",
+        "heb-wlc/HAG/1/12",
+        "heb-wlc/HAG/1/13",
+        "heb-wlc/HAG/2/1",
+        "heb-wlc/HAG/2/10",
+        "heb-wlc/HAG/2/13",
+        "heb-wlc/HAG/2/14",
+        "heb-wlc/HAG/2/20"
+      ]
+    },
+    {
+      "root": "1961",
+      "lemma": "1961",
+      "gloss": "be/become (hayah)",
+      "count": 9,
+      "verses": [
+        "heb-wlc/HAG/1/1",
+        "heb-wlc/HAG/1/3",
+        "heb-wlc/HAG/2/1",
+        "heb-wlc/HAG/2/9",
+        "heb-wlc/HAG/2/10",
+        "heb-wlc/HAG/2/16",
+        "heb-wlc/HAG/2/20"
+      ]
+    },
+    {
+      "root": "5971",
+      "lemma": "5971",
+      "gloss": "people (am)",
+      "count": 8,
+      "verses": [
+        "heb-wlc/HAG/1/2",
+        "heb-wlc/HAG/1/12",
+        "heb-wlc/HAG/1/13",
+        "heb-wlc/HAG/1/14",
+        "heb-wlc/HAG/2/2",
+        "heb-wlc/HAG/2/4",
+        "heb-wlc/HAG/2/14"
+      ]
+    },
+    {
+      "root": "3117",
+      "lemma": "3117",
+      "gloss": "day (yom)",
+      "count": 8,
+      "verses": [
+        "heb-wlc/HAG/1/1",
+        "heb-wlc/HAG/1/15",
+        "heb-wlc/HAG/2/15",
+        "heb-wlc/HAG/2/18",
+        "heb-wlc/HAG/2/19",
+        "heb-wlc/HAG/2/23"
+      ]
+    },
+    {
+      "root": "935",
+      "lemma": "935",
+      "gloss": "come/go (bo)",
+      "count": 8,
+      "verses": [
+        "heb-wlc/HAG/1/2",
+        "heb-wlc/HAG/1/6",
+        "heb-wlc/HAG/1/8",
+        "heb-wlc/HAG/1/9",
+        "heb-wlc/HAG/1/14",
+        "heb-wlc/HAG/2/7",
+        "heb-wlc/HAG/2/16"
+      ]
+    },
+    {
+      "root": "3548",
+      "lemma": "3548",
+      "gloss": "",
+      "count": 8,
+      "verses": [
+        "heb-wlc/HAG/1/1",
+        "heb-wlc/HAG/1/12",
+        "heb-wlc/HAG/1/14",
+        "heb-wlc/HAG/2/2",
+        "heb-wlc/HAG/2/4",
+        "heb-wlc/HAG/2/11",
+        "heb-wlc/HAG/2/12",
+        "heb-wlc/HAG/2/13"
+      ]
+    },
+    {
+      "root": "6242",
+      "lemma": "6242",
+      "gloss": "",
+      "count": 7,
+      "verses": [
+        "heb-wlc/HAG/1/15",
+        "heb-wlc/HAG/2/1",
+        "heb-wlc/HAG/2/10",
+        "heb-wlc/HAG/2/16",
+        "heb-wlc/HAG/2/18",
+        "heb-wlc/HAG/2/20"
+      ]
+    },
+    {
+      "root": "7760",
+      "lemma": "7760",
+      "gloss": "",
+      "count": 7,
+      "verses": [
+        "heb-wlc/HAG/1/5",
+        "heb-wlc/HAG/1/7",
+        "heb-wlc/HAG/2/15",
+        "heb-wlc/HAG/2/18",
+        "heb-wlc/HAG/2/23"
+      ]
+    },
+    {
+      "root": "1697",
+      "lemma": "1697",
+      "gloss": "word/matter (davar)",
+      "count": 7,
+      "verses": [
+        "heb-wlc/HAG/1/1",
+        "heb-wlc/HAG/1/3",
+        "heb-wlc/HAG/1/12",
+        "heb-wlc/HAG/2/1",
+        "heb-wlc/HAG/2/5",
+        "heb-wlc/HAG/2/10",
+        "heb-wlc/HAG/2/20"
+      ]
+    },
+    {
+      "root": "2216",
+      "lemma": "2216",
+      "gloss": "",
+      "count": 7,
+      "verses": [
+        "heb-wlc/HAG/1/1",
+        "heb-wlc/HAG/1/12",
+        "heb-wlc/HAG/1/14",
+        "heb-wlc/HAG/2/2",
+        "heb-wlc/HAG/2/4",
+        "heb-wlc/HAG/2/21",
+        "heb-wlc/HAG/2/23"
+      ]
+    },
+    {
+      "root": "1419",
+      "lemma": "1419",
+      "gloss": "",
+      "count": 6,
+      "verses": [
+        "heb-wlc/HAG/1/1",
+        "heb-wlc/HAG/1/12",
+        "heb-wlc/HAG/1/14",
+        "heb-wlc/HAG/2/2",
+        "heb-wlc/HAG/2/4",
+        "heb-wlc/HAG/2/9"
+      ]
+    },
+    {
+      "root": "834",
+      "lemma": "834",
+      "gloss": "which/who (asher)",
+      "count": 6,
+      "verses": [
+        "heb-wlc/HAG/1/9",
+        "heb-wlc/HAG/1/11",
+        "heb-wlc/HAG/2/3",
+        "heb-wlc/HAG/2/5",
+        "heb-wlc/HAG/2/14",
+        "heb-wlc/HAG/2/18"
+      ]
+    },
+    {
+      "root": "3091",
+      "lemma": "3091",
+      "gloss": "",
+      "count": 5,
+      "verses": [
+        "heb-wlc/HAG/1/1",
+        "heb-wlc/HAG/1/12",
+        "heb-wlc/HAG/1/14",
+        "heb-wlc/HAG/2/2",
+        "heb-wlc/HAG/2/4"
+      ]
+    },
+    {
+      "root": "4480",
+      "lemma": "4480",
+      "gloss": "",
+      "count": 5,
+      "verses": [
+        "heb-wlc/HAG/2/9",
+        "heb-wlc/HAG/2/15",
+        "heb-wlc/HAG/2/18",
+        "heb-wlc/HAG/2/19"
+      ]
+    },
+    {
+      "root": "2320",
+      "lemma": "2320",
+      "gloss": "",
+      "count": 5,
+      "verses": [
+        "heb-wlc/HAG/1/1",
+        "heb-wlc/HAG/1/15",
+        "heb-wlc/HAG/2/1",
+        "heb-wlc/HAG/2/20"
+      ]
+    },
+    {
+      "root": "3027",
+      "lemma": "3027",
+      "gloss": "hand (yad)",
+      "count": 5,
+      "verses": [
+        "heb-wlc/HAG/1/1",
+        "heb-wlc/HAG/1/3",
+        "heb-wlc/HAG/2/1",
+        "heb-wlc/HAG/2/14",
+        "heb-wlc/HAG/2/17"
+      ]
+    },
+    {
+      "root": "3541",
+      "lemma": "3541",
+      "gloss": "",
+      "count": 5,
+      "verses": [
+        "heb-wlc/HAG/1/2",
+        "heb-wlc/HAG/1/5",
+        "heb-wlc/HAG/1/7",
+        "heb-wlc/HAG/2/6",
+        "heb-wlc/HAG/2/11"
+      ]
+    },
+    {
+      "root": "7597",
+      "lemma": "7597",
+      "gloss": "",
+      "count": 5,
+      "verses": [
+        "heb-wlc/HAG/1/1",
+        "heb-wlc/HAG/1/12",
+        "heb-wlc/HAG/1/14",
+        "heb-wlc/HAG/2/2",
+        "heb-wlc/HAG/2/23"
+      ]
+    },
+    {
+      "root": "776",
+      "lemma": "776",
+      "gloss": "earth/land (eretz)",
+      "count": 5,
+      "verses": [
+        "heb-wlc/HAG/1/10",
+        "heb-wlc/HAG/1/11",
+        "heb-wlc/HAG/2/4",
+        "heb-wlc/HAG/2/6",
+        "heb-wlc/HAG/2/21"
+      ]
+    },
+    {
+      "root": "5030",
+      "lemma": "5030",
+      "gloss": "",
+      "count": 5,
+      "verses": [
+        "heb-wlc/HAG/1/1",
+        "heb-wlc/HAG/1/3",
+        "heb-wlc/HAG/1/12",
+        "heb-wlc/HAG/2/1",
+        "heb-wlc/HAG/2/10"
+      ]
+    },
+    {
+      "root": "3824",
+      "lemma": "3824",
+      "gloss": "",
+      "count": 5,
+      "verses": [
+        "heb-wlc/HAG/1/5",
+        "heb-wlc/HAG/1/7",
+        "heb-wlc/HAG/2/15",
+        "heb-wlc/HAG/2/18"
+      ]
+    },
+    {
+      "root": "3087",
+      "lemma": "3087",
+      "gloss": "",
+      "count": 5,
+      "verses": [
+        "heb-wlc/HAG/1/1",
+        "heb-wlc/HAG/1/12",
+        "heb-wlc/HAG/1/14",
+        "heb-wlc/HAG/2/2",
+        "heb-wlc/HAG/2/4"
+      ]
+    },
+    {
+      "root": "3063",
+      "lemma": "3063",
+      "gloss": "Judah (yehudah)",
+      "count": 4,
+      "verses": [
+        "heb-wlc/HAG/1/1",
+        "heb-wlc/HAG/1/14",
+        "heb-wlc/HAG/2/2",
+        "heb-wlc/HAG/2/21"
+      ]
+    },
+    {
+      "root": "7307",
+      "lemma": "7307",
+      "gloss": "spirit/wind (ruach)",
+      "count": 4,
+      "verses": [
+        "heb-wlc/HAG/1/14",
+        "heb-wlc/HAG/2/5"
+      ]
+    },
+    {
+      "root": "3651",
+      "lemma": "3651",
+      "gloss": "so/thus (ken)",
+      "count": 4,
+      "verses": [
+        "heb-wlc/HAG/1/10",
+        "heb-wlc/HAG/2/14"
+      ]
+    },
+    {
+      "root": "369",
+      "lemma": "369",
+      "gloss": "nothing/none (ayin)",
+      "count": 4,
+      "verses": [
+        "heb-wlc/HAG/1/6",
+        "heb-wlc/HAG/2/17"
+      ]
+    },
+    {
+      "root": "6346",
+      "lemma": "6346",
+      "gloss": "",
+      "count": 4,
+      "verses": [
+        "heb-wlc/HAG/1/1",
+        "heb-wlc/HAG/1/14",
+        "heb-wlc/HAG/2/2",
+        "heb-wlc/HAG/2/21"
+      ]
+    },
+    {
+      "root": "1471",
+      "lemma": "1471",
+      "gloss": "",
+      "count": 4,
+      "verses": [
+        "heb-wlc/HAG/2/7",
+        "heb-wlc/HAG/2/14",
+        "heb-wlc/HAG/2/22"
+      ]
+    },
+    {
+      "root": "1931",
+      "lemma": "1931",
+      "gloss": "he/she/it (hu)",
+      "count": 4,
+      "verses": [
+        "heb-wlc/HAG/1/9",
+        "heb-wlc/HAG/2/6",
+        "heb-wlc/HAG/2/14",
+        "heb-wlc/HAG/2/23"
+      ]
+    },
+    {
+      "root": "589",
+      "lemma": "589",
+      "gloss": "",
+      "count": 4,
+      "verses": [
+        "heb-wlc/HAG/1/13",
+        "heb-wlc/HAG/2/4",
+        "heb-wlc/HAG/2/6",
+        "heb-wlc/HAG/2/21"
+      ]
+    },
+    {
+      "root": "6258",
+      "lemma": "6258",
+      "gloss": "",
+      "count": 4,
+      "verses": [
+        "heb-wlc/HAG/1/5",
+        "heb-wlc/HAG/2/3",
+        "heb-wlc/HAG/2/4",
+        "heb-wlc/HAG/2/15"
+      ]
+    },
+    {
+      "root": "4994",
+      "lemma": "4994",
+      "gloss": "",
+      "count": 4,
+      "verses": [
+        "heb-wlc/HAG/2/2",
+        "heb-wlc/HAG/2/11",
+        "heb-wlc/HAG/2/15",
+        "heb-wlc/HAG/2/18"
+      ]
+    },
+    {
+      "root": "702",
+      "lemma": "702",
+      "gloss": "",
+      "count": 4,
+      "verses": [
+        "heb-wlc/HAG/1/15",
+        "heb-wlc/HAG/2/10",
+        "heb-wlc/HAG/2/18",
+        "heb-wlc/HAG/2/20"
+      ]
+    },
+    {
+      "root": "859",
+      "lemma": "859",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/HAG/1/4",
+        "heb-wlc/HAG/1/9",
+        "heb-wlc/HAG/2/3"
+      ]
+    },
+    {
+      "root": "854",
+      "lemma": "854",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/HAG/1/13",
+        "heb-wlc/HAG/2/4",
+        "heb-wlc/HAG/2/5"
+      ]
+    },
+    {
+      "root": "3588",
+      "lemma": "3588",
+      "gloss": "that/because (ki)",
+      "count": 3,
+      "verses": [
+        "heb-wlc/HAG/2/4",
+        "heb-wlc/HAG/2/6",
+        "heb-wlc/HAG/2/23"
+      ]
+    },
+    {
+      "root": "4592",
+      "lemma": "4592",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/HAG/1/6",
+        "heb-wlc/HAG/1/9",
+        "heb-wlc/HAG/2/6"
+      ]
+    },
+    {
+      "root": "3808",
+      "lemma": "3808",
+      "gloss": "not (lo)",
+      "count": 3,
+      "verses": [
+        "heb-wlc/HAG/1/2",
+        "heb-wlc/HAG/2/12",
+        "heb-wlc/HAG/2/19"
+      ]
+    },
+    {
+      "root": "8141",
+      "lemma": "8141",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/HAG/1/1",
+        "heb-wlc/HAG/1/15",
+        "heb-wlc/HAG/2/10"
+      ]
+    },
+    {
+      "root": "7611",
+      "lemma": "7611",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/HAG/1/12",
+        "heb-wlc/HAG/1/14",
+        "heb-wlc/HAG/2/2"
+      ]
+    },
+    {
+      "root": "7493",
+      "lemma": "7493",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/HAG/2/6",
+        "heb-wlc/HAG/2/7",
+        "heb-wlc/HAG/2/21"
+      ]
+    },
+    {
+      "root": "8147",
+      "lemma": "8147",
+      "gloss": "two (shenayim)",
+      "count": 3,
+      "verses": [
+        "heb-wlc/HAG/1/1",
+        "heb-wlc/HAG/1/15",
+        "heb-wlc/HAG/2/10"
+      ]
+    },
+    {
+      "root": "8064",
+      "lemma": "8064",
+      "gloss": "heavens (shamayim)",
+      "count": 3,
+      "verses": [
+        "heb-wlc/HAG/1/10",
+        "heb-wlc/HAG/2/6",
+        "heb-wlc/HAG/2/21"
+      ]
+    },
+    {
+      "root": "2388",
+      "lemma": "2388",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/HAG/2/4"
+      ]
+    },
+    {
+      "root": "430",
+      "lemma": "430",
+      "gloss": "God (Elohim)",
+      "count": 3,
+      "verses": [
+        "heb-wlc/HAG/1/12",
+        "heb-wlc/HAG/1/14"
+      ]
+    },
+    {
+      "root": "1867",
+      "lemma": "1867",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/HAG/1/1",
+        "heb-wlc/HAG/1/15",
+        "heb-wlc/HAG/2/10"
+      ]
+    },
+    {
+      "root": "259",
+      "lemma": "259",
+      "gloss": "one (echad)",
+      "count": 3,
+      "verses": [
+        "heb-wlc/HAG/1/1",
+        "heb-wlc/HAG/2/1",
+        "heb-wlc/HAG/2/6"
+      ]
+    },
+    {
+      "root": "6030",
+      "lemma": "6030",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/HAG/2/12",
+        "heb-wlc/HAG/2/13",
+        "heb-wlc/HAG/2/14"
+      ]
+    },
+    {
+      "root": "376",
+      "lemma": "376",
+      "gloss": "man (ish)",
+      "count": 3,
+      "verses": [
+        "heb-wlc/HAG/1/9",
+        "heb-wlc/HAG/2/12",
+        "heb-wlc/HAG/2/22"
+      ]
+    },
+    {
+      "root": "3519",
+      "lemma": "3519",
+      "gloss": "",
+      "count": 3,
+      "verses": [
+        "heb-wlc/HAG/2/3",
+        "heb-wlc/HAG/2/7",
+        "heb-wlc/HAG/2/9"
+      ]
+    }
+  ]
+}
