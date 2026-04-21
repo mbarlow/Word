@@ -49,6 +49,12 @@ func main() {
 	e.Use(middleware.RequestID())
 	e.Use(zerologMiddleware())
 	e.Use(echoprometheus.NewMiddleware("word"))
+	e.Use(middleware.CORSWithConfig(middleware.CORSConfig{
+		AllowOrigins: []string{"*"},
+		AllowMethods: []string{http.MethodGet, http.MethodOptions},
+		AllowHeaders: []string{echo.HeaderOrigin, echo.HeaderContentType, echo.HeaderAccept},
+		MaxAge:       86400,
+	}))
 
 	// Health, metrics, and docs
 	e.GET("/health", healthHandler)
