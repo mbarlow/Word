@@ -1,6 +1,6 @@
 ;; GENESIS.DSL — The Creation Program
 ;; A Hebrew-native executable specification
-;; Run with: go run ./experiments/dsl genesis.dsl
+;; Run with: go run ./experiments/dsl   (auto-locates this file; -fast skips pauses)
 
 ;; ══════════════════════════════════════════════════════════════
 ;; HEADER — בְּרֵאשִׁית (In the beginning)

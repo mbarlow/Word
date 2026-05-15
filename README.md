@@ -244,10 +244,16 @@ The `experiments/` folder explores treating Hebrew scripture as a programming la
 
 ```bash
 # Run Genesis 1 as an executable program
-go run ./experiments/dsl/main.go
+go run ./experiments/dsl          # auto-locates experiments/genesis.dsl
+go run ./experiments/dsl -fast    # skip the dramatic pauses
 ```
 
-This interprets `experiments/genesis.dsl` — a Lisp-like representation of Genesis 1 where:
+This reads, parses, and evaluates `experiments/genesis.dsl` — a Lisp-like
+representation of Genesis 1. The interpreter lexes the s-expressions, builds
+an AST, and dispatches each form on its Hebrew verb; creative verbs scan for
+known nouns and set the matching field on a `Universe` struct. The final
+state is real — `(return UNIVERSE)` reflects what the program instantiated.
+In the DSL:
 
 - `(yomer ELOHIM ...)` = God.say(command)
 - `(yehi OR)` = "Let there be light"

@@ -9,19 +9,24 @@ Genesis 1 represented as a Lisp-like domain-specific language where divine speec
 ### Quick Start
 
 ```bash
-# Run the Genesis executable
-go run ./experiments/dsl/main.go
+# Run the Genesis executable (auto-locates genesis.dsl)
+go run ./experiments/dsl
 
-# Or from the experiments directory
-cd experiments && go run ./dsl/main.go
+# Skip the dramatic pauses
+go run ./experiments/dsl -fast
+
+# Run a specific program
+go run ./experiments/dsl path/to/program.dsl
 ```
 
 ### Files
 
 | File | Description |
 |------|-------------|
-| `genesis.dsl` | Genesis 1 as Lisp-like Hebrew DSL (source code) |
-| `dsl/main.go` | Go interpreter that "executes" Genesis |
+| `genesis.dsl` | Genesis 1 as Lisp-like Hebrew DSL (source program) |
+| `dsl/reader.go` | Lexer + parser — source text to s-expression AST |
+| `dsl/interp.go` | Evaluator — dispatches verbs, instantiates the Universe |
+| `dsl/main.go` | Entry point — source resolution, flags, render |
 
 ## The DSL Syntax
 
@@ -85,58 +90,57 @@ This demonstrates **cognate accusative** (figura etymologica) — verb and noun 
 
 In programming terms: `function.call(function.result)` — recursion/self-reference.
 
-## Interpreter Output
+## How the Interpreter Works
 
-When you run the interpreter, it "executes" each day of creation:
+It is a real interpreter, not a print script:
+
+1. **`reader.go`** — lexes the source (discarding `;` comments, handling
+   strings and parens) and parses it into a tree of s-expression `Node`s.
+2. **`interp.go`** — walks the top-level forms and dispatches each on its
+   head verb (`yomer`, `bara`, `yehi`, `va-yehi`, `va-yar`, ...).
+3. Creative verbs scan their form for known Hebrew nouns (`OR`, `RAKIA`,
+   `DESHE`, `ADAM`, ...) and set the matching field on a `Universe` struct.
+   Proclitic prefixes (`HA-`, `ve-`, `u-`) are peeled before lookup.
+4. **`va-yehi ... :day N`** commits a day boundary and prints running state.
+5. **`(return UNIVERSE)`** renders the final struct. Exit code is `0` only
+   if every field was actually instantiated and status is `COMPLETE`.
+
+Two analyses run as forms evaluate:
+
+- **Cognate detection** — verb/noun pairs whose consonant skeletons nest
+  (`tadshe ↔ DESHE`, `yishretzu ↔ SHERETZ`) are flagged as figura
+  etymologica. No longer hardcoded — derived from the parsed form.
+- **Bara-root emphasis** — counts occurrences of the create-root in a form
+  (`va-yivra ... bara ... bara` on day 6 → "used 3×").
 
 ```
-╔══════════════════════════════════════════════════════════════╗
-║          GENESIS.DSL — The Creation Executable               ║
-║              בְּרֵאשִׁית בָּרָא אֱלֹהִים                              ║
-╚══════════════════════════════════════════════════════════════╝
+► EXEC  (yomer ELOHIM (tadshe HA-ERETZ DESHE (ESEV mazria ZERA) ...))
+  ELOHIM speaks — evaluating command(s):
 
-► EXEC: (yomer ELOHIM (yehi OR))
-  וַיֹּאמֶר אֱלֹהִים יְהִי אוֹר
-  ✓ (va-yehi OR) → Light instantiated
+► EXEC  (tadshe HA-ERETZ DESHE (ESEV mazria ZERA) (ETZ PRI oseh PRI ...))
+  ✓ instantiated: vegetation, plants, trees
+  ≈ cognate: tadshe ↔ DESHE (verb/noun share a root)
 
-──────────────────────────────────────────────────────────────
-[DAY 1] LIGHT separated from DARKNESS
-──────────────────────────────────────────────────────────────
-
-► EXEC: (yomer ELOHIM (yehi RAKIA))
-  יְהִי רָקִיעַ בְּתוֹךְ הַמָּיִם
-  ✓ (va-yehi KEN) → Firmament created, waters divided
-
-──────────────────────────────────────────────────────────────
-[DAY 2] SKY divides waters above/below
-──────────────────────────────────────────────────────────────
-
-...
-
-╔══════════════════════════════════════════════════════════════╗
-║                    EXECUTION COMPLETE                        ║
-╚══════════════════════════════════════════════════════════════╝
+──────────────────────────────────────────────────────────
+[DAY 3]  evaluation: TOV (good)
+──────────────────────────────────────────────────────────
+  ✓ light    true
+  ✓ sky      true
+  ✓ land     true
+  ✓ seas     true
+  ✓ plants   true
+  · sun      false
+  ...
 
 UNIVERSE := {
-  exists:  true
-  light:   true
-  sky:     true
-  land:    true
-  seas:    true
-  plants:  true
-  sun:     true
-  moon:    true
-  stars:   true
-  fish:    true
-  birds:   true
-  animals: true
+  exists:  true   light:  true   sky:   true   land:    true
+  seas:    true   plants: true   sun:   true   moon:    true
+  stars:   true   fish:   true   birds: true   animals: true
   humans:  true  ← image_of(ELOHIM)
-  status:  COMPLETE
-  eval:    TOV MEOD (Very Good)
+  days:    7      status: COMPLETE      eval: TOV MEOD (very good)
 }
 
-// Process exited. Universe running.
-// To inspect: use conscience, prayer, or telescope.
+// process exited 0 — universe running.
 ```
 
 ## Literary Devices as Programming Patterns
