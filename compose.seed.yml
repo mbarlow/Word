@@ -1,0 +1,40 @@
+# seed-only compose for the Word API.
+#
+# Runs word-service ALONE — Ollama stays on fern (it needs the NVIDIA GPU).
+# No host port is published; Caddy reaches word-service:8080 over the shared
+# `fern-pi-hole_default` network (word.lan -> here).
+#
+#   docker compose -f compose.seed.yml up -d --build
+
+services:
+  word-service:
+    build:
+      context: .
+      dockerfile: deploy/Dockerfile
+    container_name: word-service
+    hostname: word-service
+    restart: unless-stopped
+    expose:
+      - "8080"
+    volumes:
+      - ./data:/app/data
+      - ./texts:/app/texts
+    environment:
+      - WORD_ENV=development
+      - WORD_PORT=8080
+      - WORD_DB_PATH=/app/data/word.db
+      - WORD_LOG_LEVEL=debug
+      - WORD_LOG_FORMAT=json
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+    networks:
+      - pihole
+
+networks:
+  pihole:
+    external: true
+    name: fern-pi-hole_default
